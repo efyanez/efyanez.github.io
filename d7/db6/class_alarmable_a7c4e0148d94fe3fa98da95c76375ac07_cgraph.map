@@ -1,5 +1,5 @@
 <map id="Alarmable::TriggerAlarm" name="Alarmable::TriggerAlarm">
-<area shape="rect" id="node2" href="$d7/db6/class_alarmable.html#ae11aa44ab7d7831064855ba43b711523" title="Defines what happens when Alarm 0 is triggered. " alt="" coords="215,5,344,32"/>
-<area shape="rect" id="node3" href="$d7/db6/class_alarmable.html#a6a99dfd0c36c869de61c70b286ae4efe" title="Defines what happens when Alarm 1 is triggered. " alt="" coords="215,56,344,83"/>
-<area shape="rect" id="node4" href="$d7/db6/class_alarmable.html#ae5832d9c3d9a67122e36590cefee40b1" title="Defines what happens when Alarm 2 is triggered. " alt="" coords="215,107,344,133"/>
+<area shape="rect" id="node2" href="$d5/dcb/group___alarms.html#gae11aa44ab7d7831064855ba43b711523" title="Defines what happens when Alarm 0 is triggered. " alt="" coords="215,5,344,32"/>
+<area shape="rect" id="node3" href="$d5/dcb/group___alarms.html#ga6a99dfd0c36c869de61c70b286ae4efe" title="Defines what happens when Alarm 1 is triggered. " alt="" coords="215,56,344,83"/>
+<area shape="rect" id="node4" href="$d5/dcb/group___alarms.html#gae5832d9c3d9a67122e36590cefee40b1" title="Defines what happens when Alarm 2 is triggered. " alt="" coords="215,107,344,133"/>
 </map>

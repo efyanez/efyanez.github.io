@@ -10,7 +10,7 @@ var searchData=
   ['collidable',['Collidable',['../d8/deb/class_collidable.html#a92ce9e2b08086bb2f466168ffc69c9ed',1,'Collidable::Collidable()'],['../d8/deb/class_collidable.html#abcc2d9f3cccc521a1a1852f34bd4af00',1,'Collidable::Collidable(const Collidable &amp;)=delete']]],
   ['collidablegroup',['CollidableGroup',['../dc/d5d/class_collidable_group.html#af8ce9cae47feb107fae68fff8855f5bc',1,'CollidableGroup::CollidableGroup()'],['../dc/d5d/class_collidable_group.html#aab7c4c60380a20c78508601c8b4478ab',1,'CollidableGroup::CollidableGroup(const CollidableGroup &amp;)']]],
   ['collidablegroupbase',['CollidableGroupBase',['../d7/d3f/class_collidable_group_base.html#af90f49f57f1e093a07457e74743b8188',1,'CollidableGroupBase']]],
-  ['collision',['Collision',['../d8/deb/class_collidable.html#a62843d13fd8e2298b051340c07fe5a3d',1,'Collidable']]],
+  ['collision',['Collision',['../d8/d51/group___collisions.html#ga62843d13fd8e2298b051340c07fe5a3d',1,'Collidable']]],
   ['collisionderegistration',['CollisionDeregistration',['../d8/deb/class_collidable.html#a49eaad32b810e69165e31e1155516231',1,'Collidable']]],
   ['collisionderegistrationcommand',['CollisionDeregistrationCommand',['../d6/dfd/class_collision_deregistration_command.html#ac6c15fb5e08c13a2071fac8eb2349c66',1,'CollisionDeregistrationCommand']]],
   ['collisionmanager',['CollisionManager',['../df/d14/class_collision_manager.html#a81f0b3f0cc0268c80f54714cd7ddb55f',1,'CollisionManager']]],
@@ -22,5 +22,6 @@ var searchData=
   ['collisionvolumebsphere',['CollisionVolumeBSphere',['../d8/d51/group___collisions.html#ga8629fbb2cb8472550409cc0fd0f756a4',1,'CollisionVolumeBSphere::CollisionVolumeBSphere()'],['../d8/d21/class_collision_volume_b_sphere.html#a82d089533680af6511654038caaa5db3',1,'CollisionVolumeBSphere::CollisionVolumeBSphere(const CollisionVolume &amp;)=delete']]],
   ['commandbase',['CommandBase',['../db/db6/class_command_base.html#af42de9fe79dc64fce99580ee1e2f678f',1,'CommandBase::CommandBase()'],['../db/db6/class_command_base.html#a0ea513afd2430bed3150efc31f0138b4',1,'CommandBase::CommandBase(const CommandBase &amp;)=delete']]],
   ['computedata',['ComputeData',['../d5/d7c/class_collision_volume.html#ad9174aa61b924ebc9f54af78a4f0df63',1,'CollisionVolume::ComputeData()'],['../d8/d21/class_collision_volume_b_sphere.html#af31253fd2080b95e7f90a4ff0754342a',1,'CollisionVolumeBSphere::ComputeData()']]],
-  ['connecttoscene',['ConnectToScene',['../d0/dd1/class_game_object.html#ac1b3409129559bfc11845d6437c3d587',1,'GameObject']]]
+  ['connecttoscene',['ConnectToScene',['../d0/dd1/class_game_object.html#ac1b3409129559bfc11845d6437c3d587',1,'GameObject']]],
+  ['createsphere',['CreateSphere',['../d3/d4f/class_visualizer.html#a3fd0f918788ec72dcdba602cd4c31e75',1,'Visualizer']]]
 ];

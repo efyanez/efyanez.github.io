@@ -60,6 +60,8 @@ $(function() {
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Draw<div class="ingroups"><a class="el" href="../../d8/dee/group___mithril_engine.html">MithrilEngine</a> &raquo; <a class="el" href="../../de/db2/group___game_object.html">GameObject</a></div></div>  </div>
 </div><!--header-->
@@ -72,11 +74,71 @@ Collaboration diagram for Draw:</div>
 <div class="dyncontent">
 <center><table><tr><td><img src="../../d9/d0f/group___draw.png" border="0" alt="" usemap="#d9_2d0f_2group______draw"/>
 <map name="d9_2d0f_2group______draw" id="d9_2d0f_2group______draw">
-<area shape="rect" id="node2" href="../../de/db2/group___game_object.html" title="This group contains the GameObject, as well as its parent &quot;&#45;able&quot; classes. " alt="" coords="5,5,100,32"/>
+<area shape="rect" id="node2" href="../../de/db2/group___game_object.html" title="GameObject group, and all associated &quot;&#45;able&quot; classes. " alt="" coords="5,5,100,32"/>
 </map>
 </td></tr></table></center>
 </div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:gad9f0d5242b82cc01d7a48843d6ebfb68"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d0f/group___draw.html#gad9f0d5242b82cc01d7a48843d6ebfb68">Drawable::Draw</a> ()</td></tr>
+<tr class="memdesc:gad9f0d5242b82cc01d7a48843d6ebfb68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Everything in <a class="el" href="../../d9/d0f/group___draw.html#gad9f0d5242b82cc01d7a48843d6ebfb68" title="Everything in Draw() happens once per frame, after Updatable::Update() ">Draw()</a> happens once per frame, after <a class="el" href="../../d0/d75/group___update.html#gacf3e0052461248a862ea752ae9dc8185" title="Everything in Update() happens once per frame. ">Updatable::Update()</a>  <a href="#gad9f0d5242b82cc01d7a48843d6ebfb68">More...</a><br /></td></tr>
+<tr class="separator:gad9f0d5242b82cc01d7a48843d6ebfb68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p><a class="el" href="../../d0/dd1/class_game_object.html">GameObject</a> draw group, everything relating to <a class="el" href="../../d2/de4/class_drawable.html">Drawable</a>. </p>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="gad9f0d5242b82cc01d7a48843d6ebfb68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad9f0d5242b82cc01d7a48843d6ebfb68">&#9670;&nbsp;</a></span>Draw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Drawable::Draw </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Everything in <a class="el" href="../../d9/d0f/group___draw.html#gad9f0d5242b82cc01d7a48843d6ebfb68" title="Everything in Draw() happens once per frame, after Updatable::Update() ">Draw()</a> happens once per frame, after <a class="el" href="../../d0/d75/group___update.html#gacf3e0052461248a862ea752ae9dc8185" title="Everything in Update() happens once per frame. ">Updatable::Update()</a> </p>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="keywordtype">void</span> Ship::Draw()</div><div class="line">{</div><div class="line">pGObj_ShipLight-&gt;Render(<a class="code" href="../../d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe">SceneManager::GetCurrentScene</a>()-&gt;GetCamManager()-&gt;GetCurrentCamera());</div><div class="line">}</div></div><!-- fragment --> </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d0f/group___draw_gad9f0d5242b82cc01d7a48843d6ebfb68_cgraph.png" border="0" usemap="#d9/d0f/group___draw_gad9f0d5242b82cc01d7a48843d6ebfb68_cgraph" alt=""/></div>
+<map name="d9/d0f/group___draw_gad9f0d5242b82cc01d7a48843d6ebfb68_cgraph" id="d9/d0f/group___draw_gad9f0d5242b82cc01d7a48843d6ebfb68_cgraph">
+<area shape="rect" id="node2" href="../../d2/de4/class_drawable.html#a7fcee39362c678403998dd6454ed0720" title="Drawable::SceneRegistration" alt="" coords="187,68,377,95"/>
+<area shape="rect" id="node10" href="../../d2/de4/class_drawable.html#a457619b2a757693baa43f115128fc73f" title="Drawable::SceneDeregistration" alt="" coords="182,17,382,44"/>
+<area shape="rect" id="node14" href="../../d2/de4/class_drawable.html#a4f89e20fc4a5efe3ed173743498d93eb" title="Submit the object for Draw registration. " alt="" coords="171,119,393,145"/>
+<area shape="rect" id="node17" href="../../d2/de4/class_drawable.html#a04fdefc737ea11759ed7334949420cf8" title="Submit the object for Draw deregistration. " alt="" coords="165,169,399,196"/>
+<area shape="rect" id="node3" href="../../d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="447,107,627,149"/>
+<area shape="rect" id="node7" href="../../d6/db5/class_scene.html#a3ac2579c0188116b1f0eabd463a9cfdc" title="Registers Updatable to current scene. " alt="" coords="479,56,594,83"/>
+<area shape="rect" id="node4" href="../../d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="691,173,857,200"/>
+<area shape="rect" id="node6" href="../../d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7" title="SceneManager::privGetCurrent\lScene" alt="" coords="675,107,873,149"/>
+<area shape="rect" id="node5" href="../../d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="921,173,1125,200"/>
+<area shape="rect" id="node8" href="../../d1/d47/class_updatable_manager.html#a5bb3270469737b22ed711155ccbbbd48" title="UpdatableManager::Register" alt="" coords="681,56,867,83"/>
+<area shape="rect" id="node9" href="../../d7/d69/class_updatable.html#a88f1e80a60b9ba501cb54ab1943fb402" title="Updatable::SetIterator" alt="" coords="949,56,1097,83"/>
+<area shape="rect" id="node11" href="../../d6/db5/class_scene.html#add3a649a456b0c151c17875a16692e28" title="Scene::Deregister" alt="" coords="473,5,600,32"/>
+<area shape="rect" id="node12" href="../../d1/d47/class_updatable_manager.html#a419ef4f4ff3ee179f3f77e1a8752d696" title="UpdatableManager::Deregister" alt="" coords="675,5,873,32"/>
+<area shape="rect" id="node13" href="../../d7/d69/class_updatable.html#af11be8d2b1b7bbe1f0ba5f56138c8a79" title="Updatable::GetIterator" alt="" coords="949,5,1098,32"/>
+<area shape="rect" id="node15" href="../../d6/db5/class_scene.html#a0731629e09bcbc95b0dd1f8553793914" title="Scene::SubmitCommand" alt="" coords="453,173,620,200"/>
+<area shape="rect" id="node16" href="../../d8/d4e/class_scene_registration_broker.html#a64a63b2d841f223142218156e6f62caa" title="Adds a command of type CommandBase to a list. " alt="" coords="691,225,857,266"/>
+</map>
+</div>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['privchangescene',['privChangeScene',['../d0/dc3/class_scene_manager.html#a76ab147461953aeb9e5da97d0b5ae5c0',1,'SceneManager']]],
+  ['privcreatebsphere',['privCreateBSphere',['../d3/d4f/class_visualizer.html#ae3355213720d4cbb3bc930b81108e6f9',1,'Visualizer']]],
   ['privderegister',['privDeregister',['../dc/d5d/class_collidable_group.html#a811c2df82763404c1564506d8593074e',1,'CollidableGroup']]],
   ['privdrawdrawables',['privDrawDrawables',['../d0/dc3/class_scene_manager.html#a74ac0f30e64b10476729ce54b2189bf5',1,'SceneManager']]],
   ['privgetcurrentscene',['privGetCurrentScene',['../d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7',1,'SceneManager']]],

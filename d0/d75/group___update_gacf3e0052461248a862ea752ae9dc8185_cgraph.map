@@ -1,8 +1,8 @@
 <map id="Updatable::Update" name="Updatable::Update">
 <area shape="rect" id="node2" href="$d7/d69/class_updatable.html#a16534a7b64346e19b6182d7e1e6c7723" title="Updatable::SceneRegistration" alt="" coords="211,68,405,95"/>
 <area shape="rect" id="node10" href="$d7/d69/class_updatable.html#a37eb54a213b8e1f0aac995234662276a" title="Updatable::SceneDeregistration" alt="" coords="205,17,411,44"/>
-<area shape="rect" id="node14" href="$d7/d69/class_updatable.html#a705b2573da6eaa190a30bba0f7f4dddc" title="Submit the object for Update registration. " alt="" coords="189,119,427,145"/>
-<area shape="rect" id="node17" href="$d7/d69/class_updatable.html#a1739b07f9bbc3a22c0ca6d9688f628a6" title="Submit the object for Draw registration. " alt="" coords="183,169,433,196"/>
+<area shape="rect" id="node14" href="$d0/d75/group___update.html#ga705b2573da6eaa190a30bba0f7f4dddc" title="Submit the object for Update registration. " alt="" coords="189,119,427,145"/>
+<area shape="rect" id="node17" href="$d0/d75/group___update.html#ga1739b07f9bbc3a22c0ca6d9688f628a6" title="Submit the object for Draw registration. " alt="" coords="183,169,433,196"/>
 <area shape="rect" id="node3" href="$d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="481,107,661,149"/>
 <area shape="rect" id="node7" href="$d6/db5/class_scene.html#a3ac2579c0188116b1f0eabd463a9cfdc" title="Registers Updatable to current scene. " alt="" coords="514,56,629,83"/>
 <area shape="rect" id="node4" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="725,173,892,200"/>

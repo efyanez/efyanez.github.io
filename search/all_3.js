@@ -29,7 +29,7 @@ var searchData=
   ['disconnectfromscene',['DisconnectFromScene',['../d0/dd1/class_game_object.html#a6bef6fa50dae75443cc9c93ab93fbff9',1,'GameObject']]],
   ['dodgerblue',['DodgerBlue',['../db/dad/namespace_colors.html#a043c11d846859db17a85707e7ede9d99',1,'Colors']]],
   ['doxgroups_2eh',['DoxGroups.h',['../de/dc6/_dox_groups_8h.html',1,'']]],
-  ['draw',['Draw',['../d2/de4/class_drawable.html#ad9f0d5242b82cc01d7a48843d6ebfb68',1,'Drawable::Draw()'],['../d6/d4b/class_mithril_engine.html#a986bedb0afc6dca1ef05a8e34ff45583',1,'MithrilEngine::Draw()'],['../d6/db5/class_scene.html#a4813338ee7c6c995f5bb6f10e3673804',1,'Scene::Draw()'],['../d9/d0f/group___draw.html',1,'(Global Namespace)']]],
+  ['draw',['Draw',['../d9/d0f/group___draw.html#gad9f0d5242b82cc01d7a48843d6ebfb68',1,'Drawable::Draw()'],['../d6/d4b/class_mithril_engine.html#a986bedb0afc6dca1ef05a8e34ff45583',1,'MithrilEngine::Draw()'],['../d6/db5/class_scene.html#a4813338ee7c6c995f5bb6f10e3673804',1,'Scene::Draw()'],['../d9/d0f/group___draw.html',1,'(Global Namespace)']]],
   ['drawable',['Drawable',['../d2/de4/class_drawable.html',1,'Drawable'],['../d6/db5/class_scene.html#ae6b8f986b6592da1f509cd113591156b',1,'Scene::Drawable()'],['../d2/de4/class_drawable.html#aac88608db6081da479c772c96636acb1',1,'Drawable::Drawable()'],['../d2/de4/class_drawable.html#af5daeee24d8880387fa62f6531f52ce6',1,'Drawable::Drawable(const Drawable &amp;)=delete']]],
   ['drawable_2ecpp',['Drawable.cpp',['../d2/d61/_drawable_8cpp.html',1,'']]],
   ['drawable_2eh',['Drawable.h',['../d0/d5d/_drawable_8h.html',1,'']]],

@@ -25,7 +25,7 @@ var searchData=
   ['getradius',['GetRadius',['../d8/d21/class_collision_volume_b_sphere.html#a0206a8d8db1bc17f3d3f9d5e8ed54949',1,'CollisionVolumeBSphere']]],
   ['getshader',['GetShader',['../d2/d24/class_shader_manager.html#a3602d0674af7106d7bda9868197ee0c3',1,'ShaderManager::GetShader(std::string key)'],['../d2/d24/class_shader_manager.html#a3d810c5301f8d4261b1127e594f6d471',1,'ShaderManager::GetShader(DefaultShader key)']]],
   ['gettexture',['GetTexture',['../db/ddf/class_texture_manager.html#a1dcf2eb817c5324e8e501fcd91946fd5',1,'TextureManager']]],
-  ['gettime',['GetTime',['../d7/db6/class_alarmable.html#a9a48936becfc0855a0b304a0e8ee3ac0',1,'Alarmable']]],
+  ['gettime',['GetTime',['../d5/dcb/group___alarms.html#ga9a48936becfc0855a0b304a0e8ee3ac0',1,'Alarmable']]],
   ['gettimeinseconds',['GetTimeInSeconds',['../db/d12/class_freeze_time.html#a6b8e2973842e0832bcd6482d9d4b6bd1',1,'FreezeTime']]],
   ['gettimeseconds',['GetTimeSeconds',['../d6/d4b/class_mithril_engine.html#a2a32c9096f22918ff8778cb867490ab2',1,'MithrilEngine::GetTimeSeconds()'],['../d9/d7f/class_time_manager.html#a8c23b80f63a5c0e1c4b99a1175c787f0',1,'TimeManager::GetTimeSeconds()']]],
   ['getwidth',['GetWidth',['../d6/d4b/class_mithril_engine.html#a3aca612ace4670ea15127a27d23e2a38',1,'MithrilEngine']]],
