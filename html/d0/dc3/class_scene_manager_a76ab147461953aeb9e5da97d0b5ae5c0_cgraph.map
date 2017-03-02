@@ -1,0 +1,4 @@
+<map id="SceneManager::privChangeScene" name="SceneManager::privChangeScene">
+<area shape="rect" id="node2" href="$d6/db5/class_scene.html#afce99c578d2ea8375ea147705bef1e2f" title="Virtual function, called when a scene is terminated. " alt="" coords="233,5,357,32"/>
+<area shape="rect" id="node3" href="$d6/db5/class_scene.html#aafd7510b1309c6ba864791c429870959" title="User defines what happens when a scene is initialized. " alt="" coords="238,56,353,83"/>
+</map>

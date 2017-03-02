@@ -1,0 +1,4 @@
+<map id="Scene::Deregister" name="Scene::Deregister">
+<area shape="rect" id="node2" href="$d6/d17/class_drawable_manager.html#a2f9f6b6512e3b67a4b237389597c5cf5" title="DrawableManager::Deregister" alt="" coords="180,5,372,32"/>
+<area shape="rect" id="node3" href="$d2/de4/class_drawable.html#ae707c9e064d7f5a5440a5ffda40e2ae1" title="Drawable::GetIterator" alt="" coords="420,5,564,32"/>
+</map>

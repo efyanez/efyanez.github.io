@@ -1,0 +1,5 @@
+<map id="Scene::Register" name="Scene::Register">
+<area shape="rect" id="node2" href="$d8/d85/class_inputable_manager.html#a9dbb215e8ee8ec8411f1f86ef3de1c88" title="InputableManager::Register" alt="" coords="168,42,348,69"/>
+<area shape="rect" id="node3" href="$d8/d85/class_inputable_manager.html#ab650d7c25c21a79eb3f140a73b52b3c8" title="InputableManager::FindKey\lObject" alt="" coords="401,5,581,47"/>
+<area shape="rect" id="node4" href="$d8/d68/class_key_object.html#a0879e0394bdf5e0444d2def6872bc854" title="KeyObject::RegisterInputable" alt="" coords="396,71,587,98"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="GodCamera::Update" name="GodCamera::Update">
+<area shape="rect" id="node2" href="$dd/d22/_god_camera_8cpp.html#a5d62048ffb151861e77f5764285839e4" title="CamPos" alt="" coords="193,5,265,32"/>
+<area shape="rect" id="node3" href="$dd/d22/_god_camera_8cpp.html#a2f40b7155f991e81ff21eda6592bd1a5" title="CamRot" alt="" coords="195,56,264,83"/>
+<area shape="rect" id="node4" href="$dd/d22/_god_camera_8cpp.html#a678086598374ae211cecfa42ff3e23aa" title="CamUp" alt="" coords="197,107,262,133"/>
+<area shape="rect" id="node5" href="$dd/d22/_god_camera_8cpp.html#aeaff06cd79a230d917fae3dfe536409a" title="CamDir" alt="" coords="197,157,262,184"/>
+</map>

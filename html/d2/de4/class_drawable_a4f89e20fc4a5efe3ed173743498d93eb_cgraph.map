@@ -1,0 +1,8 @@
+<map id="Drawable::SubmitDrawRegistration" name="Drawable::SubmitDrawRegistration">
+<area shape="rect" id="node2" href="$d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="276,57,456,98"/>
+<area shape="rect" id="node6" href="$d6/db5/class_scene.html#a0731629e09bcbc95b0dd1f8553793914" title="Scene::SubmitCommand" alt="" coords="283,125,449,152"/>
+<area shape="rect" id="node3" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="520,5,687,32"/>
+<area shape="rect" id="node5" href="$d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7" title="SceneManager::privGetCurrent\lScene" alt="" coords="504,57,703,98"/>
+<area shape="rect" id="node4" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="751,5,955,32"/>
+<area shape="rect" id="node7" href="$d8/d4e/class_scene_registration_broker.html#a64a63b2d841f223142218156e6f62caa" title="Adds a command of type CommandBase to a list. " alt="" coords="520,122,687,163"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="InputableManager::Register" name="InputableManager::Register">
+<area shape="rect" id="node2" href="$d8/d85/class_inputable_manager.html#ab650d7c25c21a79eb3f140a73b52b3c8" title="InputableManager::FindKey\lObject" alt="" coords="239,5,419,47"/>
+<area shape="rect" id="node3" href="$d8/d68/class_key_object.html#a0879e0394bdf5e0444d2def6872bc854" title="KeyObject::RegisterInputable" alt="" coords="233,71,424,98"/>
+</map>

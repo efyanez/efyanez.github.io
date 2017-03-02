@@ -1,0 +1,5 @@
+<map id="TimeManager::GetFrameTime" name="TimeManager::GetFrameTime">
+<area shape="rect" id="node2" href="$d9/d7f/class_time_manager.html#a9bb9e5390526b32783b94adb728604fa" title="TimeManager::Instance" alt="" coords="276,5,433,32"/>
+<area shape="rect" id="node4" href="$d9/d7f/class_time_manager.html#a613cea801de384ab2608a34cbaab2444" title="Returns the time it took (in seconds) to process a single frame. " alt="" coords="248,56,461,83"/>
+<area shape="rect" id="node3" href="$d9/d7f/class_time_manager.html#ab1c3cbb48ad68d928bb8b9a4ef210ed6" title="TimeManager::TimeManager" alt="" coords="509,5,696,32"/>
+</map>

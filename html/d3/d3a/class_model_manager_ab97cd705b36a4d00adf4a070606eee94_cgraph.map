@@ -1,0 +1,7 @@
+<map id="ModelManager::LoadDefaultModels" name="ModelManager::LoadDefaultModels">
+<area shape="rect" id="node2" href="$d3/d3a/class_model_manager.html#afb1fbe7bcd21494e661676b997008173" title="ModelManager::Instance" alt="" coords="959,59,1123,86"/>
+<area shape="rect" id="node4" href="$d3/d3a/class_model_manager.html#a7ce9386c2db808ff4f42160cac8d559d" title="ModelManager::privLoadDefault\lModels" alt="" coords="236,35,439,76"/>
+<area shape="rect" id="node3" href="$d3/d3a/class_model_manager.html#a9b0d22b1baf59c5b566e82fcd8ca424a" title="ModelManager::ModelManager" alt="" coords="1171,59,1371,86"/>
+<area shape="rect" id="node5" href="$d3/d3a/class_model_manager.html#a9e6e0288753c1292c382655ae5d014ce" title="Public static function. Loads a model from a filepath into the map of Model pointers. " alt="" coords="487,85,665,111"/>
+<area shape="rect" id="node6" href="$d3/d3a/class_model_manager.html#a10a541c2a58bf7c0e5c5aeab6d4d0a34" title="ModelManager::privLoadModel" alt="" coords="713,135,911,162"/>
+</map>

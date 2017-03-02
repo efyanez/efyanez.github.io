@@ -1,0 +1,7 @@
+<map id="ShaderManager::LoadDefaultShaders" name="ShaderManager::LoadDefaultShaders">
+<area shape="rect" id="node2" href="$d2/d24/class_shader_manager.html#aeaa687b375b78eefcd836b5430ccfb99" title="ShaderManager::Instance" alt="" coords="995,59,1165,86"/>
+<area shape="rect" id="node4" href="$d2/d24/class_shader_manager.html#a68ab55e53133dfea1b6e3cf5ae429650" title="ShaderManager::privLoadDefault\lShaders" alt="" coords="243,35,451,76"/>
+<area shape="rect" id="node3" href="$d2/d24/class_shader_manager.html#aca25f81fd10a02b3e97e9c459b864186" title="ShaderManager::ShaderManager" alt="" coords="1213,59,1425,86"/>
+<area shape="rect" id="node5" href="$d2/d24/class_shader_manager.html#a447154763b6ab440da855ba400404040" title="Public static function. Loads a shader from a filepath into the map of Shader pointers. " alt="" coords="499,85,689,111"/>
+<area shape="rect" id="node6" href="$d2/d24/class_shader_manager.html#a44f98063b3a0687a6163d28d1e1f0815" title="ShaderManager::privLoadShader" alt="" coords="737,135,947,162"/>
+</map>

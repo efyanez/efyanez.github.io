@@ -1,0 +1,6 @@
+<map id="SceneManager::Terminate" name="SceneManager::Terminate">
+<area shape="rect" id="node2" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="241,5,408,32"/>
+<area shape="rect" id="node4" href="$d0/dc3/class_scene_manager.html#ad4a7bf6aeefe87e72e65c0dd483bca2d" title="SceneManager::privTerminate" alt="" coords="228,56,421,83"/>
+<area shape="rect" id="node3" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="469,5,673,32"/>
+<area shape="rect" id="node5" href="$d6/db5/class_scene.html#afce99c578d2ea8375ea147705bef1e2f" title="Virtual function, called when a scene is terminated. " alt="" coords="509,56,633,83"/>
+</map>

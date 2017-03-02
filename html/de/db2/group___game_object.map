@@ -1,0 +1,8 @@
+<map id="GameObject" name="GameObject">
+<area shape="rect" id="node1" href="$d0/d75/group___update.html" title="GameObject update group, everything relating to Updatable. " alt="" coords="301,5,364,32"/>
+<area shape="rect" id="node2" href="$d0/dec/group___input.html" title="GameObject input group, everything relating to Inputable. " alt="" coords="307,56,358,83"/>
+<area shape="rect" id="node3" href="$d8/d51/group___collisions.html" title="GameObject collision group, everything relating to Collidable. " alt="" coords="293,107,372,133"/>
+<area shape="rect" id="node4" href="$d9/d0f/group___draw.html" title="GameObject draw group, everything relating to Drawable. " alt="" coords="307,157,358,184"/>
+<area shape="rect" id="node5" href="$d8/dee/group___mithril_engine.html" title="A group for all Engine code. " alt="" coords="5,107,103,133"/>
+<area shape="rect" id="node6" href="$d5/dcb/group___alarms.html" title="GameObject alarm group, everything relating to Alarmable. " alt="" coords="301,208,364,235"/>
+</map>

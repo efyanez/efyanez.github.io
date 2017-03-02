@@ -1,0 +1,5 @@
+<map id="SceneManager::SetNextScene" name="SceneManager::SetNextScene">
+<area shape="rect" id="node2" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="263,5,429,32"/>
+<area shape="rect" id="node4" href="$d0/dc3/class_scene_manager.html#a198fc7ea00dcd78d7f91602c18ee01ee" title="SceneManager::privSetNext\lScene" alt="" coords="255,57,437,98"/>
+<area shape="rect" id="node3" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="485,5,689,32"/>
+</map>

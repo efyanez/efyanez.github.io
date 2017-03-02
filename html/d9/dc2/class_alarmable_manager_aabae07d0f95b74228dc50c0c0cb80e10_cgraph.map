@@ -1,0 +1,6 @@
+<map id="AlarmableManager::ProcessElements" name="AlarmableManager::ProcessElements">
+<area shape="rect" id="node2" href="$d9/d7f/class_time_manager.html#abc678da7dd58d16cea641f5f0d0392a7" title="TimeManager::GetFrameTime" alt="" coords="240,31,435,57"/>
+<area shape="rect" id="node3" href="$d9/d7f/class_time_manager.html#a9bb9e5390526b32783b94adb728604fa" title="TimeManager::Instance" alt="" coords="511,5,668,32"/>
+<area shape="rect" id="node5" href="$d9/d7f/class_time_manager.html#a613cea801de384ab2608a34cbaab2444" title="Returns the time it took (in seconds) to process a single frame. " alt="" coords="483,56,696,83"/>
+<area shape="rect" id="node4" href="$d9/d7f/class_time_manager.html#ab1c3cbb48ad68d928bb8b9a4ef210ed6" title="TimeManager::TimeManager" alt="" coords="744,5,931,32"/>
+</map>

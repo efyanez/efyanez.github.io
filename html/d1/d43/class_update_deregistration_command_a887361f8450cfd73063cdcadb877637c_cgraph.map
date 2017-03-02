@@ -1,0 +1,10 @@
+<map id="UpdateDeregistrationCommand::Execute" name="UpdateDeregistrationCommand::Execute">
+<area shape="rect" id="node2" href="$d7/d69/class_updatable.html#a37eb54a213b8e1f0aac995234662276a" title="Updatable::SceneDeregistration" alt="" coords="256,93,461,120"/>
+<area shape="rect" id="node3" href="$d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="509,57,689,98"/>
+<area shape="rect" id="node7" href="$d6/db5/class_scene.html#add3a649a456b0c151c17875a16692e28" title="Scene::Deregister" alt="" coords="536,123,663,149"/>
+<area shape="rect" id="node4" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="753,5,920,32"/>
+<area shape="rect" id="node6" href="$d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7" title="SceneManager::privGetCurrent\lScene" alt="" coords="737,57,936,98"/>
+<area shape="rect" id="node5" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="984,5,1188,32"/>
+<area shape="rect" id="node8" href="$d1/d47/class_updatable_manager.html#a419ef4f4ff3ee179f3f77e1a8752d696" title="UpdatableManager::Deregister" alt="" coords="738,123,935,149"/>
+<area shape="rect" id="node9" href="$d7/d69/class_updatable.html#af11be8d2b1b7bbe1f0ba5f56138c8a79" title="Updatable::GetIterator" alt="" coords="1011,123,1161,149"/>
+</map>

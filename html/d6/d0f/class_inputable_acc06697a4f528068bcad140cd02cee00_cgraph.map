@@ -1,0 +1,8 @@
+<map id="Inputable::SubmitKeyEventRegistration" name="Inputable::SubmitKeyEventRegistration">
+<area shape="rect" id="node2" href="$d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="232,57,412,98"/>
+<area shape="rect" id="node6" href="$d6/db5/class_scene.html#a0731629e09bcbc95b0dd1f8553793914" title="Scene::SubmitCommand" alt="" coords="239,125,405,152"/>
+<area shape="rect" id="node3" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="476,5,643,32"/>
+<area shape="rect" id="node5" href="$d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7" title="SceneManager::privGetCurrent\lScene" alt="" coords="460,57,659,98"/>
+<area shape="rect" id="node4" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="707,5,911,32"/>
+<area shape="rect" id="node7" href="$d8/d4e/class_scene_registration_broker.html#a64a63b2d841f223142218156e6f62caa" title="Adds a command of type CommandBase to a list. " alt="" coords="476,122,643,163"/>
+</map>

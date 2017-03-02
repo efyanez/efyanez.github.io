@@ -1,0 +1,9 @@
+<map id="Alarmable::SceneRegistration" name="Alarmable::SceneRegistration">
+<area shape="rect" id="node2" href="$d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="248,57,428,98"/>
+<area shape="rect" id="node6" href="$d6/db5/class_scene.html#a3ac2579c0188116b1f0eabd463a9cfdc" title="Registers Updatable to current scene. " alt="" coords="281,123,395,149"/>
+<area shape="rect" id="node3" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="492,5,659,32"/>
+<area shape="rect" id="node5" href="$d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7" title="SceneManager::privGetCurrent\lScene" alt="" coords="476,57,675,98"/>
+<area shape="rect" id="node4" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="723,5,927,32"/>
+<area shape="rect" id="node7" href="$d1/d47/class_updatable_manager.html#a5bb3270469737b22ed711155ccbbbd48" title="UpdatableManager::Register" alt="" coords="482,123,669,149"/>
+<area shape="rect" id="node8" href="$d7/d69/class_updatable.html#a88f1e80a60b9ba501cb54ab1943fb402" title="Updatable::SetIterator" alt="" coords="751,123,899,149"/>
+</map>

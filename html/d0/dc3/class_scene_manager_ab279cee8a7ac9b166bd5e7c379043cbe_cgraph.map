@@ -1,0 +1,5 @@
+<map id="SceneManager::GetCurrentScene" name="SceneManager::GetCurrentScene">
+<area shape="rect" id="node2" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="249,5,416,32"/>
+<area shape="rect" id="node4" href="$d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7" title="SceneManager::privGetCurrent\lScene" alt="" coords="233,57,432,98"/>
+<area shape="rect" id="node3" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="480,5,684,32"/>
+</map>
