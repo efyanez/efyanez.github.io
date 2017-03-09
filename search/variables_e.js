@@ -6,5 +6,6 @@ var searchData=
   ['regcmd',['regCmd',['../dc/df7/struct_alarmable_1_1_registration_data.html#aae18c0114b53b134cc33caf2d4e62d5b',1,'Alarmable::RegistrationData::regCmd()'],['../d2/de4/class_drawable.html#a174ddedf612b32b8ecd12a1258e5cd87',1,'Drawable::regCmd()'],['../d6/d0f/class_inputable.html#afae377813bdf55643ce9bee2493068ee',1,'Inputable::regCmd()'],['../d7/d69/class_updatable.html#a94d0575e64d47ae10b17cbbe7fcbeb3b',1,'Updatable::regCmd()']]],
   ['regdata',['RegData',['../d7/db6/class_alarmable.html#a229e2e8147cb98cd13c3e1cc0097708b',1,'Alarmable']]],
   ['rosybrown',['RosyBrown',['../db/dad/namespace_colors.html#a2cd21b5dee2f479fa1510447d63bf759',1,'Colors']]],
+  ['rotz',['RotZ',['../d7/dbf/class_sprite.html#a8f63f91e15b8aa617d274aaa04a1c385',1,'Sprite']]],
   ['royalblue',['RoyalBlue',['../db/dad/namespace_colors.html#aa5bd16a55a537010a894c86a4fc52392',1,'Colors']]]
 ];

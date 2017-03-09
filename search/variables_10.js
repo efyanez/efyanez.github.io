@@ -8,6 +8,7 @@ var searchData=
   ['timelinemap',['TimelineMap',['../d9/dc2/class_alarmable_manager.html#ad0ba6e54b8ebf474fe31196ff4d9a8a5',1,'AlarmableManager']]],
   ['tomato',['Tomato',['../db/dad/namespace_colors.html#a78847e2acbff5d18e5961cc566c20dfa',1,'Colors']]],
   ['totalfrozentime',['totalFrozenTime',['../db/d12/class_freeze_time.html#a179c77d4fea4694b21f92603890b5b56',1,'FreezeTime']]],
+  ['trans',['Trans',['../d7/dbf/class_sprite.html#a45cc805f3febec18480d4812bd86ccbe',1,'Sprite']]],
   ['transparent',['Transparent',['../db/dad/namespace_colors.html#a8a31f64832530e47ffdcfc72a95cfc30',1,'Colors']]],
   ['turquoise',['Turquoise',['../db/dad/namespace_colors.html#ae0e6fadf5739b35c72706d9255f316f1',1,'Colors']]]
 ];

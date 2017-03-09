@@ -15,6 +15,7 @@ var searchData=
   ['timemanager_2eh',['TimeManager.h',['../d9/d92/_time_manager_8h.html',1,'']]],
   ['tomato',['Tomato',['../db/dad/namespace_colors.html#a78847e2acbff5d18e5961cc566c20dfa',1,'Colors']]],
   ['totalfrozentime',['totalFrozenTime',['../db/d12/class_freeze_time.html#a179c77d4fea4694b21f92603890b5b56',1,'FreezeTime']]],
+  ['trans',['Trans',['../d7/dbf/class_sprite.html#a45cc805f3febec18480d4812bd86ccbe',1,'Sprite']]],
   ['transparent',['Transparent',['../db/dad/namespace_colors.html#a8a31f64832530e47ffdcfc72a95cfc30',1,'Colors']]],
   ['triggeralarm',['TriggerAlarm',['../d7/db6/class_alarmable.html#a7c4e0148d94fe3fa98da95c76375ac07',1,'Alarmable']]],
   ['turquoise',['Turquoise',['../db/dad/namespace_colors.html#ae0e6fadf5739b35c72706d9255f316f1',1,'Colors']]]

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['unloadcontent',['UnLoadContent',['../d6/d4b/class_mithril_engine.html#a6f70d8757a3599e5a2235d94a93aeac4',1,'MithrilEngine']]],
+  ['unloadimages',['UnloadImages',['../d2/d39/class_image_manager.html#a22acef4ad91b5191cb8044d976035635',1,'ImageManager']]],
   ['unloadmodels',['UnloadModels',['../d3/d3a/class_model_manager.html#a80074e0df7bf05faf4eb762940da8cd5',1,'ModelManager']]],
   ['unloadshaders',['UnloadShaders',['../d2/d24/class_shader_manager.html#a5ef1975239b18efa12c0b4df25c91d26',1,'ShaderManager']]],
   ['unloadtextures',['UnloadTextures',['../db/ddf/class_texture_manager.html#ad09e991a4111060447d43e7fd959f945',1,'TextureManager']]],

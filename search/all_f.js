@@ -9,8 +9,10 @@ var searchData=
   ['registerinputable',['RegisterInputable',['../d8/d68/class_key_object.html#a0879e0394bdf5e0444d2def6872bc854',1,'KeyObject']]],
   ['registrationdata',['RegistrationData',['../dc/df7/struct_alarmable_1_1_registration_data.html',1,'Alarmable']]],
   ['registrationstate',['RegistrationState',['../d7/db6/class_alarmable.html#a40d3c63151b05110277725bb63f2b86e',1,'Alarmable::RegistrationState()'],['../d8/deb/class_collidable.html#af5ea6076e47a66ee8e5e9ad1efe17b82',1,'Collidable::RegistrationState()'],['../d2/de4/class_drawable.html#a4d2e9a2ec48f8042e87f9f1456092b2c',1,'Drawable::RegistrationState()'],['../d0/dd1/class_game_object.html#a2f643dc17572074a8d8e263e1176fb60',1,'GameObject::RegistrationState()'],['../d7/d69/class_updatable.html#a9e77feb2bd4e83c0e25dc3b511a08dd1',1,'Updatable::RegistrationState()']]],
+  ['render',['Render',['../d7/dbf/class_sprite.html#a7778420e2335fac704fc079f5c0f716b',1,'Sprite']]],
   ['resources',['Resources',['../d2/df8/group___resources.html',1,'']]],
   ['rosybrown',['RosyBrown',['../db/dad/namespace_colors.html#a2cd21b5dee2f479fa1510447d63bf759',1,'Colors']]],
+  ['rotz',['RotZ',['../d7/dbf/class_sprite.html#a8f63f91e15b8aa617d274aaa04a1c385',1,'Sprite']]],
   ['royalblue',['RoyalBlue',['../db/dad/namespace_colors.html#aa5bd16a55a537010a894c86a4fc52392',1,'Colors']]],
   ['run',['Run',['../d6/d4b/class_mithril_engine.html#a9f222a2729e64a91f226e8063ec5fbf6',1,'MithrilEngine']]]
 ];

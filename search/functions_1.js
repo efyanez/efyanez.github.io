@@ -23,5 +23,6 @@ var searchData=
   ['commandbase',['CommandBase',['../db/db6/class_command_base.html#af42de9fe79dc64fce99580ee1e2f678f',1,'CommandBase::CommandBase()'],['../db/db6/class_command_base.html#a0ea513afd2430bed3150efc31f0138b4',1,'CommandBase::CommandBase(const CommandBase &amp;)=delete']]],
   ['computedata',['ComputeData',['../d5/d7c/class_collision_volume.html#ad9174aa61b924ebc9f54af78a4f0df63',1,'CollisionVolume::ComputeData()'],['../d8/d21/class_collision_volume_b_sphere.html#af31253fd2080b95e7f90a4ff0754342a',1,'CollisionVolumeBSphere::ComputeData()']]],
   ['connecttoscene',['ConnectToScene',['../d0/dd1/class_game_object.html#ac1b3409129559bfc11845d6437c3d587',1,'GameObject']]],
+  ['createimage',['CreateImage',['../d2/d39/class_image_manager.html#ad86c550741aaf6280fafecad42aeeb28',1,'ImageManager']]],
   ['createsphere',['CreateSphere',['../d3/d4f/class_visualizer.html#a3fd0f918788ec72dcdba602cd4c31e75',1,'Visualizer']]]
 ];

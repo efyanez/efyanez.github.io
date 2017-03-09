@@ -79,9 +79,15 @@ Initializing Game Parameters</h1>
 <h1><a class="anchor" id="time_sec"></a>
 Debug Tools (Freeze Time)</h1>
 <p>By default, F10 freeze game time. F9 steps through one frame at a time. </p>
+<h1><a class="anchor" id="scene_sec"></a>
+Setting Up A Scene</h1>
+<p>The following code snippet shows how to set up a start scene. </p><dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="keywordtype">void</span> <a class="code" href="d6/d4b/class_mithril_engine.html#a58deb29be139002bd071f4bce1bbc5ea">MithrilEngine::LoadResources</a>()</div><div class="line">{</div><div class="line"><a class="code" href="d6/db5/class_scene.html">Scene</a>* firstScene = <span class="keyword">new</span> FirstScene();</div><div class="line"><a class="code" href="d0/dc3/class_scene_manager.html#adce8d3662e1ef7b66631a4f67d8ad961">SceneManager::StartScene</a>(firstScene);</div><div class="line"><a class="code" href="d0/dc3/class_scene_manager.html#ac4368af4b58fc7867772334833149326">SceneManager::InitializeStartScene</a>();</div><div class="line">}</div></div><!-- fragment --> </dd></dl>
 <h1><a class="anchor" id="col_sec"></a>
-Setting Up Collision</h1>
-<p>The following code snippet shows how to set collisions with self and pairs </p><dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="keywordtype">void</span> MyFirstScene::Initialize()</div><div class="line">{</div><div class="line">myShip = <span class="keyword">new</span> Ship();</div><div class="line">myPlane = <span class="keyword">new</span> Plane();</div><div class="line"></div><div class="line"><span class="comment">//NOTE: ColMgr is the Collision Manager name</span></div><div class="line">ColMgr-&gt;SetCollisionSelf&lt;Ship&gt;();</div><div class="line">ColMgr-&gt;SetCollisionPair&lt;Ship, Plane&gt;();</div><div class="line">}</div></div><!-- fragment --> </dd></dl>
+Setting Up A Scene &amp; Collision</h1>
+<p>The following code snippet shows how to set a scene and collisions with self and pairs </p><dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="keywordtype">void</span> MyFirstScene::Initialize()</div><div class="line">{</div><div class="line">myShip = <span class="keyword">new</span> Ship();</div><div class="line">myPlane = <span class="keyword">new</span> Plane();</div><div class="line"></div><div class="line"><span class="comment">//NOTE: ColMgr is the Collision Manager name</span></div><div class="line">ColMgr-&gt;SetCollisionSelf&lt;Ship&gt;();</div><div class="line">ColMgr-&gt;SetCollisionPair&lt;Ship, Plane&gt;();</div><div class="line">}</div></div><!-- fragment --> </dd></dl>
+<h1><a class="anchor" id="keys_sec"></a>
+Default Keys</h1>
+<p>The following code snippet shows the default keys for shaders and models </p><dl class="section user"><dt>Shader Keys:</dt><dd><div class="fragment"><div class="line"><span class="stringliteral">&quot;FlatRender&quot;</span></div><div class="line"><span class="stringliteral">&quot;LightRender&quot;</span></div><div class="line"><span class="stringliteral">&quot;ColorVaryRender&quot;</span></div><div class="line"><span class="stringliteral">&quot;ColorConstantRender&quot;</span></div><div class="line"><span class="stringliteral">&quot;ColorNoTextureRender&quot;</span></div></div><!-- fragment --> </dd></dl>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

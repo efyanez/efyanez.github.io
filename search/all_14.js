@@ -6,5 +6,5 @@ var searchData=
   ['white',['White',['../db/dad/namespace_colors.html#a8b2792fb23adb3ee31820e106591fe13',1,'Colors']]],
   ['whitesmoke',['WhiteSmoke',['../db/dad/namespace_colors.html#ab4de40ca965910ed71195da1f58ea024',1,'Colors']]],
   ['winmain',['WinMain',['../df/d0a/main_8cpp.html#a704a7c5c0c5018747d3ebfb7aad2bd70',1,'main.cpp']]],
-  ['world',['world',['../d8/d21/class_collision_volume_b_sphere.html#a36c3199752ec8b1d7711219d4abf808a',1,'CollisionVolumeBSphere']]]
+  ['world',['world',['../d8/d21/class_collision_volume_b_sphere.html#a36c3199752ec8b1d7711219d4abf808a',1,'CollisionVolumeBSphere::world()'],['../d7/dbf/class_sprite.html#af9b2f4a04fec15c09815f0926f63c4b0',1,'Sprite::world()']]]
 ];
