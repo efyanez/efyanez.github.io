@@ -1,0 +1,10 @@
+<map id="Updatable::Update" name="Updatable::Update">
+<area shape="rect" id="node2" href="$d0/d75/group___update.html#ga705b2573da6eaa190a30bba0f7f4dddc" title="Submit the object for Update registration. " alt="" coords="189,75,427,102"/>
+<area shape="rect" id="node9" href="$d0/d75/group___update.html#ga1739b07f9bbc3a22c0ca6d9688f628a6" title="Submit the object for Draw registration. " alt="" coords="183,126,433,153"/>
+<area shape="rect" id="node3" href="$d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="481,64,661,105"/>
+<area shape="rect" id="node7" href="$d6/db5/class_scene.html#a0731629e09bcbc95b0dd1f8553793914" title="Scene::SubmitCommand" alt="" coords="488,130,655,157"/>
+<area shape="rect" id="node4" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="725,71,892,98"/>
+<area shape="rect" id="node6" href="$d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7" title="SceneManager::privGetCurrent\lScene" alt="" coords="709,5,908,47"/>
+<area shape="rect" id="node5" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="956,71,1160,98"/>
+<area shape="rect" id="node8" href="$d8/d4e/class_scene_registration_broker.html#a64a63b2d841f223142218156e6f62caa" title="Adds a command of type CommandBase to a list. " alt="" coords="725,123,892,164"/>
+</map>

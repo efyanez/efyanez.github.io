@@ -1,0 +1,15 @@
+<map id="Sprite::operator=" name="Sprite::operator=">
+<area shape="rect" id="node2" href="$d7/dbf/class_sprite.html#a7e05bed88925fc13d71159f79b9b14f6" title="Sprite::~Sprite" alt="" coords="192,5,299,32"/>
+<area shape="rect" id="node3" href="$d7/dbf/class_sprite.html#a7ac80cebb5d5f28ab2368dab973c1024" title="Sets the center for a sprite. " alt="" coords="184,56,307,83"/>
+<area shape="rect" id="node4" href="$d7/dbf/class_sprite.html#afea5e8f8f745b1db09b86f45943283af" title="Sets the position for a sprite. " alt="" coords="192,107,299,133"/>
+<area shape="rect" id="node5" href="$d7/dbf/class_sprite.html#a5ae153ea56a125c82eaefbd8cc966e5b" title="Sets the angle for a sprite. " alt="" coords="187,157,304,184"/>
+<area shape="rect" id="node6" href="$d7/dbf/class_sprite.html#aea549a8785828fd8767eafa8a8d80029" title="Returns the angle of a sprite. " alt="" coords="186,208,305,235"/>
+<area shape="rect" id="node7" href="$d7/dbf/class_sprite.html#aeba2a12b010358d09fe3470a373a002d" title="Returns the position of a sprite. " alt="" coords="191,259,299,285"/>
+<area shape="rect" id="node8" href="$d7/dbf/class_sprite.html#ab8daa2e19a8ee664f1052c1f1f5d4af3" title="Sets the scale factor for a sprite. " alt="" coords="379,331,534,357"/>
+<area shape="rect" id="node9" href="$d7/dbf/class_sprite.html#a4f194406b078ebbfc8e97db0bb6b29bd" title="Sets the pixel scale for a sprite. " alt="" coords="172,360,319,387"/>
+<area shape="rect" id="node10" href="$d7/dbf/class_sprite.html#a7778420e2335fac704fc079f5c0f716b" title="Renders sprite to current 2D camera. " alt="" coords="193,411,298,437"/>
+<area shape="rect" id="node11" href="$d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="367,403,547,445"/>
+<area shape="rect" id="node12" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="611,381,777,408"/>
+<area shape="rect" id="node14" href="$d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7" title="SceneManager::privGetCurrent\lScene" alt="" coords="595,433,793,474"/>
+<area shape="rect" id="node13" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="841,381,1045,408"/>
+</map>

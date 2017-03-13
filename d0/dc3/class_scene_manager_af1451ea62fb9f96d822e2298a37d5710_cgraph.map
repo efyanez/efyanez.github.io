@@ -1,0 +1,6 @@
+<map id="SceneManager::InitializeCurrentScene" name="SceneManager::InitializeCurrentScene">
+<area shape="rect" id="node2" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="225,5,392,32"/>
+<area shape="rect" id="node4" href="$d0/dc3/class_scene_manager.html#ac5add9a728c23284080c7db4dba830c0" title="SceneManager::privInitialize\lCurrentScene" alt="" coords="217,57,400,98"/>
+<area shape="rect" id="node3" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="448,5,652,32"/>
+<area shape="rect" id="node5" href="$d6/db5/class_scene.html#aafd7510b1309c6ba864791c429870959" title="User defines what happens when a scene is initialized. " alt="" coords="493,64,607,91"/>
+</map>
