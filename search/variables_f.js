@@ -21,5 +21,5 @@ var searchData=
   ['springgreen',['SpringGreen',['../db/dad/namespace_colors.html#a2dca8162969757090c9aa6f89a4013b7',1,'Colors']]],
   ['spriteangle',['spriteAngle',['../d7/dbf/class_sprite.html#a9d921481bcfd192dbbe694aa03e97081',1,'Sprite']]],
   ['steelblue',['SteelBlue',['../db/dad/namespace_colors.html#adfe3e6e1d39a1c79d8eeb1b6e5882afd',1,'Colors']]],
-  ['storagelist',['StorageList',['../d6/d17/class_drawable_manager.html#a3c4e461b08430701016fbbb055d9b5cf',1,'DrawableManager::StorageList()'],['../d1/d47/class_updatable_manager.html#af09629bc63050167f9d11bbf01bba46c',1,'UpdatableManager::StorageList()'],['../d8/d85/class_inputable_manager.html#aada36d813c3445f0991709ea6b44a905',1,'InputableManager::storageList()']]]
+  ['storagelist',['storageList',['../d8/d85/class_inputable_manager.html#aada36d813c3445f0991709ea6b44a905',1,'InputableManager::storageList()'],['../d6/d17/class_drawable_manager.html#a3c4e461b08430701016fbbb055d9b5cf',1,'DrawableManager::StorageList()'],['../d1/d47/class_updatable_manager.html#af09629bc63050167f9d11bbf01bba46c',1,'UpdatableManager::StorageList()']]]
 ];

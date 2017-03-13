@@ -1,8 +1,9 @@
 <map id="MithrilEngine::UnLoadContent" name="MithrilEngine::UnLoadContent">
 <area shape="rect" id="node2" href="$d0/dc3/class_scene_manager.html#ab05844a5cadb0305e5d5a7abd8c091bd" title="Calls Scene::Terminate() on the current scene. " alt="" coords="267,56,442,83"/>
 <area shape="rect" id="node7" href="$d2/d24/class_shader_manager.html#a5ef1975239b18efa12c0b4df25c91d26" title="Unloads the shaders from the map and deletes their associated pointers. " alt="" coords="250,165,459,192"/>
-<area shape="rect" id="node11" href="$d3/d3a/class_model_manager.html#a80074e0df7bf05faf4eb762940da8cd5" title="Unloaded models, deletes them from the map. " alt="" coords="256,224,453,251"/>
+<area shape="rect" id="node11" href="$d3/d3a/class_model_manager.html#a80074e0df7bf05faf4eb762940da8cd5" title="Unloaded models, deletes them from the map. " alt="" coords="256,253,453,280"/>
 <area shape="rect" id="node15" href="$db/ddf/class_texture_manager.html#ad09e991a4111060447d43e7fd959f945" title="Unloads the textures from the map and deletes their associated pointers. " alt="" coords="248,341,461,368"/>
+<area shape="rect" id="node19" href="$d3/d4f/class_visualizer.html#a61597f4a1cdb82452a2e761cb52b9024" title="Terminates the Visualizer. " alt="" coords="283,459,427,485"/>
 <area shape="rect" id="node3" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="523,5,689,32"/>
 <area shape="rect" id="node5" href="$d0/dc3/class_scene_manager.html#ad4a7bf6aeefe87e72e65c0dd483bca2d" title="SceneManager::privTerminate" alt="" coords="509,56,703,83"/>
 <area shape="rect" id="node4" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="751,5,955,32"/>
@@ -16,4 +17,7 @@
 <area shape="rect" id="node16" href="$db/ddf/class_texture_manager.html#a81a2f2ac1876be84e0a0a472199679d5" title="TextureManager::Instance" alt="" coords="767,371,939,397"/>
 <area shape="rect" id="node18" href="$db/ddf/class_texture_manager.html#a0847e8464376cf239fa98608155add1b" title="TextureManager::privUnload\lTextures" alt="" coords="515,393,697,434"/>
 <area shape="rect" id="node17" href="$db/ddf/class_texture_manager.html#ad76abb178b37cedf4514eb0154349935" title="TextureManager::TextureManager" alt="" coords="1003,371,1219,397"/>
+<area shape="rect" id="node20" href="$d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="785,484,921,511"/>
+<area shape="rect" id="node22" href="$d3/d4f/class_visualizer.html#a5dd16607ead98f5cdd003529c6e7ab73" title="Visualizer::privTerminate" alt="" coords="525,509,687,536"/>
+<area shape="rect" id="node21" href="$d3/d4f/class_visualizer.html#a104487003c9fea602e26c072aae27efc" title="Visualizer::Visualizer" alt="" coords="1039,484,1183,511"/>
 </map>

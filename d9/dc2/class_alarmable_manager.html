@@ -87,6 +87,8 @@ Public Types</h2></td></tr>
 <tr class="separator:a39f8c94eeaadb8bf6ff5b53ac8652d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c43098faab559195096c2ddee9fcd8e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc2/class_alarmable_manager.html#a9c43098faab559195096c2ddee9fcd8e">StorageListRef</a> = std::multimap&lt; float, <a class="el" href="../../d9/dc2/class_alarmable_manager.html#a39f8c94eeaadb8bf6ff5b53ac8652d48">AlarmEvent</a> &gt;::iterator</td></tr>
 <tr class="separator:a9c43098faab559195096c2ddee9fcd8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e03249dd9ce4f07a2846305c4025701"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc2/class_alarmable_manager.html#a9e03249dd9ce4f07a2846305c4025701">TimelineMapPair</a> = std::pair&lt; float, <a class="el" href="../../d9/dc2/class_alarmable_manager.html#a39f8c94eeaadb8bf6ff5b53ac8652d48">AlarmEvent</a> &gt;</td></tr>
+<tr class="separator:a9e03249dd9ce4f07a2846305c4025701"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -98,10 +100,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5bc36e5715344cda74161b470a386681"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad265d71a287fd16eca7b5ecf5ae45881"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dc2/class_alarmable_manager.html">AlarmableManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc2/class_alarmable_manager.html#ad265d71a287fd16eca7b5ecf5ae45881">operator=</a> (const <a class="el" href="../../d9/dc2/class_alarmable_manager.html">AlarmableManager</a> &amp;)=delete</td></tr>
 <tr class="separator:ad265d71a287fd16eca7b5ecf5ae45881"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ac7530be1a1856e3d2699108d978c43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc2/class_alarmable_manager.html#a3ac7530be1a1856e3d2699108d978c43">Register</a> (float t, <a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> *dr, <a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a> ID)</td></tr>
-<tr class="separator:a3ac7530be1a1856e3d2699108d978c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a807311e20f7a88b1d01f5df1173f01d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc2/class_alarmable_manager.html#a807311e20f7a88b1d01f5df1173f01d1">Deregister</a> (<a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> *al, <a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a> ID)</td></tr>
-<tr class="separator:a807311e20f7a88b1d01f5df1173f01d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabbf8d3e0752b1660fe43368e02cc973f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcb/group___alarms.html#gabbf8d3e0752b1660fe43368e02cc973f">Register</a> (float t, <a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> *al, <a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a> ID)</td></tr>
+<tr class="memdesc:gabbf8d3e0752b1660fe43368e02cc973f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers the alarmable with the given time and ID.  <a href="../../d5/dcb/group___alarms.html#gabbf8d3e0752b1660fe43368e02cc973f">More...</a><br /></td></tr>
+<tr class="separator:gabbf8d3e0752b1660fe43368e02cc973f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga807311e20f7a88b1d01f5df1173f01d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcb/group___alarms.html#ga807311e20f7a88b1d01f5df1173f01d1">Deregister</a> (<a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> *al, <a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a> ID)</td></tr>
+<tr class="memdesc:ga807311e20f7a88b1d01f5df1173f01d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deregisters the alarmable with the given ID.  <a href="../../d5/dcb/group___alarms.html#ga807311e20f7a88b1d01f5df1173f01d1">More...</a><br /></td></tr>
+<tr class="separator:ga807311e20f7a88b1d01f5df1173f01d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeff6ef905f27ff24baf42b258d9e6505"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcb/group___alarms.html#gaeff6ef905f27ff24baf42b258d9e6505">AddTime</a> (float time, <a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> *al, <a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a> ID)</td></tr>
+<tr class="memdesc:gaeff6ef905f27ff24baf42b258d9e6505"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds time to an alarmable with ID.  <a href="../../d5/dcb/group___alarms.html#gaeff6ef905f27ff24baf42b258d9e6505">More...</a><br /></td></tr>
+<tr class="separator:gaeff6ef905f27ff24baf42b258d9e6505"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4d64f8a892a8116be0209a8da8b3335"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc2/class_alarmable_manager.html#af4d64f8a892a8116be0209a8da8b3335">GetRemainingTime</a> (<a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> *al, <a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a> ID)</td></tr>
+<tr class="separator:af4d64f8a892a8116be0209a8da8b3335"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -143,6 +152,20 @@ Friends</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="../../d9/dc2/class_alarmable_manager.html#a9c43098faab559195096c2ddee9fcd8e">AlarmableManager::StorageListRef</a> =  std::multimap&lt;float, <a class="el" href="../../d9/dc2/class_alarmable_manager.html#a39f8c94eeaadb8bf6ff5b53ac8652d48">AlarmEvent</a>&gt;::iterator</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e03249dd9ce4f07a2846305c4025701"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e03249dd9ce4f07a2846305c4025701">&#9670;&nbsp;</a></span>TimelineMapPair</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d9/dc2/class_alarmable_manager.html#a9e03249dd9ce4f07a2846305c4025701">AlarmableManager::TimelineMapPair</a> =  std::pair&lt;float, <a class="el" href="../../d9/dc2/class_alarmable_manager.html#a39f8c94eeaadb8bf6ff5b53ac8652d48">AlarmEvent</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -219,14 +242,14 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a807311e20f7a88b1d01f5df1173f01d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a807311e20f7a88b1d01f5df1173f01d1">&#9670;&nbsp;</a></span>Deregister()</h2>
+<a id="af4d64f8a892a8116be0209a8da8b3335"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4d64f8a892a8116be0209a8da8b3335">&#9670;&nbsp;</a></span>GetRemainingTime()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AlarmableManager::Deregister </td>
+          <td class="memname">float AlarmableManager::GetRemainingTime </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> *&#160;</td>
           <td class="paramname"><em>al</em>, </td>
@@ -247,9 +270,57 @@ Friends</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dc2/class_alarmable_manager_a807311e20f7a88b1d01f5df1173f01d1_cgraph.png" border="0" usemap="#d9/dc2/class_alarmable_manager_a807311e20f7a88b1d01f5df1173f01d1_cgraph" alt=""/></div>
-<map name="d9/dc2/class_alarmable_manager_a807311e20f7a88b1d01f5df1173f01d1_cgraph" id="d9/dc2/class_alarmable_manager_a807311e20f7a88b1d01f5df1173f01d1_cgraph">
-<area shape="rect" id="node2" href="../../d7/db6/class_alarmable.html#aca065da67aa7ec31b576021c923a3df4" title="Alarmable::GetIterator" alt="" coords="251,5,400,32"/>
+<div class="center"><img src="../../d9/dc2/class_alarmable_manager_af4d64f8a892a8116be0209a8da8b3335_cgraph.png" border="0" usemap="#d9/dc2/class_alarmable_manager_af4d64f8a892a8116be0209a8da8b3335_cgraph" alt=""/></div>
+<map name="d9/dc2/class_alarmable_manager_af4d64f8a892a8116be0209a8da8b3335_cgraph" id="d9/dc2/class_alarmable_manager_af4d64f8a892a8116be0209a8da8b3335_cgraph">
+<area shape="rect" id="node2" href="../../d9/d7f/class_time_manager.html#a8c23b80f63a5c0e1c4b99a1175c787f0" title="TimeManager::GetTimeSeconds" alt="" coords="301,105,509,132"/>
+<area shape="rect" id="node3" href="../../d9/d7f/class_time_manager.html#a9bb9e5390526b32783b94adb728604fa" title="TimeManager::Instance" alt="" coords="1770,7,1927,33"/>
+<area shape="rect" id="node5" href="../../d9/d7f/class_time_manager.html#ac9af63541adfa2370963e30921a1b076" title="Returns the time in seconds (takes into account frozen time). " alt="" coords="557,195,733,237"/>
+<area shape="rect" id="node4" href="../../d9/d7f/class_time_manager.html#ab1c3cbb48ad68d928bb8b9a4ef210ed6" title="TimeManager::TimeManager" alt="" coords="2020,5,2207,32"/>
+<area shape="rect" id="node6" href="../../d6/d4b/class_mithril_engine.html#a2a32c9096f22918ff8778cb867490ab2" title="Returns the time elapsed in seconds. " alt="" coords="781,340,987,367"/>
+<area shape="rect" id="node7" href="../../d6/d4b/class_mithril_engine.html#a727ba0587d07d9e644b6741a6d82492d" title="MithrilEngine::Instance" alt="" coords="1035,405,1189,432"/>
+<area shape="rect" id="node8" href="../../d8/dee/group___mithril_engine.html#ga63ee007e6957aac92cde5c252a278eef" title="MithrilEngine constructor. " alt="" coords="1237,608,1417,635"/>
+<area shape="rect" id="node9" href="../../d6/d4b/class_mithril_engine.html#acd03e00161d7a4bd4da9ef2514b7e6a5" title="MithrilEngine::Initialize" alt="" coords="1251,709,1403,736"/>
+<area shape="rect" id="node10" href="../../d6/d4b/class_mithril_engine.html#aef708cdc73caeb8a2dbe0c2a4ef73723" title="MithrilEngine::GameInitialize" alt="" coords="1483,709,1670,736"/>
+<area shape="rect" id="node11" href="../../d6/d4b/class_mithril_engine.html#a7c6f9cada15f3697711b79ee82a95424" title="MithrilEngine::LoadContent" alt="" coords="1238,557,1417,584"/>
+<area shape="rect" id="node12" href="../../d6/d4b/class_mithril_engine.html#a58deb29be139002bd071f4bce1bbc5ea" title="MithrilEngine::LoadResources" alt="" coords="1479,545,1674,572"/>
+<area shape="rect" id="node21" href="../../d6/d4b/class_mithril_engine.html#a6674a1e85950edb9ec1ff6bc59c389b0" title="MithrilEngine::Update" alt="" coords="1254,199,1401,225"/>
+<area shape="rect" id="node32" href="../../d6/d4b/class_mithril_engine.html#a986bedb0afc6dca1ef05a8e34ff45583" title="MithrilEngine::Draw" alt="" coords="1260,253,1395,280"/>
+<area shape="rect" id="node36" href="../../d6/d4b/class_mithril_engine.html#a6f70d8757a3599e5a2235d94a93aeac4" title="MithrilEngine::UnLoadContent" alt="" coords="1479,469,1674,496"/>
+<area shape="rect" id="node48" href="../../d6/d4b/class_mithril_engine.html#a9f222a2729e64a91f226e8063ec5fbf6" title="Calls Run() on the engine class. " alt="" coords="1263,304,1391,331"/>
+<area shape="rect" id="node49" href="../../d6/d4b/class_mithril_engine.html#a3aca612ace4670ea15127a27d23e2a38" title="Returns the width of the current window. " alt="" coords="1247,355,1407,381"/>
+<area shape="rect" id="node50" href="../../d6/d4b/class_mithril_engine.html#a8dbd0268139dd53ded75463dc3cb33c8" title="Returns the height of the current window. " alt="" coords="1246,405,1409,432"/>
+<area shape="rect" id="node13" href="../../d3/d4f/class_visualizer.html#a3fd0f918788ec72dcdba602cd4c31e75" title="Visualizer::CreateSphere" alt="" coords="1493,659,1660,685"/>
+<area shape="rect" id="node14" href="../../d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="2299,788,2435,815"/>
+<area shape="rect" id="node16" href="../../d3/d4f/class_visualizer.html#ae3355213720d4cbb3bc930b81108e6f9" title="Visualizer::privCreateBSphere" alt="" coords="1751,660,1946,687"/>
+<area shape="rect" id="node15" href="../../d3/d4f/class_visualizer.html#a104487003c9fea602e26c072aae27efc" title="Visualizer::Visualizer" alt="" coords="2517,788,2661,815"/>
+<area shape="rect" id="node17" href="../../d3/d3a/class_model_manager.html#a7745c33907b48ae44618f21891cefc68" title="Returns a Model pointer by taking a key and searching the key in the map. " alt="" coords="2028,493,2199,520"/>
+<area shape="rect" id="node19" href="../../d2/d24/class_shader_manager.html#a3602d0674af7106d7bda9868197ee0c3" title="Returns a shader pointer by taking a key and searching the key in the map. " alt="" coords="2022,661,2205,688"/>
+<area shape="rect" id="node18" href="../../d3/d3a/class_model_manager.html#afb1fbe7bcd21494e661676b997008173" title="ModelManager::Instance" alt="" coords="2285,443,2449,469"/>
+<area shape="rect" id="node20" href="../../d2/d24/class_shader_manager.html#aeaa687b375b78eefcd836b5430ccfb99" title="ShaderManager::Instance" alt="" coords="2282,611,2453,637"/>
+<area shape="rect" id="node22" href="../../d0/dc3/class_scene_manager.html#a85354ba18a17aa2b2716c6404cc28d50" title="Calls Scene::Update() on the current scene. " alt="" coords="1465,191,1688,217"/>
+<area shape="rect" id="node29" href="../../d9/d7f/class_time_manager.html#a14e5786948c412a8b5c84cb092424a5d" title="TimeManager::ProcessTime" alt="" coords="1485,57,1669,84"/>
+<area shape="rect" id="node23" href="../../d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="2030,224,2197,251"/>
+<area shape="rect" id="node25" href="../../d0/dc3/class_scene_manager.html#a160955c83b4e5e58fdeef7142a767f83" title="SceneManager::privUpdate\lUpdatables" alt="" coords="1760,125,1937,166"/>
+<area shape="rect" id="node24" href="../../d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="2265,224,2469,251"/>
+<area shape="rect" id="node26" href="../../d0/dc3/class_scene_manager.html#a76ab147461953aeb9e5da97d0b5ae5c0" title="SceneManager::privChange\lScene" alt="" coords="2023,158,2203,199"/>
+<area shape="rect" id="node28" href="../../d6/db5/class_scene.html#a71a71b4f7752b853ff8032b0941a9d8d" title="Scene::Update" alt="" coords="2059,107,2167,133"/>
+<area shape="rect" id="node27" href="../../d6/db5/class_scene.html#afce99c578d2ea8375ea147705bef1e2f" title="Virtual function, called when a scene is terminated. " alt="" coords="2305,300,2429,327"/>
+<area shape="rect" id="node30" href="../../d9/d7f/class_time_manager.html#abb2dec3e58a74f84c4c5c016b9dfdeaf" title="Processes the amount of time spent frozen. " alt="" coords="1747,57,1950,84"/>
+<area shape="rect" id="node31" href="../../db/d12/class_freeze_time.html#a6b8e2973842e0832bcd6482d9d4b6bd1" title="Return the frozen time in seconds. " alt="" coords="2009,56,2217,83"/>
+<area shape="rect" id="node33" href="../../d0/dc3/class_scene_manager.html#a01652b7aacfa1a8df974e9152cee7913" title="Calls Scene::Draw() on the current scene. " alt="" coords="1473,253,1680,280"/>
+<area shape="rect" id="node34" href="../../d0/dc3/class_scene_manager.html#a74ac0f30e64b10476729ce54b2189bf5" title="SceneManager::privDrawDrawables" alt="" coords="1736,292,1961,319"/>
+<area shape="rect" id="node35" href="../../d6/db5/class_scene.html#a4813338ee7c6c995f5bb6f10e3673804" title="Scene::Draw" alt="" coords="2065,275,2161,301"/>
+<area shape="rect" id="node37" href="../../d0/dc3/class_scene_manager.html#ab05844a5cadb0305e5d5a7abd8c091bd" title="Calls Scene::Terminate() on the current scene. " alt="" coords="1761,343,1936,369"/>
+<area shape="rect" id="node39" href="../../d2/d24/class_shader_manager.html#a5ef1975239b18efa12c0b4df25c91d26" title="Unloads the shaders from the map and deletes their associated pointers. " alt="" coords="1744,552,1953,579"/>
+<area shape="rect" id="node41" href="../../d3/d3a/class_model_manager.html#a80074e0df7bf05faf4eb762940da8cd5" title="Unloaded models, deletes them from the map. " alt="" coords="1750,443,1947,469"/>
+<area shape="rect" id="node43" href="../../db/ddf/class_texture_manager.html#ad09e991a4111060447d43e7fd959f945" title="Unloads the textures from the map and deletes their associated pointers. " alt="" coords="1742,915,1955,941"/>
+<area shape="rect" id="node46" href="../../d3/d4f/class_visualizer.html#a61597f4a1cdb82452a2e761cb52b9024" title="Terminates the Visualizer. " alt="" coords="1777,763,1921,789"/>
+<area shape="rect" id="node38" href="../../d0/dc3/class_scene_manager.html#ad4a7bf6aeefe87e72e65c0dd483bca2d" title="SceneManager::privTerminate" alt="" coords="2017,325,2210,352"/>
+<area shape="rect" id="node40" href="../../d2/d24/class_shader_manager.html#a10bb2c5fb9f095249e2367c6d486fa34" title="ShaderManager::privUnload\lShaders" alt="" coords="2023,545,2203,586"/>
+<area shape="rect" id="node42" href="../../d3/d3a/class_model_manager.html#a5264d3833b402cbfba6dc19cabb83103" title="ModelManager::privUnload\lModels" alt="" coords="2026,377,2201,418"/>
+<area shape="rect" id="node44" href="../../db/ddf/class_texture_manager.html#a81a2f2ac1876be84e0a0a472199679d5" title="TextureManager::Instance" alt="" coords="2281,944,2453,971"/>
+<area shape="rect" id="node45" href="../../db/ddf/class_texture_manager.html#a0847e8464376cf239fa98608155add1b" title="TextureManager::privUnload\lTextures" alt="" coords="2022,966,2205,1007"/>
+<area shape="rect" id="node47" href="../../d3/d4f/class_visualizer.html#a5dd16607ead98f5cdd003529c6e7ab73" title="Visualizer::privTerminate" alt="" coords="2032,813,2195,840"/>
 </map>
 </div>
 
@@ -309,52 +380,6 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="../../d9/dc2/class_alarmable_manager_aabae07d0f95b74228dc50c0c0cb80e10_cgraph.png" border="0" usemap="#d9/dc2/class_alarmable_manager_aabae07d0f95b74228dc50c0c0cb80e10_cgraph" alt=""/></div>
 <map name="d9/dc2/class_alarmable_manager_aabae07d0f95b74228dc50c0c0cb80e10_cgraph" id="d9/dc2/class_alarmable_manager_aabae07d0f95b74228dc50c0c0cb80e10_cgraph">
 <area shape="rect" id="node2" href="../../d9/d7f/class_time_manager.html#abc678da7dd58d16cea641f5f0d0392a7" title="TimeManager::GetFrameTime" alt="" coords="240,31,435,57"/>
-<area shape="rect" id="node3" href="../../d9/d7f/class_time_manager.html#a9bb9e5390526b32783b94adb728604fa" title="TimeManager::Instance" alt="" coords="511,5,668,32"/>
-<area shape="rect" id="node5" href="../../d9/d7f/class_time_manager.html#a613cea801de384ab2608a34cbaab2444" title="Returns the time it took (in seconds) to process a single frame. " alt="" coords="483,56,696,83"/>
-<area shape="rect" id="node4" href="../../d9/d7f/class_time_manager.html#ab1c3cbb48ad68d928bb8b9a4ef210ed6" title="TimeManager::TimeManager" alt="" coords="744,5,931,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a3ac7530be1a1856e3d2699108d978c43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ac7530be1a1856e3d2699108d978c43">&#9670;&nbsp;</a></span>Register()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AlarmableManager::Register </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>t</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> *&#160;</td>
-          <td class="paramname"><em>dr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a>&#160;</td>
-          <td class="paramname"><em>ID</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d9/dc2/class_alarmable_manager_a3ac7530be1a1856e3d2699108d978c43_cgraph.png" border="0" usemap="#d9/dc2/class_alarmable_manager_a3ac7530be1a1856e3d2699108d978c43_cgraph" alt=""/></div>
-<map name="d9/dc2/class_alarmable_manager_a3ac7530be1a1856e3d2699108d978c43_cgraph" id="d9/dc2/class_alarmable_manager_a3ac7530be1a1856e3d2699108d978c43_cgraph">
-<area shape="rect" id="node2" href="../../d9/d7f/class_time_manager.html#abc678da7dd58d16cea641f5f0d0392a7" title="TimeManager::GetFrameTime" alt="" coords="240,31,435,57"/>
-<area shape="rect" id="node6" href="../../d7/db6/class_alarmable.html#aef558f6ec78932378b9e71bd13109ad1" title="Alarmable::SetIterator" alt="" coords="263,81,411,108"/>
 <area shape="rect" id="node3" href="../../d9/d7f/class_time_manager.html#a9bb9e5390526b32783b94adb728604fa" title="TimeManager::Instance" alt="" coords="511,5,668,32"/>
 <area shape="rect" id="node5" href="../../d9/d7f/class_time_manager.html#a613cea801de384ab2608a34cbaab2444" title="Returns the time it took (in seconds) to process a single frame. " alt="" coords="483,56,696,83"/>
 <area shape="rect" id="node4" href="../../d9/d7f/class_time_manager.html#ab1c3cbb48ad68d928bb8b9a4ef210ed6" title="TimeManager::TimeManager" alt="" coords="744,5,931,32"/>

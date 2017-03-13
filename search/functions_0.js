@@ -1,6 +1,7 @@
 var searchData=
 [
   ['addcommand',['AddCommand',['../d8/d4e/class_scene_registration_broker.html#a64a63b2d841f223142218156e6f62caa',1,'SceneRegistrationBroker']]],
+  ['addtime',['AddTime',['../d7/db6/class_alarmable.html#ab38f34e2a7461e167e31b39745ea5222',1,'Alarmable::AddTime()'],['../d5/dcb/group___alarms.html#gaeff6ef905f27ff24baf42b258d9e6505',1,'AlarmableManager::AddTime()'],['../d6/db5/class_scene.html#abcba6f1f458a4353577c070d26bd602e',1,'Scene::AddTime()']]],
   ['alarm0',['Alarm0',['../d5/dcb/group___alarms.html#gae11aa44ab7d7831064855ba43b711523',1,'Alarmable']]],
   ['alarm1',['Alarm1',['../d5/dcb/group___alarms.html#ga6a99dfd0c36c869de61c70b286ae4efe',1,'Alarmable']]],
   ['alarm2',['Alarm2',['../d5/dcb/group___alarms.html#gae5832d9c3d9a67122e36590cefee40b1',1,'Alarmable']]],

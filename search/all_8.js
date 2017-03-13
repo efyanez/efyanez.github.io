@@ -7,7 +7,7 @@ var searchData=
   ['indianred',['IndianRed',['../db/dad/namespace_colors.html#a4788d390fbb9d15ac04b7a1154fd2186',1,'Colors']]],
   ['indigo',['Indigo',['../db/dad/namespace_colors.html#a144f50ddcbe25eee5fb48eee890b457d',1,'Colors']]],
   ['initialize',['Initialize',['../d6/d4b/class_mithril_engine.html#acd03e00161d7a4bd4da9ef2514b7e6a5',1,'MithrilEngine::Initialize()'],['../d6/db5/class_scene.html#aafd7510b1309c6ba864791c429870959',1,'Scene::Initialize()']]],
-  ['initializestartscene',['InitializeStartScene',['../d0/dc3/class_scene_manager.html#ac4368af4b58fc7867772334833149326',1,'SceneManager']]],
+  ['initializecurrentscene',['InitializeCurrentScene',['../d0/dc3/class_scene_manager.html#af1451ea62fb9f96d822e2298a37d5710',1,'SceneManager']]],
   ['input',['Input',['../d0/dec/group___input.html',1,'']]],
   ['inputable',['Inputable',['../d6/d0f/class_inputable.html',1,'Inputable'],['../d6/db5/class_scene.html#a8462bee41dd740daa99013b4fb6a1e84',1,'Scene::Inputable()'],['../d6/d0f/class_inputable.html#a191fd4624272222ea8344eabf9d26ead',1,'Inputable::Inputable()'],['../d6/d0f/class_inputable.html#a436e6b4f89c63f0ed7165a032f8a9cda',1,'Inputable::Inputable(const Inputable &amp;)=delete']]],
   ['inputable_2ecpp',['Inputable.cpp',['../d0/d0c/_inputable_8cpp.html',1,'']]],

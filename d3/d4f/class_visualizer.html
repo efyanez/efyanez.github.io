@@ -85,6 +85,8 @@ Collaboration diagram for Visualizer:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/dfc/class_visualizer__coll__graph.png" border="0" usemap="#_visualizer_coll__map" alt="Collaboration graph"/></div>
 <map name="_visualizer_coll__map" id="_visualizer_coll__map">
+<area shape="rect" id="node4" href="../../d8/d21/class_collision_volume_b_sphere.html" title="{CollisionVolumeBSphere\n|# center\l# radius\l# world\l|+ CollisionVolumeBSphere()\l+ ~CollisionVolumeBSphere()\l+ ComputeData()\l+ Intersect()\l+ Intersect()\l+ GetCenter()\l+ GetRadius()\l+ GetWorld()\l}" alt="" coords="84,220,277,429"/>
+<area shape="rect" id="node5" href="../../d5/d7c/class_collision_volume.html" title="{CollisionVolume\n||+ CollisionVolume()\l+ CollisionVolume()\l+ operator=()\l+ ~CollisionVolume()\l+ ComputeData()\l+ Intersect()\l+ Intersect()\l}" alt="" coords="109,5,252,171"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -95,6 +97,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a7f4e199bc42d4cc498bff560beb74d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fd0f918788ec72dcdba602cd4c31e75"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#a3fd0f918788ec72dcdba602cd4c31e75">CreateSphere</a> ()</td></tr>
 <tr class="separator:a3fd0f918788ec72dcdba602cd4c31e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61597f4a1cdb82452a2e761cb52b9024"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#a61597f4a1cdb82452a2e761cb52b9024">Terminate</a> ()</td></tr>
+<tr class="memdesc:a61597f4a1cdb82452a2e761cb52b9024"><td class="mdescLeft">&#160;</td><td class="mdescRight">Terminates the <a class="el" href="../../d3/d4f/class_visualizer.html">Visualizer</a>.  <a href="#a61597f4a1cdb82452a2e761cb52b9024">More...</a><br /></td></tr>
+<tr class="separator:a61597f4a1cdb82452a2e761cb52b9024"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -111,18 +116,20 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:ab60fb097dea0d4a74adf3d13f09d1396"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3355213720d4cbb3bc930b81108e6f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#ae3355213720d4cbb3bc930b81108e6f9">privCreateBSphere</a> ()</td></tr>
 <tr class="separator:ae3355213720d4cbb3bc930b81108e6f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dd16607ead98f5cdd003529c6e7ab73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#a5dd16607ead98f5cdd003529c6e7ab73">privTerminate</a> ()</td></tr>
+<tr class="separator:a5dd16607ead98f5cdd003529c6e7ab73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
 <tr class="memitem:ad4c7951128b7a02c6253e4a1e715fd59"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d3/d4f/class_visualizer.html">Visualizer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59">Instance</a> ()</td></tr>
 <tr class="separator:ad4c7951128b7a02c6253e4a1e715fd59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f965217cb559e5cdbd3fd1a6d855e20"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#a3f965217cb559e5cdbd3fd1a6d855e20">Delete</a> ()</td></tr>
-<tr class="separator:a3f965217cb559e5cdbd3fd1a6d855e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a3632f74b2f490d27fe7dbcdd46263e8d"><td class="memItemLeft" align="right" valign="top">GraphicsObject_WireframeConstantColor *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#a3632f74b2f490d27fe7dbcdd46263e8d">WFUnitSphere</a></td></tr>
 <tr class="separator:a3632f74b2f490d27fe7dbcdd46263e8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a440724df6c08704b629dff9a0e107eb7"><td class="memItemLeft" align="right" valign="top">std::list&lt; <a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4f/class_visualizer.html#a440724df6c08704b629dff9a0e107eb7">currentList</a></td></tr>
+<tr class="separator:a440724df6c08704b629dff9a0e107eb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -201,7 +208,7 @@ Static Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -236,45 +243,19 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/d4f/class_visualizer_a3fd0f918788ec72dcdba602cd4c31e75_cgraph.png" border="0" usemap="#d3/d4f/class_visualizer_a3fd0f918788ec72dcdba602cd4c31e75_cgraph" alt=""/></div>
 <map name="d3/d4f/class_visualizer_a3fd0f918788ec72dcdba602cd4c31e75_cgraph" id="d3/d4f/class_visualizer_a3fd0f918788ec72dcdba602cd4c31e75_cgraph">
-<area shape="rect" id="node2" href="../../d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="486,56,622,83"/>
-<area shape="rect" id="node5" href="../../d3/d4f/class_visualizer.html#ae3355213720d4cbb3bc930b81108e6f9" title="Visualizer::privCreateBSphere" alt="" coords="220,107,415,133"/>
+<area shape="rect" id="node2" href="../../d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="486,31,622,57"/>
+<area shape="rect" id="node4" href="../../d3/d4f/class_visualizer.html#ae3355213720d4cbb3bc930b81108e6f9" title="Visualizer::privCreateBSphere" alt="" coords="220,81,415,108"/>
 <area shape="rect" id="node3" href="../../d3/d4f/class_visualizer.html#a104487003c9fea602e26c072aae27efc" title="Visualizer::Visualizer" alt="" coords="723,5,867,32"/>
-<area shape="rect" id="node4" href="../../d3/d4f/class_visualizer.html#a3f965217cb559e5cdbd3fd1a6d855e20" title="Visualizer::Delete" alt="" coords="733,56,857,83"/>
-<area shape="rect" id="node6" href="../../d3/d3a/class_model_manager.html#a7745c33907b48ae44618f21891cefc68" title="Returns a Model pointer by taking a key and searching the key in the map. " alt="" coords="469,107,639,133"/>
-<area shape="rect" id="node10" href="../../d2/d24/class_shader_manager.html#a3602d0674af7106d7bda9868197ee0c3" title="Returns a shader pointer by taking a key and searching the key in the map. " alt="" coords="463,208,645,235"/>
-<area shape="rect" id="node7" href="../../d3/d3a/class_model_manager.html#afb1fbe7bcd21494e661676b997008173" title="ModelManager::Instance" alt="" coords="947,132,1111,159"/>
-<area shape="rect" id="node9" href="../../d3/d3a/class_model_manager.html#ab7702528e07736b75e24b3ff37075250" title="ModelManager::privGetModel" alt="" coords="699,157,890,184"/>
-<area shape="rect" id="node8" href="../../d3/d3a/class_model_manager.html#a9b0d22b1baf59c5b566e82fcd8ca424a" title="ModelManager::ModelManager" alt="" coords="1169,132,1369,159"/>
-<area shape="rect" id="node11" href="../../d2/d24/class_shader_manager.html#aeaa687b375b78eefcd836b5430ccfb99" title="ShaderManager::Instance" alt="" coords="944,233,1115,260"/>
-<area shape="rect" id="node13" href="../../d2/d24/class_shader_manager.html#aa831d17276ee7bfdb90d1c99e2c75613" title="ShaderManager::privGetShader" alt="" coords="693,259,896,285"/>
-<area shape="rect" id="node12" href="../../d2/d24/class_shader_manager.html#aca25f81fd10a02b3e97e9c459b864186" title="ShaderManager::ShaderManager" alt="" coords="1163,233,1375,260"/>
+<area shape="rect" id="node5" href="../../d3/d3a/class_model_manager.html#a7745c33907b48ae44618f21891cefc68" title="Returns a Model pointer by taking a key and searching the key in the map. " alt="" coords="469,81,639,108"/>
+<area shape="rect" id="node9" href="../../d2/d24/class_shader_manager.html#a3602d0674af7106d7bda9868197ee0c3" title="Returns a shader pointer by taking a key and searching the key in the map. " alt="" coords="463,157,645,184"/>
+<area shape="rect" id="node6" href="../../d3/d3a/class_model_manager.html#afb1fbe7bcd21494e661676b997008173" title="ModelManager::Instance" alt="" coords="947,81,1111,108"/>
+<area shape="rect" id="node8" href="../../d3/d3a/class_model_manager.html#ab7702528e07736b75e24b3ff37075250" title="ModelManager::privGetModel" alt="" coords="699,107,890,133"/>
+<area shape="rect" id="node7" href="../../d3/d3a/class_model_manager.html#a9b0d22b1baf59c5b566e82fcd8ca424a" title="ModelManager::ModelManager" alt="" coords="1169,81,1369,108"/>
+<area shape="rect" id="node10" href="../../d2/d24/class_shader_manager.html#aeaa687b375b78eefcd836b5430ccfb99" title="ShaderManager::Instance" alt="" coords="944,183,1115,209"/>
+<area shape="rect" id="node12" href="../../d2/d24/class_shader_manager.html#aa831d17276ee7bfdb90d1c99e2c75613" title="ShaderManager::privGetShader" alt="" coords="693,208,896,235"/>
+<area shape="rect" id="node11" href="../../d2/d24/class_shader_manager.html#aca25f81fd10a02b3e97e9c459b864186" title="ShaderManager::ShaderManager" alt="" coords="1163,183,1375,209"/>
 </map>
 </div>
-
-</div>
-</div>
-<a id="a3f965217cb559e5cdbd3fd1a6d855e20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f965217cb559e5cdbd3fd1a6d855e20">&#9670;&nbsp;</a></span>Delete()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Visualizer::Delete </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -306,7 +287,6 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="../../d3/d4f/class_visualizer_ad4c7951128b7a02c6253e4a1e715fd59_cgraph.png" border="0" usemap="#d3/d4f/class_visualizer_ad4c7951128b7a02c6253e4a1e715fd59_cgraph" alt=""/></div>
 <map name="d3/d4f/class_visualizer_ad4c7951128b7a02c6253e4a1e715fd59_cgraph" id="d3/d4f/class_visualizer_ad4c7951128b7a02c6253e4a1e715fd59_cgraph">
 <area shape="rect" id="node2" href="../../d3/d4f/class_visualizer.html#a104487003c9fea602e26c072aae27efc" title="Visualizer::Visualizer" alt="" coords="189,5,333,32"/>
-<area shape="rect" id="node3" href="../../d3/d4f/class_visualizer.html#a3f965217cb559e5cdbd3fd1a6d855e20" title="Visualizer::Delete" alt="" coords="199,56,323,83"/>
 </map>
 </div>
 
@@ -335,6 +315,14 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/d4f/class_visualizer_a519945d637b5dbaf07d44176026a7c4f_cgraph.png" border="0" usemap="#d3/d4f/class_visualizer_a519945d637b5dbaf07d44176026a7c4f_cgraph" alt=""/></div>
+<map name="d3/d4f/class_visualizer_a519945d637b5dbaf07d44176026a7c4f_cgraph" id="d3/d4f/class_visualizer_a519945d637b5dbaf07d44176026a7c4f_cgraph">
+<area shape="rect" id="node2" href="../../d3/d4f/class_visualizer.html#a013ec3101407fbe4805f289bc32d1265" title="Visualizer::~Visualizer" alt="" coords="196,5,348,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -365,17 +353,16 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/d4f/class_visualizer_ae3355213720d4cbb3bc930b81108e6f9_cgraph.png" border="0" usemap="#d3/d4f/class_visualizer_ae3355213720d4cbb3bc930b81108e6f9_cgraph" alt=""/></div>
 <map name="d3/d4f/class_visualizer_ae3355213720d4cbb3bc930b81108e6f9_cgraph" id="d3/d4f/class_visualizer_ae3355213720d4cbb3bc930b81108e6f9_cgraph">
-<area shape="rect" id="node2" href="../../d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="271,56,407,83"/>
-<area shape="rect" id="node5" href="../../d3/d3a/class_model_manager.html#a7745c33907b48ae44618f21891cefc68" title="Returns a Model pointer by taking a key and searching the key in the map. " alt="" coords="254,132,425,159"/>
-<area shape="rect" id="node9" href="../../d2/d24/class_shader_manager.html#a3602d0674af7106d7bda9868197ee0c3" title="Returns a shader pointer by taking a key and searching the key in the map. " alt="" coords="248,208,431,235"/>
+<area shape="rect" id="node2" href="../../d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="271,19,407,45"/>
+<area shape="rect" id="node4" href="../../d3/d3a/class_model_manager.html#a7745c33907b48ae44618f21891cefc68" title="Returns a Model pointer by taking a key and searching the key in the map. " alt="" coords="254,81,425,108"/>
+<area shape="rect" id="node8" href="../../d2/d24/class_shader_manager.html#a3602d0674af7106d7bda9868197ee0c3" title="Returns a shader pointer by taking a key and searching the key in the map. " alt="" coords="248,157,431,184"/>
 <area shape="rect" id="node3" href="../../d3/d4f/class_visualizer.html#a104487003c9fea602e26c072aae27efc" title="Visualizer::Visualizer" alt="" coords="508,5,652,32"/>
-<area shape="rect" id="node4" href="../../d3/d4f/class_visualizer.html#a3f965217cb559e5cdbd3fd1a6d855e20" title="Visualizer::Delete" alt="" coords="518,56,642,83"/>
-<area shape="rect" id="node6" href="../../d3/d3a/class_model_manager.html#afb1fbe7bcd21494e661676b997008173" title="ModelManager::Instance" alt="" coords="733,132,897,159"/>
-<area shape="rect" id="node8" href="../../d3/d3a/class_model_manager.html#ab7702528e07736b75e24b3ff37075250" title="ModelManager::privGetModel" alt="" coords="485,157,675,184"/>
-<area shape="rect" id="node7" href="../../d3/d3a/class_model_manager.html#a9b0d22b1baf59c5b566e82fcd8ca424a" title="ModelManager::ModelManager" alt="" coords="954,132,1154,159"/>
-<area shape="rect" id="node10" href="../../d2/d24/class_shader_manager.html#aeaa687b375b78eefcd836b5430ccfb99" title="ShaderManager::Instance" alt="" coords="729,233,900,260"/>
-<area shape="rect" id="node12" href="../../d2/d24/class_shader_manager.html#aa831d17276ee7bfdb90d1c99e2c75613" title="ShaderManager::privGetShader" alt="" coords="479,259,681,285"/>
-<area shape="rect" id="node11" href="../../d2/d24/class_shader_manager.html#aca25f81fd10a02b3e97e9c459b864186" title="ShaderManager::ShaderManager" alt="" coords="948,233,1160,260"/>
+<area shape="rect" id="node5" href="../../d3/d3a/class_model_manager.html#afb1fbe7bcd21494e661676b997008173" title="ModelManager::Instance" alt="" coords="733,81,897,108"/>
+<area shape="rect" id="node7" href="../../d3/d3a/class_model_manager.html#ab7702528e07736b75e24b3ff37075250" title="ModelManager::privGetModel" alt="" coords="485,107,675,133"/>
+<area shape="rect" id="node6" href="../../d3/d3a/class_model_manager.html#a9b0d22b1baf59c5b566e82fcd8ca424a" title="ModelManager::ModelManager" alt="" coords="954,81,1154,108"/>
+<area shape="rect" id="node9" href="../../d2/d24/class_shader_manager.html#aeaa687b375b78eefcd836b5430ccfb99" title="ShaderManager::Instance" alt="" coords="729,183,900,209"/>
+<area shape="rect" id="node11" href="../../d2/d24/class_shader_manager.html#aa831d17276ee7bfdb90d1c99e2c75613" title="ShaderManager::privGetShader" alt="" coords="479,208,681,235"/>
+<area shape="rect" id="node10" href="../../d2/d24/class_shader_manager.html#aca25f81fd10a02b3e97e9c459b864186" title="ShaderManager::ShaderManager" alt="" coords="948,183,1160,209"/>
 </map>
 </div>
 
@@ -428,13 +415,46 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/d4f/class_visualizer_ab60fb097dea0d4a74adf3d13f09d1396_cgraph.png" border="0" usemap="#d3/d4f/class_visualizer_ab60fb097dea0d4a74adf3d13f09d1396_cgraph" alt=""/></div>
 <map name="d3/d4f/class_visualizer_ab60fb097dea0d4a74adf3d13f09d1396_cgraph" id="d3/d4f/class_visualizer_ab60fb097dea0d4a74adf3d13f09d1396_cgraph">
-<area shape="rect" id="node2" href="../../d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="273,55,409,81"/>
-<area shape="rect" id="node5" href="../../d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="251,106,431,147"/>
+<area shape="rect" id="node2" href="../../d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="273,5,409,32"/>
+<area shape="rect" id="node4" href="../../d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="251,57,431,98"/>
 <area shape="rect" id="node3" href="../../d3/d4f/class_visualizer.html#a104487003c9fea602e26c072aae27efc" title="Visualizer::Visualizer" alt="" coords="506,5,650,32"/>
-<area shape="rect" id="node4" href="../../d3/d4f/class_visualizer.html#a3f965217cb559e5cdbd3fd1a6d855e20" title="Visualizer::Delete" alt="" coords="516,56,640,83"/>
-<area shape="rect" id="node6" href="../../d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="495,111,661,137"/>
-<area shape="rect" id="node8" href="../../d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7" title="SceneManager::privGetCurrent\lScene" alt="" coords="479,162,677,203"/>
-<area shape="rect" id="node7" href="../../d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="725,111,929,137"/>
+<area shape="rect" id="node5" href="../../d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="495,60,661,87"/>
+<area shape="rect" id="node7" href="../../d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7" title="SceneManager::privGetCurrent\lScene" alt="" coords="479,111,677,153"/>
+<area shape="rect" id="node6" href="../../d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="725,60,929,87"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5dd16607ead98f5cdd003529c6e7ab73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dd16607ead98f5cdd003529c6e7ab73">&#9670;&nbsp;</a></span>privTerminate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Visualizer::privTerminate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/d4f/class_visualizer_a5dd16607ead98f5cdd003529c6e7ab73_cgraph.png" border="0" usemap="#d3/d4f/class_visualizer_a5dd16607ead98f5cdd003529c6e7ab73_cgraph" alt=""/></div>
+<map name="d3/d4f/class_visualizer_a5dd16607ead98f5cdd003529c6e7ab73_cgraph" id="d3/d4f/class_visualizer_a5dd16607ead98f5cdd003529c6e7ab73_cgraph">
+<area shape="rect" id="node2" href="../../d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="216,5,352,32"/>
+<area shape="rect" id="node3" href="../../d3/d4f/class_visualizer.html#a104487003c9fea602e26c072aae27efc" title="Visualizer::Visualizer" alt="" coords="400,5,544,32"/>
 </map>
 </div>
 
@@ -487,21 +507,79 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/d4f/class_visualizer_a7f4e199bc42d4cc498bff560beb74d4f_cgraph.png" border="0" usemap="#d3/d4f/class_visualizer_a7f4e199bc42d4cc498bff560beb74d4f_cgraph" alt=""/></div>
 <map name="d3/d4f/class_visualizer_a7f4e199bc42d4cc498bff560beb74d4f_cgraph" id="d3/d4f/class_visualizer_a7f4e199bc42d4cc498bff560beb74d4f_cgraph">
-<area shape="rect" id="node2" href="../../d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="481,55,617,81"/>
-<area shape="rect" id="node5" href="../../d3/d4f/class_visualizer.html#ab60fb097dea0d4a74adf3d13f09d1396" title="Private non&#45;static function to render BSphere wireframe object. " alt="" coords="213,105,411,132"/>
-<area shape="rect" id="node10" href="../../d8/d21/class_collision_volume_b_sphere.html#a6b896f09786c4f572ff6e9ddb933c42f" title="Returns the world matrix of the BSphere. " alt="" coords="229,157,395,198"/>
+<area shape="rect" id="node2" href="../../d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="481,5,617,32"/>
+<area shape="rect" id="node4" href="../../d3/d4f/class_visualizer.html#ab60fb097dea0d4a74adf3d13f09d1396" title="Private non&#45;static function to render BSphere wireframe object. " alt="" coords="213,56,411,83"/>
+<area shape="rect" id="node9" href="../../d8/d21/class_collision_volume_b_sphere.html#a6b896f09786c4f572ff6e9ddb933c42f" title="Returns the world matrix of the BSphere. " alt="" coords="229,107,395,149"/>
 <area shape="rect" id="node3" href="../../d3/d4f/class_visualizer.html#a104487003c9fea602e26c072aae27efc" title="Visualizer::Visualizer" alt="" coords="714,5,858,32"/>
-<area shape="rect" id="node4" href="../../d3/d4f/class_visualizer.html#a3f965217cb559e5cdbd3fd1a6d855e20" title="Visualizer::Delete" alt="" coords="724,56,848,83"/>
-<area shape="rect" id="node6" href="../../d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="459,106,639,147"/>
-<area shape="rect" id="node7" href="../../d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="703,111,869,137"/>
-<area shape="rect" id="node9" href="../../d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7" title="SceneManager::privGetCurrent\lScene" alt="" coords="687,162,885,203"/>
-<area shape="rect" id="node8" href="../../d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="933,111,1137,137"/>
+<area shape="rect" id="node5" href="../../d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="459,57,639,98"/>
+<area shape="rect" id="node6" href="../../d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="703,60,869,87"/>
+<area shape="rect" id="node8" href="../../d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7" title="SceneManager::privGetCurrent\lScene" alt="" coords="687,111,885,153"/>
+<area shape="rect" id="node7" href="../../d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="933,60,1137,87"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a61597f4a1cdb82452a2e761cb52b9024"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61597f4a1cdb82452a2e761cb52b9024">&#9670;&nbsp;</a></span>Terminate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Visualizer::Terminate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Terminates the <a class="el" href="../../d3/d4f/class_visualizer.html">Visualizer</a>. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/d4f/class_visualizer_a61597f4a1cdb82452a2e761cb52b9024_cgraph.png" border="0" usemap="#d3/d4f/class_visualizer_a61597f4a1cdb82452a2e761cb52b9024_cgraph" alt=""/></div>
+<map name="d3/d4f/class_visualizer_a61597f4a1cdb82452a2e761cb52b9024_cgraph" id="d3/d4f/class_visualizer_a61597f4a1cdb82452a2e761cb52b9024_cgraph">
+<area shape="rect" id="node2" href="../../d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="408,5,544,32"/>
+<area shape="rect" id="node4" href="../../d3/d4f/class_visualizer.html#a5dd16607ead98f5cdd003529c6e7ab73" title="Visualizer::privTerminate" alt="" coords="197,31,360,57"/>
+<area shape="rect" id="node3" href="../../d3/d4f/class_visualizer.html#a104487003c9fea602e26c072aae27efc" title="Visualizer::Visualizer" alt="" coords="592,5,736,32"/>
 </map>
 </div>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a440724df6c08704b629dff9a0e107eb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a440724df6c08704b629dff9a0e107eb7">&#9670;&nbsp;</a></span>currentList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt;<a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a>*&gt; Visualizer::currentList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9fe571d7d003bad427bb15648685b679"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9fe571d7d003bad427bb15648685b679">&#9670;&nbsp;</a></span>DEFAULT_COLOR</h2>
 

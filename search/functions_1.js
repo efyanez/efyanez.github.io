@@ -2,7 +2,7 @@ var searchData=
 [
   ['camdir',['CamDir',['../dd/d22/_god_camera_8cpp.html#aeaff06cd79a230d917fae3dfe536409a',1,'GodCamera.cpp']]],
   ['cameramanager',['CameraManager',['../d2/d23/class_camera_manager.html#ab66d897f3d5f01efe7e4368f16c42d7f',1,'CameraManager::CameraManager()'],['../d2/d23/class_camera_manager.html#a77db53a4988c985191572b7ed31d87c8',1,'CameraManager::CameraManager(const CameraManager &amp;)']]],
-  ['campos',['CamPos',['../dd/d22/_god_camera_8cpp.html#a5d62048ffb151861e77f5764285839e4',1,'GodCamera.cpp']]],
+  ['campos',['CamPos',['../dd/d22/_god_camera_8cpp.html#aba5f153f4ae67abfc445cbcbe48b06c1',1,'GodCamera.cpp']]],
   ['camrot',['CamRot',['../dd/d22/_god_camera_8cpp.html#a2f40b7155f991e81ff21eda6592bd1a5',1,'GodCamera.cpp']]],
   ['camup',['CamUp',['../dd/d22/_god_camera_8cpp.html#a678086598374ae211cecfa42ff3e23aa',1,'GodCamera.cpp']]],
   ['changescene',['ChangeScene',['../d0/dc3/class_scene_manager.html#a470d087f9b394c68aa69ba6d05c2aec1',1,'SceneManager']]],
@@ -19,7 +19,7 @@ var searchData=
   ['collisiontestpaircommand',['CollisionTestPairCommand',['../d2/d68/class_collision_test_pair_command.html#ac2672cbd7785424631a854f878d3c274',1,'CollisionTestPairCommand']]],
   ['collisiontestselfcommand',['CollisionTestSelfCommand',['../d5/d3c/class_collision_test_self_command.html#a3ed6730414fc98b9ab7ab60e4c71ff32',1,'CollisionTestSelfCommand']]],
   ['collisionvolume',['CollisionVolume',['../d8/d51/group___collisions.html#gaa7727339e04efff3f200438d2082239c',1,'CollisionVolume::CollisionVolume()'],['../d5/d7c/class_collision_volume.html#af6934269437b8bd7b94429525b05c356',1,'CollisionVolume::CollisionVolume(const CollisionVolume &amp;)=delete']]],
-  ['collisionvolumebsphere',['CollisionVolumeBSphere',['../d8/d51/group___collisions.html#ga8629fbb2cb8472550409cc0fd0f756a4',1,'CollisionVolumeBSphere::CollisionVolumeBSphere()'],['../d8/d21/class_collision_volume_b_sphere.html#a82d089533680af6511654038caaa5db3',1,'CollisionVolumeBSphere::CollisionVolumeBSphere(const CollisionVolume &amp;)=delete']]],
+  ['collisionvolumebsphere',['CollisionVolumeBSphere',['../d8/d51/group___collisions.html#ga8629fbb2cb8472550409cc0fd0f756a4',1,'CollisionVolumeBSphere']]],
   ['commandbase',['CommandBase',['../db/db6/class_command_base.html#af42de9fe79dc64fce99580ee1e2f678f',1,'CommandBase::CommandBase()'],['../db/db6/class_command_base.html#a0ea513afd2430bed3150efc31f0138b4',1,'CommandBase::CommandBase(const CommandBase &amp;)=delete']]],
   ['computedata',['ComputeData',['../d5/d7c/class_collision_volume.html#ad9174aa61b924ebc9f54af78a4f0df63',1,'CollisionVolume::ComputeData()'],['../d8/d21/class_collision_volume_b_sphere.html#af31253fd2080b95e7f90a4ff0754342a',1,'CollisionVolumeBSphere::ComputeData()']]],
   ['connecttoscene',['ConnectToScene',['../d0/dd1/class_game_object.html#ac1b3409129559bfc11845d6437c3d587',1,'GameObject']]],

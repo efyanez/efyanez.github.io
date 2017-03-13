@@ -1,4 +1,4 @@
 <map id="Scene::Deregister" name="Scene::Deregister">
-<area shape="rect" id="node2" href="$d9/dc2/class_alarmable_manager.html#a807311e20f7a88b1d01f5df1173f01d1" title="AlarmableManager::Deregister" alt="" coords="180,5,377,32"/>
+<area shape="rect" id="node2" href="$d5/dcb/group___alarms.html#ga807311e20f7a88b1d01f5df1173f01d1" title="Deregisters the alarmable with the given ID. " alt="" coords="180,5,377,32"/>
 <area shape="rect" id="node3" href="$d7/db6/class_alarmable.html#aca065da67aa7ec31b576021c923a3df4" title="Alarmable::GetIterator" alt="" coords="425,5,575,32"/>
 </map>

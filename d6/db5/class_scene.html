@@ -86,8 +86,8 @@ Collaboration diagram for Scene:</div>
 <area shape="rect" id="node8" href="../../d0/dd1/class_game_object.html" title="{GameObject\n|&#45; currState\l|+ GameObject()\l+ GameObject()\l+ operator=()\l+ ~GameObject()\l+ SubmitEntry()\l+ SubmitExit()\l&#45; ConnectToScene()\l&#45; DisconnectFromScene()\l&#45; SceneEntry()\l&#45; SceneExit()\l}" alt="" coords="1158,389,1329,599"/>
 <area shape="rect" id="node9" href="../../d7/dcf/class_game_object_entry_command.html" title="{GameObjectEntryCommand\n||+ GameObjectEntryCommand()\l+ ~GameObjectEntryCommand()\l+ GameObjectEntryCommand()\l+ operator=()\l+ Execute()\l}" alt="" coords="1123,191,1337,327"/>
 <area shape="rect" id="node11" href="../../d2/df5/class_game_object_exit_command.html" title="{GameObjectExitCommand\n||+ GameObjectExitCommand()\l+ ~GameObjectExitCommand()\l+ GameObjectExitCommand()\l+ operator=()\l+ Execute()\l}" alt="" coords="969,713,1174,849"/>
-<area shape="rect" id="node16" href="../../d2/de4/class_drawable.html" title="{Drawable\n|&#45; currState\l|+ Drawable()\l+ ~Drawable()\l+ Drawable()\l+ operator=()\l+ Draw()\l+ Draw2D()\l+ SceneRegistration()\l+ SceneDeregistration()\l+ SubmitDrawRegistration()\l+ SubmitDrawDeregistration()\l&#45; SetIterator()\l&#45; GetIterator()\l}" alt="" coords="1721,661,1913,900"/>
-<area shape="rect" id="node22" href="../../d7/d69/class_updatable.html" title="{Updatable\n|&#45; currState\l|+ Updatable()\l+ ~Updatable()\l+ Updatable()\l+ operator=()\l+ Update()\l+ SceneRegistration()\l+ SceneDeregistration()\l+ SubmitUpdateRegistration()\l+ SubmitUpdateDeregistration()\l&#45; SetIterator()\l&#45; GetIterator()\l}" alt="" coords="437,669,641,893"/>
+<area shape="rect" id="node16" href="../../d2/de4/class_drawable.html" title="{Drawable\n|&#45; currState\l|+ Drawable()\l+ ~Drawable()\l+ Drawable()\l+ operator=()\l+ Draw()\l+ Draw2D()\l+ SubmitDrawRegistration()\l+ SubmitDrawDeregistration()\l&#45; SetIterator()\l&#45; GetIterator()\l&#45; SceneRegistration()\l&#45; SceneDeregistration()\l}" alt="" coords="1721,661,1913,900"/>
+<area shape="rect" id="node22" href="../../d7/d69/class_updatable.html" title="{Updatable\n|&#45; currState\l|+ Updatable()\l+ ~Updatable()\l+ Updatable()\l+ operator=()\l+ Update()\l+ SubmitUpdateRegistration()\l+ SubmitUpdateDeregistration()\l&#45; SetIterator()\l&#45; GetIterator()\l&#45; SceneRegistration()\l&#45; SceneDeregistration()\l}" alt="" coords="437,669,641,893"/>
 <area shape="rect" id="node10" href="../../db/db6/class_command_base.html" title="{CommandBase\n||+ CommandBase()\l+ ~CommandBase()\l+ CommandBase()\l+ operator=()\l+ Execute()\l}" alt="" coords="1161,5,1299,141"/>
 <area shape="rect" id="node17" href="../../da/dbf/class_draw_registration_command.html" title="{DrawRegistrationCommand\n||+ DrawRegistrationCommand()\l+ ~DrawRegistrationCommand()\l+ DrawRegistrationCommand()\l+ operator=()\l+ Execute()\l}" alt="" coords="2148,970,2355,1106"/>
 <area shape="rect" id="node18" href="../../d2/dd0/class_draw_deregistration_command.html" title="{DrawDeregistrationCommand\n||+ DrawDeregistrationCommand()\l+ ~DrawDeregistrationCommand()\l+ DrawDeregistrationCommand()\l+ operator=()\l+ Execute()\l}" alt="" coords="1734,970,1953,1106"/>
@@ -97,7 +97,7 @@ Collaboration diagram for Scene:</div>
 <area shape="rect" id="node20" href="../../d1/d47/class_updatable_manager.html" title="{UpdatableManager\n||+ UpdatableManager()\l+ ~UpdatableManager()\l+ UpdatableManager()\l+ operator=()\l+ Register()\l+ Deregister()\l&#45; ProcessElements()\l}" alt="" coords="681,1213,840,1378"/>
 <area shape="rect" id="node26" href="../../d8/d4e/class_scene_registration_broker.html" title="{SceneRegistrationBroker\n||+ SceneRegistrationBroker()\l+ ~SceneRegistrationBroker()\l+ SceneRegistrationBroker()\l+ operator=()\l+ AddCommand()\l+ ExecuteCommands()\l}" alt="" coords="1881,1669,2075,1819"/>
 <area shape="rect" id="node30" href="../../df/d14/class_collision_manager.html" title="{CollisionManager\n||+ CollisionManager()\l+ ~CollisionManager()\l+ ProcessCollisionTest()\l+ SetCollisionPair()\l+ SetCollisionSelf()\l}" alt="" coords="2100,1676,2264,1812"/>
-<area shape="rect" id="node28" href="../../d9/dc2/class_alarmable_manager.html" title="{AlarmableManager\n||+ AlarmableManager()\l+ ~AlarmableManager()\l+ AlarmableManager()\l+ operator=()\l+ Register()\l+ Deregister()\l&#45; ProcessElements()\l}" alt="" coords="2361,1661,2520,1827"/>
+<area shape="rect" id="node28" href="../../d9/dc2/class_alarmable_manager.html" title="{AlarmableManager\n||+ AlarmableManager()\l+ ~AlarmableManager()\l+ AlarmableManager()\l+ operator=()\l+ Register()\l+ Deregister()\l+ AddTime()\l+ GetRemainingTime()\l&#45; ProcessElements()\l}" alt="" coords="2361,1647,2520,1841"/>
 <area shape="rect" id="node32" href="../../d7/d3f/class_collidable_group_base.html" title="{CollidableGroupBase\n||+ CollidableGroupBase()\l+ ~CollidableGroupBase()\l}" alt="" coords="2430,1249,2601,1341"/>
 </map>
 </div>
@@ -127,6 +127,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a176a12c82287309be40788897b09899a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79fd5abbfc4cb3cc9f1dd067a0c73b83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db5/class_scene.html#a79fd5abbfc4cb3cc9f1dd067a0c73b83">Deregister</a> (<a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> *al, <a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a> ID)</td></tr>
 <tr class="separator:a79fd5abbfc4cb3cc9f1dd067a0c73b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcba6f1f458a4353577c070d26bd602e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db5/class_scene.html#abcba6f1f458a4353577c070d26bd602e">AddTime</a> (float t, <a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> *al, <a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a> ID)</td></tr>
+<tr class="memdesc:abcba6f1f458a4353577c070d26bd602e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds time to alarm.  <a href="#abcba6f1f458a4353577c070d26bd602e">More...</a><br /></td></tr>
+<tr class="separator:abcba6f1f458a4353577c070d26bd602e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3248961729a4095e9104f6ffa56dbb7c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db5/class_scene.html#a3248961729a4095e9104f6ffa56dbb7c">GetRemainingTime</a> (<a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> *al, <a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a> ID)</td></tr>
+<tr class="memdesc:a3248961729a4095e9104f6ffa56dbb7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets remaining time for alarm.  <a href="#a3248961729a4095e9104f6ffa56dbb7c">More...</a><br /></td></tr>
+<tr class="separator:a3248961729a4095e9104f6ffa56dbb7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a359b6ff6dc030c368270ea6c247132a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db5/class_scene.html#a359b6ff6dc030c368270ea6c247132a7">Register</a> (<a class="el" href="../../d6/d0f/class_inputable.html">Inputable</a> *in, AZUL_KEY k, <a class="el" href="../../d6/d0f/class_inputable.html#ab4aea8b7165229e46d9ba33f8f2f23fc">Inputable::EVENT_TYPE</a> type)</td></tr>
 <tr class="memdesc:a359b6ff6dc030c368270ea6c247132a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers <a class="el" href="../../d6/d0f/class_inputable.html">Inputable</a> to current scene.  <a href="#a359b6ff6dc030c368270ea6c247132a7">More...</a><br /></td></tr>
 <tr class="separator:a359b6ff6dc030c368270ea6c247132a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,6 +200,8 @@ Friends</h2></td></tr>
 <tr class="separator:a85775f038318816c79c5c3134af1f3af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00df87c957d8f7ee0fc51f07a0542f4a"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db5/class_scene.html#a00df87c957d8f7ee0fc51f07a0542f4a">GameObject</a></td></tr>
 <tr class="separator:a00df87c957d8f7ee0fc51f07a0542f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a028ac256cb5a5092dc2ee43035c6f27c"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db5/class_scene.html#a028ac256cb5a5092dc2ee43035c6f27c">Visualizer</a></td></tr>
+<tr class="separator:a028ac256cb5a5092dc2ee43035c6f27c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad10176d75a9cc0da56626f682d083507"></a>
@@ -215,55 +223,55 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d6/db5/class_scene_ad10176d75a9cc0da56626f682d083507_cgraph.png" border="0" usemap="#d6/db5/class_scene_ad10176d75a9cc0da56626f682d083507_cgraph" alt=""/></div>
 <map name="d6/db5/class_scene_ad10176d75a9cc0da56626f682d083507_cgraph" id="d6/db5/class_scene_ad10176d75a9cc0da56626f682d083507_cgraph">
-<area shape="rect" id="node2" href="../../d2/d23/class_camera_manager.html#ab89d7ab5238aa6eb105425911088570b" title="Sets and updates the default camera. " alt="" coords="157,581,343,622"/>
-<area shape="rect" id="node3" href="../../d6/d4b/class_mithril_engine.html#a3aca612ace4670ea15127a27d23e2a38" title="Returns the width of the current window. " alt="" coords="391,505,551,532"/>
-<area shape="rect" id="node50" href="../../d6/d4b/class_mithril_engine.html#a8dbd0268139dd53ded75463dc3cb33c8" title="Returns the height of the current window. " alt="" coords="810,783,973,809"/>
-<area shape="rect" id="node4" href="../../d6/d4b/class_mithril_engine.html#a727ba0587d07d9e644b6741a6d82492d" title="MithrilEngine::Instance" alt="" coords="599,505,753,532"/>
-<area shape="rect" id="node5" href="../../d8/dee/group___mithril_engine.html#ga63ee007e6957aac92cde5c252a278eef" title="MithrilEngine constructor. " alt="" coords="801,303,981,329"/>
-<area shape="rect" id="node6" href="../../d6/d4b/class_mithril_engine.html#acd03e00161d7a4bd4da9ef2514b7e6a5" title="MithrilEngine::Initialize" alt="" coords="815,353,967,380"/>
-<area shape="rect" id="node7" href="../../d6/d4b/class_mithril_engine.html#aef708cdc73caeb8a2dbe0c2a4ef73723" title="MithrilEngine::GameInitialize" alt="" coords="1047,353,1234,380"/>
-<area shape="rect" id="node8" href="../../d6/d4b/class_mithril_engine.html#a7c6f9cada15f3697711b79ee82a95424" title="MithrilEngine::LoadContent" alt="" coords="802,505,981,532"/>
-<area shape="rect" id="node9" href="../../d6/d4b/class_mithril_engine.html#a58deb29be139002bd071f4bce1bbc5ea" title="MithrilEngine::LoadResources" alt="" coords="1043,404,1238,431"/>
-<area shape="rect" id="node21" href="../../d6/d4b/class_mithril_engine.html#a6674a1e85950edb9ec1ff6bc59c389b0" title="MithrilEngine::Update" alt="" coords="818,657,965,684"/>
-<area shape="rect" id="node34" href="../../d6/d4b/class_mithril_engine.html#a2a32c9096f22918ff8778cb867490ab2" title="Returns the time elapsed in seconds. " alt="" coords="1038,759,1243,785"/>
-<area shape="rect" id="node35" href="../../d6/d4b/class_mithril_engine.html#a986bedb0afc6dca1ef05a8e34ff45583" title="MithrilEngine::Draw" alt="" coords="824,607,959,633"/>
-<area shape="rect" id="node39" href="../../d6/d4b/class_mithril_engine.html#a6f70d8757a3599e5a2235d94a93aeac4" title="MithrilEngine::UnLoadContent" alt="" coords="1043,505,1238,532"/>
-<area shape="rect" id="node49" href="../../d6/d4b/class_mithril_engine.html#a9f222a2729e64a91f226e8063ec5fbf6" title="Calls Run() on the engine class. " alt="" coords="827,252,955,279"/>
-<area shape="rect" id="node10" href="../../d3/d4f/class_visualizer.html#a3fd0f918788ec72dcdba602cd4c31e75" title="Visualizer::CreateSphere" alt="" coords="1057,455,1224,481"/>
-<area shape="rect" id="node11" href="../../d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="1609,31,1745,57"/>
-<area shape="rect" id="node14" href="../../d3/d4f/class_visualizer.html#ae3355213720d4cbb3bc930b81108e6f9" title="Visualizer::privCreateBSphere" alt="" coords="1315,232,1510,259"/>
-<area shape="rect" id="node12" href="../../d3/d4f/class_visualizer.html#a104487003c9fea602e26c072aae27efc" title="Visualizer::Visualizer" alt="" coords="1859,56,2003,83"/>
-<area shape="rect" id="node13" href="../../d3/d4f/class_visualizer.html#a3f965217cb559e5cdbd3fd1a6d855e20" title="Visualizer::Delete" alt="" coords="1869,5,1993,32"/>
-<area shape="rect" id="node15" href="../../d3/d3a/class_model_manager.html#a7745c33907b48ae44618f21891cefc68" title="Returns a Model pointer by taking a key and searching the key in the map. " alt="" coords="1592,199,1763,225"/>
-<area shape="rect" id="node18" href="../../d2/d24/class_shader_manager.html#a3602d0674af7106d7bda9868197ee0c3" title="Returns a shader pointer by taking a key and searching the key in the map. " alt="" coords="1586,367,1769,393"/>
-<area shape="rect" id="node16" href="../../d3/d3a/class_model_manager.html#afb1fbe7bcd21494e661676b997008173" title="ModelManager::Instance" alt="" coords="1849,257,2013,284"/>
-<area shape="rect" id="node17" href="../../d3/d3a/class_model_manager.html#a9b0d22b1baf59c5b566e82fcd8ca424a" title="ModelManager::ModelManager" alt="" coords="2087,257,2287,284"/>
-<area shape="rect" id="node19" href="../../d2/d24/class_shader_manager.html#aeaa687b375b78eefcd836b5430ccfb99" title="ShaderManager::Instance" alt="" coords="1846,417,2017,444"/>
-<area shape="rect" id="node20" href="../../d2/d24/class_shader_manager.html#aca25f81fd10a02b3e97e9c459b864186" title="ShaderManager::ShaderManager" alt="" coords="2081,417,2293,444"/>
-<area shape="rect" id="node22" href="../../d0/dc3/class_scene_manager.html#a85354ba18a17aa2b2716c6404cc28d50" title="Calls Scene::Update() on the current scene. " alt="" coords="1029,657,1252,684"/>
-<area shape="rect" id="node29" href="../../d9/d7f/class_time_manager.html#a14e5786948c412a8b5c84cb092424a5d" title="TimeManager::ProcessTime" alt="" coords="1049,708,1233,735"/>
-<area shape="rect" id="node23" href="../../d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="1594,636,1761,663"/>
-<area shape="rect" id="node25" href="../../d0/dc3/class_scene_manager.html#a160955c83b4e5e58fdeef7142a767f83" title="SceneManager::privUpdate\lUpdatables" alt="" coords="1324,709,1501,750"/>
-<area shape="rect" id="node24" href="../../d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="1829,636,2033,663"/>
-<area shape="rect" id="node26" href="../../d0/dc3/class_scene_manager.html#a76ab147461953aeb9e5da97d0b5ae5c0" title="SceneManager::privChange\lScene" alt="" coords="1587,687,1767,729"/>
-<area shape="rect" id="node28" href="../../d6/db5/class_scene.html#a71a71b4f7752b853ff8032b0941a9d8d" title="Scene::Update" alt="" coords="1623,753,1731,780"/>
-<area shape="rect" id="node27" href="../../d6/db5/class_scene.html#afce99c578d2ea8375ea147705bef1e2f" title="Virtual function, called when a scene is terminated. " alt="" coords="1869,691,1993,717"/>
-<area shape="rect" id="node30" href="../../d9/d7f/class_time_manager.html#a9bb9e5390526b32783b94adb728604fa" title="TimeManager::Instance" alt="" coords="1334,831,1491,857"/>
-<area shape="rect" id="node32" href="../../d9/d7f/class_time_manager.html#abb2dec3e58a74f84c4c5c016b9dfdeaf" title="Processes the amount of time spent frozen. " alt="" coords="1311,776,1514,803"/>
-<area shape="rect" id="node31" href="../../d9/d7f/class_time_manager.html#ab1c3cbb48ad68d928bb8b9a4ef210ed6" title="TimeManager::TimeManager" alt="" coords="1584,855,1771,881"/>
-<area shape="rect" id="node33" href="../../db/d12/class_freeze_time.html#a6b8e2973842e0832bcd6482d9d4b6bd1" title="Return the frozen time in seconds. " alt="" coords="1573,804,1781,831"/>
-<area shape="rect" id="node36" href="../../d0/dc3/class_scene_manager.html#a01652b7aacfa1a8df974e9152cee7913" title="Calls Scene::Draw() on the current scene. " alt="" coords="1037,607,1244,633"/>
-<area shape="rect" id="node37" href="../../d0/dc3/class_scene_manager.html#a74ac0f30e64b10476729ce54b2189bf5" title="SceneManager::privDrawDrawables" alt="" coords="1300,556,1525,583"/>
-<area shape="rect" id="node38" href="../../d6/db5/class_scene.html#a4813338ee7c6c995f5bb6f10e3673804" title="Scene::Draw" alt="" coords="1629,585,1725,612"/>
-<area shape="rect" id="node40" href="../../d0/dc3/class_scene_manager.html#ab05844a5cadb0305e5d5a7abd8c091bd" title="Calls Scene::Terminate() on the current scene. " alt="" coords="1325,505,1500,532"/>
-<area shape="rect" id="node42" href="../../d2/d24/class_shader_manager.html#a5ef1975239b18efa12c0b4df25c91d26" title="Unloads the shaders from the map and deletes their associated pointers. " alt="" coords="1308,455,1517,481"/>
-<area shape="rect" id="node44" href="../../d3/d3a/class_model_manager.html#a80074e0df7bf05faf4eb762940da8cd5" title="Unloaded models, deletes them from the map. " alt="" coords="1314,316,1511,343"/>
-<area shape="rect" id="node46" href="../../db/ddf/class_texture_manager.html#ad09e991a4111060447d43e7fd959f945" title="Unloads the textures from the map and deletes their associated pointers. " alt="" coords="1306,140,1519,167"/>
-<area shape="rect" id="node41" href="../../d0/dc3/class_scene_manager.html#ad4a7bf6aeefe87e72e65c0dd483bca2d" title="SceneManager::privTerminate" alt="" coords="1581,535,1774,561"/>
-<area shape="rect" id="node43" href="../../d2/d24/class_shader_manager.html#a10bb2c5fb9f095249e2367c6d486fa34" title="ShaderManager::privUnload\lShaders" alt="" coords="1587,469,1767,510"/>
-<area shape="rect" id="node45" href="../../d3/d3a/class_model_manager.html#a5264d3833b402cbfba6dc19cabb83103" title="ModelManager::privUnload\lModels" alt="" coords="1590,250,1765,291"/>
-<area shape="rect" id="node47" href="../../db/ddf/class_texture_manager.html#a81a2f2ac1876be84e0a0a472199679d5" title="TextureManager::Instance" alt="" coords="1845,124,2017,151"/>
-<area shape="rect" id="node48" href="../../db/ddf/class_texture_manager.html#a0847e8464376cf239fa98608155add1b" title="TextureManager::privUnload\lTextures" alt="" coords="1586,133,1769,174"/>
+<area shape="rect" id="node2" href="../../d2/d23/class_camera_manager.html#ab89d7ab5238aa6eb105425911088570b" title="Sets and updates the default camera. " alt="" coords="157,603,343,644"/>
+<area shape="rect" id="node3" href="../../d6/d4b/class_mithril_engine.html#a3aca612ace4670ea15127a27d23e2a38" title="Returns the width of the current window. " alt="" coords="391,527,551,554"/>
+<area shape="rect" id="node50" href="../../d6/d4b/class_mithril_engine.html#a8dbd0268139dd53ded75463dc3cb33c8" title="Returns the height of the current window. " alt="" coords="810,805,973,831"/>
+<area shape="rect" id="node4" href="../../d6/d4b/class_mithril_engine.html#a727ba0587d07d9e644b6741a6d82492d" title="MithrilEngine::Instance" alt="" coords="599,527,753,554"/>
+<area shape="rect" id="node5" href="../../d8/dee/group___mithril_engine.html#ga63ee007e6957aac92cde5c252a278eef" title="MithrilEngine constructor. " alt="" coords="801,325,981,351"/>
+<area shape="rect" id="node6" href="../../d6/d4b/class_mithril_engine.html#acd03e00161d7a4bd4da9ef2514b7e6a5" title="MithrilEngine::Initialize" alt="" coords="815,375,967,402"/>
+<area shape="rect" id="node7" href="../../d6/d4b/class_mithril_engine.html#aef708cdc73caeb8a2dbe0c2a4ef73723" title="MithrilEngine::GameInitialize" alt="" coords="1047,375,1234,402"/>
+<area shape="rect" id="node8" href="../../d6/d4b/class_mithril_engine.html#a7c6f9cada15f3697711b79ee82a95424" title="MithrilEngine::LoadContent" alt="" coords="802,527,981,554"/>
+<area shape="rect" id="node9" href="../../d6/d4b/class_mithril_engine.html#a58deb29be139002bd071f4bce1bbc5ea" title="MithrilEngine::LoadResources" alt="" coords="1043,426,1238,453"/>
+<area shape="rect" id="node19" href="../../d6/d4b/class_mithril_engine.html#a6674a1e85950edb9ec1ff6bc59c389b0" title="MithrilEngine::Update" alt="" coords="818,679,965,706"/>
+<area shape="rect" id="node32" href="../../d6/d4b/class_mithril_engine.html#a2a32c9096f22918ff8778cb867490ab2" title="Returns the time elapsed in seconds. " alt="" coords="1038,781,1243,807"/>
+<area shape="rect" id="node33" href="../../d6/d4b/class_mithril_engine.html#a986bedb0afc6dca1ef05a8e34ff45583" title="MithrilEngine::Draw" alt="" coords="824,629,959,655"/>
+<area shape="rect" id="node37" href="../../d6/d4b/class_mithril_engine.html#a6f70d8757a3599e5a2235d94a93aeac4" title="MithrilEngine::UnLoadContent" alt="" coords="1043,527,1238,554"/>
+<area shape="rect" id="node49" href="../../d6/d4b/class_mithril_engine.html#a9f222a2729e64a91f226e8063ec5fbf6" title="Calls Run() on the engine class. " alt="" coords="827,274,955,301"/>
+<area shape="rect" id="node10" href="../../d3/d4f/class_visualizer.html#a3fd0f918788ec72dcdba602cd4c31e75" title="Visualizer::CreateSphere" alt="" coords="1057,477,1224,503"/>
+<area shape="rect" id="node11" href="../../d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="1863,217,1999,243"/>
+<area shape="rect" id="node13" href="../../d3/d4f/class_visualizer.html#ae3355213720d4cbb3bc930b81108e6f9" title="Visualizer::privCreateBSphere" alt="" coords="1315,141,1510,167"/>
+<area shape="rect" id="node12" href="../../d3/d4f/class_visualizer.html#a104487003c9fea602e26c072aae27efc" title="Visualizer::Visualizer" alt="" coords="2115,217,2259,243"/>
+<area shape="rect" id="node14" href="../../d3/d3a/class_model_manager.html#a7745c33907b48ae44618f21891cefc68" title="Returns a Model pointer by taking a key and searching the key in the map. " alt="" coords="1592,293,1763,319"/>
+<area shape="rect" id="node16" href="../../d2/d24/class_shader_manager.html#a3602d0674af7106d7bda9868197ee0c3" title="Returns a shader pointer by taking a key and searching the key in the map. " alt="" coords="1586,90,1769,117"/>
+<area shape="rect" id="node15" href="../../d3/d3a/class_model_manager.html#afb1fbe7bcd21494e661676b997008173" title="ModelManager::Instance" alt="" coords="1849,511,2013,538"/>
+<area shape="rect" id="node17" href="../../d2/d24/class_shader_manager.html#aeaa687b375b78eefcd836b5430ccfb99" title="ShaderManager::Instance" alt="" coords="1846,31,2017,58"/>
+<area shape="rect" id="node18" href="../../d2/d24/class_shader_manager.html#aca25f81fd10a02b3e97e9c459b864186" title="ShaderManager::ShaderManager" alt="" coords="2081,31,2293,58"/>
+<area shape="rect" id="node20" href="../../d0/dc3/class_scene_manager.html#a85354ba18a17aa2b2716c6404cc28d50" title="Calls Scene::Update() on the current scene. " alt="" coords="1029,679,1252,706"/>
+<area shape="rect" id="node27" href="../../d9/d7f/class_time_manager.html#a14e5786948c412a8b5c84cb092424a5d" title="TimeManager::ProcessTime" alt="" coords="1049,730,1233,757"/>
+<area shape="rect" id="node21" href="../../d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="1594,730,1761,757"/>
+<area shape="rect" id="node23" href="../../d0/dc3/class_scene_manager.html#a160955c83b4e5e58fdeef7142a767f83" title="SceneManager::privUpdate\lUpdatables" alt="" coords="1324,781,1501,823"/>
+<area shape="rect" id="node22" href="../../d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="1829,730,2033,757"/>
+<area shape="rect" id="node24" href="../../d0/dc3/class_scene_manager.html#a76ab147461953aeb9e5da97d0b5ae5c0" title="SceneManager::privChange\lScene" alt="" coords="1587,781,1767,823"/>
+<area shape="rect" id="node26" href="../../d6/db5/class_scene.html#a71a71b4f7752b853ff8032b0941a9d8d" title="Scene::Update" alt="" coords="1623,847,1731,874"/>
+<area shape="rect" id="node25" href="../../d6/db5/class_scene.html#afce99c578d2ea8375ea147705bef1e2f" title="Virtual function, called when a scene is terminated. " alt="" coords="1869,785,1993,811"/>
+<area shape="rect" id="node28" href="../../d9/d7f/class_time_manager.html#a9bb9e5390526b32783b94adb728604fa" title="TimeManager::Instance" alt="" coords="1334,859,1491,886"/>
+<area shape="rect" id="node30" href="../../d9/d7f/class_time_manager.html#abb2dec3e58a74f84c4c5c016b9dfdeaf" title="Processes the amount of time spent frozen. " alt="" coords="1311,935,1514,962"/>
+<area shape="rect" id="node29" href="../../d9/d7f/class_time_manager.html#ab1c3cbb48ad68d928bb8b9a4ef210ed6" title="TimeManager::TimeManager" alt="" coords="1584,898,1771,925"/>
+<area shape="rect" id="node31" href="../../db/d12/class_freeze_time.html#a6b8e2973842e0832bcd6482d9d4b6bd1" title="Return the frozen time in seconds. " alt="" coords="1573,949,1781,975"/>
+<area shape="rect" id="node34" href="../../d0/dc3/class_scene_manager.html#a01652b7aacfa1a8df974e9152cee7913" title="Calls Scene::Draw() on the current scene. " alt="" coords="1037,629,1244,655"/>
+<area shape="rect" id="node35" href="../../d0/dc3/class_scene_manager.html#a74ac0f30e64b10476729ce54b2189bf5" title="SceneManager::privDrawDrawables" alt="" coords="1300,629,1525,655"/>
+<area shape="rect" id="node36" href="../../d6/db5/class_scene.html#a4813338ee7c6c995f5bb6f10e3673804" title="Scene::Draw" alt="" coords="1629,679,1725,706"/>
+<area shape="rect" id="node38" href="../../d0/dc3/class_scene_manager.html#ab05844a5cadb0305e5d5a7abd8c091bd" title="Calls Scene::Terminate() on the current scene. " alt="" coords="1325,578,1500,605"/>
+<area shape="rect" id="node40" href="../../d2/d24/class_shader_manager.html#a5ef1975239b18efa12c0b4df25c91d26" title="Unloads the shaders from the map and deletes their associated pointers. " alt="" coords="1308,31,1517,58"/>
+<area shape="rect" id="node42" href="../../d3/d3a/class_model_manager.html#a80074e0df7bf05faf4eb762940da8cd5" title="Unloaded models, deletes them from the map. " alt="" coords="1314,527,1511,554"/>
+<area shape="rect" id="node44" href="../../db/ddf/class_texture_manager.html#ad09e991a4111060447d43e7fd959f945" title="Unloads the textures from the map and deletes their associated pointers. " alt="" coords="1306,453,1519,479"/>
+<area shape="rect" id="node47" href="../../d3/d4f/class_visualizer.html#a61597f4a1cdb82452a2e761cb52b9024" title="Terminates the Visualizer. " alt="" coords="1341,343,1485,370"/>
+<area shape="rect" id="node39" href="../../d0/dc3/class_scene_manager.html#ad4a7bf6aeefe87e72e65c0dd483bca2d" title="SceneManager::privTerminate" alt="" coords="1581,629,1774,655"/>
+<area shape="rect" id="node41" href="../../d2/d24/class_shader_manager.html#a10bb2c5fb9f095249e2367c6d486fa34" title="ShaderManager::privUnload\lShaders" alt="" coords="1587,24,1767,65"/>
+<area shape="rect" id="node43" href="../../d3/d3a/class_model_manager.html#a5264d3833b402cbfba6dc19cabb83103" title="ModelManager::privUnload\lModels" alt="" coords="1590,563,1765,604"/>
+<area shape="rect" id="node45" href="../../db/ddf/class_texture_manager.html#a81a2f2ac1876be84e0a0a472199679d5" title="TextureManager::Instance" alt="" coords="1845,423,2017,450"/>
+<area shape="rect" id="node46" href="../../db/ddf/class_texture_manager.html#a0847e8464376cf239fa98608155add1b" title="TextureManager::privUnload\lTextures" alt="" coords="1586,445,1769,487"/>
+<area shape="rect" id="node48" href="../../d3/d4f/class_visualizer.html#a5dd16607ead98f5cdd003529c6e7ab73" title="Visualizer::privTerminate" alt="" coords="1596,343,1759,370"/>
 </map>
 </div>
 
@@ -329,6 +337,58 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="abcba6f1f458a4353577c070d26bd602e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcba6f1f458a4353577c070d26bd602e">&#9670;&nbsp;</a></span>AddTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::AddTime </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> *&#160;</td>
+          <td class="paramname"><em>al</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a>&#160;</td>
+          <td class="paramname"><em>ID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds time to alarm. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">t</td><td>A float time for the alarm. </td></tr>
+    <tr><td class="paramname">al</td><td>An <a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> pointer. </td></tr>
+    <tr><td class="paramname">ID</td><td>An Alarm ID enum from <a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d6/db5/class_scene_abcba6f1f458a4353577c070d26bd602e_cgraph.png" border="0" usemap="#d6/db5/class_scene_abcba6f1f458a4353577c070d26bd602e_cgraph" alt=""/></div>
+<map name="d6/db5/class_scene_abcba6f1f458a4353577c070d26bd602e_cgraph" id="d6/db5/class_scene_abcba6f1f458a4353577c070d26bd602e_cgraph">
+<area shape="rect" id="node2" href="../../d5/dcb/group___alarms.html#gaeff6ef905f27ff24baf42b258d9e6505" title="Adds time to an alarmable with ID. " alt="" coords="172,5,361,32"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="add3a649a456b0c151c17875a16692e28"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#add3a649a456b0c151c17875a16692e28">&#9670;&nbsp;</a></span>Deregister() <span class="overload">[1/6]</span></h2>
 
@@ -413,7 +473,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d6/db5/class_scene_a79fd5abbfc4cb3cc9f1dd067a0c73b83_cgraph.png" border="0" usemap="#d6/db5/class_scene_a79fd5abbfc4cb3cc9f1dd067a0c73b83_cgraph" alt=""/></div>
 <map name="d6/db5/class_scene_a79fd5abbfc4cb3cc9f1dd067a0c73b83_cgraph" id="d6/db5/class_scene_a79fd5abbfc4cb3cc9f1dd067a0c73b83_cgraph">
-<area shape="rect" id="node2" href="../../d9/dc2/class_alarmable_manager.html#a807311e20f7a88b1d01f5df1173f01d1" title="AlarmableManager::Deregister" alt="" coords="180,5,377,32"/>
+<area shape="rect" id="node2" href="../../d5/dcb/group___alarms.html#ga807311e20f7a88b1d01f5df1173f01d1" title="Deregisters the alarmable with the given ID. " alt="" coords="180,5,377,32"/>
 <area shape="rect" id="node3" href="../../d7/db6/class_alarmable.html#aca065da67aa7ec31b576021c923a3df4" title="Alarmable::GetIterator" alt="" coords="425,5,575,32"/>
 </map>
 </div>
@@ -571,6 +631,100 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="../../d6/db5/class_scene_a6fca889fab7f92f45dd87042d109e6cf_cgraph.png" border="0" usemap="#d6/db5/class_scene_a6fca889fab7f92f45dd87042d109e6cf_cgraph" alt=""/></div>
 <map name="d6/db5/class_scene_a6fca889fab7f92f45dd87042d109e6cf_cgraph" id="d6/db5/class_scene_a6fca889fab7f92f45dd87042d109e6cf_cgraph">
 <area shape="rect" id="node2" href="../../d6/db5/class_scene.html#afce99c578d2ea8375ea147705bef1e2f" title="Virtual function, called when a scene is terminated. " alt="" coords="219,5,343,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3248961729a4095e9104f6ffa56dbb7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3248961729a4095e9104f6ffa56dbb7c">&#9670;&nbsp;</a></span>GetRemainingTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Scene::GetRemainingTime </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> *&#160;</td>
+          <td class="paramname"><em>al</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a>&#160;</td>
+          <td class="paramname"><em>ID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets remaining time for alarm. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">al</td><td>An <a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> pointer. </td></tr>
+    <tr><td class="paramname">ID</td><td>An Alarm ID enum from <a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns remaining time as float </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d6/db5/class_scene_a3248961729a4095e9104f6ffa56dbb7c_cgraph.png" border="0" usemap="#d6/db5/class_scene_a3248961729a4095e9104f6ffa56dbb7c_cgraph" alt=""/></div>
+<map name="d6/db5/class_scene_a3248961729a4095e9104f6ffa56dbb7c_cgraph" id="d6/db5/class_scene_a3248961729a4095e9104f6ffa56dbb7c_cgraph">
+<area shape="rect" id="node2" href="../../d9/dc2/class_alarmable_manager.html#af4d64f8a892a8116be0209a8da8b3335" title="AlarmableManager::GetRemainingTime" alt="" coords="231,139,479,165"/>
+<area shape="rect" id="node3" href="../../d9/d7f/class_time_manager.html#a8c23b80f63a5c0e1c4b99a1175c787f0" title="TimeManager::GetTimeSeconds" alt="" coords="527,139,735,165"/>
+<area shape="rect" id="node4" href="../../d9/d7f/class_time_manager.html#a9bb9e5390526b32783b94adb728604fa" title="TimeManager::Instance" alt="" coords="1995,19,2153,45"/>
+<area shape="rect" id="node6" href="../../d9/d7f/class_time_manager.html#ac9af63541adfa2370963e30921a1b076" title="Returns the time in seconds (takes into account frozen time). " alt="" coords="783,251,959,293"/>
+<area shape="rect" id="node5" href="../../d9/d7f/class_time_manager.html#ab1c3cbb48ad68d928bb8b9a4ef210ed6" title="TimeManager::TimeManager" alt="" coords="2245,5,2432,32"/>
+<area shape="rect" id="node7" href="../../d6/d4b/class_mithril_engine.html#a2a32c9096f22918ff8778cb867490ab2" title="Returns the time elapsed in seconds. " alt="" coords="1007,375,1212,401"/>
+<area shape="rect" id="node8" href="../../d6/d4b/class_mithril_engine.html#a727ba0587d07d9e644b6741a6d82492d" title="MithrilEngine::Instance" alt="" coords="1260,465,1415,492"/>
+<area shape="rect" id="node9" href="../../d8/dee/group___mithril_engine.html#ga63ee007e6957aac92cde5c252a278eef" title="MithrilEngine constructor. " alt="" coords="1463,592,1643,619"/>
+<area shape="rect" id="node10" href="../../d6/d4b/class_mithril_engine.html#acd03e00161d7a4bd4da9ef2514b7e6a5" title="MithrilEngine::Initialize" alt="" coords="1477,693,1629,720"/>
+<area shape="rect" id="node11" href="../../d6/d4b/class_mithril_engine.html#aef708cdc73caeb8a2dbe0c2a4ef73723" title="MithrilEngine::GameInitialize" alt="" coords="1709,719,1895,745"/>
+<area shape="rect" id="node12" href="../../d6/d4b/class_mithril_engine.html#a7c6f9cada15f3697711b79ee82a95424" title="MithrilEngine::LoadContent" alt="" coords="1463,541,1642,568"/>
+<area shape="rect" id="node13" href="../../d6/d4b/class_mithril_engine.html#a58deb29be139002bd071f4bce1bbc5ea" title="MithrilEngine::LoadResources" alt="" coords="1705,643,1899,669"/>
+<area shape="rect" id="node22" href="../../d6/d4b/class_mithril_engine.html#a6674a1e85950edb9ec1ff6bc59c389b0" title="MithrilEngine::Update" alt="" coords="1479,224,1626,251"/>
+<area shape="rect" id="node32" href="../../d6/d4b/class_mithril_engine.html#a986bedb0afc6dca1ef05a8e34ff45583" title="MithrilEngine::Draw" alt="" coords="1485,288,1620,315"/>
+<area shape="rect" id="node36" href="../../d6/d4b/class_mithril_engine.html#a6f70d8757a3599e5a2235d94a93aeac4" title="MithrilEngine::UnLoadContent" alt="" coords="1705,468,1899,495"/>
+<area shape="rect" id="node48" href="../../d6/d4b/class_mithril_engine.html#a9f222a2729e64a91f226e8063ec5fbf6" title="Calls Run() on the engine class. " alt="" coords="1489,339,1617,365"/>
+<area shape="rect" id="node49" href="../../d6/d4b/class_mithril_engine.html#a3aca612ace4670ea15127a27d23e2a38" title="Returns the width of the current window. " alt="" coords="1473,440,1633,467"/>
+<area shape="rect" id="node50" href="../../d6/d4b/class_mithril_engine.html#a8dbd0268139dd53ded75463dc3cb33c8" title="Returns the height of the current window. " alt="" coords="1471,491,1634,517"/>
+<area shape="rect" id="node14" href="../../d3/d4f/class_visualizer.html#a3fd0f918788ec72dcdba602cd4c31e75" title="Visualizer::CreateSphere" alt="" coords="1719,592,1885,619"/>
+<area shape="rect" id="node15" href="../../d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="2525,737,2661,764"/>
+<area shape="rect" id="node17" href="../../d3/d4f/class_visualizer.html#ae3355213720d4cbb3bc930b81108e6f9" title="Visualizer::privCreateBSphere" alt="" coords="1977,813,2171,840"/>
+<area shape="rect" id="node16" href="../../d3/d4f/class_visualizer.html#a104487003c9fea602e26c072aae27efc" title="Visualizer::Visualizer" alt="" coords="2743,737,2887,764"/>
+<area shape="rect" id="node18" href="../../d3/d3a/class_model_manager.html#a7745c33907b48ae44618f21891cefc68" title="Returns a Model pointer by taking a key and searching the key in the map. " alt="" coords="2253,864,2424,891"/>
+<area shape="rect" id="node20" href="../../d2/d24/class_shader_manager.html#a3602d0674af7106d7bda9868197ee0c3" title="Returns a shader pointer by taking a key and searching the key in the map. " alt="" coords="2247,611,2430,637"/>
+<area shape="rect" id="node19" href="../../d3/d3a/class_model_manager.html#afb1fbe7bcd21494e661676b997008173" title="ModelManager::Instance" alt="" coords="2511,915,2675,941"/>
+<area shape="rect" id="node21" href="../../d2/d24/class_shader_manager.html#aeaa687b375b78eefcd836b5430ccfb99" title="ShaderManager::Instance" alt="" coords="2507,443,2678,469"/>
+<area shape="rect" id="node23" href="../../d0/dc3/class_scene_manager.html#a85354ba18a17aa2b2716c6404cc28d50" title="Calls Scene::Update() on the current scene. " alt="" coords="1691,212,1913,239"/>
+<area shape="rect" id="node29" href="../../d9/d7f/class_time_manager.html#a14e5786948c412a8b5c84cb092424a5d" title="TimeManager::ProcessTime" alt="" coords="1710,69,1894,96"/>
+<area shape="rect" id="node24" href="../../d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="2255,224,2422,251"/>
+<area shape="rect" id="node26" href="../../d0/dc3/class_scene_manager.html#a160955c83b4e5e58fdeef7142a767f83" title="SceneManager::privUpdate\lUpdatables" alt="" coords="1985,146,2163,187"/>
+<area shape="rect" id="node25" href="../../d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="2491,224,2695,251"/>
+<area shape="rect" id="node27" href="../../d0/dc3/class_scene_manager.html#a76ab147461953aeb9e5da97d0b5ae5c0" title="SceneManager::privChange\lScene" alt="" coords="2249,107,2429,149"/>
+<area shape="rect" id="node28" href="../../d6/db5/class_scene.html#a71a71b4f7752b853ff8032b0941a9d8d" title="Scene::Update" alt="" coords="2285,173,2393,200"/>
+<area shape="rect" id="node30" href="../../d9/d7f/class_time_manager.html#abb2dec3e58a74f84c4c5c016b9dfdeaf" title="Processes the amount of time spent frozen. " alt="" coords="1973,69,2175,96"/>
+<area shape="rect" id="node31" href="../../db/d12/class_freeze_time.html#a6b8e2973842e0832bcd6482d9d4b6bd1" title="Return the frozen time in seconds. " alt="" coords="2235,56,2443,83"/>
+<area shape="rect" id="node33" href="../../d0/dc3/class_scene_manager.html#a01652b7aacfa1a8df974e9152cee7913" title="Calls Scene::Draw() on the current scene. " alt="" coords="1699,288,1905,315"/>
+<area shape="rect" id="node34" href="../../d0/dc3/class_scene_manager.html#a74ac0f30e64b10476729ce54b2189bf5" title="SceneManager::privDrawDrawables" alt="" coords="1961,313,2187,340"/>
+<area shape="rect" id="node35" href="../../d6/db5/class_scene.html#a4813338ee7c6c995f5bb6f10e3673804" title="Scene::Draw" alt="" coords="2291,275,2387,301"/>
+<area shape="rect" id="node37" href="../../d0/dc3/class_scene_manager.html#ab05844a5cadb0305e5d5a7abd8c091bd" title="Calls Scene::Terminate() on the current scene. " alt="" coords="1987,364,2161,391"/>
+<area shape="rect" id="node39" href="../../d2/d24/class_shader_manager.html#a5ef1975239b18efa12c0b4df25c91d26" title="Unloads the shaders from the map and deletes their associated pointers. " alt="" coords="1969,443,2179,469"/>
+<area shape="rect" id="node41" href="../../d3/d3a/class_model_manager.html#a80074e0df7bf05faf4eb762940da8cd5" title="Unloaded models, deletes them from the map. " alt="" coords="1975,915,2173,941"/>
+<area shape="rect" id="node43" href="../../db/ddf/class_texture_manager.html#ad09e991a4111060447d43e7fd959f945" title="Unloads the textures from the map and deletes their associated pointers. " alt="" coords="1967,493,2181,520"/>
+<area shape="rect" id="node46" href="../../d3/d4f/class_visualizer.html#a61597f4a1cdb82452a2e761cb52b9024" title="Terminates the Visualizer. " alt="" coords="2002,661,2146,688"/>
+<area shape="rect" id="node38" href="../../d0/dc3/class_scene_manager.html#ad4a7bf6aeefe87e72e65c0dd483bca2d" title="SceneManager::privTerminate" alt="" coords="2242,325,2435,352"/>
+<area shape="rect" id="node40" href="../../d2/d24/class_shader_manager.html#a10bb2c5fb9f095249e2367c6d486fa34" title="ShaderManager::privUnload\lShaders" alt="" coords="2249,377,2429,418"/>
+<area shape="rect" id="node42" href="../../d3/d3a/class_model_manager.html#a5264d3833b402cbfba6dc19cabb83103" title="ModelManager::privUnload\lModels" alt="" coords="2251,966,2426,1007"/>
+<area shape="rect" id="node44" href="../../db/ddf/class_texture_manager.html#a81a2f2ac1876be84e0a0a472199679d5" title="TextureManager::Instance" alt="" coords="2507,523,2679,549"/>
+<area shape="rect" id="node45" href="../../db/ddf/class_texture_manager.html#a0847e8464376cf239fa98608155add1b" title="TextureManager::privUnload\lTextures" alt="" coords="2247,545,2430,586"/>
+<area shape="rect" id="node47" href="../../d3/d4f/class_visualizer.html#a5dd16607ead98f5cdd003529c6e7ab73" title="Visualizer::privTerminate" alt="" coords="2257,661,2420,688"/>
 </map>
 </div>
 
@@ -735,7 +889,7 @@ Here is the call graph for this function:</div>
 <p>Registers <a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> to current scene. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">t</td><td>An float time for the alarm. </td></tr>
+    <tr><td class="paramname">t</td><td>A float time for the alarm. </td></tr>
     <tr><td class="paramname">al</td><td>An <a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> pointer. </td></tr>
     <tr><td class="paramname">ID</td><td>An Alarm ID enum from <a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a> </td></tr>
   </table>
@@ -746,9 +900,10 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d6/db5/class_scene_a176a12c82287309be40788897b09899a_cgraph.png" border="0" usemap="#d6/db5/class_scene_a176a12c82287309be40788897b09899a_cgraph" alt=""/></div>
 <map name="d6/db5/class_scene_a176a12c82287309be40788897b09899a_cgraph" id="d6/db5/class_scene_a176a12c82287309be40788897b09899a_cgraph">
-<area shape="rect" id="node2" href="../../d9/dc2/class_alarmable_manager.html#a3ac7530be1a1856e3d2699108d978c43" title="AlarmableManager::Register" alt="" coords="168,56,355,83"/>
+<area shape="rect" id="node2" href="../../d5/dcb/group___alarms.html#gabbf8d3e0752b1660fe43368e02cc973f" title="Registers the alarmable with the given time and ID. " alt="" coords="168,81,355,108"/>
 <area shape="rect" id="node3" href="../../d9/d7f/class_time_manager.html#abc678da7dd58d16cea641f5f0d0392a7" title="TimeManager::GetFrameTime" alt="" coords="403,31,597,57"/>
 <area shape="rect" id="node7" href="../../d7/db6/class_alarmable.html#aef558f6ec78932378b9e71bd13109ad1" title="Alarmable::SetIterator" alt="" coords="426,81,574,108"/>
+<area shape="rect" id="node8" href="../../d7/db6/class_alarmable.html#ab38f34e2a7461e167e31b39745ea5222" title="Alarmable::AddTime" alt="" coords="431,132,569,159"/>
 <area shape="rect" id="node4" href="../../d9/d7f/class_time_manager.html#a9bb9e5390526b32783b94adb728604fa" title="TimeManager::Instance" alt="" coords="673,5,831,32"/>
 <area shape="rect" id="node6" href="../../d9/d7f/class_time_manager.html#a613cea801de384ab2608a34cbaab2444" title="Returns the time it took (in seconds) to process a single frame. " alt="" coords="645,56,859,83"/>
 <area shape="rect" id="node5" href="../../d9/d7f/class_time_manager.html#ab1c3cbb48ad68d928bb8b9a4ef210ed6" title="TimeManager::TimeManager" alt="" coords="907,5,1093,32"/>
@@ -1118,6 +1273,28 @@ Here is the call graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">friend class <a class="el" href="../../d7/d69/class_updatable.html">Updatable</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a028ac256cb5a5092dc2ee43035c6f27c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a028ac256cb5a5092dc2ee43035c6f27c">&#9670;&nbsp;</a></span>Visualizer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="../../d3/d4f/class_visualizer.html">Visualizer</a></td>
         </tr>
       </table>
   </td>

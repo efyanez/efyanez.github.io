@@ -79,7 +79,7 @@ Collaboration diagram for SceneManager:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../de/d30/class_scene_manager__coll__graph.png" border="0" usemap="#_scene_manager_coll__map" alt="Collaboration graph"/></div>
 <map name="_scene_manager_coll__map" id="_scene_manager_coll__map">
-<area shape="rect" id="node2" href="../../d6/db5/class_scene.html" title="{Scene\n||+ Scene()\l+ ~Scene()\l+ Scene()\l+ operator=()\l+ Register()\l+ Deregister()\l+ Register()\l+ Deregister()\l+ Register()\l+ Deregister()\land 8 more...\l# Initialize()\l# Draw()\l# Update()\l# SubmitCommand()\l}" alt="" coords="1773,1904,1914,2187"/>
+<area shape="rect" id="node2" href="../../d6/db5/class_scene.html" title="{Scene\n||+ Scene()\l+ ~Scene()\l+ Scene()\l+ operator=()\l+ Register()\l+ Deregister()\l+ Register()\l+ Deregister()\l+ Register()\l+ Deregister()\land 10 more...\l# Initialize()\l# Draw()\l# Update()\l# SubmitCommand()\l}" alt="" coords="1773,1904,1914,2187"/>
 <area shape="rect" id="node3" href="../../d2/d23/class_camera_manager.html" title="{CameraManager\n|&#45; currentCamera\l&#45; current2DCamera\l|+ CameraManager()\l+ CameraManager()\l+ operator=()\l+ ~CameraManager()\l+ SetDefaultCamera()\l+ GetCurrentCamera()\l+ GetCurrent2DCamera()\l+ Terminate()\l}" alt="" coords="1404,1647,1571,1841"/>
 <area shape="rect" id="node4" href="../../d8/d85/class_inputable_manager.html" title="{InputableManager\n||+ InputableManager()\l+ ~InputableManager()\l+ InputableManager()\l+ operator=()\l+ Register()\l+ Deregister()\l&#45; FindKeyObject()\l&#45; ProcessElements()\l}" alt="" coords="1653,1654,1805,1834"/>
 <area shape="rect" id="node6" href="../../d8/d68/class_key_object.html" title="{KeyObject\n|&#45; key\l&#45; prevState\l&#45; currState\l|+ KeyObject()\l+ ~KeyObject()\l+ KeyObject()\l+ operator=()\l+ GetKey()\l+ RegisterInputable()\l+ DeregisterInputable()\l+ CheckStatus()\l}" alt="" coords="1539,1191,1692,1400"/>
@@ -89,8 +89,8 @@ Collaboration diagram for SceneManager:</div>
 <area shape="rect" id="node9" href="../../d0/dd1/class_game_object.html" title="{GameObject\n|&#45; currState\l|+ GameObject()\l+ GameObject()\l+ operator=()\l+ ~GameObject()\l+ SubmitEntry()\l+ SubmitExit()\l&#45; ConnectToScene()\l&#45; DisconnectFromScene()\l&#45; SceneEntry()\l&#45; SceneExit()\l}" alt="" coords="1158,389,1329,599"/>
 <area shape="rect" id="node10" href="../../d7/dcf/class_game_object_entry_command.html" title="{GameObjectEntryCommand\n||+ GameObjectEntryCommand()\l+ ~GameObjectEntryCommand()\l+ GameObjectEntryCommand()\l+ operator=()\l+ Execute()\l}" alt="" coords="1123,191,1337,327"/>
 <area shape="rect" id="node12" href="../../d2/df5/class_game_object_exit_command.html" title="{GameObjectExitCommand\n||+ GameObjectExitCommand()\l+ ~GameObjectExitCommand()\l+ GameObjectExitCommand()\l+ operator=()\l+ Execute()\l}" alt="" coords="969,713,1174,849"/>
-<area shape="rect" id="node17" href="../../d2/de4/class_drawable.html" title="{Drawable\n|&#45; currState\l|+ Drawable()\l+ ~Drawable()\l+ Drawable()\l+ operator=()\l+ Draw()\l+ Draw2D()\l+ SceneRegistration()\l+ SceneDeregistration()\l+ SubmitDrawRegistration()\l+ SubmitDrawDeregistration()\l&#45; SetIterator()\l&#45; GetIterator()\l}" alt="" coords="1721,661,1913,900"/>
-<area shape="rect" id="node23" href="../../d7/d69/class_updatable.html" title="{Updatable\n|&#45; currState\l|+ Updatable()\l+ ~Updatable()\l+ Updatable()\l+ operator=()\l+ Update()\l+ SceneRegistration()\l+ SceneDeregistration()\l+ SubmitUpdateRegistration()\l+ SubmitUpdateDeregistration()\l&#45; SetIterator()\l&#45; GetIterator()\l}" alt="" coords="437,669,641,893"/>
+<area shape="rect" id="node17" href="../../d2/de4/class_drawable.html" title="{Drawable\n|&#45; currState\l|+ Drawable()\l+ ~Drawable()\l+ Drawable()\l+ operator=()\l+ Draw()\l+ Draw2D()\l+ SubmitDrawRegistration()\l+ SubmitDrawDeregistration()\l&#45; SetIterator()\l&#45; GetIterator()\l&#45; SceneRegistration()\l&#45; SceneDeregistration()\l}" alt="" coords="1721,661,1913,900"/>
+<area shape="rect" id="node23" href="../../d7/d69/class_updatable.html" title="{Updatable\n|&#45; currState\l|+ Updatable()\l+ ~Updatable()\l+ Updatable()\l+ operator=()\l+ Update()\l+ SubmitUpdateRegistration()\l+ SubmitUpdateDeregistration()\l&#45; SetIterator()\l&#45; GetIterator()\l&#45; SceneRegistration()\l&#45; SceneDeregistration()\l}" alt="" coords="437,669,641,893"/>
 <area shape="rect" id="node11" href="../../db/db6/class_command_base.html" title="{CommandBase\n||+ CommandBase()\l+ ~CommandBase()\l+ CommandBase()\l+ operator=()\l+ Execute()\l}" alt="" coords="1161,5,1299,141"/>
 <area shape="rect" id="node18" href="../../da/dbf/class_draw_registration_command.html" title="{DrawRegistrationCommand\n||+ DrawRegistrationCommand()\l+ ~DrawRegistrationCommand()\l+ DrawRegistrationCommand()\l+ operator=()\l+ Execute()\l}" alt="" coords="2148,970,2355,1106"/>
 <area shape="rect" id="node19" href="../../d2/dd0/class_draw_deregistration_command.html" title="{DrawDeregistrationCommand\n||+ DrawDeregistrationCommand()\l+ ~DrawDeregistrationCommand()\l+ DrawDeregistrationCommand()\l+ operator=()\l+ Execute()\l}" alt="" coords="1734,970,1953,1106"/>
@@ -100,22 +100,22 @@ Collaboration diagram for SceneManager:</div>
 <area shape="rect" id="node21" href="../../d1/d47/class_updatable_manager.html" title="{UpdatableManager\n||+ UpdatableManager()\l+ ~UpdatableManager()\l+ UpdatableManager()\l+ operator=()\l+ Register()\l+ Deregister()\l&#45; ProcessElements()\l}" alt="" coords="681,1213,840,1378"/>
 <area shape="rect" id="node27" href="../../d8/d4e/class_scene_registration_broker.html" title="{SceneRegistrationBroker\n||+ SceneRegistrationBroker()\l+ ~SceneRegistrationBroker()\l+ SceneRegistrationBroker()\l+ operator=()\l+ AddCommand()\l+ ExecuteCommands()\l}" alt="" coords="1881,1669,2075,1819"/>
 <area shape="rect" id="node31" href="../../df/d14/class_collision_manager.html" title="{CollisionManager\n||+ CollisionManager()\l+ ~CollisionManager()\l+ ProcessCollisionTest()\l+ SetCollisionPair()\l+ SetCollisionSelf()\l}" alt="" coords="2100,1676,2264,1812"/>
-<area shape="rect" id="node29" href="../../d9/dc2/class_alarmable_manager.html" title="{AlarmableManager\n||+ AlarmableManager()\l+ ~AlarmableManager()\l+ AlarmableManager()\l+ operator=()\l+ Register()\l+ Deregister()\l&#45; ProcessElements()\l}" alt="" coords="2361,1661,2520,1827"/>
+<area shape="rect" id="node29" href="../../d9/dc2/class_alarmable_manager.html" title="{AlarmableManager\n||+ AlarmableManager()\l+ ~AlarmableManager()\l+ AlarmableManager()\l+ operator=()\l+ Register()\l+ Deregister()\l+ AddTime()\l+ GetRemainingTime()\l&#45; ProcessElements()\l}" alt="" coords="2361,1647,2520,1841"/>
 <area shape="rect" id="node33" href="../../d7/d3f/class_collidable_group_base.html" title="{CollidableGroupBase\n||+ CollidableGroupBase()\l+ ~CollidableGroupBase()\l}" alt="" coords="2430,1249,2601,1341"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:adce8d3662e1ef7b66631a4f67d8ad961"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc3/class_scene_manager.html#adce8d3662e1ef7b66631a4f67d8ad961">StartScene</a> (<a class="el" href="../../d6/db5/class_scene.html">Scene</a> *sc)</td></tr>
-<tr class="memdesc:adce8d3662e1ef7b66631a4f67d8ad961"><td class="mdescLeft">&#160;</td><td class="mdescRight">Public static function. Sets the current scene.  <a href="#adce8d3662e1ef7b66631a4f67d8ad961">More...</a><br /></td></tr>
-<tr class="separator:adce8d3662e1ef7b66631a4f67d8ad961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a629ca538720800fe4835b0453207d8ec"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc3/class_scene_manager.html#a629ca538720800fe4835b0453207d8ec">SetCurrentScene</a> (<a class="el" href="../../d6/db5/class_scene.html">Scene</a> *sc)</td></tr>
+<tr class="memdesc:a629ca538720800fe4835b0453207d8ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Public static function. Sets the current scene.  <a href="#a629ca538720800fe4835b0453207d8ec">More...</a><br /></td></tr>
+<tr class="separator:a629ca538720800fe4835b0453207d8ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab279cee8a7ac9b166bd5e7c379043cbe"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d6/db5/class_scene.html">Scene</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe">GetCurrentScene</a> ()</td></tr>
 <tr class="memdesc:ab279cee8a7ac9b166bd5e7c379043cbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Public static function. Returns the current scene.  <a href="#ab279cee8a7ac9b166bd5e7c379043cbe">More...</a><br /></td></tr>
 <tr class="separator:ab279cee8a7ac9b166bd5e7c379043cbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4368af4b58fc7867772334833149326"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc3/class_scene_manager.html#ac4368af4b58fc7867772334833149326">InitializeStartScene</a> ()</td></tr>
-<tr class="memdesc:ac4368af4b58fc7867772334833149326"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls <a class="el" href="../../d6/db5/class_scene.html#aafd7510b1309c6ba864791c429870959" title="User defines what happens when a scene is initialized. ">Scene::Initialize()</a> on the current scene.  <a href="#ac4368af4b58fc7867772334833149326">More...</a><br /></td></tr>
-<tr class="separator:ac4368af4b58fc7867772334833149326"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1451ea62fb9f96d822e2298a37d5710"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc3/class_scene_manager.html#af1451ea62fb9f96d822e2298a37d5710">InitializeCurrentScene</a> ()</td></tr>
+<tr class="memdesc:af1451ea62fb9f96d822e2298a37d5710"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls <a class="el" href="../../d6/db5/class_scene.html#aafd7510b1309c6ba864791c429870959" title="User defines what happens when a scene is initialized. ">Scene::Initialize()</a> on the current scene.  <a href="#af1451ea62fb9f96d822e2298a37d5710">More...</a><br /></td></tr>
+<tr class="separator:af1451ea62fb9f96d822e2298a37d5710"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab05844a5cadb0305e5d5a7abd8c091bd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc3/class_scene_manager.html#ab05844a5cadb0305e5d5a7abd8c091bd">Terminate</a> ()</td></tr>
 <tr class="memdesc:ab05844a5cadb0305e5d5a7abd8c091bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls <a class="el" href="../../d6/db5/class_scene.html#afce99c578d2ea8375ea147705bef1e2f" title="Virtual function, called when a scene is terminated. ">Scene::Terminate()</a> on the current scene.  <a href="#ab05844a5cadb0305e5d5a7abd8c091bd">More...</a><br /></td></tr>
 <tr class="separator:ab05844a5cadb0305e5d5a7abd8c091bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,6 +131,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a470d087f9b394c68aa69ba6d05c2aec1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc3/class_scene_manager.html#a470d087f9b394c68aa69ba6d05c2aec1">ChangeScene</a> ()</td></tr>
 <tr class="memdesc:a470d087f9b394c68aa69ba6d05c2aec1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Terminates the current scene and sets the current scene to the next scene. Then calls initialize on the current scene.  <a href="#a470d087f9b394c68aa69ba6d05c2aec1">More...</a><br /></td></tr>
 <tr class="separator:a470d087f9b394c68aa69ba6d05c2aec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1324ce9ce69ed9777c3a54be0349ecc"><td class="memItemLeft" align="right" valign="top">static Camera *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc3/class_scene_manager.html#ac1324ce9ce69ed9777c3a54be0349ecc">GetCurrent3DCamera</a> ()</td></tr>
+<tr class="memdesc:ac1324ce9ce69ed9777c3a54be0349ecc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current scene 3D camera.  <a href="#ac1324ce9ce69ed9777c3a54be0349ecc">More...</a><br /></td></tr>
+<tr class="separator:ac1324ce9ce69ed9777c3a54be0349ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3aedef11dfd3b305fe23eda2315a3fb"><td class="memItemLeft" align="right" valign="top">static Camera *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc3/class_scene_manager.html#ab3aedef11dfd3b305fe23eda2315a3fb">GetCurrent2DCamera</a> ()</td></tr>
+<tr class="memdesc:ab3aedef11dfd3b305fe23eda2315a3fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current scene 2D camera.  <a href="#ab3aedef11dfd3b305fe23eda2315a3fb">More...</a><br /></td></tr>
+<tr class="separator:ab3aedef11dfd3b305fe23eda2315a3fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -142,10 +148,10 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a01cac0c92774512b9365307fd9df4edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bb376a85d29e85f47753e26c7539229"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc3/class_scene_manager.html#a2bb376a85d29e85f47753e26c7539229">~SceneManager</a> ()</td></tr>
 <tr class="separator:a2bb376a85d29e85f47753e26c7539229"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafb7cc9da751fe2ef4d8527c61580816"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc3/class_scene_manager.html#aafb7cc9da751fe2ef4d8527c61580816">privInitializeStartScene</a> ()</td></tr>
-<tr class="separator:aafb7cc9da751fe2ef4d8527c61580816"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b8c61df1a9c3754d81353982efe4ac6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc3/class_scene_manager.html#a6b8c61df1a9c3754d81353982efe4ac6">privStartScene</a> (<a class="el" href="../../d6/db5/class_scene.html">Scene</a> *sc)</td></tr>
-<tr class="separator:a6b8c61df1a9c3754d81353982efe4ac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5add9a728c23284080c7db4dba830c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc3/class_scene_manager.html#ac5add9a728c23284080c7db4dba830c0">privInitializeCurrentScene</a> ()</td></tr>
+<tr class="separator:ac5add9a728c23284080c7db4dba830c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac67fc30b1feee41e4f1a4e054e7391f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc3/class_scene_manager.html#ac67fc30b1feee41e4f1a4e054e7391f7">privSetCurrentScene</a> (<a class="el" href="../../d6/db5/class_scene.html">Scene</a> *sc)</td></tr>
+<tr class="separator:ac67fc30b1feee41e4f1a4e054e7391f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac24e8ef292407a7d5902c23e1ae3bee7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/db5/class_scene.html">Scene</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7">privGetCurrentScene</a> ()</td></tr>
 <tr class="separator:ac24e8ef292407a7d5902c23e1ae3bee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4a7bf6aeefe87e72e65c0dd483bca2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc3/class_scene_manager.html#ad4a7bf6aeefe87e72e65c0dd483bca2d">privTerminate</a> ()</td></tr>
@@ -158,6 +164,10 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a76ab147461953aeb9e5da97d0b5ae5c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a198fc7ea00dcd78d7f91602c18ee01ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc3/class_scene_manager.html#a198fc7ea00dcd78d7f91602c18ee01ee">privSetNextScene</a> (<a class="el" href="../../d6/db5/class_scene.html">Scene</a> *pnextScene)</td></tr>
 <tr class="separator:a198fc7ea00dcd78d7f91602c18ee01ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41e934dac7a132cca581ada25983b278"><td class="memItemLeft" align="right" valign="top">Camera *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc3/class_scene_manager.html#a41e934dac7a132cca581ada25983b278">privGetCurrent3DCamera</a> ()</td></tr>
+<tr class="separator:a41e934dac7a132cca581ada25983b278"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9fb4c01e3565a80d48ee90a863dd35d"><td class="memItemLeft" align="right" valign="top">Camera *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc3/class_scene_manager.html#ac9fb4c01e3565a80d48ee90a863dd35d">privGetCurrent2DCamera</a> ()</td></tr>
+<tr class="separator:ac9fb4c01e3565a80d48ee90a863dd35d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
@@ -339,6 +349,88 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="ab3aedef11dfd3b305fe23eda2315a3fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3aedef11dfd3b305fe23eda2315a3fb">&#9670;&nbsp;</a></span>GetCurrent2DCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Camera* SceneManager::GetCurrent2DCamera </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the current scene 2D camera. </p>
+<dl class="section return"><dt>Returns</dt><dd>Returns the current scene 2D camera as a Camera* pointer </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d0/dc3/class_scene_manager_ab3aedef11dfd3b305fe23eda2315a3fb_cgraph.png" border="0" usemap="#d0/dc3/class_scene_manager_ab3aedef11dfd3b305fe23eda2315a3fb_cgraph" alt=""/></div>
+<map name="d0/dc3/class_scene_manager_ab3aedef11dfd3b305fe23eda2315a3fb_cgraph" id="d0/dc3/class_scene_manager_ab3aedef11dfd3b305fe23eda2315a3fb_cgraph">
+<area shape="rect" id="node2" href="../../d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="260,5,427,32"/>
+<area shape="rect" id="node4" href="../../d0/dc3/class_scene_manager.html#ac9fb4c01e3565a80d48ee90a863dd35d" title="SceneManager::privGetCurrent2\lDCamera" alt="" coords="240,57,447,98"/>
+<area shape="rect" id="node3" href="../../d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="495,5,699,32"/>
+<area shape="rect" id="node5" href="../../d6/db5/class_scene.html#a6fca889fab7f92f45dd87042d109e6cf" title="Returns the scene&#39;s camera manager as a CameraManager pointer. " alt="" coords="514,60,679,87"/>
+<area shape="rect" id="node7" href="../../d2/d23/class_camera_manager.html#a632460cdabc6d2e254f25cbdb21eabb2" title="Returns the current camera as a Camera* type. " alt="" coords="499,111,694,153"/>
+<area shape="rect" id="node6" href="../../d6/db5/class_scene.html#afce99c578d2ea8375ea147705bef1e2f" title="Virtual function, called when a scene is terminated. " alt="" coords="747,60,871,87"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac1324ce9ce69ed9777c3a54be0349ecc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1324ce9ce69ed9777c3a54be0349ecc">&#9670;&nbsp;</a></span>GetCurrent3DCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Camera* SceneManager::GetCurrent3DCamera </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the current scene 3D camera. </p>
+<dl class="section return"><dt>Returns</dt><dd>Returns the current scene 3D camera as a Camera* pointer </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d0/dc3/class_scene_manager_ac1324ce9ce69ed9777c3a54be0349ecc_cgraph.png" border="0" usemap="#d0/dc3/class_scene_manager_ac1324ce9ce69ed9777c3a54be0349ecc_cgraph" alt=""/></div>
+<map name="d0/dc3/class_scene_manager_ac1324ce9ce69ed9777c3a54be0349ecc_cgraph" id="d0/dc3/class_scene_manager_ac1324ce9ce69ed9777c3a54be0349ecc_cgraph">
+<area shape="rect" id="node2" href="../../d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="260,5,427,32"/>
+<area shape="rect" id="node4" href="../../d0/dc3/class_scene_manager.html#a41e934dac7a132cca581ada25983b278" title="SceneManager::privGetCurrent3\lDCamera" alt="" coords="240,57,447,98"/>
+<area shape="rect" id="node3" href="../../d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="495,5,699,32"/>
+<area shape="rect" id="node5" href="../../d6/db5/class_scene.html#a6fca889fab7f92f45dd87042d109e6cf" title="Returns the scene&#39;s camera manager as a CameraManager pointer. " alt="" coords="514,60,679,87"/>
+<area shape="rect" id="node7" href="../../d2/d23/class_camera_manager.html#a73be4132ae9a5523cd4e778a53013a16" title="Returns the current camera as a Camera* type. " alt="" coords="503,111,691,153"/>
+<area shape="rect" id="node6" href="../../d6/db5/class_scene.html#afce99c578d2ea8375ea147705bef1e2f" title="Virtual function, called when a scene is terminated. " alt="" coords="747,60,871,87"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="ab279cee8a7ac9b166bd5e7c379043cbe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab279cee8a7ac9b166bd5e7c379043cbe">&#9670;&nbsp;</a></span>GetCurrentScene()</h2>
 
@@ -377,8 +469,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ac4368af4b58fc7867772334833149326"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4368af4b58fc7867772334833149326">&#9670;&nbsp;</a></span>InitializeStartScene()</h2>
+<a id="af1451ea62fb9f96d822e2298a37d5710"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1451ea62fb9f96d822e2298a37d5710">&#9670;&nbsp;</a></span>InitializeCurrentScene()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -387,7 +479,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void SceneManager::InitializeStartScene </td>
+          <td class="memname">static void SceneManager::InitializeCurrentScene </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -405,10 +497,10 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d0/dc3/class_scene_manager_ac4368af4b58fc7867772334833149326_cgraph.png" border="0" usemap="#d0/dc3/class_scene_manager_ac4368af4b58fc7867772334833149326_cgraph" alt=""/></div>
-<map name="d0/dc3/class_scene_manager_ac4368af4b58fc7867772334833149326_cgraph" id="d0/dc3/class_scene_manager_ac4368af4b58fc7867772334833149326_cgraph">
+<div class="center"><img src="../../d0/dc3/class_scene_manager_af1451ea62fb9f96d822e2298a37d5710_cgraph.png" border="0" usemap="#d0/dc3/class_scene_manager_af1451ea62fb9f96d822e2298a37d5710_cgraph" alt=""/></div>
+<map name="d0/dc3/class_scene_manager_af1451ea62fb9f96d822e2298a37d5710_cgraph" id="d0/dc3/class_scene_manager_af1451ea62fb9f96d822e2298a37d5710_cgraph">
 <area shape="rect" id="node2" href="../../d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="225,5,392,32"/>
-<area shape="rect" id="node4" href="../../d0/dc3/class_scene_manager.html#aafb7cc9da751fe2ef4d8527c61580816" title="SceneManager::privInitialize\lStartScene" alt="" coords="217,57,400,98"/>
+<area shape="rect" id="node4" href="../../d0/dc3/class_scene_manager.html#ac5add9a728c23284080c7db4dba830c0" title="SceneManager::privInitialize\lCurrentScene" alt="" coords="217,57,400,98"/>
 <area shape="rect" id="node3" href="../../d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="448,5,652,32"/>
 <area shape="rect" id="node5" href="../../d6/db5/class_scene.html#aafd7510b1309c6ba864791c429870959" title="User defines what happens when a scene is initialized. " alt="" coords="493,64,607,91"/>
 </map>
@@ -543,6 +635,76 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="ac9fb4c01e3565a80d48ee90a863dd35d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9fb4c01e3565a80d48ee90a863dd35d">&#9670;&nbsp;</a></span>privGetCurrent2DCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Camera * SceneManager::privGetCurrent2DCamera </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d0/dc3/class_scene_manager_ac9fb4c01e3565a80d48ee90a863dd35d_cgraph.png" border="0" usemap="#d0/dc3/class_scene_manager_ac9fb4c01e3565a80d48ee90a863dd35d_cgraph" alt=""/></div>
+<map name="d0/dc3/class_scene_manager_ac9fb4c01e3565a80d48ee90a863dd35d_cgraph" id="d0/dc3/class_scene_manager_ac9fb4c01e3565a80d48ee90a863dd35d_cgraph">
+<area shape="rect" id="node2" href="../../d6/db5/class_scene.html#a6fca889fab7f92f45dd87042d109e6cf" title="Returns the scene&#39;s camera manager as a CameraManager pointer. " alt="" coords="275,5,440,32"/>
+<area shape="rect" id="node4" href="../../d2/d23/class_camera_manager.html#a632460cdabc6d2e254f25cbdb21eabb2" title="Returns the current camera as a Camera* type. " alt="" coords="260,57,455,98"/>
+<area shape="rect" id="node3" href="../../d6/db5/class_scene.html#afce99c578d2ea8375ea147705bef1e2f" title="Virtual function, called when a scene is terminated. " alt="" coords="503,5,627,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a41e934dac7a132cca581ada25983b278"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41e934dac7a132cca581ada25983b278">&#9670;&nbsp;</a></span>privGetCurrent3DCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Camera * SceneManager::privGetCurrent3DCamera </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d0/dc3/class_scene_manager_a41e934dac7a132cca581ada25983b278_cgraph.png" border="0" usemap="#d0/dc3/class_scene_manager_a41e934dac7a132cca581ada25983b278_cgraph" alt=""/></div>
+<map name="d0/dc3/class_scene_manager_a41e934dac7a132cca581ada25983b278_cgraph" id="d0/dc3/class_scene_manager_a41e934dac7a132cca581ada25983b278_cgraph">
+<area shape="rect" id="node2" href="../../d6/db5/class_scene.html#a6fca889fab7f92f45dd87042d109e6cf" title="Returns the scene&#39;s camera manager as a CameraManager pointer. " alt="" coords="271,5,437,32"/>
+<area shape="rect" id="node4" href="../../d2/d23/class_camera_manager.html#a73be4132ae9a5523cd4e778a53013a16" title="Returns the current camera as a Camera* type. " alt="" coords="260,57,448,98"/>
+<area shape="rect" id="node3" href="../../d6/db5/class_scene.html#afce99c578d2ea8375ea147705bef1e2f" title="Virtual function, called when a scene is terminated. " alt="" coords="496,5,620,32"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="ac24e8ef292407a7d5902c23e1ae3bee7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac24e8ef292407a7d5902c23e1ae3bee7">&#9670;&nbsp;</a></span>privGetCurrentScene()</h2>
 
@@ -568,8 +730,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="aafb7cc9da751fe2ef4d8527c61580816"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aafb7cc9da751fe2ef4d8527c61580816">&#9670;&nbsp;</a></span>privInitializeStartScene()</h2>
+<a id="ac5add9a728c23284080c7db4dba830c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5add9a728c23284080c7db4dba830c0">&#9670;&nbsp;</a></span>privInitializeCurrentScene()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -578,7 +740,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void SceneManager::privInitializeStartScene </td>
+          <td class="memname">void SceneManager::privInitializeCurrentScene </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -593,11 +755,37 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d0/dc3/class_scene_manager_aafb7cc9da751fe2ef4d8527c61580816_cgraph.png" border="0" usemap="#d0/dc3/class_scene_manager_aafb7cc9da751fe2ef4d8527c61580816_cgraph" alt=""/></div>
-<map name="d0/dc3/class_scene_manager_aafb7cc9da751fe2ef4d8527c61580816_cgraph" id="d0/dc3/class_scene_manager_aafb7cc9da751fe2ef4d8527c61580816_cgraph">
+<div class="center"><img src="../../d0/dc3/class_scene_manager_ac5add9a728c23284080c7db4dba830c0_cgraph.png" border="0" usemap="#d0/dc3/class_scene_manager_ac5add9a728c23284080c7db4dba830c0_cgraph" alt=""/></div>
+<map name="d0/dc3/class_scene_manager_ac5add9a728c23284080c7db4dba830c0_cgraph" id="d0/dc3/class_scene_manager_ac5add9a728c23284080c7db4dba830c0_cgraph">
 <area shape="rect" id="node2" href="../../d6/db5/class_scene.html#aafd7510b1309c6ba864791c429870959" title="User defines what happens when a scene is initialized. " alt="" coords="236,13,351,39"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="ac67fc30b1feee41e4f1a4e054e7391f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac67fc30b1feee41e4f1a4e054e7391f7">&#9670;&nbsp;</a></span>privSetCurrentScene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SceneManager::privSetCurrentScene </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/db5/class_scene.html">Scene</a> *&#160;</td>
+          <td class="paramname"><em>sc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -615,32 +803,6 @@ Here is the call graph for this function:</div>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/db5/class_scene.html">Scene</a> *&#160;</td>
           <td class="paramname"><em>pnextScene</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6b8c61df1a9c3754d81353982efe4ac6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b8c61df1a9c3754d81353982efe4ac6">&#9670;&nbsp;</a></span>privStartScene()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SceneManager::privStartScene </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/db5/class_scene.html">Scene</a> *&#160;</td>
-          <td class="paramname"><em>sc</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -733,6 +895,50 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a629ca538720800fe4835b0453207d8ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a629ca538720800fe4835b0453207d8ec">&#9670;&nbsp;</a></span>SetCurrentScene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void SceneManager::SetCurrentScene </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/db5/class_scene.html">Scene</a> *&#160;</td>
+          <td class="paramname"><em>sc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Public static function. Sets the current scene. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sc</td><td>A <a class="el" href="../../d6/db5/class_scene.html">Scene</a> pointer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d0/dc3/class_scene_manager_a629ca538720800fe4835b0453207d8ec_cgraph.png" border="0" usemap="#d0/dc3/class_scene_manager_a629ca538720800fe4835b0453207d8ec_cgraph" alt=""/></div>
+<map name="d0/dc3/class_scene_manager_a629ca538720800fe4835b0453207d8ec_cgraph" id="d0/dc3/class_scene_manager_a629ca538720800fe4835b0453207d8ec_cgraph">
+<area shape="rect" id="node2" href="../../d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="248,5,415,32"/>
+<area shape="rect" id="node4" href="../../d0/dc3/class_scene_manager.html#ac67fc30b1feee41e4f1a4e054e7391f7" title="SceneManager::privSetCurrent\lScene" alt="" coords="232,57,431,98"/>
+<area shape="rect" id="node3" href="../../d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="479,5,683,32"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a952f00e5bdd79e51e970c8d7d2abf64f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a952f00e5bdd79e51e970c8d7d2abf64f">&#9670;&nbsp;</a></span>SetNextScene()</h2>
 
@@ -771,50 +977,6 @@ Here is the call graph for this function:</div>
 <map name="d0/dc3/class_scene_manager_a952f00e5bdd79e51e970c8d7d2abf64f_cgraph" id="d0/dc3/class_scene_manager_a952f00e5bdd79e51e970c8d7d2abf64f_cgraph">
 <area shape="rect" id="node2" href="../../d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="263,5,429,32"/>
 <area shape="rect" id="node4" href="../../d0/dc3/class_scene_manager.html#a198fc7ea00dcd78d7f91602c18ee01ee" title="SceneManager::privSetNext\lScene" alt="" coords="255,57,437,98"/>
-<area shape="rect" id="node3" href="../../d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="485,5,689,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="adce8d3662e1ef7b66631a4f67d8ad961"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adce8d3662e1ef7b66631a4f67d8ad961">&#9670;&nbsp;</a></span>StartScene()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void SceneManager::StartScene </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/db5/class_scene.html">Scene</a> *&#160;</td>
-          <td class="paramname"><em>sc</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Public static function. Sets the current scene. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">sc</td><td>A <a class="el" href="../../d6/db5/class_scene.html">Scene</a> pointer. </td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d0/dc3/class_scene_manager_adce8d3662e1ef7b66631a4f67d8ad961_cgraph.png" border="0" usemap="#d0/dc3/class_scene_manager_adce8d3662e1ef7b66631a4f67d8ad961_cgraph" alt=""/></div>
-<map name="d0/dc3/class_scene_manager_adce8d3662e1ef7b66631a4f67d8ad961_cgraph" id="d0/dc3/class_scene_manager_adce8d3662e1ef7b66631a4f67d8ad961_cgraph">
-<area shape="rect" id="node2" href="../../d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="253,5,420,32"/>
-<area shape="rect" id="node4" href="../../d0/dc3/class_scene_manager.html#a6b8c61df1a9c3754d81353982efe4ac6" title="SceneManager::privStartScene" alt="" coords="236,56,437,83"/>
 <area shape="rect" id="node3" href="../../d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="485,5,689,32"/>
 </map>
 </div>

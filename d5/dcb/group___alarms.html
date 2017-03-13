@@ -90,6 +90,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga9a48936becfc0855a0b304a0e8ee3ac0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcb/group___alarms.html#ga9a48936becfc0855a0b304a0e8ee3ac0">Alarmable::GetTime</a> (<a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a> alID)</td></tr>
 <tr class="memdesc:ga9a48936becfc0855a0b304a0e8ee3ac0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the specified alarm's time (in seconds).  <a href="#ga9a48936becfc0855a0b304a0e8ee3ac0">More...</a><br /></td></tr>
 <tr class="separator:ga9a48936becfc0855a0b304a0e8ee3ac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga693a324e126e1082ac5e8ce96dd3c131"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcb/group___alarms.html#ga693a324e126e1082ac5e8ce96dd3c131">Alarmable::GetRemainingTime</a> (<a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a> alID)</td></tr>
+<tr class="memdesc:ga693a324e126e1082ac5e8ce96dd3c131"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the specified alarm's remaining time (in seconds).  <a href="#ga693a324e126e1082ac5e8ce96dd3c131">More...</a><br /></td></tr>
+<tr class="separator:ga693a324e126e1082ac5e8ce96dd3c131"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae11aa44ab7d7831064855ba43b711523"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcb/group___alarms.html#gae11aa44ab7d7831064855ba43b711523">Alarmable::Alarm0</a> ()</td></tr>
 <tr class="memdesc:gae11aa44ab7d7831064855ba43b711523"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines what happens when Alarm 0 is triggered.  <a href="#gae11aa44ab7d7831064855ba43b711523">More...</a><br /></td></tr>
 <tr class="separator:gae11aa44ab7d7831064855ba43b711523"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -99,10 +102,63 @@ Functions</h2></td></tr>
 <tr class="memitem:gae5832d9c3d9a67122e36590cefee40b1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcb/group___alarms.html#gae5832d9c3d9a67122e36590cefee40b1">Alarmable::Alarm2</a> ()</td></tr>
 <tr class="memdesc:gae5832d9c3d9a67122e36590cefee40b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines what happens when Alarm 2 is triggered.  <a href="#gae5832d9c3d9a67122e36590cefee40b1">More...</a><br /></td></tr>
 <tr class="separator:gae5832d9c3d9a67122e36590cefee40b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabbf8d3e0752b1660fe43368e02cc973f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcb/group___alarms.html#gabbf8d3e0752b1660fe43368e02cc973f">AlarmableManager::Register</a> (float t, <a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> *al, <a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a> ID)</td></tr>
+<tr class="memdesc:gabbf8d3e0752b1660fe43368e02cc973f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers the alarmable with the given time and ID.  <a href="#gabbf8d3e0752b1660fe43368e02cc973f">More...</a><br /></td></tr>
+<tr class="separator:gabbf8d3e0752b1660fe43368e02cc973f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga807311e20f7a88b1d01f5df1173f01d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcb/group___alarms.html#ga807311e20f7a88b1d01f5df1173f01d1">AlarmableManager::Deregister</a> (<a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> *al, <a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a> ID)</td></tr>
+<tr class="memdesc:ga807311e20f7a88b1d01f5df1173f01d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deregisters the alarmable with the given ID.  <a href="#ga807311e20f7a88b1d01f5df1173f01d1">More...</a><br /></td></tr>
+<tr class="separator:ga807311e20f7a88b1d01f5df1173f01d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeff6ef905f27ff24baf42b258d9e6505"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcb/group___alarms.html#gaeff6ef905f27ff24baf42b258d9e6505">AlarmableManager::AddTime</a> (float time, <a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> *al, <a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a> ID)</td></tr>
+<tr class="memdesc:gaeff6ef905f27ff24baf42b258d9e6505"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds time to an alarmable with ID.  <a href="#gaeff6ef905f27ff24baf42b258d9e6505">More...</a><br /></td></tr>
+<tr class="separator:gaeff6ef905f27ff24baf42b258d9e6505"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p><a class="el" href="../../d0/dd1/class_game_object.html">GameObject</a> alarm group, everything relating to <a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a>. </p>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="gaeff6ef905f27ff24baf42b258d9e6505"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeff6ef905f27ff24baf42b258d9e6505">&#9670;&nbsp;</a></span>AddTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AlarmableManager::AddTime </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> *&#160;</td>
+          <td class="paramname"><em>al</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a>&#160;</td>
+          <td class="paramname"><em>ID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds time to an alarmable with ID. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">al</td><td>An <a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> pointer </td></tr>
+    <tr><td class="paramname">ID</td><td>An <a class="el" href="../../de/d22/class_alarm_enum.html">AlarmEnum</a> AlarmID </td></tr>
+    <tr><td class="paramname">time</td><td>A float for time </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="gae11aa44ab7d7831064855ba43b711523"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gae11aa44ab7d7831064855ba43b711523">&#9670;&nbsp;</a></span>Alarm0()</h2>
 
@@ -197,6 +253,93 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="ga807311e20f7a88b1d01f5df1173f01d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga807311e20f7a88b1d01f5df1173f01d1">&#9670;&nbsp;</a></span>Deregister()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AlarmableManager::Deregister </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> *&#160;</td>
+          <td class="paramname"><em>al</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a>&#160;</td>
+          <td class="paramname"><em>ID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deregisters the alarmable with the given ID. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">al</td><td>An <a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> pointer </td></tr>
+    <tr><td class="paramname">ID</td><td>An <a class="el" href="../../de/d22/class_alarm_enum.html">AlarmEnum</a> AlarmID </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/dcb/group___alarms_ga807311e20f7a88b1d01f5df1173f01d1_cgraph.png" border="0" usemap="#d5/dcb/group___alarms_ga807311e20f7a88b1d01f5df1173f01d1_cgraph" alt=""/></div>
+<map name="d5/dcb/group___alarms_ga807311e20f7a88b1d01f5df1173f01d1_cgraph" id="d5/dcb/group___alarms_ga807311e20f7a88b1d01f5df1173f01d1_cgraph">
+<area shape="rect" id="node2" href="../../d7/db6/class_alarmable.html#aca065da67aa7ec31b576021c923a3df4" title="Alarmable::GetIterator" alt="" coords="251,5,400,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga693a324e126e1082ac5e8ce96dd3c131"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga693a324e126e1082ac5e8ce96dd3c131">&#9670;&nbsp;</a></span>GetRemainingTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Alarmable::GetRemainingTime </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a>&#160;</td>
+          <td class="paramname"><em>alID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the specified alarm's remaining time (in seconds). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">alID</td><td>An <a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a> type. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/dcb/group___alarms_ga693a324e126e1082ac5e8ce96dd3c131_cgraph.png" border="0" usemap="#d5/dcb/group___alarms_ga693a324e126e1082ac5e8ce96dd3c131_cgraph" alt=""/></div>
+<map name="d5/dcb/group___alarms_ga693a324e126e1082ac5e8ce96dd3c131_cgraph" id="d5/dcb/group___alarms_ga693a324e126e1082ac5e8ce96dd3c131_cgraph">
+<area shape="rect" id="node2" href="../../d7/db6/class_alarmable.html#a67aa7590dfd979988cd87a6b215c9178" title="Alarmable::SetTime" alt="" coords="252,5,388,32"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="ga9a48936becfc0855a0b304a0e8ee3ac0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga9a48936becfc0855a0b304a0e8ee3ac0">&#9670;&nbsp;</a></span>GetTime()</h2>
 
@@ -228,6 +371,63 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="gabbf8d3e0752b1660fe43368e02cc973f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabbf8d3e0752b1660fe43368e02cc973f">&#9670;&nbsp;</a></span>Register()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AlarmableManager::Register </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> *&#160;</td>
+          <td class="paramname"><em>al</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a>&#160;</td>
+          <td class="paramname"><em>ID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Registers the alarmable with the given time and ID. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">t</td><td>A float for time </td></tr>
+    <tr><td class="paramname">al</td><td>An <a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a> pointer </td></tr>
+    <tr><td class="paramname">ID</td><td>An <a class="el" href="../../de/d22/class_alarm_enum.html">AlarmEnum</a> AlarmID </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/dcb/group___alarms_gabbf8d3e0752b1660fe43368e02cc973f_cgraph.png" border="0" usemap="#d5/dcb/group___alarms_gabbf8d3e0752b1660fe43368e02cc973f_cgraph" alt=""/></div>
+<map name="d5/dcb/group___alarms_gabbf8d3e0752b1660fe43368e02cc973f_cgraph" id="d5/dcb/group___alarms_gabbf8d3e0752b1660fe43368e02cc973f_cgraph">
+<area shape="rect" id="node2" href="../../d9/d7f/class_time_manager.html#abc678da7dd58d16cea641f5f0d0392a7" title="TimeManager::GetFrameTime" alt="" coords="240,31,435,57"/>
+<area shape="rect" id="node6" href="../../d7/db6/class_alarmable.html#aef558f6ec78932378b9e71bd13109ad1" title="Alarmable::SetIterator" alt="" coords="263,81,411,108"/>
+<area shape="rect" id="node7" href="../../d7/db6/class_alarmable.html#ab38f34e2a7461e167e31b39745ea5222" title="Alarmable::AddTime" alt="" coords="268,132,407,159"/>
+<area shape="rect" id="node3" href="../../d9/d7f/class_time_manager.html#a9bb9e5390526b32783b94adb728604fa" title="TimeManager::Instance" alt="" coords="511,5,668,32"/>
+<area shape="rect" id="node5" href="../../d9/d7f/class_time_manager.html#a613cea801de384ab2608a34cbaab2444" title="Returns the time it took (in seconds) to process a single frame. " alt="" coords="483,56,696,83"/>
+<area shape="rect" id="node4" href="../../d9/d7f/class_time_manager.html#ab1c3cbb48ad68d928bb8b9a4ef210ed6" title="TimeManager::TimeManager" alt="" coords="744,5,931,32"/>
+</map>
+</div>
 
 </div>
 </div>

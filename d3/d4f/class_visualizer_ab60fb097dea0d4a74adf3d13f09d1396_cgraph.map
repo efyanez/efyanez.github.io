@@ -1,9 +1,8 @@
 <map id="Visualizer::privRenderBSphere" name="Visualizer::privRenderBSphere">
-<area shape="rect" id="node2" href="$d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="273,55,409,81"/>
-<area shape="rect" id="node5" href="$d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="251,106,431,147"/>
+<area shape="rect" id="node2" href="$d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="273,5,409,32"/>
+<area shape="rect" id="node4" href="$d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="251,57,431,98"/>
 <area shape="rect" id="node3" href="$d3/d4f/class_visualizer.html#a104487003c9fea602e26c072aae27efc" title="Visualizer::Visualizer" alt="" coords="506,5,650,32"/>
-<area shape="rect" id="node4" href="$d3/d4f/class_visualizer.html#a3f965217cb559e5cdbd3fd1a6d855e20" title="Visualizer::Delete" alt="" coords="516,56,640,83"/>
-<area shape="rect" id="node6" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="495,111,661,137"/>
-<area shape="rect" id="node8" href="$d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7" title="SceneManager::privGetCurrent\lScene" alt="" coords="479,162,677,203"/>
-<area shape="rect" id="node7" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="725,111,929,137"/>
+<area shape="rect" id="node5" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="495,60,661,87"/>
+<area shape="rect" id="node7" href="$d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7" title="SceneManager::privGetCurrent\lScene" alt="" coords="479,111,677,153"/>
+<area shape="rect" id="node6" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="725,60,929,87"/>
 </map>

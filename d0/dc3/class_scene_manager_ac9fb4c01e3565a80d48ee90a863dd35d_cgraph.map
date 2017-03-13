@@ -1,0 +1,5 @@
+<map id="SceneManager::privGetCurrent2DCamera" name="SceneManager::privGetCurrent2DCamera">
+<area shape="rect" id="node2" href="$d6/db5/class_scene.html#a6fca889fab7f92f45dd87042d109e6cf" title="Returns the scene&#39;s camera manager as a CameraManager pointer. " alt="" coords="275,5,440,32"/>
+<area shape="rect" id="node4" href="$d2/d23/class_camera_manager.html#a632460cdabc6d2e254f25cbdb21eabb2" title="Returns the current camera as a Camera* type. " alt="" coords="260,57,455,98"/>
+<area shape="rect" id="node3" href="$d6/db5/class_scene.html#afce99c578d2ea8375ea147705bef1e2f" title="Virtual function, called when a scene is terminated. " alt="" coords="503,5,627,32"/>
+</map>

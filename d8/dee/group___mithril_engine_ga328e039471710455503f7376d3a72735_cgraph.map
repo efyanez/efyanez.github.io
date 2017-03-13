@@ -1,6 +1,6 @@
 <map id="GodCamera::GodCamera" name="GodCamera::GodCamera">
 <area shape="rect" id="node2" href="$dd/d22/_god_camera_8cpp.html#a2f40b7155f991e81ff21eda6592bd1a5" title="CamRot" alt="" coords="306,5,375,32"/>
-<area shape="rect" id="node3" href="$dd/d22/_god_camera_8cpp.html#a5d62048ffb151861e77f5764285839e4" title="CamPos" alt="" coords="305,56,377,83"/>
+<area shape="rect" id="node3" href="$dd/d22/_god_camera_8cpp.html#aba5f153f4ae67abfc445cbcbe48b06c1" title="CamPos" alt="" coords="305,56,377,83"/>
 <area shape="rect" id="node4" href="$dd/d22/_god_camera_8cpp.html#a678086598374ae211cecfa42ff3e23aa" title="CamUp" alt="" coords="308,107,373,133"/>
 <area shape="rect" id="node5" href="$d0/d75/group___update.html#ga705b2573da6eaa190a30bba0f7f4dddc" title="Submit the object for Update registration. " alt="" coords="221,208,460,235"/>
 <area shape="rect" id="node6" href="$d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="508,146,688,187"/>
