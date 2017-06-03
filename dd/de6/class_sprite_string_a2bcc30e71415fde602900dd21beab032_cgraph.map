@@ -1,0 +1,9 @@
+<map id="SpriteString::Render" name="SpriteString::Render">
+<area shape="rect" id="node2" href="$d7/dbf/class_sprite.html#afea5e8f8f745b1db09b86f45943283af" title="Sets the position for a sprite. " alt="" coords="215,5,322,32"/>
+<area shape="rect" id="node3" href="$d7/dbf/class_sprite.html#a7778420e2335fac704fc079f5c0f716b" title="Renders sprite to current 2D camera. " alt="" coords="216,56,321,83"/>
+<area shape="rect" id="node8" href="$d7/dbf/class_sprite.html#a665a7de100180708504b385c3e5ce0bb" title="Sprite::GetGlyphWidth" alt="" coords="192,107,345,133"/>
+<area shape="rect" id="node4" href="$d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="393,49,573,90"/>
+<area shape="rect" id="node5" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="637,27,804,53"/>
+<area shape="rect" id="node7" href="$d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7" title="SceneManager::privGetCurrent\lScene" alt="" coords="621,78,820,119"/>
+<area shape="rect" id="node6" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="868,27,1072,53"/>
+</map>

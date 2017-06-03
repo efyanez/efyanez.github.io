@@ -1,0 +1,3 @@
+<map id="ParticleEffectStream" name="ParticleEffectStream">
+<area shape="rect" id="node2" href="$d9/de5/class_particle_effect.html" title="{ParticleEffect\n|# burstInterval\l# burstLife\l# burstCount\l# burstSpeed\l# burstScale\l# burstTightness\l# pModel\l# pShader\l# pTexture\l# grObj\l# currentPattern\l# currentEmitter\l|+ ParticleEffect()\l+ ~ParticleEffect()\l+ SetGraphicObject()\l+ GetBurstInterval()\l+ GetBurstLife()\l+ GetBurstCount()\l+ GetBurstSpeed()\l+ GetScale()\l+ GetBurstTightness()\l+ GetGraphicsObject()\l+ SpawnParticleEmitter()\l+ GetBurstPattern()\l}" alt="" coords="10,5,177,405"/>
+</map>

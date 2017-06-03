@@ -1,4 +1,5 @@
 <map id="Visualizer" name="Visualizer">
-<area shape="rect" id="node4" href="$d8/d21/class_collision_volume_b_sphere.html" title="{CollisionVolumeBSphere\n|# center\l# radius\l# world\l|+ CollisionVolumeBSphere()\l+ ~CollisionVolumeBSphere()\l+ ComputeData()\l+ Intersect()\l+ Intersect()\l+ GetCenter()\l+ GetRadius()\l+ GetWorld()\l}" alt="" coords="84,220,277,429"/>
-<area shape="rect" id="node5" href="$d5/d7c/class_collision_volume.html" title="{CollisionVolume\n||+ CollisionVolume()\l+ CollisionVolume()\l+ operator=()\l+ ~CollisionVolume()\l+ ComputeData()\l+ Intersect()\l+ Intersect()\l}" alt="" coords="109,5,252,171"/>
+<area shape="rect" id="node4" href="$db/dd2/struct_visualizer_1_1_visualizer_terrain_cell.html" title="{Visualizer::VisualizerTerrainCell\n|+ myColor\l+ myWorld\l|}" alt="" coords="63,277,269,369"/>
+<area shape="rect" id="node6" href="$df/db0/struct_visualizer_1_1_visualizer_data.html" title="{Visualizer::VisualizerData\n|+ myColor\l|}" alt="" coords="293,285,463,362"/>
+<area shape="rect" id="node7" href="$d5/d7c/class_collision_volume.html" title="{CollisionVolume\n||+ CollisionVolume()\l+ CollisionVolume()\l+ operator=()\l+ ~CollisionVolume()\l+ ComputeData()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ DebugView()\l}" alt="" coords="307,5,449,215"/>
 </map>

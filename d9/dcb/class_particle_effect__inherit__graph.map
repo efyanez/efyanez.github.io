@@ -1,0 +1,5 @@
+<map id="ParticleEffect" name="ParticleEffect">
+<area shape="rect" id="node2" href="$d9/d29/class_particle_effect_pulse.html" title="{ParticleEffectPulse\n||+ ParticleEffectPulse()\l+ SetBurstIntervalAndLife()\l+ SetBurstCount()\l+ SetSpeed()\l+ SetScale()\l+ SetTightness()\l}" alt="" coords="5,453,181,604"/>
+<area shape="rect" id="node3" href="$d9/dff/class_particle_effect_spherical_burst.html" title="{ParticleEffectSphericalBurst\n||+ ParticleEffectSphericalBurst()\l+ SetBurstIntervalAndLife()\l+ SetBurstCount()\l+ SetSpeed()\l+ SetScale()\l+ SetTightness()\l}" alt="" coords="206,453,410,604"/>
+<area shape="rect" id="node4" href="$d8/d9f/class_particle_effect_stream.html" title="{ParticleEffectStream\n||+ ParticleEffectStream()\l+ SetBurstIntervalAndLife()\l+ SetBurstCount()\l+ SetSpeed()\l+ SetScale()\l+ SetTightness()\l}" alt="" coords="435,453,611,604"/>
+</map>

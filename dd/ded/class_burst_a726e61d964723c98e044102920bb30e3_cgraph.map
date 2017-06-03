@@ -1,0 +1,10 @@
+<map id="Burst::DrawParticles" name="Burst::DrawParticles">
+<area shape="rect" id="node2" href="$d0/dc3/class_scene_manager.html#ac1324ce9ce69ed9777c3a54be0349ecc" title="Returns the current scene 3D camera. " alt="" coords="195,27,381,69"/>
+<area shape="rect" id="node3" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="449,5,616,32"/>
+<area shape="rect" id="node5" href="$d0/dc3/class_scene_manager.html#a41e934dac7a132cca581ada25983b278" title="SceneManager::privGetCurrent3\lDCamera" alt="" coords="429,57,636,98"/>
+<area shape="rect" id="node4" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="684,5,888,32"/>
+<area shape="rect" id="node6" href="$d6/db5/class_scene.html#a6fca889fab7f92f45dd87042d109e6cf" title="Returns the scene&#39;s camera manager as a CameraManager pointer. " alt="" coords="703,60,869,87"/>
+<area shape="rect" id="node9" href="$d2/d23/class_camera_manager.html#a73be4132ae9a5523cd4e778a53013a16" title="Returns the current camera as a Camera* type. " alt="" coords="692,111,880,153"/>
+<area shape="rect" id="node7" href="$d6/db5/class_scene.html#afce99c578d2ea8375ea147705bef1e2f" title="Virtual function, called when a scene is terminated. " alt="" coords="936,60,1060,87"/>
+<area shape="rect" id="node8" href="$d2/d23/class_camera_manager.html#ab94598716ca1ac6278051410852925bf" title="Terminate the Camera Manager and delete the current camera pointer. " alt="" coords="1108,60,1291,87"/>
+</map>

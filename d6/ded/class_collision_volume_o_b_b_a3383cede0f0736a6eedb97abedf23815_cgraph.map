@@ -1,0 +1,11 @@
+<map id="CollisionVolumeOBB::DebugView" name="CollisionVolumeOBB::DebugView">
+<area shape="rect" id="node2" href="$d3/d4f/class_visualizer.html#a4983f9e811949011669d263ee2412d6a" title="Visualizer::ShowBox" alt="" coords="196,56,339,83"/>
+<area shape="rect" id="node3" href="$d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="649,5,785,32"/>
+<area shape="rect" id="node5" href="$d3/d4f/class_visualizer.html#a231a23a4281752f51304d5e0573b0197" title="Visualizer::privRenderAABB" alt="" coords="391,56,574,83"/>
+<area shape="rect" id="node10" href="$dc/df9/class_collision_volume_bounding_box_base.html#ae0961549c42a5fc421905fbfcca89292" title="Returns the world matrix of the BSphere. " alt="" coords="387,107,579,149"/>
+<area shape="rect" id="node4" href="$d3/d4f/class_visualizer.html#a104487003c9fea602e26c072aae27efc" title="Visualizer::Visualizer" alt="" coords="882,5,1026,32"/>
+<area shape="rect" id="node6" href="$d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="627,57,807,98"/>
+<area shape="rect" id="node7" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="871,60,1037,87"/>
+<area shape="rect" id="node9" href="$d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7" title="SceneManager::privGetCurrent\lScene" alt="" coords="855,111,1053,153"/>
+<area shape="rect" id="node8" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="1101,60,1305,87"/>
+</map>

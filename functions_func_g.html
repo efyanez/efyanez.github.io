@@ -20,9 +20,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="mithrillogo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mithril Engine
-   &#160;<span id="projectnumber">1.0</span>
+   &#160;<span id="projectnumber">2.0</span>
    </div>
    <div id="projectbrief">Documentation for Mithril Engine</div>
   </td>
@@ -75,20 +76,61 @@ $(function() {
 <li>GameObjectExitCommand()
 : <a class="el" href="d2/df5/class_game_object_exit_command.html#a6ec0202972b80106d8a27124663c2698">GameObjectExitCommand</a>
 </li>
+<li>GetAABB()
+: <a class="el" href="dc/d5d/class_collidable_group.html#a3d29363f2f54a0ac47ad0af4645d9495">CollidableGroup&lt; C &gt;</a>
+</li>
+<li>GetAABBMax()
+: <a class="el" href="d8/d21/class_collision_volume_b_sphere.html#ad0146c3f2e4be2374af673e7c5eea440">CollisionVolumeBSphere</a>
+</li>
+<li>GetAABBMin()
+: <a class="el" href="d8/d21/class_collision_volume_b_sphere.html#a7c251b9fc5994d39340f0318709de160">CollisionVolumeBSphere</a>
+</li>
 <li>GetAngle()
 : <a class="el" href="d7/dbf/class_sprite.html#aea549a8785828fd8767eafa8a8d80029">Sprite</a>
 </li>
-<li>GetBSphere()
-: <a class="el" href="d8/deb/class_collidable.html#a2a27dfbd85085fc8799b2d91407ac350">Collidable</a>
+<li>GetBurstCount()
+: <a class="el" href="d9/de5/class_particle_effect.html#aba22e7f23bfcb563658c8a40f2536464">ParticleEffect</a>
+</li>
+<li>GetBurstInterval()
+: <a class="el" href="d9/de5/class_particle_effect.html#ab339914cf43208d5e4824f41f42332d8">ParticleEffect</a>
+</li>
+<li>GetBurstLife()
+: <a class="el" href="d9/de5/class_particle_effect.html#a142e880b4ecbb3b8e53a6e7adb942a0b">ParticleEffect</a>
+</li>
+<li>GetBurstPattern()
+: <a class="el" href="d9/de5/class_particle_effect.html#a62536cdf3d8d04f0ad29fd2cd39e032e">ParticleEffect</a>
+</li>
+<li>GetBurstSpeed()
+: <a class="el" href="d9/de5/class_particle_effect.html#a2ceadbc932f897fdedea587baa54efe9">ParticleEffect</a>
+</li>
+<li>GetBurstTightness()
+: <a class="el" href="d9/de5/class_particle_effect.html#a21c7c67dc81369f78c85df129eb8bc2a">ParticleEffect</a>
 </li>
 <li>GetCamManager()
 : <a class="el" href="d6/db5/class_scene.html#a6fca889fab7f92f45dd87042d109e6cf">Scene</a>
 </li>
+<li>GetCellCandidates()
+: <a class="el" href="d7/d10/class_terrain_object.html#a716d5cf2602533ebb10d3e48210c1bf8">TerrainObject</a>
+</li>
 <li>GetCenter()
-: <a class="el" href="d8/d21/class_collision_volume_b_sphere.html#a16eb0b62bf7efa63e7fe9b09d43fe947">CollisionVolumeBSphere</a>
+: <a class="el" href="dc/df9/class_collision_volume_bounding_box_base.html#a78478f3058e976d152d65d699c14f9e7">CollisionVolumeBoundingBoxBase</a>
+, <a class="el" href="d8/d21/class_collision_volume_b_sphere.html#a16eb0b62bf7efa63e7fe9b09d43fe947">CollisionVolumeBSphere</a>
+</li>
+<li>GetCenterWorld()
+: <a class="el" href="d0/d0a/class_collision_volume_a_a_b_b.html#a4c04433d6b77b33f043ab7319ff36e1b">CollisionVolumeAABB</a>
+, <a class="el" href="d6/ded/class_collision_volume_o_b_b.html#ac9ede3a40630d553374d8a75a7202aac">CollisionVolumeOBB</a>
 </li>
 <li>GetColliderCollection()
 : <a class="el" href="dc/d5d/class_collidable_group.html#a2e776adf3364426e63431e0287d01317">CollidableGroup&lt; C &gt;</a>
+</li>
+<li>GetCollisionVolume()
+: <a class="el" href="d8/deb/class_collidable.html#a04af066d38f7c8a2270da7e8e433b212">Collidable</a>
+</li>
+<li>GetCornerMax()
+: <a class="el" href="dc/df9/class_collision_volume_bounding_box_base.html#a4fb3762cb35cc40efb1c479d418a74d9">CollisionVolumeBoundingBoxBase</a>
+</li>
+<li>GetCornerMin()
+: <a class="el" href="dc/df9/class_collision_volume_bounding_box_base.html#aec13a3bc5f00a217b5845fd67f7f2aa3">CollisionVolumeBoundingBoxBase</a>
 </li>
 <li>GetCurrent2DCamera()
 : <a class="el" href="d2/d23/class_camera_manager.html#a632460cdabc6d2e254f25cbdb21eabb2">CameraManager</a>
@@ -103,8 +145,24 @@ $(function() {
 <li>GetCurrentScene()
 : <a class="el" href="d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe">SceneManager</a>
 </li>
+<li>GetDefaultBSphere()
+: <a class="el" href="d8/deb/class_collidable.html#add91672c8db59fe441fa703beebe1cd8">Collidable</a>
+</li>
 <li>GetFrameTime()
 : <a class="el" href="d9/d7f/class_time_manager.html#abc678da7dd58d16cea641f5f0d0392a7">TimeManager</a>
+</li>
+<li>GetGlyph()
+: <a class="el" href="d4/d74/class_sprite_font.html#a0ef72714c70fdd755a1b0d1a5a097d0d">SpriteFont</a>
+</li>
+<li>GetGlyphWidth()
+: <a class="el" href="d7/dbf/class_sprite.html#a665a7de100180708504b385c3e5ce0bb">Sprite</a>
+</li>
+<li>GetGraphicsObject()
+: <a class="el" href="d9/de5/class_particle_effect.html#a9a8dc2cfd593b8f3987c4266c66224c2">ParticleEffect</a>
+</li>
+<li>GetHalfDiagonal()
+: <a class="el" href="d0/d0a/class_collision_volume_a_a_b_b.html#ad47bb16b8978ee08b113be7bda510a79">CollisionVolumeAABB</a>
+, <a class="el" href="d6/ded/class_collision_volume_o_b_b.html#af51574924df47ce475e14fc6a92e2907">CollisionVolumeOBB</a>
 </li>
 <li>GetHeight()
 : <a class="el" href="d6/d4b/class_mithril_engine.html#a8dbd0268139dd53ded75463dc3cb33c8">MithrilEngine</a>
@@ -120,22 +178,73 @@ $(function() {
 <li>GetKey()
 : <a class="el" href="d8/d68/class_key_object.html#a7b0aca5caa8fefb24bb29dae964d645e">KeyObject</a>
 </li>
+<li>GetLocalCenter()
+: <a class="el" href="d0/d0a/class_collision_volume_a_a_b_b.html#a2e7111b4dafe929095ba9980d9cb9cd6">CollisionVolumeAABB</a>
+</li>
+<li>GetLocalMax()
+: <a class="el" href="d0/d0a/class_collision_volume_a_a_b_b.html#a68053e10a404e1a70419fe1d4903fc25">CollisionVolumeAABB</a>
+</li>
+<li>GetLocalMin()
+: <a class="el" href="d0/d0a/class_collision_volume_a_a_b_b.html#a648a35d025c93331c4ae8dd9b5048874">CollisionVolumeAABB</a>
+</li>
+<li>GetMaxVect()
+: <a class="el" href="d8/d8f/class_math_tools.html#af6571fe7d5ca19bf306f4689f4428955">MathTools</a>
+</li>
+<li>GetMinVect()
+: <a class="el" href="d8/d8f/class_math_tools.html#ae1a5604528d85b4553eafc13a54af48a">MathTools</a>
+</li>
 <li>GetModel()
 : <a class="el" href="d3/d3a/class_model_manager.html#a7745c33907b48ae44618f21891cefc68">ModelManager</a>
+</li>
+<li>GetOriginalWorld()
+: <a class="el" href="d0/d0a/class_collision_volume_a_a_b_b.html#a5bef4aadfc9bfb4ce8894709a239ee36">CollisionVolumeAABB</a>
+, <a class="el" href="d6/ded/class_collision_volume_o_b_b.html#ab7f32a97e19c1f3ce7f8a39d252cf2af">CollisionVolumeOBB</a>
+</li>
+<li>GetParticleEffect()
+: <a class="el" href="d9/d97/class_particle_effect_manager.html#a5c8c527cc8c67959141bc3c254858c73">ParticleEffectManager</a>
 </li>
 <li>GetPos()
 : <a class="el" href="d7/dbf/class_sprite.html#aeba2a12b010358d09fe3470a373a002d">Sprite</a>
 </li>
+<li>GetProjectionMax()
+: <a class="el" href="d8/d8f/class_math_tools.html#a44acc19be80c654f1e8029ecdb08843f">MathTools</a>
+</li>
 <li>GetRadius()
 : <a class="el" href="d8/d21/class_collision_volume_b_sphere.html#a0206a8d8db1bc17f3d3f9d5e8ed54949">CollisionVolumeBSphere</a>
+</li>
+<li>GetRandomFloat()
+: <a class="el" href="d8/d8f/class_math_tools.html#ade7bfde2ed0b609f9a8f09601de27a6a">MathTools</a>
+</li>
+<li>GetRandomInt()
+: <a class="el" href="d8/d8f/class_math_tools.html#a50ffdf83a938a286962fd00b37801283">MathTools</a>
 </li>
 <li>GetRemainingTime()
 : <a class="el" href="d5/dcb/group___alarms.html#ga693a324e126e1082ac5e8ce96dd3c131">Alarmable</a>
 , <a class="el" href="d9/dc2/class_alarmable_manager.html#af4d64f8a892a8116be0209a8da8b3335">AlarmableManager</a>
 , <a class="el" href="d6/db5/class_scene.html#a3248961729a4095e9104f6ffa56dbb7c">Scene</a>
 </li>
+<li>GetScale()
+: <a class="el" href="d9/de5/class_particle_effect.html#a77a2cbb7815466839619d551f3501e02">ParticleEffect</a>
+</li>
+<li>GetScaleSquared()
+: <a class="el" href="d0/d0a/class_collision_volume_a_a_b_b.html#a73d5bd0c7308044a27fed87bbc530441">CollisionVolumeAABB</a>
+, <a class="el" href="d6/ded/class_collision_volume_o_b_b.html#a9fae88354ba42c234d8caacf454f0738">CollisionVolumeOBB</a>
+</li>
 <li>GetShader()
 : <a class="el" href="d2/d24/class_shader_manager.html#a3602d0674af7106d7bda9868197ee0c3">ShaderManager</a>
+</li>
+<li>GetSpriteFont()
+: <a class="el" href="d8/dba/class_sprite_font_manager.html#a11ff6e6dd92614074cb658ebeca4b497">SpriteFontManager</a>
+</li>
+<li>GetStatus()
+: <a class="el" href="dd/ded/class_burst.html#a3ec894e71382771155448dc2c07e0d65">Burst</a>
+</li>
+<li>GetTerrain()
+: <a class="el" href="d6/db5/class_scene.html#a96768310e1e348a8366e4e02a053957a">Scene</a>
+, <a class="el" href="d3/d16/class_terrain_manager.html#aa6334fc4420a42e525792613ad4c76fb">TerrainManager</a>
+</li>
+<li>GetTerrainObject()
+: <a class="el" href="d6/d14/class_terrain_object_manager.html#a539ed9379b289134b173e4399e1f6ec8">TerrainObjectManager</a>
 </li>
 <li>GetTexture()
 : <a class="el" href="db/ddf/class_texture_manager.html#a1dcf2eb817c5324e8e501fcd91946fd5">TextureManager</a>
@@ -152,12 +261,17 @@ $(function() {
 </li>
 <li>GetWidth()
 : <a class="el" href="d6/d4b/class_mithril_engine.html#a3aca612ace4670ea15127a27d23e2a38">MithrilEngine</a>
+, <a class="el" href="d7/dbf/class_sprite.html#a3a57dd81cb543ceb10be96a79169da1a">Sprite</a>
 </li>
 <li>GetWorld()
-: <a class="el" href="d8/d21/class_collision_volume_b_sphere.html#a6b896f09786c4f572ff6e9ddb933c42f">CollisionVolumeBSphere</a>
+: <a class="el" href="dc/df9/class_collision_volume_bounding_box_base.html#ae0961549c42a5fc421905fbfcca89292">CollisionVolumeBoundingBoxBase</a>
+, <a class="el" href="d8/d21/class_collision_volume_b_sphere.html#a6b896f09786c4f572ff6e9ddb933c42f">CollisionVolumeBSphere</a>
 </li>
 <li>GodCamera()
 : <a class="el" href="d8/dee/group___mithril_engine.html#ga328e039471710455503f7376d3a72735">GodCamera</a>
+</li>
+<li>GridToVert()
+: <a class="el" href="d7/d10/class_terrain_object.html#a315092b8e96f3f77c15e988c2c3678d5">TerrainObject</a>
 </li>
 </ul>
 </div><!-- contents -->

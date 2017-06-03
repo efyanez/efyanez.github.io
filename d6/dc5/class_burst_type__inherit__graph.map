@@ -1,0 +1,5 @@
+<map id="BurstType" name="BurstType">
+<area shape="rect" id="node2" href="$d5/dc0/class_burst_type_pulse.html" title="{BurstTypePulse\n||+ BurstTypePulse()\l+ ~BurstTypePulse()\l+ operator=()\l+ BurstTypePulse()\l+ CalculatePosition()\l}" alt="" coords="5,189,148,325"/>
+<area shape="rect" id="node3" href="$da/d19/class_burst_type_spherical.html" title="{BurstTypeSpherical\n||+ BurstTypeSpherical()\l+ ~BurstTypeSpherical()\l+ operator=()\l+ BurstTypeSpherical()\l+ CalculatePosition()\l}" alt="" coords="173,189,335,325"/>
+<area shape="rect" id="node4" href="$d9/d6e/class_burst_type_stream.html" title="{BurstTypeStream\n||+ BurstTypeStream()\l+ ~BurstTypeStream()\l+ operator=()\l+ BurstTypeStream()\l+ CalculatePosition()\l}" alt="" coords="360,189,511,325"/>
+</map>

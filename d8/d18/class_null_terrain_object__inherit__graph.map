@@ -1,0 +1,3 @@
+<map id="NullTerrainObject" name="NullTerrainObject">
+<area shape="rect" id="node2" href="$d7/d10/class_terrain_object.html" title="{TerrainObject\n|&#45; pModel\l&#45; pTexture\l&#45; grObjTerrain\l&#45; pVerts\l&#45; pTriList\l&#45; minCellArray\l&#45; maxCellArray\l&#45; rowCells\l&#45; rowCols\l&#45; imgWidth\land 7 more...\l|+ TerrainObject()\l+ TerrainObject()\l+ ~TerrainObject()\l+ TerrainObject()\l+ operator=()\l+ PositionToVertex()\l+ VisualizeTerrain()\l+ PositionToCell()\l+ BSphereToCells()\l+ GridToVert()\l+ IndexToCellMin()\l+ IndexToCellMax()\l+ Render()\l+ GetCellCandidates()\l}" alt="" coords="5,5,156,420"/>
+</map>

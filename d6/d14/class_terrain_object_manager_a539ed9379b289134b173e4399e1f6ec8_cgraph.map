@@ -1,0 +1,5 @@
+<map id="TerrainObjectManager::GetTerrainObject" name="TerrainObjectManager::GetTerrainObject">
+<area shape="rect" id="node2" href="$d6/d14/class_terrain_object_manager.html#a7bddbda233e0efa0619622fa3d899c67" title="TerrainObjectManager\l::Instance" alt="" coords="400,5,549,47"/>
+<area shape="rect" id="node4" href="$d6/d14/class_terrain_object_manager.html#a08f8194ac3da0c689aaf88ea844e82a2" title="TerrainObjectManager\l::privGetTerrainObject" alt="" coords="203,35,352,76"/>
+<area shape="rect" id="node3" href="$d6/d14/class_terrain_object_manager.html#aac7be644f7265c410905769500c680f9" title="TerrainObjectManager\l::TerrainObjectManager" alt="" coords="597,5,755,47"/>
+</map>

@@ -20,9 +20,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="mithrillogo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mithril Engine
-   &#160;<span id="projectnumber">1.0</span>
+   &#160;<span id="projectnumber">2.0</span>
    </div>
    <div id="projectbrief">Documentation for Mithril Engine</div>
   </td>
@@ -66,6 +67,9 @@ $(function() {
 <li>Scene()
 : <a class="el" href="d6/db5/class_scene.html#ad10176d75a9cc0da56626f682d083507">Scene</a>
 </li>
+<li>SceneChangeCommand()
+: <a class="el" href="d5/d0f/class_scene_change_command.html#ac8e47ba1c5da7efb608c4d2a7d5b7cb5">SceneChangeCommand</a>
+</li>
 <li>SceneDeregistration()
 : <a class="el" href="d7/db6/class_alarmable.html#a9a2acebee460fa6857c6e256471d036b">Alarmable</a>
 , <a class="el" href="d2/de4/class_drawable.html#a457619b2a757693baa43f115128fc73f">Drawable</a>
@@ -73,9 +77,11 @@ $(function() {
 </li>
 <li>SceneEntry()
 : <a class="el" href="d0/dd1/class_game_object.html#a9b7eed09adea0eab644ba3c9a295d488">GameObject</a>
+, <a class="el" href="d7/d63/class_particle_emitter.html#aecebe31ebd9f5ce0003456b48d0964cd">ParticleEmitter</a>
 </li>
 <li>SceneExit()
 : <a class="el" href="d0/dd1/class_game_object.html#af784bed9fe00cd9605133fffaeda9ef3">GameObject</a>
+, <a class="el" href="d7/d63/class_particle_emitter.html#a1bbcfa43b36fd88ac44a446cbe027661">ParticleEmitter</a>
 </li>
 <li>SceneManager()
 : <a class="el" href="d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808">SceneManager</a>
@@ -91,11 +97,21 @@ $(function() {
 <li>SetAngle()
 : <a class="el" href="d7/dbf/class_sprite.html#a5ae153ea56a125c82eaefbd8cc966e5b">Sprite</a>
 </li>
+<li>SetBurstCount()
+: <a class="el" href="d9/d29/class_particle_effect_pulse.html#a47b22f62507bfe5a38ca4aee3cf51dba">ParticleEffectPulse</a>
+, <a class="el" href="d9/dff/class_particle_effect_spherical_burst.html#a0f5c34f30028cf564dad504f9c85d295">ParticleEffectSphericalBurst</a>
+, <a class="el" href="d8/d9f/class_particle_effect_stream.html#acad19cef41ddfe85480a8c7aa647f8ac">ParticleEffectStream</a>
+</li>
+<li>SetBurstIntervalAndLife()
+: <a class="el" href="d9/d29/class_particle_effect_pulse.html#aab0df35e42b2d4aeec2a666d76906b3f">ParticleEffectPulse</a>
+, <a class="el" href="d9/dff/class_particle_effect_spherical_burst.html#a10d203025599256e0521d430fad7d79a">ParticleEffectSphericalBurst</a>
+, <a class="el" href="d8/d9f/class_particle_effect_stream.html#ad4b9c47ec9e3a388b9f8864130554b76">ParticleEffectStream</a>
+</li>
 <li>SetCenter()
 : <a class="el" href="d7/dbf/class_sprite.html#a7ac80cebb5d5f28ab2368dab973c1024">Sprite</a>
 </li>
 <li>SetColliderModel()
-: <a class="el" href="d8/d51/group___collisions.html#gaa6d1beabe13a24d5979766c72d8017b3">Collidable</a>
+: <a class="el" href="d8/d51/group___collisions.html#gaa05c6da670dbbd2ff6d10484d496b7d4">Collidable</a>
 </li>
 <li>SetCollisionPair()
 : <a class="el" href="df/d14/class_collision_manager.html#a633fd2c01ce66a7661a44cc1596ce8a2">CollisionManager</a>
@@ -103,16 +119,34 @@ $(function() {
 <li>SetCollisionSelf()
 : <a class="el" href="df/d14/class_collision_manager.html#ae7b038e06177417145e85d70bdf33df2">CollisionManager</a>
 </li>
+<li>SetCollisionTerrain()
+: <a class="el" href="df/d14/class_collision_manager.html#ad66b8f05567c5ec94d937be520aab473">CollisionManager</a>
+</li>
 <li>SetCurrentScene()
 : <a class="el" href="d0/dc3/class_scene_manager.html#a629ca538720800fe4835b0453207d8ec">SceneManager</a>
 </li>
 <li>SetDefaultCamera()
 : <a class="el" href="d2/d23/class_camera_manager.html#ab89d7ab5238aa6eb105425911088570b">CameraManager</a>
 </li>
+<li>SetGlyphWidth()
+: <a class="el" href="d7/dbf/class_sprite.html#ac05da3d156e38f66421f0ae714aa5261">Sprite</a>
+</li>
+<li>SetGraphicObject()
+: <a class="el" href="d9/de5/class_particle_effect.html#a06ed5597982f512e024622549c4f193d">ParticleEffect</a>
+</li>
 <li>SetIterator()
 : <a class="el" href="d7/db6/class_alarmable.html#aef558f6ec78932378b9e71bd13109ad1">Alarmable</a>
 , <a class="el" href="d2/de4/class_drawable.html#a7e7c5a4a5e216d7be5081e7239ec1451">Drawable</a>
 , <a class="el" href="d7/d69/class_updatable.html#a88f1e80a60b9ba501cb54ab1943fb402">Updatable</a>
+</li>
+<li>SetListenerPosition()
+: <a class="el" href="d5/dd9/class_sound_manager.html#adad8ee6a31f03a8421cffbdbc7caeae9">SoundManager</a>
+</li>
+<li>SetMax()
+: <a class="el" href="d0/d0a/class_collision_volume_a_a_b_b.html#ae698fe029dddf074b798ad0e5af1d4cf">CollisionVolumeAABB</a>
+</li>
+<li>SetMin()
+: <a class="el" href="d0/d0a/class_collision_volume_a_a_b_b.html#a9cb594983562eb7c7d37396737359a29">CollisionVolumeAABB</a>
 </li>
 <li>SetNextScene()
 : <a class="el" href="d0/dc3/class_scene_manager.html#a952f00e5bdd79e51e970c8d7d2abf64f">SceneManager</a>
@@ -120,23 +154,75 @@ $(function() {
 <li>SetPos()
 : <a class="el" href="d7/dbf/class_sprite.html#afea5e8f8f745b1db09b86f45943283af">Sprite</a>
 </li>
+<li>SetScale()
+: <a class="el" href="d9/d29/class_particle_effect_pulse.html#a4446a00356bda4e43d7c12d3b760eb61">ParticleEffectPulse</a>
+, <a class="el" href="d9/dff/class_particle_effect_spherical_burst.html#abed0f44c22d98923498048085772dc20">ParticleEffectSphericalBurst</a>
+, <a class="el" href="d8/d9f/class_particle_effect_stream.html#a2fdb2194f0dfadf0bc142a446bb29a3f">ParticleEffectStream</a>
+</li>
 <li>SetScaleFactor()
 : <a class="el" href="d7/dbf/class_sprite.html#ab8daa2e19a8ee664f1052c1f1f5d4af3">Sprite</a>
 </li>
 <li>SetScalePixel()
 : <a class="el" href="d7/dbf/class_sprite.html#a4f194406b078ebbfc8e97db0bb6b29bd">Sprite</a>
 </li>
+<li>SetSpeed()
+: <a class="el" href="d9/d29/class_particle_effect_pulse.html#af86ca8de3f18081f31ab530cd671ee74">ParticleEffectPulse</a>
+, <a class="el" href="d9/dff/class_particle_effect_spherical_burst.html#ae2d0d8c7c393ccfe5322a6ca1d83e6d4">ParticleEffectSphericalBurst</a>
+, <a class="el" href="d8/d9f/class_particle_effect_stream.html#a517bd3bba04cf183cd08b13af0a66d0b">ParticleEffectStream</a>
+</li>
+<li>SetTerrain()
+: <a class="el" href="d6/db5/class_scene.html#a35d3ea515b528d0d14d7f65f99f1f2ca">Scene</a>
+, <a class="el" href="d3/d16/class_terrain_manager.html#a8d18e8c9aa4e888509404517e2259ba5">TerrainManager</a>
+</li>
+<li>SetTightness()
+: <a class="el" href="d9/d29/class_particle_effect_pulse.html#a61417ba8741f2a0769f5ce6bb745c03c">ParticleEffectPulse</a>
+, <a class="el" href="d9/dff/class_particle_effect_spherical_burst.html#a5a577d3d82019e42fcbce0c52c23fb50">ParticleEffectSphericalBurst</a>
+, <a class="el" href="d8/d9f/class_particle_effect_stream.html#a3650dfb0a3d3823c79e26e702a45854a">ParticleEffectStream</a>
+</li>
 <li>SetTime()
 : <a class="el" href="d7/db6/class_alarmable.html#a67aa7590dfd979988cd87a6b215c9178">Alarmable</a>
 </li>
+<li>SetVolume()
+: <a class="el" href="d5/dd9/class_sound_manager.html#a5fdfb9741539dfa9ee2cacf8ff51197e">SoundManager</a>
+</li>
+<li>SetWorld()
+: <a class="el" href="d0/d0a/class_collision_volume_a_a_b_b.html#af3eb3b2e9849b0630a33db092308050b">CollisionVolumeAABB</a>
+</li>
 <li>ShaderManager()
-: <a class="el" href="d2/d24/class_shader_manager.html#a1aead91877f158b77e6307954347b353">ShaderManager</a>
+: <a class="el" href="d2/d24/class_shader_manager.html#aca25f81fd10a02b3e97e9c459b864186">ShaderManager</a>
+</li>
+<li>ShowAll()
+: <a class="el" href="d3/d4f/class_visualizer.html#a599038305cae4134f6bb447829090f2c">Visualizer</a>
+</li>
+<li>ShowBox()
+: <a class="el" href="d3/d4f/class_visualizer.html#aca644c048887ebf7214628024ca52ea8">Visualizer</a>
+</li>
+<li>ShowCollisionVolume()
+: <a class="el" href="d3/d4f/class_visualizer.html#a90fbc394b5dc2a967a8cb157b221546f">Visualizer</a>
 </li>
 <li>ShowSphere()
 : <a class="el" href="d3/d4f/class_visualizer.html#a7f4e199bc42d4cc498bff560beb74d4f">Visualizer</a>
 </li>
+<li>SoundManager()
+: <a class="el" href="d5/dd9/class_sound_manager.html#abcc1fbf3488be5788a42c9a4fe56df35">SoundManager</a>
+</li>
+<li>SpawnParticleEmitter()
+: <a class="el" href="d9/de5/class_particle_effect.html#a3267b7e79e31b9f26428f33bf8c946ab">ParticleEffect</a>
+</li>
 <li>Sprite()
-: <a class="el" href="d7/dbf/class_sprite.html#a1cb2691fcaf1d9ccc28d3e3d545f00f8">Sprite</a>
+: <a class="el" href="d7/dbf/class_sprite.html#af3700feddc3ee35f077a7bf05dc45e06">Sprite</a>
+</li>
+<li>SpriteFont()
+: <a class="el" href="d4/d74/class_sprite_font.html#a7726176e5cca66f6d31cf68ea3881b82">SpriteFont</a>
+</li>
+<li>SpriteFontManager()
+: <a class="el" href="d8/dba/class_sprite_font_manager.html#a3dee09a5f0d90dabf7014b2948061413">SpriteFontManager</a>
+</li>
+<li>SpriteString()
+: <a class="el" href="dd/de6/class_sprite_string.html#ae7559f8fdb4c74555c4d4b240dc86635">SpriteString</a>
+</li>
+<li>StopSound()
+: <a class="el" href="d5/dd9/class_sound_manager.html#a0b841e502358c678bf38d12f9267a8cb">SoundManager</a>
 </li>
 <li>SubmitAlarmDeregistration()
 : <a class="el" href="d5/dcb/group___alarms.html#ga44500b3f26d3333fd2ba276efc93a990">Alarmable</a>
@@ -170,6 +256,12 @@ $(function() {
 </li>
 <li>SubmitKeyEventRegistration()
 : <a class="el" href="d0/dec/group___input.html#gacc06697a4f528068bcad140cd02cee00">Inputable</a>
+</li>
+<li>SubmitSceneChange()
+: <a class="el" href="d0/dc3/class_scene_manager.html#a3e80e1a744446f7e2d9796b3cc3a2553">SceneManager</a>
+</li>
+<li>SubmitSceneCommand()
+: <a class="el" href="d6/db5/class_scene.html#a73654d284b4ac31f5dcf00b362ab62d4">Scene</a>
 </li>
 <li>SubmitUpdateDeregistration()
 : <a class="el" href="d0/d75/group___update.html#ga1739b07f9bbc3a22c0ca6d9688f628a6">Updatable</a>

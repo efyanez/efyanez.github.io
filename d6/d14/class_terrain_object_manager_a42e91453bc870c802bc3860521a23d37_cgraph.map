@@ -1,0 +1,5 @@
+<map id="TerrainObjectManager::UnloadTerrainObjects" name="TerrainObjectManager::UnloadTerrainObjects">
+<area shape="rect" id="node2" href="$d6/d14/class_terrain_object_manager.html#a7bddbda233e0efa0619622fa3d899c67" title="TerrainObjectManager\l::Instance" alt="" coords="429,5,579,47"/>
+<area shape="rect" id="node4" href="$d6/d14/class_terrain_object_manager.html#a18fbbb37f032261a78ca65fc76be91a1" title="TerrainObjectManager\l::privUnloadTerrainObjects" alt="" coords="208,35,381,76"/>
+<area shape="rect" id="node3" href="$d6/d14/class_terrain_object_manager.html#aac7be644f7265c410905769500c680f9" title="TerrainObjectManager\l::TerrainObjectManager" alt="" coords="627,5,784,47"/>
+</map>

@@ -20,9 +20,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../mithrillogo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mithril Engine
-   &#160;<span id="projectnumber">1.0</span>
+   &#160;<span id="projectnumber">2.0</span>
    </div>
    <div id="projectbrief">Documentation for Mithril Engine</div>
   </td>
@@ -61,6 +62,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-types">Private Types</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
@@ -86,15 +88,23 @@ Collaboration diagram for Collidable:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d6/dc5/class_collidable__coll__graph.png" border="0" usemap="#_collidable_coll__map" alt="Collaboration graph"/></div>
 <map name="_collidable_coll__map" id="_collidable_coll__map">
-<area shape="rect" id="node2" href="../../d0/dd1/class_game_object.html" title="{GameObject\n|&#45; currState\l|+ GameObject()\l+ GameObject()\l+ operator=()\l+ ~GameObject()\l+ SubmitEntry()\l+ SubmitExit()\l&#45; ConnectToScene()\l&#45; DisconnectFromScene()\l&#45; SceneEntry()\l&#45; SceneExit()\l}" alt="" coords="259,220,430,429"/>
-<area shape="rect" id="node3" href="../../d7/dcf/class_game_object_entry_command.html" title="{GameObjectEntryCommand\n||+ GameObjectEntryCommand()\l+ ~GameObjectEntryCommand()\l+ GameObjectEntryCommand()\l+ operator=()\l+ Execute()\l}" alt="" coords="471,551,685,687"/>
-<area shape="rect" id="node5" href="../../d2/df5/class_game_object_exit_command.html" title="{GameObjectExitCommand\n||+ GameObjectExitCommand()\l+ ~GameObjectExitCommand()\l+ GameObjectExitCommand()\l+ operator=()\l+ Execute()\l}" alt="" coords="242,551,447,687"/>
-<area shape="rect" id="node4" href="../../db/db6/class_command_base.html" title="{CommandBase\n||+ CommandBase()\l+ ~CommandBase()\l+ CommandBase()\l+ operator=()\l+ Execute()\l}" alt="" coords="559,257,698,393"/>
-<area shape="rect" id="node6" href="../../d8/d21/class_collision_volume_b_sphere.html" title="{CollisionVolumeBSphere\n|# center\l# radius\l# world\l|+ CollisionVolumeBSphere()\l+ ~CollisionVolumeBSphere()\l+ ComputeData()\l+ Intersect()\l+ Intersect()\l+ GetCenter()\l+ GetRadius()\l+ GetWorld()\l}" alt="" coords="15,220,208,429"/>
-<area shape="rect" id="node7" href="../../d5/d7c/class_collision_volume.html" title="{CollisionVolume\n||+ CollisionVolume()\l+ CollisionVolume()\l+ operator=()\l+ ~CollisionVolume()\l+ ComputeData()\l+ Intersect()\l+ Intersect()\l}" alt="" coords="40,5,183,171"/>
+<area shape="rect" id="node2" href="../../d0/dd1/class_game_object.html" title="{GameObject\n|&#45; currState\l|+ GameObject()\l+ GameObject()\l+ operator=()\l+ ~GameObject()\l+ SubmitEntry()\l+ SubmitExit()\l&#45; ConnectToScene()\l&#45; DisconnectFromScene()\l&#45; SceneEntry()\l&#45; SceneExit()\l}" alt="" coords="383,301,554,510"/>
+<area shape="rect" id="node3" href="../../d7/dcf/class_game_object_entry_command.html" title="{GameObjectEntryCommand\n||+ GameObjectEntryCommand()\l+ ~GameObjectEntryCommand()\l+ GameObjectEntryCommand()\l+ operator=()\l+ Execute()\l}" alt="" coords="595,690,809,826"/>
+<area shape="rect" id="node5" href="../../d2/df5/class_game_object_exit_command.html" title="{GameObjectExitCommand\n||+ GameObjectExitCommand()\l+ ~GameObjectExitCommand()\l+ GameObjectExitCommand()\l+ operator=()\l+ Execute()\l}" alt="" coords="366,690,571,826"/>
+<area shape="rect" id="node4" href="../../db/db6/class_command_base.html" title="{CommandBase\n||+ CommandBase()\l+ ~CommandBase()\l+ CommandBase()\l+ operator=()\l+ Execute()\l}" alt="" coords="650,337,789,473"/>
+<area shape="rect" id="node6" href="../../d8/d21/class_collision_volume_b_sphere.html" title="{CollisionVolumeBSphere\n|# center\l# radius\l# world\l|+ CollisionVolumeBSphere()\l+ ~CollisionVolumeBSphere()\l+ ComputeData()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ DebugView()\l+ GetCenter()\l+ GetRadius()\l+ GetWorld()\l+ GetAABBMin()\l+ GetAABBMax()\l}" alt="" coords="5,264,199,547"/>
+<area shape="rect" id="node7" href="../../d5/d7c/class_collision_volume.html" title="{CollisionVolume\n||+ CollisionVolume()\l+ CollisionVolume()\l+ operator=()\l+ ~CollisionVolume()\l+ ComputeData()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ DebugView()\l}" alt="" coords="168,5,311,215"/>
 </map>
 </div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a6000fb9d7689334f0abaee2f1ef14913"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/deb/class_collidable.html#a6000fb9d7689334f0abaee2f1ef14913">CollisionType</a> { <a class="el" href="../../d8/deb/class_collidable.html#a6000fb9d7689334f0abaee2f1ef14913ac1064224b43d52fe95fed312f834f1ad">CollisionType::BSphere</a>, 
+<a class="el" href="../../d8/deb/class_collidable.html#a6000fb9d7689334f0abaee2f1ef14913a4276d50f05d2cac4c98c17337ac30c99">CollisionType::AABB</a>, 
+<a class="el" href="../../d8/deb/class_collidable.html#a6000fb9d7689334f0abaee2f1ef14913a9aac15e014ce3a36fcbf4a3f669332da">CollisionType::OBB</a>
+ }</td></tr>
+<tr class="separator:a6000fb9d7689334f0abaee2f1ef14913"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a92ce9e2b08086bb2f466168ffc69c9ed"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/deb/class_collidable.html#a92ce9e2b08086bb2f466168ffc69c9ed">Collidable</a> ()</td></tr>
@@ -108,6 +118,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ga62843d13fd8e2298b051340c07fe5a3d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d51/group___collisions.html#ga62843d13fd8e2298b051340c07fe5a3d">Collision</a> (<a class="el" href="../../d8/deb/class_collidable.html">Collidable</a> *)</td></tr>
 <tr class="memdesc:ga62843d13fd8e2298b051340c07fe5a3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a collision with <code> is detected. </code> <a href="../../d8/d51/group___collisions.html#ga62843d13fd8e2298b051340c07fe5a3d">More...</a><br /></td></tr>
 <tr class="separator:ga62843d13fd8e2298b051340c07fe5a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a955de8b7af0640501c17fd416f97723b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/deb/class_collidable.html#a955de8b7af0640501c17fd416f97723b">TerrainCollision</a> ()</td></tr>
+<tr class="separator:a955de8b7af0640501c17fd416f97723b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf78bb29bee20ce76e6e3aa89a8aa7f0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/deb/class_collidable.html#adf78bb29bee20ce76e6e3aa89a8aa7f0">TerrainCollision</a> (<a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html">CollisionVolumeAABB</a> &amp;cellAABB)</td></tr>
+<tr class="separator:adf78bb29bee20ce76e6e3aa89a8aa7f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga070ea61bd8f7bda2ca0558662f833b93"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga070ea61bd8f7bda2ca0558662f833b93"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d51/group___collisions.html#ga070ea61bd8f7bda2ca0558662f833b93">SubmitCollisionRegistration</a> (T *col)</td></tr>
 <tr class="memdesc:ga070ea61bd8f7bda2ca0558662f833b93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Submit the object for Collision registration.  <a href="../../d8/d51/group___collisions.html#ga070ea61bd8f7bda2ca0558662f833b93">More...</a><br /></td></tr>
@@ -116,14 +130,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:gab4fb03368dcb9ae0d18a62b15d078c4a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d51/group___collisions.html#gab4fb03368dcb9ae0d18a62b15d078c4a">SubmitCollisionDeregistration</a> (T *col)</td></tr>
 <tr class="memdesc:gab4fb03368dcb9ae0d18a62b15d078c4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Submit the object for Collision deregistration.  <a href="../../d8/d51/group___collisions.html#gab4fb03368dcb9ae0d18a62b15d078c4a">More...</a><br /></td></tr>
 <tr class="separator:gab4fb03368dcb9ae0d18a62b15d078c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a27dfbd85085fc8799b2d91407ac350"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/deb/class_collidable.html#a2a27dfbd85085fc8799b2d91407ac350">GetBSphere</a> ()</td></tr>
-<tr class="separator:a2a27dfbd85085fc8799b2d91407ac350"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa6d1beabe13a24d5979766c72d8017b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d51/group___collisions.html#gaa6d1beabe13a24d5979766c72d8017b3">SetColliderModel</a> (Model *mod)</td></tr>
-<tr class="memdesc:gaa6d1beabe13a24d5979766c72d8017b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the collider model for the object.  <a href="../../d8/d51/group___collisions.html#gaa6d1beabe13a24d5979766c72d8017b3">More...</a><br /></td></tr>
-<tr class="separator:gaa6d1beabe13a24d5979766c72d8017b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04af066d38f7c8a2270da7e8e433b212"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/deb/class_collidable.html#a04af066d38f7c8a2270da7e8e433b212">GetCollisionVolume</a> ()</td></tr>
+<tr class="separator:a04af066d38f7c8a2270da7e8e433b212"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa05c6da670dbbd2ff6d10484d496b7d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d51/group___collisions.html#gaa05c6da670dbbd2ff6d10484d496b7d4">SetColliderModel</a> (Model *mod, <a class="el" href="../../d8/deb/class_collidable.html#a6000fb9d7689334f0abaee2f1ef14913">CollisionType</a> type)</td></tr>
+<tr class="memdesc:gaa05c6da670dbbd2ff6d10484d496b7d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the collider model for the object.  <a href="../../d8/d51/group___collisions.html#gaa05c6da670dbbd2ff6d10484d496b7d4">More...</a><br /></td></tr>
+<tr class="separator:gaa05c6da670dbbd2ff6d10484d496b7d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad28b334896831067381461249cecc2fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d51/group___collisions.html#gad28b334896831067381461249cecc2fa">UpdateCollisionData</a> (Matrix &amp;mat)</td></tr>
 <tr class="memdesc:gad28b334896831067381461249cecc2fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the world data of the collider model.  <a href="../../d8/d51/group___collisions.html#gad28b334896831067381461249cecc2fa">More...</a><br /></td></tr>
 <tr class="separator:gad28b334896831067381461249cecc2fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add91672c8db59fe441fa703beebe1cd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/deb/class_collidable.html#add91672c8db59fe441fa703beebe1cd8">GetDefaultBSphere</a> ()</td></tr>
+<tr class="separator:add91672c8db59fe441fa703beebe1cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_game_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_game_object')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d0/dd1/class_game_object.html">GameObject</a></td></tr>
 <tr class="memitem:a0348e3ee2e83d56eafca7a3547f432c4 inherit pub_methods_class_game_object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd1/class_game_object.html#a0348e3ee2e83d56eafca7a3547f432c4">GameObject</a> ()</td></tr>
 <tr class="separator:a0348e3ee2e83d56eafca7a3547f432c4 inherit pub_methods_class_game_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,8 +178,10 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:af797f8322c686481144d18da1c7d8b75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/deb/class_collidable.html#af5ea6076e47a66ee8e5e9ad1efe17b82">RegistrationState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/deb/class_collidable.html#af797f8322c686481144d18da1c7d8b75">currState</a></td></tr>
 <tr class="separator:af797f8322c686481144d18da1c7d8b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef73f055e8090a95cee9cdb6647bf0f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/deb/class_collidable.html#aef73f055e8090a95cee9cdb6647bf0f1">BSphere</a></td></tr>
-<tr class="separator:aef73f055e8090a95cee9cdb6647bf0f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82d17d4365622ef1ea0b06cfecb21806"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/deb/class_collidable.html#a82d17d4365622ef1ea0b06cfecb21806">defaultBSphere</a></td></tr>
+<tr class="separator:a82d17d4365622ef1ea0b06cfecb21806"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b764c3af23e2f4b8e1d71075f3ad1af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/deb/class_collidable.html#a0b764c3af23e2f4b8e1d71075f3ad1af">colVolume</a></td></tr>
+<tr class="separator:a0b764c3af23e2f4b8e1d71075f3ad1af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a084e9c711898fd8406d56ffc555ac36e"><td class="memItemLeft" align="right" valign="top">Model *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/deb/class_collidable.html#a084e9c711898fd8406d56ffc555ac36e">pColModel</a></td></tr>
 <tr class="separator:a084e9c711898fd8406d56ffc555ac36e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -173,6 +191,33 @@ Friends</h2></td></tr>
 <tr class="separator:a373d259d6754b64df1ebf86c8c11ed81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a6000fb9d7689334f0abaee2f1ef14913"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6000fb9d7689334f0abaee2f1ef14913">&#9670;&nbsp;</a></span>CollisionType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d8/deb/class_collidable.html#a6000fb9d7689334f0abaee2f1ef14913">Collidable::CollisionType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6000fb9d7689334f0abaee2f1ef14913ac1064224b43d52fe95fed312f834f1ad"></a>BSphere&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6000fb9d7689334f0abaee2f1ef14913a4276d50f05d2cac4c98c17337ac30c99"></a>AABB&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6000fb9d7689334f0abaee2f1ef14913a9aac15e014ce3a36fcbf4a3f669332da"></a>OBB&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="af5ea6076e47a66ee8e5e9ad1efe17b82"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af5ea6076e47a66ee8e5e9ad1efe17b82">&#9670;&nbsp;</a></span>RegistrationState</h2>
 
@@ -343,19 +388,44 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a2a27dfbd85085fc8799b2d91407ac350"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a27dfbd85085fc8799b2d91407ac350">&#9670;&nbsp;</a></span>GetBSphere()</h2>
+<a id="a04af066d38f7c8a2270da7e8e433b212"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04af066d38f7c8a2270da7e8e433b212">&#9670;&nbsp;</a></span>GetCollisionVolume()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> &amp; Collidable::GetBSphere </td>
+          <td class="memname"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a> &amp; Collidable::GetCollisionVolume </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="add91672c8db59fe441fa703beebe1cd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add91672c8db59fe441fa703beebe1cd8">&#9670;&nbsp;</a></span>GetDefaultBSphere()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a>* Collidable::GetDefaultBSphere </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -386,6 +456,57 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a955de8b7af0640501c17fd416f97723b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a955de8b7af0640501c17fd416f97723b">&#9670;&nbsp;</a></span>TerrainCollision() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Collidable::TerrainCollision </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adf78bb29bee20ce76e6e3aa89a8aa7f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf78bb29bee20ce76e6e3aa89a8aa7f0">&#9670;&nbsp;</a></span>TerrainCollision() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Collidable::TerrainCollision </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html">CollisionVolumeAABB</a> &amp;&#160;</td>
+          <td class="paramname"><em>cellAABB</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
 <a id="a373d259d6754b64df1ebf86c8c11ed81"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a373d259d6754b64df1ebf86c8c11ed81">&#9670;&nbsp;</a></span>CollidableManager</h2>
@@ -410,8 +531,8 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aef73f055e8090a95cee9cdb6647bf0f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef73f055e8090a95cee9cdb6647bf0f1">&#9670;&nbsp;</a></span>BSphere</h2>
+<a id="a0b764c3af23e2f4b8e1d71075f3ad1af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b764c3af23e2f4b8e1d71075f3ad1af">&#9670;&nbsp;</a></span>colVolume</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -420,7 +541,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> Collidable::BSphere</td>
+          <td class="memname"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a>* Collidable::colVolume</td>
         </tr>
       </table>
   </td>
@@ -443,6 +564,28 @@ Here is the call graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d8/deb/class_collidable.html#af5ea6076e47a66ee8e5e9ad1efe17b82">RegistrationState</a> Collidable::currState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a82d17d4365622ef1ea0b06cfecb21806"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82d17d4365622ef1ea0b06cfecb21806">&#9670;&nbsp;</a></span>defaultBSphere</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a>* Collidable::defaultBSphere</td>
         </tr>
       </table>
   </td>

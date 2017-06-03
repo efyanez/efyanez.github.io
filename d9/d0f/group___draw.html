@@ -20,9 +20,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../mithrillogo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mithril Engine
-   &#160;<span id="projectnumber">1.0</span>
+   &#160;<span id="projectnumber">2.0</span>
    </div>
    <div id="projectbrief">Documentation for Mithril Engine</div>
   </td>
@@ -106,13 +107,15 @@ Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Everything in <a class="el" href="../../d9/d0f/group___draw.html#gad9f0d5242b82cc01d7a48843d6ebfb68" title="Everything in Draw() happens once per frame, after Updatable::Update() ">Draw()</a> happens once per frame, after <a class="el" href="../../d0/d75/group___update.html#gacf3e0052461248a862ea752ae9dc8185" title="Everything in Update() happens once per frame. ">Updatable::Update()</a> </p>
 <dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="keywordtype">void</span> Ship::Draw()</div><div class="line">{</div><div class="line">pGObj_ShipLight-&gt;Render(<a class="code" href="../../d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe">SceneManager::GetCurrentScene</a>()-&gt;GetCamManager()-&gt;GetCurrentCamera());</div><div class="line">}</div></div><!-- fragment --> </dd></dl>
+
+<p>Reimplemented in <a class="el" href="../../d7/d63/class_particle_emitter.html#a545cf19b9a40b5de9c2402e8c429c6f5">ParticleEmitter</a>.</p>
 
 </div>
 </div>

@@ -1,0 +1,5 @@
+<map id="ParticleEffectManager::UnloadParticleEffects" name="ParticleEffectManager::UnloadParticleEffects">
+<area shape="rect" id="node2" href="$d9/d97/class_particle_effect_manager.html#a6868e140621e67d27de0c7c37f3ec3ba" title="ParticleEffectManager\l::Instance" alt="" coords="429,5,579,47"/>
+<area shape="rect" id="node4" href="$d9/d97/class_particle_effect_manager.html#a0e5106b713b9f2927562ac7a32bc8f08" title="ParticleEffectManager\l::privUnloadParticleEffects" alt="" coords="208,35,381,76"/>
+<area shape="rect" id="node3" href="$d9/d97/class_particle_effect_manager.html#a5423d1a88f78ec6f779ac6685b043773" title="ParticleEffectManager\l::ParticleEffectManager" alt="" coords="627,5,784,47"/>
+</map>

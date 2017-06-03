@@ -20,9 +20,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../mithrillogo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mithril Engine
-   &#160;<span id="projectnumber">1.0</span>
+   &#160;<span id="projectnumber">2.0</span>
    </div>
    <div id="projectbrief">Documentation for Mithril Engine</div>
   </td>
@@ -75,7 +76,7 @@ Inheritance diagram for CollisionVolumeBSphere:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/db0/class_collision_volume_b_sphere__inherit__graph.png" border="0" usemap="#_collision_volume_b_sphere_inherit__map" alt="Inheritance graph"/></div>
 <map name="_collision_volume_b_sphere_inherit__map" id="_collision_volume_b_sphere_inherit__map">
-<area shape="rect" id="node2" href="../../d5/d7c/class_collision_volume.html" title="{CollisionVolume\n||+ CollisionVolume()\l+ CollisionVolume()\l+ operator=()\l+ ~CollisionVolume()\l+ ComputeData()\l+ Intersect()\l+ Intersect()\l}" alt="" coords="31,5,173,171"/>
+<area shape="rect" id="node2" href="../../d5/d7c/class_collision_volume.html" title="{CollisionVolume\n||+ CollisionVolume()\l+ CollisionVolume()\l+ operator=()\l+ ~CollisionVolume()\l+ ComputeData()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ DebugView()\l}" alt="" coords="5,5,148,215"/>
 </map>
 </div>
 <div class="dynheader">
@@ -83,7 +84,7 @@ Collaboration diagram for CollisionVolumeBSphere:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../da/d50/class_collision_volume_b_sphere__coll__graph.png" border="0" usemap="#_collision_volume_b_sphere_coll__map" alt="Collaboration graph"/></div>
 <map name="_collision_volume_b_sphere_coll__map" id="_collision_volume_b_sphere_coll__map">
-<area shape="rect" id="node2" href="../../d5/d7c/class_collision_volume.html" title="{CollisionVolume\n||+ CollisionVolume()\l+ CollisionVolume()\l+ operator=()\l+ ~CollisionVolume()\l+ ComputeData()\l+ Intersect()\l+ Intersect()\l}" alt="" coords="31,5,173,171"/>
+<area shape="rect" id="node2" href="../../d5/d7c/class_collision_volume.html" title="{CollisionVolume\n||+ CollisionVolume()\l+ CollisionVolume()\l+ operator=()\l+ ~CollisionVolume()\l+ ComputeData()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ DebugView()\l}" alt="" coords="5,5,148,215"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -103,6 +104,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a464af9d118e2aec58de5a9d3d0e1c2f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html#a464af9d118e2aec58de5a9d3d0e1c2f9">Intersect</a> (<a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> &amp;other) override</td></tr>
 <tr class="memdesc:a464af9d118e2aec58de5a9d3d0e1c2f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Intersection with BSphere.  <a href="#a464af9d118e2aec58de5a9d3d0e1c2f9">More...</a><br /></td></tr>
 <tr class="separator:a464af9d118e2aec58de5a9d3d0e1c2f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa84a7dde39fb80e8e547d587e89f060e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html#aa84a7dde39fb80e8e547d587e89f060e">Intersect</a> (<a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html">CollisionVolumeAABB</a> &amp;other) override</td></tr>
+<tr class="memdesc:aa84a7dde39fb80e8e547d587e89f060e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Intersection with AABB.  <a href="#aa84a7dde39fb80e8e547d587e89f060e">More...</a><br /></td></tr>
+<tr class="separator:aa84a7dde39fb80e8e547d587e89f060e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5e8b6fe31437db58e61db1cee7a101f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html#ac5e8b6fe31437db58e61db1cee7a101f">Intersect</a> (<a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html">CollisionVolumeOBB</a> &amp;other) override</td></tr>
+<tr class="memdesc:ac5e8b6fe31437db58e61db1cee7a101f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Intersection with AABB.  <a href="#ac5e8b6fe31437db58e61db1cee7a101f">More...</a><br /></td></tr>
+<tr class="separator:ac5e8b6fe31437db58e61db1cee7a101f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd2daeb8f013003a7b95a3f724e386f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html#abd2daeb8f013003a7b95a3f724e386f0">DebugView</a> (const Vect &amp;color) override</td></tr>
+<tr class="separator:abd2daeb8f013003a7b95a3f724e386f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16eb0b62bf7efa63e7fe9b09d43fe947"><td class="memItemLeft" align="right" valign="top">Vect &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html#a16eb0b62bf7efa63e7fe9b09d43fe947">GetCenter</a> ()</td></tr>
 <tr class="memdesc:a16eb0b62bf7efa63e7fe9b09d43fe947"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the center of the BSphere.  <a href="#a16eb0b62bf7efa63e7fe9b09d43fe947">More...</a><br /></td></tr>
 <tr class="separator:a16eb0b62bf7efa63e7fe9b09d43fe947"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -112,14 +121,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6b896f09786c4f572ff6e9ddb933c42f"><td class="memItemLeft" align="right" valign="top">Matrix &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html#a6b896f09786c4f572ff6e9ddb933c42f">GetWorld</a> ()</td></tr>
 <tr class="memdesc:a6b896f09786c4f572ff6e9ddb933c42f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the world matrix of the BSphere.  <a href="#a6b896f09786c4f572ff6e9ddb933c42f">More...</a><br /></td></tr>
 <tr class="separator:a6b896f09786c4f572ff6e9ddb933c42f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c251b9fc5994d39340f0318709de160"><td class="memItemLeft" align="right" valign="top">Vect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html#a7c251b9fc5994d39340f0318709de160">GetAABBMin</a> ()</td></tr>
+<tr class="separator:a7c251b9fc5994d39340f0318709de160"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0146c3f2e4be2374af673e7c5eea440"><td class="memItemLeft" align="right" valign="top">Vect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html#ad0146c3f2e4be2374af673e7c5eea440">GetAABBMax</a> ()</td></tr>
+<tr class="separator:ad0146c3f2e4be2374af673e7c5eea440"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_collision_volume"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_collision_volume')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td></tr>
 <tr class="memitem:gaa7727339e04efff3f200438d2082239c inherit pub_methods_class_collision_volume"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d51/group___collisions.html#gaa7727339e04efff3f200438d2082239c">CollisionVolume</a> ()</td></tr>
 <tr class="memdesc:gaa7727339e04efff3f200438d2082239c inherit pub_methods_class_collision_volume"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a> constructor.  <a href="../../d8/d51/group___collisions.html#gaa7727339e04efff3f200438d2082239c">More...</a><br /></td></tr>
 <tr class="separator:gaa7727339e04efff3f200438d2082239c inherit pub_methods_class_collision_volume"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6934269437b8bd7b94429525b05c356 inherit pub_methods_class_collision_volume"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7c/class_collision_volume.html#af6934269437b8bd7b94429525b05c356">CollisionVolume</a> (const <a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a> &amp;)=delete</td></tr>
-<tr class="separator:af6934269437b8bd7b94429525b05c356 inherit pub_methods_class_collision_volume"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4677bc85defdaa6b4ba032314a91bade inherit pub_methods_class_collision_volume"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7c/class_collision_volume.html#a4677bc85defdaa6b4ba032314a91bade">operator=</a> (const <a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a> &amp;)=delete</td></tr>
-<tr class="separator:a4677bc85defdaa6b4ba032314a91bade inherit pub_methods_class_collision_volume"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a534b57d30f7711d4278b1e5b94df7432 inherit pub_methods_class_collision_volume"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7c/class_collision_volume.html#a534b57d30f7711d4278b1e5b94df7432">CollisionVolume</a> (const <a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a> &amp;)=default</td></tr>
+<tr class="separator:a534b57d30f7711d4278b1e5b94df7432 inherit pub_methods_class_collision_volume"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad74ed0e679c440b84271ab8c2f1796bc inherit pub_methods_class_collision_volume"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7c/class_collision_volume.html#ad74ed0e679c440b84271ab8c2f1796bc">operator=</a> (const <a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a> &amp;)=default</td></tr>
+<tr class="separator:ad74ed0e679c440b84271ab8c2f1796bc inherit pub_methods_class_collision_volume"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fc7adf37bd0eeac9fc358f0075d42d9 inherit pub_methods_class_collision_volume"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7c/class_collision_volume.html#a9fc7adf37bd0eeac9fc358f0075d42d9">~CollisionVolume</a> ()</td></tr>
 <tr class="separator:a9fc7adf37bd0eeac9fc358f0075d42d9 inherit pub_methods_class_collision_volume"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -198,6 +211,84 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="abd2daeb8f013003a7b95a3f724e386f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd2daeb8f013003a7b95a3f724e386f0">&#9670;&nbsp;</a></span>DebugView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CollisionVolumeBSphere::DebugView </td>
+          <td>(</td>
+          <td class="paramtype">const Vect &amp;&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="../../d5/d7c/class_collision_volume.html#a11ecb6a38c383e5aa76a478514f88eb0">CollisionVolume</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d21/class_collision_volume_b_sphere_abd2daeb8f013003a7b95a3f724e386f0_cgraph.png" border="0" usemap="#d8/d21/class_collision_volume_b_sphere_abd2daeb8f013003a7b95a3f724e386f0_cgraph" alt=""/></div>
+<map name="d8/d21/class_collision_volume_b_sphere_abd2daeb8f013003a7b95a3f724e386f0_cgraph" id="d8/d21/class_collision_volume_b_sphere_abd2daeb8f013003a7b95a3f724e386f0_cgraph">
+<area shape="rect" id="node2" href="../../d3/d4f/class_visualizer.html#a7f4e199bc42d4cc498bff560beb74d4f" title="Visualizer::ShowSphere" alt="" coords="219,56,379,83"/>
+<area shape="rect" id="node3" href="../../d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="694,5,830,32"/>
+<area shape="rect" id="node5" href="../../d3/d4f/class_visualizer.html#ab60fb097dea0d4a74adf3d13f09d1396" title="Private non&#45;static function to render BSphere wireframe object. " alt="" coords="427,56,624,83"/>
+<area shape="rect" id="node10" href="../../d8/d21/class_collision_volume_b_sphere.html#a6b896f09786c4f572ff6e9ddb933c42f" title="Returns the world matrix of the BSphere. " alt="" coords="443,107,608,149"/>
+<area shape="rect" id="node4" href="../../d3/d4f/class_visualizer.html#a104487003c9fea602e26c072aae27efc" title="Visualizer::Visualizer" alt="" coords="927,5,1071,32"/>
+<area shape="rect" id="node6" href="../../d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="672,57,852,98"/>
+<area shape="rect" id="node7" href="../../d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="916,60,1083,87"/>
+<area shape="rect" id="node9" href="../../d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7" title="SceneManager::privGetCurrent\lScene" alt="" coords="900,111,1099,153"/>
+<area shape="rect" id="node8" href="../../d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="1147,60,1351,87"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad0146c3f2e4be2374af673e7c5eea440"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0146c3f2e4be2374af673e7c5eea440">&#9670;&nbsp;</a></span>GetAABBMax()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vect CollisionVolumeBSphere::GetAABBMax </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c251b9fc5994d39340f0318709de160"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c251b9fc5994d39340f0318709de160">&#9670;&nbsp;</a></span>GetAABBMin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vect CollisionVolumeBSphere::GetAABBMin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a16eb0b62bf7efa63e7fe9b09d43fe947"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a16eb0b62bf7efa63e7fe9b09d43fe947">&#9670;&nbsp;</a></span>GetCenter()</h2>
 
@@ -259,7 +350,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a73db028b5af8f5cf9e38fa841a44a58c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73db028b5af8f5cf9e38fa841a44a58c">&#9670;&nbsp;</a></span>Intersect() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a73db028b5af8f5cf9e38fa841a44a58c">&#9670;&nbsp;</a></span>Intersect() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -292,11 +383,19 @@ Protected Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Boolean result of intersection. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="../../d5/d7c/class_collision_volume.html#af11a060c0d0408fcfff45f8d48ddaa01">CollisionVolume</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d21/class_collision_volume_b_sphere_a73db028b5af8f5cf9e38fa841a44a58c_cgraph.png" border="0" usemap="#d8/d21/class_collision_volume_b_sphere_a73db028b5af8f5cf9e38fa841a44a58c_cgraph" alt=""/></div>
+<map name="d8/d21/class_collision_volume_b_sphere_a73db028b5af8f5cf9e38fa841a44a58c_cgraph" id="d8/d21/class_collision_volume_b_sphere_a73db028b5af8f5cf9e38fa841a44a58c_cgraph">
+<area shape="rect" id="node2" href="../../d5/d7c/class_collision_volume.html#af11a060c0d0408fcfff45f8d48ddaa01" title="A pure virtual member. " alt="" coords="219,13,392,39"/>
+</map>
+</div>
 
 </div>
 </div>
 <a id="a464af9d118e2aec58de5a9d3d0e1c2f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a464af9d118e2aec58de5a9d3d0e1c2f9">&#9670;&nbsp;</a></span>Intersect() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a464af9d118e2aec58de5a9d3d0e1c2f9">&#9670;&nbsp;</a></span>Intersect() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -334,6 +433,100 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d8/d21/class_collision_volume_b_sphere_a464af9d118e2aec58de5a9d3d0e1c2f9_cgraph.png" border="0" usemap="#d8/d21/class_collision_volume_b_sphere_a464af9d118e2aec58de5a9d3d0e1c2f9_cgraph" alt=""/></div>
 <map name="d8/d21/class_collision_volume_b_sphere_a464af9d118e2aec58de5a9d3d0e1c2f9_cgraph" id="d8/d21/class_collision_volume_b_sphere_a464af9d118e2aec58de5a9d3d0e1c2f9_cgraph">
+<area shape="rect" id="node2" href="../../d8/d8f/class_math_tools.html#a6403ce2e1b0a24e5f7d5ca60b0578903" title="Calculates the intersection of two BSphere volumes. " alt="" coords="219,46,359,73"/>
+<area shape="rect" id="node3" href="../../d8/d21/class_collision_volume_b_sphere.html#a16eb0b62bf7efa63e7fe9b09d43fe947" title="Returns the center of the BSphere. " alt="" coords="407,5,572,47"/>
+<area shape="rect" id="node4" href="../../d8/d21/class_collision_volume_b_sphere.html#a0206a8d8db1bc17f3d3f9d5e8ed54949" title="Returns the radius of the BSphere. " alt="" coords="407,71,572,112"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa84a7dde39fb80e8e547d587e89f060e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa84a7dde39fb80e8e547d587e89f060e">&#9670;&nbsp;</a></span>Intersect() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CollisionVolumeBSphere::Intersect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html">CollisionVolumeAABB</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Intersection with AABB. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>A collision volume reference. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Boolean result of intersection. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="../../d5/d7c/class_collision_volume.html#ad124c6eb20ebfb997dd41fa219b65c25">CollisionVolume</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d21/class_collision_volume_b_sphere_aa84a7dde39fb80e8e547d587e89f060e_cgraph.png" border="0" usemap="#d8/d21/class_collision_volume_b_sphere_aa84a7dde39fb80e8e547d587e89f060e_cgraph" alt=""/></div>
+<map name="d8/d21/class_collision_volume_b_sphere_aa84a7dde39fb80e8e547d587e89f060e_cgraph" id="d8/d21/class_collision_volume_b_sphere_aa84a7dde39fb80e8e547d587e89f060e_cgraph">
+<area shape="rect" id="node2" href="../../d8/d8f/class_math_tools.html#a6403ce2e1b0a24e5f7d5ca60b0578903" title="Calculates the intersection of two BSphere volumes. " alt="" coords="219,46,359,73"/>
+<area shape="rect" id="node3" href="../../d8/d21/class_collision_volume_b_sphere.html#a16eb0b62bf7efa63e7fe9b09d43fe947" title="Returns the center of the BSphere. " alt="" coords="407,5,572,47"/>
+<area shape="rect" id="node4" href="../../d8/d21/class_collision_volume_b_sphere.html#a0206a8d8db1bc17f3d3f9d5e8ed54949" title="Returns the radius of the BSphere. " alt="" coords="407,71,572,112"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac5e8b6fe31437db58e61db1cee7a101f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5e8b6fe31437db58e61db1cee7a101f">&#9670;&nbsp;</a></span>Intersect() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CollisionVolumeBSphere::Intersect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html">CollisionVolumeOBB</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Intersection with AABB. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>A collision volume reference. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Boolean result of intersection. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="../../d5/d7c/class_collision_volume.html#a316882ed347066670dac40124676b690">CollisionVolume</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d21/class_collision_volume_b_sphere_ac5e8b6fe31437db58e61db1cee7a101f_cgraph.png" border="0" usemap="#d8/d21/class_collision_volume_b_sphere_ac5e8b6fe31437db58e61db1cee7a101f_cgraph" alt=""/></div>
+<map name="d8/d21/class_collision_volume_b_sphere_ac5e8b6fe31437db58e61db1cee7a101f_cgraph" id="d8/d21/class_collision_volume_b_sphere_ac5e8b6fe31437db58e61db1cee7a101f_cgraph">
 <area shape="rect" id="node2" href="../../d8/d8f/class_math_tools.html#a6403ce2e1b0a24e5f7d5ca60b0578903" title="Calculates the intersection of two BSphere volumes. " alt="" coords="219,46,359,73"/>
 <area shape="rect" id="node3" href="../../d8/d21/class_collision_volume_b_sphere.html#a16eb0b62bf7efa63e7fe9b09d43fe947" title="Returns the center of the BSphere. " alt="" coords="407,5,572,47"/>
 <area shape="rect" id="node4" href="../../d8/d21/class_collision_volume_b_sphere.html#a0206a8d8db1bc17f3d3f9d5e8ed54949" title="Returns the radius of the BSphere. " alt="" coords="407,71,572,112"/>

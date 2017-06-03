@@ -20,9 +20,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="mithrillogo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mithril Engine
-   &#160;<span id="projectnumber">1.0</span>
+   &#160;<span id="projectnumber">2.0</span>
    </div>
    <div id="projectbrief">Documentation for Mithril Engine</div>
   </td>
@@ -63,11 +64,50 @@ $(function() {
 &#160;
 
 <h3><a id="index_p"></a>- p -</h3><ul>
+<li>ParticleEffect()
+: <a class="el" href="d9/de5/class_particle_effect.html#adcfcd6ebe940cf54cb91af3543ed815d">ParticleEffect</a>
+</li>
+<li>ParticleEffectManager()
+: <a class="el" href="d9/d97/class_particle_effect_manager.html#a5423d1a88f78ec6f779ac6685b043773">ParticleEffectManager</a>
+</li>
+<li>ParticleEffectPulse()
+: <a class="el" href="d9/d29/class_particle_effect_pulse.html#a64aa095028d932da6e5db883daa3a4e7">ParticleEffectPulse</a>
+</li>
+<li>ParticleEffectSphericalBurst()
+: <a class="el" href="d9/dff/class_particle_effect_spherical_burst.html#af0cc8bae582d76d63db457772e3820d1">ParticleEffectSphericalBurst</a>
+</li>
+<li>ParticleEffectStream()
+: <a class="el" href="d8/d9f/class_particle_effect_stream.html#a3db1fec5bb8ca82a1145ed2eaf149e0b">ParticleEffectStream</a>
+</li>
+<li>ParticleEmitter()
+: <a class="el" href="d7/d63/class_particle_emitter.html#a9c95189698dbcb4c688cd1f1cd63642e">ParticleEmitter</a>
+</li>
+<li>PlaySound2D()
+: <a class="el" href="d5/dd9/class_sound_manager.html#ac5665bbdba9389191ec9548bac1041b8">SoundManager</a>
+</li>
+<li>PlaySound3D()
+: <a class="el" href="d5/dd9/class_sound_manager.html#a7eaaf0ee57aeb0fb25e44af4ca092e1c">SoundManager</a>
+</li>
+<li>PlayWithChorusEffect()
+: <a class="el" href="d5/dd9/class_sound_manager.html#a0ccdeb37074506d053f2da1dfb5f5601">SoundManager</a>
+</li>
+<li>PlayWithDistortionEffect()
+: <a class="el" href="d5/dd9/class_sound_manager.html#a9a87273b9e8eec069794c84e86d434ab">SoundManager</a>
+</li>
+<li>PositionToCell()
+: <a class="el" href="d7/d10/class_terrain_object.html#a0947f33081bd861f93ff41465c977f62">TerrainObject</a>
+</li>
+<li>PositionToVertex()
+: <a class="el" href="d7/d10/class_terrain_object.html#ac01aa136f3a5c51a27c505405eda0345">TerrainObject</a>
+</li>
 <li>privChangeScene()
 : <a class="el" href="d0/dc3/class_scene_manager.html#a76ab147461953aeb9e5da97d0b5ae5c0">SceneManager</a>
 </li>
 <li>privCreateBSphere()
 : <a class="el" href="d3/d4f/class_visualizer.html#ae3355213720d4cbb3bc930b81108e6f9">Visualizer</a>
+</li>
+<li>privCreateSoundEngine()
+: <a class="el" href="d5/dd9/class_sound_manager.html#a643b57f10f6f0ae8130ec54e87ba8893">SoundManager</a>
 </li>
 <li>privDeregister()
 : <a class="el" href="dc/d5d/class_collidable_group.html#a811c2df82763404c1564506d8593074e">CollidableGroup&lt; C &gt;</a>
@@ -93,8 +133,17 @@ $(function() {
 <li>privGetModel()
 : <a class="el" href="d3/d3a/class_model_manager.html#ab7702528e07736b75e24b3ff37075250">ModelManager</a>
 </li>
+<li>privGetParticleEffect()
+: <a class="el" href="d9/d97/class_particle_effect_manager.html#adf3b37dbb26aef6ee5ebde2da8fb81d5">ParticleEffectManager</a>
+</li>
 <li>privGetShader()
 : <a class="el" href="d2/d24/class_shader_manager.html#aa831d17276ee7bfdb90d1c99e2c75613">ShaderManager</a>
+</li>
+<li>privGetSpriteFont()
+: <a class="el" href="d8/dba/class_sprite_font_manager.html#a4125454b31dc38020d2a2a22cc4110d3">SpriteFontManager</a>
+</li>
+<li>privGetTerrainObject()
+: <a class="el" href="d6/d14/class_terrain_object_manager.html#a08f8194ac3da0c689aaf88ea844e82a2">TerrainObjectManager</a>
 </li>
 <li>privGetTexture()
 : <a class="el" href="db/ddf/class_texture_manager.html#a865feb61869813b993323356d2bb2d12">TextureManager</a>
@@ -104,6 +153,9 @@ $(function() {
 </li>
 <li>privInitializeCurrentScene()
 : <a class="el" href="d0/dc3/class_scene_manager.html#ac5add9a728c23284080c7db4dba830c0">SceneManager</a>
+</li>
+<li>privIsSoundPlaying()
+: <a class="el" href="d5/dd9/class_sound_manager.html#a36a4828447a458d679a1c3f29978175a">SoundManager</a>
 </li>
 <li>privLoadDefaultModels()
 : <a class="el" href="d3/d3a/class_model_manager.html#a7ce9386c2db808ff4f42160cac8d559d">ModelManager</a>
@@ -120,11 +172,35 @@ $(function() {
 <li>privLoadModel()
 : <a class="el" href="d3/d3a/class_model_manager.html#a10a541c2a58bf7c0e5c5aeab6d4d0a34">ModelManager</a>
 </li>
+<li>privLoadParticleEffect()
+: <a class="el" href="d9/d97/class_particle_effect_manager.html#a782ede1229d41aad1f8965c048a18aa2">ParticleEffectManager</a>
+</li>
 <li>privLoadShader()
 : <a class="el" href="d2/d24/class_shader_manager.html#a44f98063b3a0687a6163d28d1e1f0815">ShaderManager</a>
 </li>
+<li>privLoadSound()
+: <a class="el" href="d5/dd9/class_sound_manager.html#a1f63accf67888715270d30d9eb77260c">SoundManager</a>
+</li>
+<li>privLoadSpriteFont()
+: <a class="el" href="d8/dba/class_sprite_font_manager.html#a92a383fd0a76279d89486dc2f1fb4b43">SpriteFontManager</a>
+</li>
+<li>privLoadTerrainObject()
+: <a class="el" href="d6/d14/class_terrain_object_manager.html#a5390427a33cbc905ce87eb0d4646c26d">TerrainObjectManager</a>
+</li>
 <li>privLoadTexture()
 : <a class="el" href="db/ddf/class_texture_manager.html#a5e5cce96494a49c3e560fd4aaacb9b35">TextureManager</a>
+</li>
+<li>privPlaySound2D()
+: <a class="el" href="d5/dd9/class_sound_manager.html#a8509e04e8eca7e699912844965c3e780">SoundManager</a>
+</li>
+<li>privPlaySound3D()
+: <a class="el" href="d5/dd9/class_sound_manager.html#a6c68c8e8a54f8cdeeedc911f11ab86b8">SoundManager</a>
+</li>
+<li>privPlayWithChorusEffect()
+: <a class="el" href="d5/dd9/class_sound_manager.html#a38ca72250049d3b742de18cb43b35e08">SoundManager</a>
+</li>
+<li>privPlayWithDistortionEffect()
+: <a class="el" href="d5/dd9/class_sound_manager.html#aa8755890702ce2de93e74f7024092e28">SoundManager</a>
 </li>
 <li>privProcessTime()
 : <a class="el" href="d9/d7f/class_time_manager.html#abb2dec3e58a74f84c4c5c016b9dfdeaf">TimeManager</a>
@@ -132,17 +208,46 @@ $(function() {
 <li>privRegister()
 : <a class="el" href="dc/d5d/class_collidable_group.html#ad5ff8c1823c10db0e969a7ffc8231d38">CollidableGroup&lt; C &gt;</a>
 </li>
+<li>privRenderAABB()
+: <a class="el" href="d3/d4f/class_visualizer.html#a231a23a4281752f51304d5e0573b0197">Visualizer</a>
+</li>
+<li>privRenderAll()
+: <a class="el" href="d3/d4f/class_visualizer.html#afdcb70e620dac9f5e78da12d9424f415">Visualizer</a>
+</li>
 <li>privRenderBSphere()
 : <a class="el" href="d3/d4f/class_visualizer.html#ab60fb097dea0d4a74adf3d13f09d1396">Visualizer</a>
+</li>
+<li>privRenderCollisionVolume()
+: <a class="el" href="d3/d4f/class_visualizer.html#a735926bb3ac29ed021360f3fcab8faa0">Visualizer</a>
+</li>
+<li>privRenderOBB()
+: <a class="el" href="d3/d4f/class_visualizer.html#ab63536cee4f2ccce9f1a8e90ecfc64b5">Visualizer</a>
 </li>
 <li>privSetCurrentScene()
 : <a class="el" href="d0/dc3/class_scene_manager.html#ac67fc30b1feee41e4f1a4e054e7391f7">SceneManager</a>
 </li>
+<li>privSetListenerPosition()
+: <a class="el" href="d5/dd9/class_sound_manager.html#a47a89315e158ddacdc3f0d8b8e560f85">SoundManager</a>
+</li>
 <li>privSetNextScene()
 : <a class="el" href="d0/dc3/class_scene_manager.html#a198fc7ea00dcd78d7f91602c18ee01ee">SceneManager</a>
 </li>
+<li>privSetVolume()
+: <a class="el" href="d5/dd9/class_sound_manager.html#ae3f3829feaba20c49048d658657bfa02">SoundManager</a>
+</li>
+<li>privStopSound()
+: <a class="el" href="d5/dd9/class_sound_manager.html#a9e8c584705543dbb94f0007d51700cca">SoundManager</a>
+</li>
+<li>privSubmitSceneChange()
+: <a class="el" href="d0/dc3/class_scene_manager.html#afc44a8cd2374e1d2f77704cdf3a22ec7">SceneManager</a>
+</li>
+<li>privSubmitVisualize()
+: <a class="el" href="d3/d4f/class_visualizer.html#a78666fecfe3cb0eda2908c808bb8a86a">Visualizer</a>
+</li>
 <li>privTerminate()
-: <a class="el" href="d0/dc3/class_scene_manager.html#ad4a7bf6aeefe87e72e65c0dd483bca2d">SceneManager</a>
+: <a class="el" href="dc/d5d/class_collidable_group.html#a1154f15fbd9c6b76a1c7e1bbb17819f5">CollidableGroup&lt; C &gt;</a>
+, <a class="el" href="d0/dc3/class_scene_manager.html#ad4a7bf6aeefe87e72e65c0dd483bca2d">SceneManager</a>
+, <a class="el" href="d5/dd9/class_sound_manager.html#a4db8ef665cd2805dc1e3787b330106ed">SoundManager</a>
 , <a class="el" href="d3/d4f/class_visualizer.html#a5dd16607ead98f5cdd003529c6e7ab73">Visualizer</a>
 </li>
 <li>privUnloadImages()
@@ -151,11 +256,23 @@ $(function() {
 <li>privUnloadModels()
 : <a class="el" href="d3/d3a/class_model_manager.html#a5264d3833b402cbfba6dc19cabb83103">ModelManager</a>
 </li>
+<li>privUnloadParticleEffects()
+: <a class="el" href="d9/d97/class_particle_effect_manager.html#a0e5106b713b9f2927562ac7a32bc8f08">ParticleEffectManager</a>
+</li>
 <li>privUnloadShaders()
 : <a class="el" href="d2/d24/class_shader_manager.html#a10bb2c5fb9f095249e2367c6d486fa34">ShaderManager</a>
 </li>
+<li>privUnloadSpriteFonts()
+: <a class="el" href="d8/dba/class_sprite_font_manager.html#adf598ddfcbb4fda5b5f985e13dfcd501">SpriteFontManager</a>
+</li>
+<li>privUnloadTerrainObjects()
+: <a class="el" href="d6/d14/class_terrain_object_manager.html#a18fbbb37f032261a78ca65fc76be91a1">TerrainObjectManager</a>
+</li>
 <li>privUnloadTextures()
 : <a class="el" href="db/ddf/class_texture_manager.html#a0847e8464376cf239fa98608155add1b">TextureManager</a>
+</li>
+<li>privUpdateAABB()
+: <a class="el" href="dc/d5d/class_collidable_group.html#ad693bc7b6b1374b52521f2b8ec96ec69">CollidableGroup&lt; C &gt;</a>
 </li>
 <li>privUpdateUpdatables()
 : <a class="el" href="d0/dc3/class_scene_manager.html#a160955c83b4e5e58fdeef7142a767f83">SceneManager</a>

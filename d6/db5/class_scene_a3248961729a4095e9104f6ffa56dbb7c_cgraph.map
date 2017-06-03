@@ -1,51 +1,51 @@
 <map id="Scene::GetRemainingTime" name="Scene::GetRemainingTime">
-<area shape="rect" id="node2" href="$d9/dc2/class_alarmable_manager.html#af4d64f8a892a8116be0209a8da8b3335" title="AlarmableManager::GetRemainingTime" alt="" coords="231,139,479,165"/>
-<area shape="rect" id="node3" href="$d9/d7f/class_time_manager.html#a8c23b80f63a5c0e1c4b99a1175c787f0" title="TimeManager::GetTimeSeconds" alt="" coords="527,139,735,165"/>
-<area shape="rect" id="node4" href="$d9/d7f/class_time_manager.html#a9bb9e5390526b32783b94adb728604fa" title="TimeManager::Instance" alt="" coords="1995,19,2153,45"/>
-<area shape="rect" id="node6" href="$d9/d7f/class_time_manager.html#ac9af63541adfa2370963e30921a1b076" title="Returns the time in seconds (takes into account frozen time). " alt="" coords="783,251,959,293"/>
-<area shape="rect" id="node5" href="$d9/d7f/class_time_manager.html#ab1c3cbb48ad68d928bb8b9a4ef210ed6" title="TimeManager::TimeManager" alt="" coords="2245,5,2432,32"/>
-<area shape="rect" id="node7" href="$d6/d4b/class_mithril_engine.html#a2a32c9096f22918ff8778cb867490ab2" title="Returns the time elapsed in seconds. " alt="" coords="1007,375,1212,401"/>
-<area shape="rect" id="node8" href="$d6/d4b/class_mithril_engine.html#a727ba0587d07d9e644b6741a6d82492d" title="MithrilEngine::Instance" alt="" coords="1260,465,1415,492"/>
-<area shape="rect" id="node9" href="$d8/dee/group___mithril_engine.html#ga63ee007e6957aac92cde5c252a278eef" title="MithrilEngine constructor. " alt="" coords="1463,592,1643,619"/>
-<area shape="rect" id="node10" href="$d6/d4b/class_mithril_engine.html#acd03e00161d7a4bd4da9ef2514b7e6a5" title="MithrilEngine::Initialize" alt="" coords="1477,693,1629,720"/>
-<area shape="rect" id="node11" href="$d6/d4b/class_mithril_engine.html#aef708cdc73caeb8a2dbe0c2a4ef73723" title="MithrilEngine::GameInitialize" alt="" coords="1709,719,1895,745"/>
-<area shape="rect" id="node12" href="$d6/d4b/class_mithril_engine.html#a7c6f9cada15f3697711b79ee82a95424" title="MithrilEngine::LoadContent" alt="" coords="1463,541,1642,568"/>
-<area shape="rect" id="node13" href="$d6/d4b/class_mithril_engine.html#a58deb29be139002bd071f4bce1bbc5ea" title="MithrilEngine::LoadResources" alt="" coords="1705,643,1899,669"/>
-<area shape="rect" id="node22" href="$d6/d4b/class_mithril_engine.html#a6674a1e85950edb9ec1ff6bc59c389b0" title="MithrilEngine::Update" alt="" coords="1479,224,1626,251"/>
-<area shape="rect" id="node32" href="$d6/d4b/class_mithril_engine.html#a986bedb0afc6dca1ef05a8e34ff45583" title="MithrilEngine::Draw" alt="" coords="1485,288,1620,315"/>
-<area shape="rect" id="node36" href="$d6/d4b/class_mithril_engine.html#a6f70d8757a3599e5a2235d94a93aeac4" title="MithrilEngine::UnLoadContent" alt="" coords="1705,468,1899,495"/>
-<area shape="rect" id="node48" href="$d6/d4b/class_mithril_engine.html#a9f222a2729e64a91f226e8063ec5fbf6" title="Calls Run() on the engine class. " alt="" coords="1489,339,1617,365"/>
-<area shape="rect" id="node49" href="$d6/d4b/class_mithril_engine.html#a3aca612ace4670ea15127a27d23e2a38" title="Returns the width of the current window. " alt="" coords="1473,440,1633,467"/>
-<area shape="rect" id="node50" href="$d6/d4b/class_mithril_engine.html#a8dbd0268139dd53ded75463dc3cb33c8" title="Returns the height of the current window. " alt="" coords="1471,491,1634,517"/>
-<area shape="rect" id="node14" href="$d3/d4f/class_visualizer.html#a3fd0f918788ec72dcdba602cd4c31e75" title="Visualizer::CreateSphere" alt="" coords="1719,592,1885,619"/>
-<area shape="rect" id="node15" href="$d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="2525,737,2661,764"/>
-<area shape="rect" id="node17" href="$d3/d4f/class_visualizer.html#ae3355213720d4cbb3bc930b81108e6f9" title="Visualizer::privCreateBSphere" alt="" coords="1977,813,2171,840"/>
-<area shape="rect" id="node16" href="$d3/d4f/class_visualizer.html#a104487003c9fea602e26c072aae27efc" title="Visualizer::Visualizer" alt="" coords="2743,737,2887,764"/>
-<area shape="rect" id="node18" href="$d3/d3a/class_model_manager.html#a7745c33907b48ae44618f21891cefc68" title="Returns a Model pointer by taking a key and searching the key in the map. " alt="" coords="2253,864,2424,891"/>
-<area shape="rect" id="node20" href="$d2/d24/class_shader_manager.html#a3602d0674af7106d7bda9868197ee0c3" title="Returns a shader pointer by taking a key and searching the key in the map. " alt="" coords="2247,611,2430,637"/>
-<area shape="rect" id="node19" href="$d3/d3a/class_model_manager.html#afb1fbe7bcd21494e661676b997008173" title="ModelManager::Instance" alt="" coords="2511,915,2675,941"/>
-<area shape="rect" id="node21" href="$d2/d24/class_shader_manager.html#aeaa687b375b78eefcd836b5430ccfb99" title="ShaderManager::Instance" alt="" coords="2507,443,2678,469"/>
-<area shape="rect" id="node23" href="$d0/dc3/class_scene_manager.html#a85354ba18a17aa2b2716c6404cc28d50" title="Calls Scene::Update() on the current scene. " alt="" coords="1691,212,1913,239"/>
-<area shape="rect" id="node29" href="$d9/d7f/class_time_manager.html#a14e5786948c412a8b5c84cb092424a5d" title="TimeManager::ProcessTime" alt="" coords="1710,69,1894,96"/>
-<area shape="rect" id="node24" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="2255,224,2422,251"/>
-<area shape="rect" id="node26" href="$d0/dc3/class_scene_manager.html#a160955c83b4e5e58fdeef7142a767f83" title="SceneManager::privUpdate\lUpdatables" alt="" coords="1985,146,2163,187"/>
-<area shape="rect" id="node25" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="2491,224,2695,251"/>
-<area shape="rect" id="node27" href="$d0/dc3/class_scene_manager.html#a76ab147461953aeb9e5da97d0b5ae5c0" title="SceneManager::privChange\lScene" alt="" coords="2249,107,2429,149"/>
-<area shape="rect" id="node28" href="$d6/db5/class_scene.html#a71a71b4f7752b853ff8032b0941a9d8d" title="Scene::Update" alt="" coords="2285,173,2393,200"/>
-<area shape="rect" id="node30" href="$d9/d7f/class_time_manager.html#abb2dec3e58a74f84c4c5c016b9dfdeaf" title="Processes the amount of time spent frozen. " alt="" coords="1973,69,2175,96"/>
-<area shape="rect" id="node31" href="$db/d12/class_freeze_time.html#a6b8e2973842e0832bcd6482d9d4b6bd1" title="Return the frozen time in seconds. " alt="" coords="2235,56,2443,83"/>
-<area shape="rect" id="node33" href="$d0/dc3/class_scene_manager.html#a01652b7aacfa1a8df974e9152cee7913" title="Calls Scene::Draw() on the current scene. " alt="" coords="1699,288,1905,315"/>
-<area shape="rect" id="node34" href="$d0/dc3/class_scene_manager.html#a74ac0f30e64b10476729ce54b2189bf5" title="SceneManager::privDrawDrawables" alt="" coords="1961,313,2187,340"/>
-<area shape="rect" id="node35" href="$d6/db5/class_scene.html#a4813338ee7c6c995f5bb6f10e3673804" title="Scene::Draw" alt="" coords="2291,275,2387,301"/>
-<area shape="rect" id="node37" href="$d0/dc3/class_scene_manager.html#ab05844a5cadb0305e5d5a7abd8c091bd" title="Calls Scene::Terminate() on the current scene. " alt="" coords="1987,364,2161,391"/>
-<area shape="rect" id="node39" href="$d2/d24/class_shader_manager.html#a5ef1975239b18efa12c0b4df25c91d26" title="Unloads the shaders from the map and deletes their associated pointers. " alt="" coords="1969,443,2179,469"/>
-<area shape="rect" id="node41" href="$d3/d3a/class_model_manager.html#a80074e0df7bf05faf4eb762940da8cd5" title="Unloaded models, deletes them from the map. " alt="" coords="1975,915,2173,941"/>
-<area shape="rect" id="node43" href="$db/ddf/class_texture_manager.html#ad09e991a4111060447d43e7fd959f945" title="Unloads the textures from the map and deletes their associated pointers. " alt="" coords="1967,493,2181,520"/>
-<area shape="rect" id="node46" href="$d3/d4f/class_visualizer.html#a61597f4a1cdb82452a2e761cb52b9024" title="Terminates the Visualizer. " alt="" coords="2002,661,2146,688"/>
-<area shape="rect" id="node38" href="$d0/dc3/class_scene_manager.html#ad4a7bf6aeefe87e72e65c0dd483bca2d" title="SceneManager::privTerminate" alt="" coords="2242,325,2435,352"/>
-<area shape="rect" id="node40" href="$d2/d24/class_shader_manager.html#a10bb2c5fb9f095249e2367c6d486fa34" title="ShaderManager::privUnload\lShaders" alt="" coords="2249,377,2429,418"/>
-<area shape="rect" id="node42" href="$d3/d3a/class_model_manager.html#a5264d3833b402cbfba6dc19cabb83103" title="ModelManager::privUnload\lModels" alt="" coords="2251,966,2426,1007"/>
-<area shape="rect" id="node44" href="$db/ddf/class_texture_manager.html#a81a2f2ac1876be84e0a0a472199679d5" title="TextureManager::Instance" alt="" coords="2507,523,2679,549"/>
-<area shape="rect" id="node45" href="$db/ddf/class_texture_manager.html#a0847e8464376cf239fa98608155add1b" title="TextureManager::privUnload\lTextures" alt="" coords="2247,545,2430,586"/>
-<area shape="rect" id="node47" href="$d3/d4f/class_visualizer.html#a5dd16607ead98f5cdd003529c6e7ab73" title="Visualizer::privTerminate" alt="" coords="2257,661,2420,688"/>
+<area shape="rect" id="node2" href="$d9/dc2/class_alarmable_manager.html#af4d64f8a892a8116be0209a8da8b3335" title="AlarmableManager::GetRemainingTime" alt="" coords="231,199,479,225"/>
+<area shape="rect" id="node3" href="$d9/d7f/class_time_manager.html#a8c23b80f63a5c0e1c4b99a1175c787f0" title="TimeManager::GetTimeSeconds" alt="" coords="527,199,735,225"/>
+<area shape="rect" id="node4" href="$d9/d7f/class_time_manager.html#a9bb9e5390526b32783b94adb728604fa" title="TimeManager::Instance" alt="" coords="2010,5,2167,32"/>
+<area shape="rect" id="node6" href="$d9/d7f/class_time_manager.html#ac9af63541adfa2370963e30921a1b076" title="Returns the time in seconds (takes into account frozen time). " alt="" coords="783,383,959,425"/>
+<area shape="rect" id="node5" href="$d9/d7f/class_time_manager.html#ab1c3cbb48ad68d928bb8b9a4ef210ed6" title="TimeManager::TimeManager" alt="" coords="2249,5,2436,32"/>
+<area shape="rect" id="node7" href="$d6/d4b/class_mithril_engine.html#a2a32c9096f22918ff8778cb867490ab2" title="Returns the time elapsed in seconds. " alt="" coords="1007,497,1212,524"/>
+<area shape="rect" id="node8" href="$d6/d4b/class_mithril_engine.html#a727ba0587d07d9e644b6741a6d82492d" title="MithrilEngine::Instance" alt="" coords="1260,661,1415,688"/>
+<area shape="rect" id="node9" href="$d8/dee/group___mithril_engine.html#ga63ee007e6957aac92cde5c252a278eef" title="MithrilEngine constructor. " alt="" coords="1470,687,1650,713"/>
+<area shape="rect" id="node10" href="$d6/d4b/class_mithril_engine.html#acd03e00161d7a4bd4da9ef2514b7e6a5" title="MithrilEngine::Initialize" alt="" coords="1484,788,1636,815"/>
+<area shape="rect" id="node11" href="$d6/d4b/class_mithril_engine.html#aef708cdc73caeb8a2dbe0c2a4ef73723" title="MithrilEngine::GameInitialize" alt="" coords="1723,828,1910,855"/>
+<area shape="rect" id="node14" href="$d6/d4b/class_mithril_engine.html#a7c6f9cada15f3697711b79ee82a95424" title="MithrilEngine::LoadContent" alt="" coords="1471,968,1649,995"/>
+<area shape="rect" id="node15" href="$d6/d4b/class_mithril_engine.html#a58deb29be139002bd071f4bce1bbc5ea" title="MithrilEngine::LoadResources" alt="" coords="1719,996,1914,1023"/>
+<area shape="rect" id="node19" href="$d6/d4b/class_mithril_engine.html#a6674a1e85950edb9ec1ff6bc59c389b0" title="MithrilEngine::Update" alt="" coords="1487,319,1633,345"/>
+<area shape="rect" id="node25" href="$d6/d4b/class_mithril_engine.html#a986bedb0afc6dca1ef05a8e34ff45583" title="MithrilEngine::Draw" alt="" coords="1493,443,1627,469"/>
+<area shape="rect" id="node28" href="$d6/d4b/class_mithril_engine.html#a6f70d8757a3599e5a2235d94a93aeac4" title="MithrilEngine::UnLoadContent" alt="" coords="1463,636,1657,663"/>
+<area shape="rect" id="node48" href="$d6/d4b/class_mithril_engine.html#a9f222a2729e64a91f226e8063ec5fbf6" title="Calls Run() on the engine class. " alt="" coords="1496,889,1624,916"/>
+<area shape="rect" id="node49" href="$d6/d4b/class_mithril_engine.html#a3aca612ace4670ea15127a27d23e2a38" title="Returns the width of the current window. " alt="" coords="1480,535,1640,561"/>
+<area shape="rect" id="node50" href="$d6/d4b/class_mithril_engine.html#a8dbd0268139dd53ded75463dc3cb33c8" title="Returns the height of the current window. " alt="" coords="1479,585,1641,612"/>
+<area shape="rect" id="node12" href="$d5/dd9/class_sound_manager.html#aeb9c122ffedf1c39b44f209148cf2ad2" title="SoundManager::CreateSound\lEngine" alt="" coords="1721,879,1913,921"/>
+<area shape="rect" id="node13" href="$d5/dd9/class_sound_manager.html#a5fdfb9741539dfa9ee2cacf8ff51197e" title="SoundManager::SetVolume" alt="" coords="1726,945,1907,972"/>
+<area shape="rect" id="node16" href="$d3/d4f/class_visualizer.html#a3fd0f918788ec72dcdba602cd4c31e75" title="Visualizer::CreateSphere" alt="" coords="1733,1047,1900,1073"/>
+<area shape="rect" id="node17" href="$d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="2275,996,2411,1023"/>
+<area shape="rect" id="node18" href="$d3/d4f/class_visualizer.html#ae3355213720d4cbb3bc930b81108e6f9" title="Visualizer::privCreateBSphere" alt="" coords="1991,996,2186,1023"/>
+<area shape="rect" id="node20" href="$d0/dc3/class_scene_manager.html#a85354ba18a17aa2b2716c6404cc28d50" title="Calls Scene::Update() on the current scene. " alt="" coords="1705,173,1928,200"/>
+<area shape="rect" id="node23" href="$d9/d7f/class_time_manager.html#a14e5786948c412a8b5c84cb092424a5d" title="TimeManager::ProcessTime" alt="" coords="1725,56,1909,83"/>
+<area shape="rect" id="node21" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="2005,224,2172,251"/>
+<area shape="rect" id="node22" href="$d0/dc3/class_scene_manager.html#a160955c83b4e5e58fdeef7142a767f83" title="SceneManager::privUpdate\lUpdatables" alt="" coords="2000,107,2177,149"/>
+<area shape="rect" id="node24" href="$d9/d7f/class_time_manager.html#abb2dec3e58a74f84c4c5c016b9dfdeaf" title="Processes the amount of time spent frozen. " alt="" coords="1987,56,2190,83"/>
+<area shape="rect" id="node26" href="$d0/dc3/class_scene_manager.html#a01652b7aacfa1a8df974e9152cee7913" title="Calls Scene::Draw() on the current scene. " alt="" coords="1713,224,1920,251"/>
+<area shape="rect" id="node27" href="$d0/dc3/class_scene_manager.html#a74ac0f30e64b10476729ce54b2189bf5" title="SceneManager::privDrawDrawables" alt="" coords="1976,173,2201,200"/>
+<area shape="rect" id="node29" href="$d0/dc3/class_scene_manager.html#ab05844a5cadb0305e5d5a7abd8c091bd" title="Calls Scene::Terminate() on the current scene. " alt="" coords="1729,275,1904,301"/>
+<area shape="rect" id="node31" href="$d2/d24/class_shader_manager.html#a5ef1975239b18efa12c0b4df25c91d26" title="Unloads the shaders from the map and deletes their associated pointers. " alt="" coords="1712,384,1921,411"/>
+<area shape="rect" id="node34" href="$d3/d3a/class_model_manager.html#a80074e0df7bf05faf4eb762940da8cd5" title="Unloaded models, deletes them from the map. " alt="" coords="1718,443,1915,469"/>
+<area shape="rect" id="node37" href="$db/ddf/class_texture_manager.html#ad09e991a4111060447d43e7fd959f945" title="Unloads the textures from the map and deletes their associated pointers. " alt="" coords="1710,493,1923,520"/>
+<area shape="rect" id="node40" href="$d2/d39/class_image_manager.html#a22acef4ad91b5191cb8044d976035635" title="Unload images, deletes them from the map. " alt="" coords="1718,544,1915,571"/>
+<area shape="rect" id="node43" href="$d6/d14/class_terrain_object_manager.html#a42e91453bc870c802bc3860521a23d37" title="Unloads the textures from the map and deletes their associated pointers. " alt="" coords="1739,595,1894,637"/>
+<area shape="rect" id="node45" href="$d8/dba/class_sprite_font_manager.html#a7fdc04f5be4dcd1a9bb99c720d05936d" title="Unload SpriteFonts, deletes them from the map. " alt="" coords="1747,661,1887,702"/>
+<area shape="rect" id="node46" href="$d5/dd9/class_sound_manager.html#af57ebaab4833dc534140b58534c5e2b3" title="SoundManager::Terminate" alt="" coords="1729,727,1904,753"/>
+<area shape="rect" id="node47" href="$d3/d4f/class_visualizer.html#a61597f4a1cdb82452a2e761cb52b9024" title="Terminates the Visualizer. " alt="" coords="2017,903,2161,929"/>
+<area shape="rect" id="node30" href="$d0/dc3/class_scene_manager.html#ad4a7bf6aeefe87e72e65c0dd483bca2d" title="SceneManager::privTerminate" alt="" coords="1992,275,2185,301"/>
+<area shape="rect" id="node32" href="$d2/d24/class_shader_manager.html#aeaa687b375b78eefcd836b5430ccfb99" title="ShaderManager::Instance" alt="" coords="2257,355,2428,381"/>
+<area shape="rect" id="node33" href="$d2/d24/class_shader_manager.html#a10bb2c5fb9f095249e2367c6d486fa34" title="ShaderManager::privUnload\lShaders" alt="" coords="1999,377,2179,418"/>
+<area shape="rect" id="node35" href="$d3/d3a/class_model_manager.html#afb1fbe7bcd21494e661676b997008173" title="ModelManager::Instance" alt="" coords="2261,472,2425,499"/>
+<area shape="rect" id="node36" href="$d3/d3a/class_model_manager.html#a5264d3833b402cbfba6dc19cabb83103" title="ModelManager::privUnload\lModels" alt="" coords="2001,494,2176,535"/>
+<area shape="rect" id="node38" href="$db/ddf/class_texture_manager.html#a81a2f2ac1876be84e0a0a472199679d5" title="TextureManager::Instance" alt="" coords="2257,589,2429,616"/>
+<area shape="rect" id="node39" href="$db/ddf/class_texture_manager.html#a0847e8464376cf239fa98608155add1b" title="TextureManager::privUnload\lTextures" alt="" coords="1997,611,2180,653"/>
+<area shape="rect" id="node41" href="$d2/d39/class_image_manager.html#a1aa4ab3d2b986920b20fb7819f9bcd23" title="ImageManager::Instance" alt="" coords="2261,707,2425,733"/>
+<area shape="rect" id="node42" href="$d2/d39/class_image_manager.html#a347d7154b79a7437ac2d4fa4bdb535ae" title="ImageManager::privUnload\lImages" alt="" coords="2001,729,2176,770"/>
+<area shape="rect" id="node44" href="$d6/d14/class_terrain_object_manager.html#a7bddbda233e0efa0619622fa3d899c67" title="TerrainObjectManager\l::Instance" alt="" coords="2014,794,2163,835"/>
 </map>

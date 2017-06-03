@@ -20,9 +20,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="mithrillogo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mithril Engine
-   &#160;<span id="projectnumber">1.0</span>
+   &#160;<span id="projectnumber">2.0</span>
    </div>
    <div id="projectbrief">Documentation for Mithril Engine</div>
   </td>
@@ -63,6 +64,12 @@ $(function() {
 &#160;
 
 <h3><a id="index_c"></a>- c -</h3><ul>
+<li>CalculatePosition()
+: <a class="el" href="dd/d2a/class_burst_type.html#a50a1f1c7c33106cc22d74e07a585b67d">BurstType</a>
+, <a class="el" href="d5/dc0/class_burst_type_pulse.html#ac67a915fb94bc606ed52c0815cb98212">BurstTypePulse</a>
+, <a class="el" href="da/d19/class_burst_type_spherical.html#a103137b90376c5b7f140523e39d3fe22">BurstTypeSpherical</a>
+, <a class="el" href="d9/d6e/class_burst_type_stream.html#a3addda5b51ba2bd662176b2f2df0a09e">BurstTypeStream</a>
+</li>
 <li>CameraManager()
 : <a class="el" href="d2/d23/class_camera_manager.html#ab66d897f3d5f01efe7e4368f16c42d7f">CameraManager</a>
 </li>
@@ -71,6 +78,9 @@ $(function() {
 </li>
 <li>CheckStatus()
 : <a class="el" href="d8/d68/class_key_object.html#a9a540997a65cf9b2e192718b1f906437">KeyObject</a>
+</li>
+<li>Clamp()
+: <a class="el" href="d8/d8f/class_math_tools.html#afbdba92508289e725017f96bbeaba863">MathTools</a>
 </li>
 <li>Collidable()
 : <a class="el" href="d8/deb/class_collidable.html#a92ce9e2b08086bb2f466168ffc69c9ed">Collidable</a>
@@ -99,6 +109,9 @@ $(function() {
 <li>CollisionRegistrationCommand()
 : <a class="el" href="d6/d69/class_collision_registration_command.html#a29db9ec49f131ef39e03aa172dfb9c16">CollisionRegistrationCommand&lt; C &gt;</a>
 </li>
+<li>CollisionTerrainCommand()
+: <a class="el" href="db/de3/class_collision_terrain_command.html#ab2561259d766255835653e2e49d31d86">CollisionTerrainCommand&lt; C1 &gt;</a>
+</li>
 <li>CollisionTestPairCommand()
 : <a class="el" href="d2/d68/class_collision_test_pair_command.html#ac2672cbd7785424631a854f878d3c274">CollisionTestPairCommand&lt; C1, C2 &gt;</a>
 </li>
@@ -108,21 +121,41 @@ $(function() {
 <li>CollisionVolume()
 : <a class="el" href="d8/d51/group___collisions.html#gaa7727339e04efff3f200438d2082239c">CollisionVolume</a>
 </li>
+<li>CollisionVolumeAABB()
+: <a class="el" href="d8/d51/group___collisions.html#ga83a82eb7366995e3a84ec8c7afe4c96f">CollisionVolumeAABB</a>
+</li>
+<li>CollisionVolumeBoundingBoxBase()
+: <a class="el" href="dc/df9/class_collision_volume_bounding_box_base.html#ade53021a89d4cb421f61b864f6c81496">CollisionVolumeBoundingBoxBase</a>
+</li>
 <li>CollisionVolumeBSphere()
 : <a class="el" href="d8/d51/group___collisions.html#ga8629fbb2cb8472550409cc0fd0f756a4">CollisionVolumeBSphere</a>
 </li>
+<li>CollisionVolumeOBB()
+: <a class="el" href="d8/d51/group___collisions.html#ga05a21dc68c5b02d9fe3eb8aa0ee09075">CollisionVolumeOBB</a>
+</li>
 <li>CommandBase()
-: <a class="el" href="db/db6/class_command_base.html#a0ea513afd2430bed3150efc31f0138b4">CommandBase</a>
+: <a class="el" href="db/db6/class_command_base.html#af42de9fe79dc64fce99580ee1e2f678f">CommandBase</a>
 </li>
 <li>ComputeData()
 : <a class="el" href="d5/d7c/class_collision_volume.html#ad9174aa61b924ebc9f54af78a4f0df63">CollisionVolume</a>
+, <a class="el" href="d0/d0a/class_collision_volume_a_a_b_b.html#a25bdd0bb99bab45e3a6575374c02fed8">CollisionVolumeAABB</a>
 , <a class="el" href="d8/d21/class_collision_volume_b_sphere.html#af31253fd2080b95e7f90a4ff0754342a">CollisionVolumeBSphere</a>
+, <a class="el" href="d6/ded/class_collision_volume_o_b_b.html#ac5a63149f735fac74572d0f7df271e2b">CollisionVolumeOBB</a>
+</li>
+<li>ComputeNewBurst()
+: <a class="el" href="dd/ded/class_burst.html#aa04efa86275cbb5cfa2785afcc68eb07">Burst</a>
 </li>
 <li>ConnectToScene()
 : <a class="el" href="d0/dd1/class_game_object.html#ac1b3409129559bfc11845d6437c3d587">GameObject</a>
 </li>
+<li>CreateGlyph()
+: <a class="el" href="d4/d74/class_sprite_font.html#acb27650d4004c0b42a1496e0a0e5c659">SpriteFont</a>
+</li>
 <li>CreateImage()
 : <a class="el" href="d2/d39/class_image_manager.html#ad86c550741aaf6280fafecad42aeeb28">ImageManager</a>
+</li>
+<li>CreateSoundEngine()
+: <a class="el" href="d5/dd9/class_sound_manager.html#aeb9c122ffedf1c39b44f209148cf2ad2">SoundManager</a>
 </li>
 <li>CreateSphere()
 : <a class="el" href="d3/d4f/class_visualizer.html#a3fd0f918788ec72dcdba602cd4c31e75">Visualizer</a>

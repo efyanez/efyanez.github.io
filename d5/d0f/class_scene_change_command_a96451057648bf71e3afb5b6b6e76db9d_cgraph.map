@@ -1,0 +1,11 @@
+<map id="SceneChangeCommand::Execute" name="SceneChangeCommand::Execute">
+<area shape="rect" id="node2" href="$d0/dc3/class_scene_manager.html#a952f00e5bdd79e51e970c8d7d2abf64f" title="Sets the next scene. " alt="" coords="216,46,417,73"/>
+<area shape="rect" id="node6" href="$d0/dc3/class_scene_manager.html#a470d087f9b394c68aa69ba6d05c2aec1" title="Terminates the current scene and sets the current scene to the next scene. Then calls initialize on t..." alt="" coords="217,97,416,123"/>
+<area shape="rect" id="node3" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="473,71,640,98"/>
+<area shape="rect" id="node5" href="$d0/dc3/class_scene_manager.html#a198fc7ea00dcd78d7f91602c18ee01ee" title="SceneManager::privSetNext\lScene" alt="" coords="465,5,648,47"/>
+<area shape="rect" id="node4" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="696,71,900,98"/>
+<area shape="rect" id="node7" href="$d0/dc3/class_scene_manager.html#a76ab147461953aeb9e5da97d0b5ae5c0" title="SceneManager::privChange\lScene" alt="" coords="467,123,647,164"/>
+<area shape="rect" id="node8" href="$d6/db5/class_scene.html#afce99c578d2ea8375ea147705bef1e2f" title="Virtual function, called when a scene is terminated. " alt="" coords="736,126,860,153"/>
+<area shape="rect" id="node10" href="$d6/db5/class_scene.html#aafd7510b1309c6ba864791c429870959" title="User defines what happens when a scene is initialized. " alt="" coords="741,177,855,203"/>
+<area shape="rect" id="node9" href="$d2/d23/class_camera_manager.html#ab94598716ca1ac6278051410852925bf" title="Terminate the Camera Manager and delete the current camera pointer. " alt="" coords="948,126,1131,153"/>
+</map>

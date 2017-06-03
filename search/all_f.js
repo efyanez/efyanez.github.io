@@ -1,6 +1,7 @@
 var searchData=
 [
   ['radius',['radius',['../d8/d21/class_collision_volume_b_sphere.html#a05cb052783d45fb05b4ee14cc52e7cd5',1,'CollisionVolumeBSphere']]],
+  ['recycledbursts',['recycledBursts',['../d7/d63/class_particle_emitter.html#a7899d3ba266fa0feb05500a53efe9ffe',1,'ParticleEmitter']]],
   ['red',['Red',['../db/dad/namespace_colors.html#a24c6a97d4f649b7784db050010abd3a1',1,'Colors']]],
   ['ref',['ref',['../d9/dc2/class_alarmable_manager.html#ae40b7fd75e5ab150b0d476b237c94699',1,'AlarmableManager::ref()'],['../d6/d17/class_drawable_manager.html#ab9848d19cfefe6c38e508b8e1ba845c9',1,'DrawableManager::ref()'],['../d8/d85/class_inputable_manager.html#aad52e3a5e69f723045d58eff8946cbb5',1,'InputableManager::ref()'],['../d1/d47/class_updatable_manager.html#aad3bd94be82945d767a6509a5163198f',1,'UpdatableManager::ref()']]],
   ['regcmd',['regCmd',['../dc/df7/struct_alarmable_1_1_registration_data.html#aae18c0114b53b134cc33caf2d4e62d5b',1,'Alarmable::RegistrationData::regCmd()'],['../d2/de4/class_drawable.html#a174ddedf612b32b8ecd12a1258e5cd87',1,'Drawable::regCmd()'],['../d6/d0f/class_inputable.html#afae377813bdf55643ce9bee2493068ee',1,'Inputable::regCmd()'],['../d7/d69/class_updatable.html#a94d0575e64d47ae10b17cbbe7fcbeb3b',1,'Updatable::regCmd()']]],
@@ -10,10 +11,14 @@ var searchData=
   ['registrationdata',['RegistrationData',['../dc/df7/struct_alarmable_1_1_registration_data.html',1,'Alarmable']]],
   ['registrationstate',['RegistrationState',['../d7/db6/class_alarmable.html#a40d3c63151b05110277725bb63f2b86e',1,'Alarmable::RegistrationState()'],['../d8/deb/class_collidable.html#af5ea6076e47a66ee8e5e9ad1efe17b82',1,'Collidable::RegistrationState()'],['../d2/de4/class_drawable.html#a4d2e9a2ec48f8042e87f9f1456092b2c',1,'Drawable::RegistrationState()'],['../d0/dd1/class_game_object.html#a2f643dc17572074a8d8e263e1176fb60',1,'GameObject::RegistrationState()'],['../d7/d69/class_updatable.html#a9e77feb2bd4e83c0e25dc3b511a08dd1',1,'Updatable::RegistrationState()']]],
   ['remainingtime',['remainingTime',['../d7/db6/class_alarmable.html#a1f424e5398f921392fea4f3d0f1dc95a',1,'Alarmable::remainingTime()'],['../dc/df7/struct_alarmable_1_1_registration_data.html#a65e39915f44a6e7d77c46ab36618dc0c',1,'Alarmable::RegistrationData::remainingTime()']]],
-  ['render',['Render',['../d7/dbf/class_sprite.html#a7778420e2335fac704fc079f5c0f716b',1,'Sprite']]],
+  ['render',['Render',['../d6/d79/class_null_terrain_object.html#a75f907f671e105a3f1a31ec5cd323f93',1,'NullTerrainObject::Render()'],['../d7/dbf/class_sprite.html#a7778420e2335fac704fc079f5c0f716b',1,'Sprite::Render()'],['../dd/de6/class_sprite_string.html#a2bcc30e71415fde602900dd21beab032',1,'SpriteString::Render()'],['../d7/d10/class_terrain_object.html#a531546556249746d0c2e9c7148c7a1a7',1,'TerrainObject::Render()']]],
+  ['renderterrain',['RenderTerrain',['../d3/d16/class_terrain_manager.html#afdfffca3781516e364bab7b6938ba63e',1,'TerrainManager']]],
   ['resources',['Resources',['../d2/df8/group___resources.html',1,'']]],
   ['rosybrown',['RosyBrown',['../db/dad/namespace_colors.html#a2cd21b5dee2f479fa1510447d63bf759',1,'Colors']]],
+  ['rotation',['Rotation',['../d7/d63/class_particle_emitter.html#a0ddd3b031b975245e50a16758f4cf577',1,'ParticleEmitter']]],
   ['rotz',['RotZ',['../d7/dbf/class_sprite.html#a8f63f91e15b8aa617d274aaa04a1c385',1,'Sprite']]],
+  ['rowcells',['rowCells',['../d7/d10/class_terrain_object.html#a9935af091f263e4e4b5934c1b6d7fa80',1,'TerrainObject']]],
+  ['rowcols',['rowCols',['../d7/d10/class_terrain_object.html#a5a5464d558696a35aa5b09e20fb39699',1,'TerrainObject']]],
   ['royalblue',['RoyalBlue',['../db/dad/namespace_colors.html#aa5bd16a55a537010a894c86a4fc52392',1,'Colors']]],
   ['run',['Run',['../d6/d4b/class_mithril_engine.html#a9f222a2729e64a91f226e8063ec5fbf6',1,'MithrilEngine']]]
 ];

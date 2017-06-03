@@ -1,0 +1,10 @@
+<map id="ParticleEmitter::SceneExit" name="ParticleEmitter::SceneExit">
+<area shape="rect" id="node2" href="$d5/dcb/group___alarms.html#ga44500b3f26d3333fd2ba276efc93a990" title="Submit the object for Alarm deregistration. " alt="" coords="229,75,472,102"/>
+<area shape="rect" id="node9" href="$d2/de4/class_drawable.html#a04fdefc737ea11759ed7334949420cf8" title="Submit the object for Draw deregistration. " alt="" coords="234,126,467,153"/>
+<area shape="rect" id="node3" href="$d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="520,64,700,105"/>
+<area shape="rect" id="node7" href="$d6/db5/class_scene.html#a0731629e09bcbc95b0dd1f8553793914" title="Scene::SubmitCommand" alt="" coords="527,130,693,157"/>
+<area shape="rect" id="node4" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="764,71,931,98"/>
+<area shape="rect" id="node6" href="$d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7" title="SceneManager::privGetCurrent\lScene" alt="" coords="748,5,947,47"/>
+<area shape="rect" id="node5" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="995,71,1199,98"/>
+<area shape="rect" id="node8" href="$d8/d4e/class_scene_registration_broker.html#a64a63b2d841f223142218156e6f62caa" title="Adds a command of type CommandBase to a list. " alt="" coords="764,123,931,164"/>
+</map>

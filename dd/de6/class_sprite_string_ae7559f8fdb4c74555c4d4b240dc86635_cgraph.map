@@ -1,0 +1,7 @@
+<map id="SpriteString::SpriteString" name="SpriteString::SpriteString">
+<area shape="rect" id="node2" href="$d8/dba/class_sprite_font_manager.html#a11ff6e6dd92614074cb658ebeca4b497" title="Returns a SpriteFont pointer by taking a key and searching the key in the map. " alt="" coords="223,5,363,47"/>
+<area shape="rect" id="node6" href="$d4/d74/class_sprite_font.html#a0ef72714c70fdd755a1b0d1a5a097d0d" title="SpriteFont::GetGlyph" alt="" coords="220,71,365,98"/>
+<area shape="rect" id="node3" href="$d8/dba/class_sprite_font_manager.html#a4c6c7d7e70ed44290378bdc82ebd5300" title="SpriteFontManager::\lInstance" alt="" coords="601,5,741,47"/>
+<area shape="rect" id="node5" href="$d8/dba/class_sprite_font_manager.html#a4125454b31dc38020d2a2a22cc4110d3" title="SpriteFontManager::\lprivGetSpriteFont" alt="" coords="413,35,553,76"/>
+<area shape="rect" id="node4" href="$d8/dba/class_sprite_font_manager.html#ab5b2044dd6c59141389d5d9d7127f3f2" title="SpriteFontManager::\lSpriteFontManager" alt="" coords="789,5,929,47"/>
+</map>

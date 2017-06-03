@@ -1,0 +1,5 @@
+<map id="SpriteFontManager::LoadSpriteFont" name="SpriteFontManager::LoadSpriteFont">
+<area shape="rect" id="node2" href="$d8/dba/class_sprite_font_manager.html#a4c6c7d7e70ed44290378bdc82ebd5300" title="SpriteFontManager::\lInstance" alt="" coords="381,5,521,47"/>
+<area shape="rect" id="node4" href="$d8/dba/class_sprite_font_manager.html#a92a383fd0a76279d89486dc2f1fb4b43" title="SpriteFontManager::\lprivLoadSpriteFont" alt="" coords="193,35,333,76"/>
+<area shape="rect" id="node3" href="$d8/dba/class_sprite_font_manager.html#ab5b2044dd6c59141389d5d9d7127f3f2" title="SpriteFontManager::\lSpriteFontManager" alt="" coords="569,5,709,47"/>
+</map>

@@ -20,9 +20,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="mithrillogo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mithril Engine
-   &#160;<span id="projectnumber">1.0</span>
+   &#160;<span id="projectnumber">2.0</span>
    </div>
    <div id="projectbrief">Documentation for Mithril Engine</div>
   </td>
@@ -82,17 +83,17 @@ $(function() {
 <area shape="rect" id="node1" href="de/d22/class_alarm_enum.html" title="AlarmEnum" alt="" coords="5,5,96,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_3.png" border="0" alt="" usemap="#_camera_manager"/>
-<map name="_camera_manager" id="_camera_manager">
-<area shape="rect" id="node1" href="d2/d23/class_camera_manager.html" title="CameraManager" alt="" coords="5,5,123,32"/>
+<tr><td><img src="inherit_graph_3.png" border="0" alt="" usemap="#_burst_type"/>
+<map name="_burst_type" id="_burst_type">
+<area shape="rect" id="node1" href="dd/d2a/class_burst_type.html" title="BurstType" alt="" coords="5,56,87,83"/>
+<area shape="rect" id="node2" href="d5/dc0/class_burst_type_pulse.html" title="BurstTypePulse" alt="" coords="145,5,259,32"/>
+<area shape="rect" id="node3" href="da/d19/class_burst_type_spherical.html" title="BurstTypeSpherical" alt="" coords="135,56,269,83"/>
+<area shape="rect" id="node4" href="d9/d6e/class_burst_type_stream.html" title="BurstTypeStream" alt="" coords="141,107,263,133"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_4.png" border="0" alt="" usemap="#_collidable_group_base"/>
-<map name="_collidable_group_base" id="_collidable_group_base">
-<area shape="rect" id="node1" href="d7/d3f/class_collidable_group_base.html" title="CollidableGroupBase" alt="" coords="5,56,148,83"/>
-<area shape="rect" id="node2" href="dc/d5d/class_collidable_group.html" title="CollidableGroup\&lt; C \&gt;" alt="" coords="199,5,346,32"/>
-<area shape="rect" id="node3" href="dc/d5d/class_collidable_group.html" title="CollidableGroup\&lt; C1 \&gt;" alt="" coords="196,56,349,83"/>
-<area shape="rect" id="node4" href="dc/d5d/class_collidable_group.html" title="CollidableGroup\&lt; C2 \&gt;" alt="" coords="196,107,349,133"/>
+<tr><td><img src="inherit_graph_4.png" border="0" alt="" usemap="#_camera_manager"/>
+<map name="_camera_manager" id="_camera_manager">
+<area shape="rect" id="node1" href="d2/d23/class_camera_manager.html" title="CameraManager" alt="" coords="5,5,123,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_5.png" border="0" alt="" usemap="#_collision_manager"/>
@@ -100,80 +101,100 @@ $(function() {
 <area shape="rect" id="node1" href="df/d14/class_collision_manager.html" title="CollisionManager" alt="" coords="5,5,127,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_6.png" border="0" alt="" usemap="#_collision_volume"/>
-<map name="_collision_volume" id="_collision_volume">
-<area shape="rect" id="node1" href="d5/d7c/class_collision_volume.html" title="CollisionVolume" alt="" coords="5,5,120,32"/>
-<area shape="rect" id="node2" href="d8/d21/class_collision_volume_b_sphere.html" title="CollisionVolumeBSphere" alt="" coords="168,5,333,32"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_7.png" border="0" alt="" usemap="#_command_base"/>
-<map name="_command_base" id="_command_base">
-<area shape="rect" id="node1" href="db/db6/class_command_base.html" title="CommandBase" alt="" coords="5,365,116,392"/>
-<area shape="rect" id="node2" href="d9/dcd/class_alarm_deregistration_command.html" title="AlarmDeregistrationCommand" alt="" coords="188,5,383,32"/>
-<area shape="rect" id="node3" href="dc/df2/class_alarm_registration_command.html" title="AlarmRegistrationCommand" alt="" coords="193,56,377,83"/>
-<area shape="rect" id="node4" href="d6/dfd/class_collision_deregistration_command.html" title="CollisionDeregistrationCommand\&lt; C \&gt;" alt="" coords="164,107,407,133"/>
-<area shape="rect" id="node5" href="d6/d69/class_collision_registration_command.html" title="CollisionRegistrationCommand\&lt; C \&gt;" alt="" coords="169,157,401,184"/>
-<area shape="rect" id="node6" href="d2/d68/class_collision_test_pair_command.html" title="CollisionTestPairCommand\l\&lt; C1, C2 \&gt;" alt="" coords="196,209,375,250"/>
-<area shape="rect" id="node7" href="d5/d3c/class_collision_test_self_command.html" title="CollisionTestSelfCommand\l\&lt; C1 \&gt;" alt="" coords="197,274,374,315"/>
-<area shape="rect" id="node8" href="d2/dd0/class_draw_deregistration_command.html" title="DrawDeregistrationCommand" alt="" coords="190,340,381,367"/>
-<area shape="rect" id="node9" href="da/dbf/class_draw_registration_command.html" title="DrawRegistrationCommand" alt="" coords="196,391,375,417"/>
-<area shape="rect" id="node10" href="d7/dcf/class_game_object_entry_command.html" title="GameObjectEntryCommand" alt="" coords="193,441,378,468"/>
-<area shape="rect" id="node11" href="d2/df5/class_game_object_exit_command.html" title="GameObjectExitCommand" alt="" coords="197,492,374,519"/>
-<area shape="rect" id="node12" href="d6/dd4/class_key_event_deregistration_command.html" title="KeyEventDeregistrationCommand" alt="" coords="177,543,393,569"/>
-<area shape="rect" id="node13" href="d3/d85/class_key_event_registration_command.html" title="KeyEventRegistrationCommand" alt="" coords="183,593,388,620"/>
-<area shape="rect" id="node14" href="d1/d43/class_update_deregistration_command.html" title="UpdateDeregistrationCommand" alt="" coords="184,644,387,671"/>
-<area shape="rect" id="node15" href="df/da2/class_update_registration_command.html" title="UpdateRegistrationCommand" alt="" coords="190,695,381,721"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_8.png" border="0" alt="" usemap="#_drawable_manager"/>
+<tr><td><img src="inherit_graph_6.png" border="0" alt="" usemap="#_drawable_manager"/>
 <map name="_drawable_manager" id="_drawable_manager">
 <area shape="rect" id="node1" href="d6/d17/class_drawable_manager.html" title="DrawableManager" alt="" coords="5,5,131,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_9.png" border="0" alt="" usemap="#_freeze_time"/>
+<tr><td><img src="inherit_graph_7.png" border="0" alt="" usemap="#_freeze_time"/>
 <map name="_freeze_time" id="_freeze_time">
 <area shape="rect" id="node1" href="db/d12/class_freeze_time.html" title="FreezeTime" alt="" coords="5,5,96,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_10.png" border="0" alt="" usemap="#_game_object"/>
+<tr><td><img src="inherit_graph_8.png" border="0" alt="" usemap="#_game_object"/>
 <map name="_game_object" id="_game_object">
-<area shape="rect" id="node1" href="d0/dd1/class_game_object.html" title="GameObject" alt="" coords="5,107,100,133"/>
-<area shape="rect" id="node2" href="d7/db6/class_alarmable.html" title="Alarmable" alt="" coords="148,5,228,32"/>
-<area shape="rect" id="node3" href="d8/deb/class_collidable.html" title="Collidable" alt="" coords="149,56,227,83"/>
-<area shape="rect" id="node4" href="d2/de4/class_drawable.html" title="Drawable" alt="" coords="151,107,225,133"/>
-<area shape="rect" id="node5" href="d6/d0f/class_inputable.html" title="Inputable" alt="" coords="151,157,225,184"/>
-<area shape="rect" id="node6" href="d7/d69/class_updatable.html" title="Updatable" alt="" coords="148,208,228,235"/>
-<area shape="rect" id="node7" href="d9/d71/class_god_camera.html" title="GodCamera" alt="" coords="276,208,367,235"/>
+<area shape="rect" id="node2" href="dd/ded/class_burst.html" title="Burst" alt="" coords="533,56,587,83"/>
+<area shape="rect" id="node3" href="df/d45/struct_burst_1_1_particle.html" title="Burst::Particle" alt="" coords="507,259,613,285"/>
+<area shape="rect" id="node4" href="dc/d5d/class_collidable_group.html" title="CollidableGroup\&lt; C \&gt;" alt="" coords="487,107,633,133"/>
+<area shape="rect" id="node5" href="dc/d5d/class_collidable_group.html" title="CollidableGroup\&lt; C1 \&gt;" alt="" coords="483,157,637,184"/>
+<area shape="rect" id="node6" href="dc/d5d/class_collidable_group.html" title="CollidableGroup\&lt; C2 \&gt;" alt="" coords="483,208,637,235"/>
+<area shape="rect" id="node7" href="db/de3/class_collision_terrain_command.html" title="CollisionTerrainCommand\l\&lt; C1 \&gt;" alt="" coords="475,730,645,771"/>
+<area shape="rect" id="node8" href="d2/d68/class_collision_test_pair_command.html" title="CollisionTestPairCommand\l\&lt; C1, C2 \&gt;" alt="" coords="471,665,649,706"/>
+<area shape="rect" id="node9" href="d5/d3c/class_collision_test_self_command.html" title="CollisionTestSelfCommand\l\&lt; C1 \&gt;" alt="" coords="471,795,649,837"/>
+<area shape="rect" id="node10" href="d0/d0a/class_collision_volume_a_a_b_b.html" title="CollisionVolumeAABB" alt="" coords="485,512,635,539"/>
+<area shape="rect" id="node11" href="d8/d21/class_collision_volume_b_sphere.html" title="CollisionVolumeBSphere" alt="" coords="477,563,643,589"/>
+<area shape="rect" id="node12" href="d6/ded/class_collision_volume_o_b_b.html" title="CollisionVolumeOBB" alt="" coords="489,461,631,488"/>
+<area shape="rect" id="node13" href="d7/d63/class_particle_emitter.html" title="ParticleEmitter" alt="" coords="506,5,614,32"/>
+<area shape="rect" id="node14" href="d7/dbf/class_sprite.html" title="Sprite" alt="" coords="532,309,588,336"/>
+<area shape="rect" id="node15" href="dd/de6/class_sprite_string.html" title="SpriteString" alt="" coords="515,360,605,387"/>
+<area shape="rect" id="node16" href="d3/d4f/class_visualizer.html" title="Visualizer" alt="" coords="521,411,599,437"/>
+<area shape="rect" id="node17" href="d7/d3f/class_collidable_group_base.html" title="CollidableGroupBase" alt="" coords="208,157,351,184"/>
+<area shape="rect" id="node18" href="d5/d7c/class_collision_volume.html" title="CollisionVolume" alt="" coords="5,512,120,539"/>
+<area shape="rect" id="node19" href="dc/df9/class_collision_volume_bounding_box_base.html" title="CollisionVolumeBoundingBoxBase" alt="" coords="168,461,391,488"/>
+<area shape="rect" id="node20" href="db/db6/class_command_base.html" title="CommandBase" alt="" coords="224,1089,335,1116"/>
+<area shape="rect" id="node21" href="d9/dcd/class_alarm_deregistration_command.html" title="AlarmDeregistrationCommand" alt="" coords="463,1165,657,1192"/>
+<area shape="rect" id="node22" href="dc/df2/class_alarm_registration_command.html" title="AlarmRegistrationCommand" alt="" coords="468,1216,652,1243"/>
+<area shape="rect" id="node23" href="d6/dfd/class_collision_deregistration_command.html" title="CollisionDeregistrationCommand\&lt; C \&gt;" alt="" coords="439,1267,681,1293"/>
+<area shape="rect" id="node24" href="d6/d69/class_collision_registration_command.html" title="CollisionRegistrationCommand\&lt; C \&gt;" alt="" coords="444,1317,676,1344"/>
+<area shape="rect" id="node25" href="d2/dd0/class_draw_deregistration_command.html" title="DrawDeregistrationCommand" alt="" coords="465,1368,655,1395"/>
+<area shape="rect" id="node26" href="da/dbf/class_draw_registration_command.html" title="DrawRegistrationCommand" alt="" coords="471,1419,649,1445"/>
+<area shape="rect" id="node27" href="d7/dcf/class_game_object_entry_command.html" title="GameObjectEntryCommand" alt="" coords="467,1469,653,1496"/>
+<area shape="rect" id="node28" href="d2/df5/class_game_object_exit_command.html" title="GameObjectExitCommand" alt="" coords="471,861,649,888"/>
+<area shape="rect" id="node29" href="d6/dd4/class_key_event_deregistration_command.html" title="KeyEventDeregistrationCommand" alt="" coords="452,912,668,939"/>
+<area shape="rect" id="node30" href="d3/d85/class_key_event_registration_command.html" title="KeyEventRegistrationCommand" alt="" coords="457,963,663,989"/>
+<area shape="rect" id="node31" href="d5/d0f/class_scene_change_command.html" title="SceneChangeCommand" alt="" coords="479,1013,641,1040"/>
+<area shape="rect" id="node32" href="d1/d43/class_update_deregistration_command.html" title="UpdateDeregistrationCommand" alt="" coords="459,1064,661,1091"/>
+<area shape="rect" id="node33" href="df/da2/class_update_registration_command.html" title="UpdateRegistrationCommand" alt="" coords="465,1115,655,1141"/>
+<area shape="rect" id="node34" href="d0/dd1/class_game_object.html" title="GameObject" alt="" coords="15,107,110,133"/>
+<area shape="rect" id="node35" href="d7/db6/class_alarmable.html" title="Alarmable" alt="" coords="239,56,319,83"/>
+<area shape="rect" id="node36" href="d8/deb/class_collidable.html" title="Collidable" alt="" coords="240,107,319,133"/>
+<area shape="rect" id="node37" href="d2/de4/class_drawable.html" title="Drawable" alt="" coords="242,5,317,32"/>
+<area shape="rect" id="node38" href="d6/d0f/class_inputable.html" title="Inputable" alt="" coords="242,208,317,235"/>
+<area shape="rect" id="node39" href="d7/d69/class_updatable.html" title="Updatable" alt="" coords="239,512,319,539"/>
+<area shape="rect" id="node40" href="d9/d71/class_god_camera.html" title="GodCamera" alt="" coords="515,613,605,640"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_11.png" border="0" alt="" usemap="#_image_manager"/>
+<tr><td><img src="inherit_graph_9.png" border="0" alt="" usemap="#_image_manager"/>
 <map name="_image_manager" id="_image_manager">
 <area shape="rect" id="node1" href="d2/d39/class_image_manager.html" title="ImageManager" alt="" coords="5,5,112,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_12.png" border="0" alt="" usemap="#_inputable_manager"/>
+<tr><td><img src="inherit_graph_10.png" border="0" alt="" usemap="#_inputable_manager"/>
 <map name="_inputable_manager" id="_inputable_manager">
 <area shape="rect" id="node1" href="d8/d85/class_inputable_manager.html" title="InputableManager" alt="" coords="5,5,129,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_13.png" border="0" alt="" usemap="#_key_object"/>
+<tr><td><img src="inherit_graph_11.png" border="0" alt="" usemap="#_key_object"/>
 <map name="_key_object" id="_key_object">
 <area shape="rect" id="node1" href="d8/d68/class_key_object.html" title="KeyObject" alt="" coords="5,5,88,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_14.png" border="0" alt="" usemap="#_math_tools"/>
+<tr><td><img src="inherit_graph_12.png" border="0" alt="" usemap="#_math_tools"/>
 <map name="_math_tools" id="_math_tools">
 <area shape="rect" id="node1" href="d8/d8f/class_math_tools.html" title="MathTools" alt="" coords="5,5,88,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_15.png" border="0" alt="" usemap="#_mithril_engine"/>
+<tr><td><img src="inherit_graph_13.png" border="0" alt="" usemap="#_mithril_engine"/>
 <map name="_mithril_engine" id="_mithril_engine">
 <area shape="rect" id="node2" href="d6/d4b/class_mithril_engine.html" title="MithrilEngine" alt="" coords="116,5,213,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_16.png" border="0" alt="" usemap="#_model_manager"/>
+<tr><td><img src="inherit_graph_14.png" border="0" alt="" usemap="#_model_manager"/>
 <map name="_model_manager" id="_model_manager">
 <area shape="rect" id="node1" href="d3/d3a/class_model_manager.html" title="ModelManager" alt="" coords="5,5,112,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_15.png" border="0" alt="" usemap="#_particle_effect"/>
+<map name="_particle_effect" id="_particle_effect">
+<area shape="rect" id="node1" href="d9/de5/class_particle_effect.html" title="ParticleEffect" alt="" coords="5,56,104,83"/>
+<area shape="rect" id="node2" href="d9/d29/class_particle_effect_pulse.html" title="ParticleEffectPulse" alt="" coords="178,5,310,32"/>
+<area shape="rect" id="node3" href="d9/dff/class_particle_effect_spherical_burst.html" title="ParticleEffectSphericalBurst" alt="" coords="152,56,336,83"/>
+<area shape="rect" id="node4" href="d8/d9f/class_particle_effect_stream.html" title="ParticleEffectStream" alt="" coords="173,107,315,133"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_16.png" border="0" alt="" usemap="#_particle_effect_manager"/>
+<map name="_particle_effect_manager" id="_particle_effect_manager">
+<area shape="rect" id="node1" href="d9/d97/class_particle_effect_manager.html" title="ParticleEffectManager" alt="" coords="5,5,155,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_17.png" border="0" alt="" usemap="#_scene"/>
@@ -196,25 +217,65 @@ $(function() {
 <area shape="rect" id="node1" href="d2/d24/class_shader_manager.html" title="ShaderManager" alt="" coords="5,5,119,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_21.png" border="0" alt="" usemap="#_sprite"/>
-<map name="_sprite" id="_sprite">
-<area shape="rect" id="node2" href="d7/dbf/class_sprite.html" title="Sprite" alt="" coords="130,5,186,32"/>
-<area shape="rect" id="node3" href="d3/d4f/class_visualizer.html" title="Visualizer" alt="" coords="119,56,197,83"/>
+<tr><td><img src="inherit_graph_21.png" border="0" alt="" usemap="#_sound_manager"/>
+<map name="_sound_manager" id="_sound_manager">
+<area shape="rect" id="node1" href="d5/dd9/class_sound_manager.html" title="SoundManager" alt="" coords="5,5,115,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_22.png" border="0" alt="" usemap="#_texture_manager"/>
+<tr><td><img src="inherit_graph_22.png" border="0" alt="" usemap="#_sprite_font"/>
+<map name="_sprite_font" id="_sprite_font">
+<area shape="rect" id="node1" href="d4/d74/class_sprite_font.html" title="SpriteFont" alt="" coords="5,5,88,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_23.png" border="0" alt="" usemap="#_sprite_font_manager"/>
+<map name="_sprite_font_manager" id="_sprite_font_manager">
+<area shape="rect" id="node1" href="d8/dba/class_sprite_font_manager.html" title="SpriteFontManager" alt="" coords="5,5,137,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_24.png" border="0" alt="" usemap="#_terrain_manager"/>
+<map name="_terrain_manager" id="_terrain_manager">
+<area shape="rect" id="node1" href="d3/d16/class_terrain_manager.html" title="TerrainManager" alt="" coords="5,5,116,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_25.png" border="0" alt="" usemap="#_terrain_object"/>
+<map name="_terrain_object" id="_terrain_object">
+<area shape="rect" id="node1" href="d7/d10/class_terrain_object.html" title="TerrainObject" alt="" coords="5,5,104,32"/>
+<area shape="rect" id="node2" href="d6/d79/class_null_terrain_object.html" title="NullTerrainObject" alt="" coords="152,5,273,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_26.png" border="0" alt="" usemap="#_terrain_object_1_1_terrain_cell"/>
+<map name="_terrain_object_1_1_terrain_cell" id="_terrain_object_1_1_terrain_cell">
+<area shape="rect" id="node1" href="d7/d79/struct_terrain_object_1_1_terrain_cell.html" title="TerrainObject::TerrainCell" alt="" coords="5,5,173,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_27.png" border="0" alt="" usemap="#_terrain_object_manager"/>
+<map name="_terrain_object_manager" id="_terrain_object_manager">
+<area shape="rect" id="node1" href="d6/d14/class_terrain_object_manager.html" title="TerrainObjectManager" alt="" coords="5,5,155,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_28.png" border="0" alt="" usemap="#_texture_manager"/>
 <map name="_texture_manager" id="_texture_manager">
 <area shape="rect" id="node1" href="db/ddf/class_texture_manager.html" title="TextureManager" alt="" coords="5,5,120,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_23.png" border="0" alt="" usemap="#_time_manager"/>
+<tr><td><img src="inherit_graph_29.png" border="0" alt="" usemap="#_time_manager"/>
 <map name="_time_manager" id="_time_manager">
 <area shape="rect" id="node1" href="d9/d7f/class_time_manager.html" title="TimeManager" alt="" coords="5,5,105,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_24.png" border="0" alt="" usemap="#_updatable_manager"/>
+<tr><td><img src="inherit_graph_30.png" border="0" alt="" usemap="#_updatable_manager"/>
 <map name="_updatable_manager" id="_updatable_manager">
 <area shape="rect" id="node1" href="d1/d47/class_updatable_manager.html" title="UpdatableManager" alt="" coords="5,5,136,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_31.png" border="0" alt="" usemap="#_visualizer_1_1_visualizer_data"/>
+<map name="_visualizer_1_1_visualizer_data" id="_visualizer_1_1_visualizer_data">
+<area shape="rect" id="node1" href="df/db0/struct_visualizer_1_1_visualizer_data.html" title="Visualizer::VisualizerData" alt="" coords="5,5,176,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_32.png" border="0" alt="" usemap="#_visualizer_1_1_visualizer_terrain_cell"/>
+<map name="_visualizer_1_1_visualizer_terrain_cell" id="_visualizer_1_1_visualizer_terrain_cell">
+<area shape="rect" id="node1" href="db/dd2/struct_visualizer_1_1_visualizer_terrain_cell.html" title="Visualizer::VisualizerTerrainCell" alt="" coords="5,5,211,32"/>
 </map>
 </td></tr>
 </table>

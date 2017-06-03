@@ -1,0 +1,6 @@
+<map id="MathTools::GetProjectionMax" name="MathTools::GetProjectionMax">
+<area shape="rect" id="node2" href="$d0/d0a/class_collision_volume_a_a_b_b.html#a5bef4aadfc9bfb4ce8894709a239ee36" title="CollisionVolumeAABB\l::GetOriginalWorld" alt="" coords="248,5,399,47"/>
+<area shape="rect" id="node3" href="$d0/d0a/class_collision_volume_a_a_b_b.html#a68053e10a404e1a70419fe1d4903fc25" title="CollisionVolumeAABB\l::GetLocalMax" alt="" coords="248,71,399,112"/>
+<area shape="rect" id="node4" href="$d0/d0a/class_collision_volume_a_a_b_b.html#a2e7111b4dafe929095ba9980d9cb9cd6" title="CollisionVolumeAABB\l::GetLocalCenter" alt="" coords="248,136,399,177"/>
+<area shape="rect" id="node5" href="$d0/d0a/class_collision_volume_a_a_b_b.html#a73d5bd0c7308044a27fed87bbc530441" title="CollisionVolumeAABB\l::GetScaleSquared" alt="" coords="248,201,399,243"/>
+</map>

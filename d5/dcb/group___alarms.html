@@ -20,9 +20,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../mithrillogo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mithril Engine
-   &#160;<span id="projectnumber">1.0</span>
+   &#160;<span id="projectnumber">2.0</span>
    </div>
    <div id="projectbrief">Documentation for Mithril Engine</div>
   </td>
@@ -184,6 +185,8 @@ Functions</h2></td></tr>
 
 <p>Defines what happens when Alarm 0 is triggered. </p>
 <dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="keywordtype">void</span> Ship::Alarm0()</div><div class="line">{</div><div class="line">ShipPos += Vect(0, 0, 2) * ShipRot * ShipTransSpeed;</div><div class="line"><a class="code" href="../../d5/dcb/group___alarms.html#ga2cc6edba905d2d3e101284cb782c7be6">SubmitAlarmRegistration</a>(2.0f, AlarmEnum::AlarmID::Alarm_0);</div><div class="line">}</div></div><!-- fragment --> </dd></dl>
+
+<p>Reimplemented in <a class="el" href="../../d7/d63/class_particle_emitter.html#a700fc45f5c9db613808f54dc330c50e4">ParticleEmitter</a>, and <a class="el" href="../../dd/ded/class_burst.html#a10d0bc13e6ece097b824e7d4b23390b9">Burst</a>.</p>
 
 </div>
 </div>

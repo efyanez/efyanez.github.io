@@ -1,0 +1,10 @@
+<map id="TerrainObject::TerrainObject" name="TerrainObject::TerrainObject">
+<area shape="rect" id="node2" href="$db/ddf/class_texture_manager.html#a1dcf2eb817c5324e8e501fcd91946fd5" title="Returns a Texture pointer by taking a key and searching the key in the map. " alt="" coords="237,31,424,57"/>
+<area shape="rect" id="node6" href="$d2/d24/class_shader_manager.html#a3602d0674af7106d7bda9868197ee0c3" title="Returns a shader pointer by taking a key and searching the key in the map. " alt="" coords="239,81,422,108"/>
+<area shape="rect" id="node3" href="$db/ddf/class_texture_manager.html#a81a2f2ac1876be84e0a0a472199679d5" title="TextureManager::Instance" alt="" coords="727,5,899,32"/>
+<area shape="rect" id="node5" href="$db/ddf/class_texture_manager.html#a865feb61869813b993323356d2bb2d12" title="TextureManager::privGetTexture" alt="" coords="472,31,679,57"/>
+<area shape="rect" id="node4" href="$db/ddf/class_texture_manager.html#ad76abb178b37cedf4514eb0154349935" title="TextureManager::TextureManager" alt="" coords="947,5,1163,32"/>
+<area shape="rect" id="node7" href="$d2/d24/class_shader_manager.html#aeaa687b375b78eefcd836b5430ccfb99" title="ShaderManager::Instance" alt="" coords="727,107,898,133"/>
+<area shape="rect" id="node9" href="$d2/d24/class_shader_manager.html#aa831d17276ee7bfdb90d1c99e2c75613" title="ShaderManager::privGetShader" alt="" coords="474,132,677,159"/>
+<area shape="rect" id="node8" href="$d2/d24/class_shader_manager.html#aca25f81fd10a02b3e97e9c459b864186" title="ShaderManager::ShaderManager" alt="" coords="949,107,1161,133"/>
+</map>

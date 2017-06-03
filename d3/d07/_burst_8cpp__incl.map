@@ -1,0 +1,37 @@
+<map id="Burst.cpp" name="Burst.cpp">
+<area shape="rect" id="node2" href="$d8/db1/_burst_8h.html" title="Burst.h" alt="" coords="2099,199,2163,225"/>
+<area shape="rect" id="node11" href="$d1/da9/_scene_manager_8h.html" title="SceneManager.h" alt="" coords="2683,363,2803,389"/>
+<area shape="rect" id="node15" href="$db/d24/_camera_manager_8h.html" title="CameraManager.h" alt="" coords="2288,199,2416,225"/>
+<area shape="rect" id="node37" href="$db/d15/_math_tools_8h.html" title="MathTools.h" alt="" coords="2780,102,2874,129"/>
+<area shape="rect" id="node46" href="$d9/d92/_time_manager_8h.html" title="TimeManager.h" alt="" coords="2516,281,2626,307"/>
+<area shape="rect" id="node47" href="$d2/db6/_burst_type_spherical_8h.html" title="BurstTypeSpherical.h" alt="" coords="2120,102,2267,129"/>
+<area shape="rect" id="node49" href="$db/db5/_burst_type_pulse_8h.html" title="BurstTypePulse.h" alt="" coords="2291,102,2416,129"/>
+<area shape="rect" id="node50" href="$d0/d97/_burst_type_stream_8h.html" title="BurstTypeStream.h" alt="" coords="1961,102,2096,129"/>
+<area shape="rect" id="node5" href="$d9/d6e/_alarmable_8h.html" title="Alarmable.h" alt="" coords="278,281,368,307"/>
+<area shape="rect" id="node10" href="$d5/d1f/_burst_pattern_8h.html" title="BurstPattern.h" alt="" coords="278,587,384,613"/>
+<area shape="rect" id="node6" href="$df/d91/_game_object_8h.html" title="GameObject.h" alt="" coords="195,363,302,389"/>
+<area shape="rect" id="node7" href="$db/dd1/_alarmable_manager_8h.html" title="AlarmableManager.h" alt="" coords="326,363,467,389"/>
+<area shape="rect" id="node9" href="$d9/d28/_alarm_enum_8h.html" title="AlarmEnum.h" alt="" coords="160,437,262,464"/>
+<area shape="rect" id="node13" href="$db/dfa/_scene_change_command_8h.html" title="SceneChangeCommand.h" alt="" coords="2656,437,2830,464"/>
+<area shape="rect" id="node14" href="$da/dcb/_command_base_8h.html" title="CommandBase.h" alt="" coords="2682,512,2804,539"/>
+<area shape="rect" id="node16" href="$dc/d3f/_mithril_engine_8h.html" title="MithrilEngine.h" alt="" coords="1769,281,1877,307"/>
+<area shape="rect" id="node17" href="$dc/d38/_shader_manager_8h.html" title="ShaderManager.h" alt="" coords="1542,363,1666,389"/>
+<area shape="rect" id="node18" href="$d5/d67/_texture_manager_8h.html" title="TextureManager.h" alt="" coords="1833,363,1960,389"/>
+<area shape="rect" id="node19" href="$d2/d8d/_model_manager_8h.html" title="ModelManager.h" alt="" coords="1690,363,1809,389"/>
+<area shape="rect" id="node20" href="$d4/d28/_image_manager_8h.html" title="ImageManager.h" alt="" coords="1984,363,2102,389"/>
+<area shape="rect" id="node21" href="$d3/d1d/_sound_manager_8h.html" title="SoundManager.h" alt="" coords="1398,363,1518,389"/>
+<area shape="rect" id="node23" href="$d8/d55/_sprite_font_manager_8h.html" title="SpriteFontManager.h" alt="" coords="1046,363,1189,389"/>
+<area shape="rect" id="node24" href="$d8/dc6/_terrain_object_manager_8h.html" title="TerrainObjectManager.h" alt="" coords="1214,363,1374,389"/>
+<area shape="rect" id="node25" href="$d0/d1b/_particle_effect_manager_8h.html" title="ParticleEffectManager.h" alt="" coords="862,363,1022,389"/>
+<area shape="rect" id="node27" href="$dd/d48/_particle_effect_groups_8h.html" title="ParticleEffectGroups.h" alt="" coords="491,363,643,389"/>
+<area shape="rect" id="node28" href="$d6/db8/_particle_effect_pulse_8h.html" title="ParticleEffectPulse.h" alt="" coords="302,437,445,464"/>
+<area shape="rect" id="node31" href="$d9/d83/_particle_effect_spherical_burst_8h.html" title="ParticleEffectSphericalBurst.h" alt="" coords="470,437,664,464"/>
+<area shape="rect" id="node32" href="$dd/dc4/_particle_effect_stream_8h.html" title="ParticleEffectStream.h" alt="" coords="688,437,840,464"/>
+<area shape="rect" id="node29" href="$d4/df6/_particle_effect_8h.html" title="ParticleEffect.h" alt="" coords="454,512,565,539"/>
+<area shape="rect" id="node38" href="$dc/d20/_collision_volume_b_sphere_8h.html" title="CollisionVolumeBSphere.h" alt="" coords="2643,199,2819,225"/>
+<area shape="rect" id="node40" href="$d5/d46/_collision_volume_a_a_b_b_8h.html" title="CollisionVolumeAABB.h" alt="" coords="2843,199,3006,225"/>
+<area shape="rect" id="node42" href="$db/d23/_collision_volume_o_b_b_8h.html" title="CollisionVolumeOBB.h" alt="" coords="3190,199,3344,225"/>
+<area shape="rect" id="node39" href="$d7/d9a/_collision_volume_8h.html" title="CollisionVolume.h" alt="" coords="2828,363,2954,389"/>
+<area shape="rect" id="node41" href="$d2/dd7/_collision_volume_bounding_box_base_8h.html" title="CollisionVolumeBoundingBox\lBase.h" alt="" coords="2870,273,3062,315"/>
+<area shape="rect" id="node48" href="$df/d62/_burst_type_8h.html" title="BurstType.h" alt="" coords="1982,199,2074,225"/>
+</map>

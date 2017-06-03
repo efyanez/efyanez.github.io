@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['wfunitsphere',['WFUnitSphere',['../d3/d4f/class_visualizer.html#a3632f74b2f490d27fe7dbcdd46263e8d',1,'Visualizer']]],
-  ['wheat',['Wheat',['../db/dad/namespace_colors.html#a033495a73588cbbbd7e88946856c8d96',1,'Colors']]],
-  ['white',['White',['../db/dad/namespace_colors.html#a8b2792fb23adb3ee31820e106591fe13',1,'Colors']]],
-  ['whitesmoke',['WhiteSmoke',['../db/dad/namespace_colors.html#ab4de40ca965910ed71195da1f58ea024',1,'Colors']]],
-  ['world',['world',['../d8/d21/class_collision_volume_b_sphere.html#a36c3199752ec8b1d7711219d4abf808a',1,'CollisionVolumeBSphere::world()'],['../d7/dbf/class_sprite.html#af9b2f4a04fec15c09815f0926f63c4b0',1,'Sprite::world()']]]
+  ['violet',['Violet',['../db/dad/namespace_colors.html#a31d9f084dfb2b9c4dad976503b29058b',1,'Colors']]],
+  ['visualizerlist',['visualizerList',['../d3/d4f/class_visualizer.html#adc6977d5a7d4aac87272c482e72ba592',1,'Visualizer']]],
+  ['visualizerterrainlist',['visualizerTerrainList',['../d3/d4f/class_visualizer.html#ac86f60b28f368ebadecbe5bff7d57067',1,'Visualizer']]]
 ];

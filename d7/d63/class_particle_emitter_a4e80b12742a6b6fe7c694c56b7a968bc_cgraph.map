@@ -1,0 +1,18 @@
+<map id="ParticleEmitter::NewBurst" name="ParticleEmitter::NewBurst">
+<area shape="rect" id="node2" href="$dd/ded/class_burst.html#aa04efa86275cbb5cfa2785afcc68eb07" title="Burst::ComputeNewBurst" alt="" coords="231,69,400,96"/>
+<area shape="rect" id="node11" href="$d9/de5/class_particle_effect.html#a62536cdf3d8d04f0ad29fd2cd39e032e" title="ParticleEffect::GetBurst\lPattern" alt="" coords="236,121,395,162"/>
+<area shape="rect" id="node12" href="$d9/de5/class_particle_effect.html#aba22e7f23bfcb563658c8a40f2536464" title="ParticleEffect::GetBurst\lCount" alt="" coords="236,186,395,227"/>
+<area shape="rect" id="node13" href="$d9/de5/class_particle_effect.html#a2ceadbc932f897fdedea587baa54efe9" title="ParticleEffect::GetBurst\lSpeed" alt="" coords="236,251,395,293"/>
+<area shape="rect" id="node14" href="$d9/de5/class_particle_effect.html#a21c7c67dc81369f78c85df129eb8bc2a" title="ParticleEffect::GetBurst\lTightness" alt="" coords="236,317,395,358"/>
+<area shape="rect" id="node15" href="$d9/de5/class_particle_effect.html#a77a2cbb7815466839619d551f3501e02" title="ParticleEffect::GetScale" alt="" coords="235,383,396,409"/>
+<area shape="rect" id="node16" href="$d9/de5/class_particle_effect.html#a142e880b4ecbb3b8e53a6e7adb942a0b" title="ParticleEffect::GetBurstLife" alt="" coords="226,433,405,460"/>
+<area shape="rect" id="node17" href="$d9/de5/class_particle_effect.html#a9a8dc2cfd593b8f3987c4266c66224c2" title="ParticleEffect::GetGraphics\lObject" alt="" coords="225,485,405,526"/>
+<area shape="rect" id="node3" href="$d8/d8f/class_math_tools.html#ade7bfde2ed0b609f9a8f09601de27a6a" title="MathTools::GetRandomFloat" alt="" coords="475,44,663,71"/>
+<area shape="rect" id="node4" href="$d5/dcb/group___alarms.html#ga2cc6edba905d2d3e101284cb782c7be6" title="Submit the object for Alarm registration. " alt="" coords="453,95,685,121"/>
+<area shape="rect" id="node5" href="$d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="733,57,913,98"/>
+<area shape="rect" id="node9" href="$d6/db5/class_scene.html#a0731629e09bcbc95b0dd1f8553793914" title="Scene::SubmitCommand" alt="" coords="740,125,907,152"/>
+<area shape="rect" id="node6" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="977,5,1144,32"/>
+<area shape="rect" id="node8" href="$d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7" title="SceneManager::privGetCurrent\lScene" alt="" coords="961,57,1160,98"/>
+<area shape="rect" id="node7" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="1208,5,1412,32"/>
+<area shape="rect" id="node10" href="$d8/d4e/class_scene_registration_broker.html#a64a63b2d841f223142218156e6f62caa" title="Adds a command of type CommandBase to a list. " alt="" coords="977,122,1144,163"/>
+</map>
