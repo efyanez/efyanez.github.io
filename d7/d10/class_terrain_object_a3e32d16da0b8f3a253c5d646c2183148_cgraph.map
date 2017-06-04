@@ -6,7 +6,7 @@
 <area shape="rect" id="node8" href="$d7/d10/class_terrain_object.html#a4d4ce028c3d14bf9a05f29ee3f1ad5c6" title="TerrainObject::IndexToCellMax" alt="" coords="224,239,423,265"/>
 <area shape="rect" id="node10" href="$d0/d0a/class_collision_volume_a_a_b_b.html#af4ef62e2a68d86a241a635ab242ebfbb" title="Computes the transformation data of an AABB. Re&#45;calculates corners and center. " alt="" coords="248,290,399,331"/>
 <area shape="rect" id="node14" href="$d8/d8f/class_math_tools.html#a6403ce2e1b0a24e5f7d5ca60b0578903" title="Calculates the intersection of two BSphere volumes. " alt="" coords="253,381,393,408"/>
-<area shape="rect" id="node17" href="$d3/d4f/class_visualizer.html#ab15907b760556d5f35aa26bc6b54ce36" title="Visualizer::VisualizeMe" alt="" coords="244,432,403,459"/>
+<area shape="rect" id="node17" href="$d3/d4f/class_visualizer.html#ab15907b760556d5f35aa26bc6b54ce36" title="Public static function to render a collision volume from a Collidable pointer. " alt="" coords="244,432,403,459"/>
 <area shape="rect" id="node21" href="$d8/deb/class_collidable.html#a04af066d38f7c8a2270da7e8e433b212" title="Collidable::GetCollision\lVolume" alt="" coords="245,483,401,525"/>
 <area shape="rect" id="node22" href="$d5/d7c/class_collision_volume.html#af11a060c0d0408fcfff45f8d48ddaa01" title="A pure virtual member. " alt="" coords="237,549,410,576"/>
 <area shape="rect" id="node6" href="$d7/d10/class_terrain_object.html#a315092b8e96f3f77c15e988c2c3678d5" title="TerrainObject::GridToVert" alt="" coords="486,145,655,172"/>

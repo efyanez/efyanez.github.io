@@ -1,7 +1,10 @@
 <map id="MithrilEngine" name="MithrilEngine">
 <area shape="rect" id="node1" href="$dc/d06/group___math_tools.html" title="Math tool group, everything relating computing various common math functions. " alt="" coords="157,5,239,32"/>
-<area shape="rect" id="node2" href="$db/da1/group___scene.html" title="Scene group, everything relating to Scene. " alt="" coords="169,56,227,83"/>
-<area shape="rect" id="node3" href="$d0/d80/group___time.html" title="Time group, everything relating to time (TimeManager, FreezeTime,...). " alt="" coords="173,107,223,133"/>
-<area shape="rect" id="node4" href="$d2/df8/group___resources.html" title="Resource group, everything relating to resources (models, shaders, textures,...). ..." alt="" coords="156,157,240,184"/>
-<area shape="rect" id="node6" href="$de/db2/group___game_object.html" title="GameObject group, and all associated &quot;&#45;able&quot; classes. " alt="" coords="151,208,245,235"/>
+<area shape="rect" id="node2" href="$d2/d83/group___sound.html" title="Sound group, everything relating to sound (playing, stopping,...). " alt="" coords="169,56,227,83"/>
+<area shape="rect" id="node3" href="$df/d04/group___font.html" title="Font group, everything relating to sprite fonts (SpriteFont, SpriteString,...). " alt="" coords="174,107,222,133"/>
+<area shape="rect" id="node4" href="$db/da1/group___scene.html" title="Scene group, everything relating to Scene. " alt="" coords="169,157,227,184"/>
+<area shape="rect" id="node5" href="$d0/d80/group___time.html" title="Time group, everything relating to time (TimeManager, FreezeTime,...). " alt="" coords="173,208,223,235"/>
+<area shape="rect" id="node6" href="$d2/df8/group___resources.html" title="Resource group, everything relating to resources (models, shaders, textures,...). ..." alt="" coords="156,259,240,285"/>
+<area shape="rect" id="node7" href="$d3/ddd/group___particles.html" title="Particles group, everything relating to particles (effects, emitters, bursts,...). " alt="" coords="161,309,235,336"/>
+<area shape="rect" id="node9" href="$de/db2/group___game_object.html" title="GameObject group, and all associated &quot;&#45;able&quot; classes. " alt="" coords="151,360,245,387"/>
 </map>

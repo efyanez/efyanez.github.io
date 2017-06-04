@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['key',['key',['../d8/d68/class_key_object.html#a404146153ac8fc388caa27f2ae6f4129',1,'KeyObject']]],
+  ['key',['Key',['../d4/d74/class_sprite_font.html#a523c9076148e224b6d3928f7a7a71a48',1,'SpriteFont::Key()'],['../d8/d68/class_key_object.html#a404146153ac8fc388caa27f2ae6f4129',1,'KeyObject::key()']]],
   ['key_5fpress',['KEY_PRESS',['../d6/d0f/class_inputable.html#ab4aea8b7165229e46d9ba33f8f2f23fca38d3b3bd402296ba635522676d383b50',1,'Inputable']]],
   ['key_5frelease',['KEY_RELEASE',['../d6/d0f/class_inputable.html#ab4aea8b7165229e46d9ba33f8f2f23fca2494d2581496ed9938488a5d6d77de4a',1,'Inputable']]],
   ['keyeventderegistration',['KeyEventDeregistration',['../d6/d0f/class_inputable.html#a680b53dc83e150dc148b8af0f48331e9',1,'Inputable']]],

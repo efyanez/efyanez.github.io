@@ -1,5 +1,8 @@
 <map id="CollisionDeregistrationCommand.h" name="CollisionDeregistrationCommand.h">
-<area shape="rect" id="node2" href="$d6/dca/_collidable_8h.html" title="Collidable.h" alt="" coords="113,80,202,107"/>
-<area shape="rect" id="node3" href="$dc/d3c/_collidable_8cpp.html" title="Collidable.cpp" alt="" coords="23,155,126,181"/>
-<area shape="rect" id="node4" href="$d9/d44/_scene_8cpp.html" title="Scene.cpp" alt="" coords="150,155,234,181"/>
+<area shape="rect" id="node2" href="$d6/dca/_collidable_8h.html" title="Collidable.h" alt="" coords="201,80,291,107"/>
+<area shape="rect" id="node3" href="$dc/d3c/_collidable_8cpp.html" title="Collidable.cpp" alt="" coords="5,155,108,181"/>
+<area shape="rect" id="node4" href="$da/dfb/_math_tools_8cpp.html" title="MathTools.cpp" alt="" coords="133,155,239,181"/>
+<area shape="rect" id="node5" href="$d9/d44/_scene_8cpp.html" title="Scene.cpp" alt="" coords="264,155,348,181"/>
+<area shape="rect" id="node6" href="$df/d82/_terrain_object_8cpp.html" title="TerrainObject.cpp" alt="" coords="372,155,496,181"/>
+<area shape="rect" id="node7" href="$d0/d26/_visualizer_8cpp.html" title="Visualizer.cpp" alt="" coords="521,155,625,181"/>
 </map>

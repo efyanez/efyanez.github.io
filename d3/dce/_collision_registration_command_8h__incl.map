@@ -1,5 +1,11 @@
 <map id="CollisionRegistrationCommand.h" name="CollisionRegistrationCommand.h">
-<area shape="rect" id="node2" href="$da/dcb/_command_base_8h.html" title="CommandBase.h" alt="" coords="5,80,128,107"/>
-<area shape="rect" id="node3" href="$d9/da6/_collidable_group_8h.html" title="CollidableGroup.h" alt="" coords="153,80,277,107"/>
-<area shape="rect" id="node4" href="$df/d6a/_collidable_group_base_8h.html" title="CollidableGroupBase.h" alt="" coords="76,155,231,181"/>
+<area shape="rect" id="node2" href="$da/dcb/_command_base_8h.html" title="CommandBase.h" alt="" coords="237,80,360,107"/>
+<area shape="rect" id="node3" href="$d9/da6/_collidable_group_8h.html" title="CollidableGroup.h" alt="" coords="385,80,509,107"/>
+<area shape="rect" id="node4" href="$df/d6a/_collidable_group_base_8h.html" title="CollidableGroupBase.h" alt="" coords="172,155,327,181"/>
+<area shape="rect" id="node5" href="$d5/d46/_collision_volume_a_a_b_b_8h.html" title="CollisionVolumeAABB.h" alt="" coords="5,229,168,256"/>
+<area shape="rect" id="node12" href="$d1/dd3/_visualizer_8h.html" title="Visualizer.h" alt="" coords="401,155,492,181"/>
+<area shape="rect" id="node6" href="$d2/dd7/_collision_volume_bounding_box_base_8h.html" title="CollisionVolumeBoundingBox\lBase.h" alt="" coords="129,304,321,345"/>
+<area shape="rect" id="node7" href="$d7/d9a/_collision_volume_8h.html" title="CollisionVolume.h" alt="" coords="446,393,573,420"/>
+<area shape="rect" id="node14" href="$dc/d20/_collision_volume_b_sphere_8h.html" title="CollisionVolumeBSphere.h" alt="" coords="421,229,597,256"/>
+<area shape="rect" id="node15" href="$db/d23/_collision_volume_o_b_b_8h.html" title="CollisionVolumeOBB.h" alt="" coords="192,229,347,256"/>
 </map>

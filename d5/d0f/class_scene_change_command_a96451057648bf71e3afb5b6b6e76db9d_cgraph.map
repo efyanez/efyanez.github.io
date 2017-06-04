@@ -1,11 +1,51 @@
 <map id="SceneChangeCommand::Execute" name="SceneChangeCommand::Execute">
-<area shape="rect" id="node2" href="$d0/dc3/class_scene_manager.html#a952f00e5bdd79e51e970c8d7d2abf64f" title="Sets the next scene. " alt="" coords="216,46,417,73"/>
-<area shape="rect" id="node6" href="$d0/dc3/class_scene_manager.html#a470d087f9b394c68aa69ba6d05c2aec1" title="Terminates the current scene and sets the current scene to the next scene. Then calls initialize on t..." alt="" coords="217,97,416,123"/>
-<area shape="rect" id="node3" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="473,71,640,98"/>
-<area shape="rect" id="node5" href="$d0/dc3/class_scene_manager.html#a198fc7ea00dcd78d7f91602c18ee01ee" title="SceneManager::privSetNext\lScene" alt="" coords="465,5,648,47"/>
-<area shape="rect" id="node4" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="696,71,900,98"/>
-<area shape="rect" id="node7" href="$d0/dc3/class_scene_manager.html#a76ab147461953aeb9e5da97d0b5ae5c0" title="SceneManager::privChange\lScene" alt="" coords="467,123,647,164"/>
-<area shape="rect" id="node8" href="$d6/db5/class_scene.html#afce99c578d2ea8375ea147705bef1e2f" title="Virtual function, called when a scene is terminated. " alt="" coords="736,126,860,153"/>
-<area shape="rect" id="node10" href="$d6/db5/class_scene.html#aafd7510b1309c6ba864791c429870959" title="User defines what happens when a scene is initialized. " alt="" coords="741,177,855,203"/>
-<area shape="rect" id="node9" href="$d2/d23/class_camera_manager.html#ab94598716ca1ac6278051410852925bf" title="Terminate the Camera Manager and delete the current camera pointer. " alt="" coords="948,126,1131,153"/>
+<area shape="rect" id="node2" href="$d0/dc3/class_scene_manager.html#a952f00e5bdd79e51e970c8d7d2abf64f" title="Sets the next scene. " alt="" coords="216,115,417,141"/>
+<area shape="rect" id="node6" href="$d0/dc3/class_scene_manager.html#a470d087f9b394c68aa69ba6d05c2aec1" title="Terminates the current scene and sets the current scene to the next scene. Then calls initialize on t..." alt="" coords="217,173,416,200"/>
+<area shape="rect" id="node3" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="1864,124,2031,151"/>
+<area shape="rect" id="node5" href="$d0/dc3/class_scene_manager.html#a198fc7ea00dcd78d7f91602c18ee01ee" title="SceneManager::privSetNext\lScene" alt="" coords="465,107,648,149"/>
+<area shape="rect" id="node4" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="2108,124,2312,151"/>
+<area shape="rect" id="node7" href="$d0/dc3/class_scene_manager.html#a76ab147461953aeb9e5da97d0b5ae5c0" title="SceneManager::privChange\lScene" alt="" coords="467,230,647,271"/>
+<area shape="rect" id="node8" href="$d6/db5/class_scene.html#afce99c578d2ea8375ea147705bef1e2f" title="Virtual function, called when a scene is terminated. " alt="" coords="696,237,820,264"/>
+<area shape="rect" id="node50" href="$d6/db5/class_scene.html#aafd7510b1309c6ba864791c429870959" title="User defines what happens when a scene is initialized. " alt="" coords="701,288,815,315"/>
+<area shape="rect" id="node9" href="$d5/dd9/class_sound_manager.html#a03dd0a39156a258716e6fff0243872d3" title="Public static function. Stops all sounds. " alt="" coords="868,547,1071,573"/>
+<area shape="rect" id="node49" href="$d2/d23/class_camera_manager.html#ab94598716ca1ac6278051410852925bf" title="Terminate the Camera Manager and delete the current camera pointer. " alt="" coords="878,276,1061,303"/>
+<area shape="rect" id="node10" href="$d6/d4b/class_mithril_engine.html#a727ba0587d07d9e644b6741a6d82492d" title="MithrilEngine::Instance" alt="" coords="1119,768,1273,795"/>
+<area shape="rect" id="node11" href="$d8/dee/group___mithril_engine.html#ga63ee007e6957aac92cde5c252a278eef" title="MithrilEngine constructor. " alt="" coords="1329,667,1509,693"/>
+<area shape="rect" id="node12" href="$d6/d4b/class_mithril_engine.html#acd03e00161d7a4bd4da9ef2514b7e6a5" title="MithrilEngine::Initialize" alt="" coords="1343,768,1495,795"/>
+<area shape="rect" id="node13" href="$d6/d4b/class_mithril_engine.html#aef708cdc73caeb8a2dbe0c2a4ef73723" title="MithrilEngine::GameInitialize" alt="" coords="1582,713,1769,740"/>
+<area shape="rect" id="node16" href="$d6/d4b/class_mithril_engine.html#a7c6f9cada15f3697711b79ee82a95424" title="MithrilEngine::LoadContent" alt="" coords="1329,1147,1508,1173"/>
+<area shape="rect" id="node17" href="$d6/d4b/class_mithril_engine.html#a58deb29be139002bd071f4bce1bbc5ea" title="MithrilEngine::LoadResources" alt="" coords="1578,1096,1773,1123"/>
+<area shape="rect" id="node21" href="$d6/d4b/class_mithril_engine.html#a6674a1e85950edb9ec1ff6bc59c389b0" title="MithrilEngine::Update" alt="" coords="1345,869,1492,896"/>
+<area shape="rect" id="node28" href="$d6/d4b/class_mithril_engine.html#a2a32c9096f22918ff8778cb867490ab2" title="Returns the time elapsed in seconds. " alt="" coords="1573,1033,1778,1060"/>
+<area shape="rect" id="node29" href="$d6/d4b/class_mithril_engine.html#a986bedb0afc6dca1ef05a8e34ff45583" title="MithrilEngine::Draw" alt="" coords="1351,175,1486,201"/>
+<area shape="rect" id="node32" href="$d6/d4b/class_mithril_engine.html#a6f70d8757a3599e5a2235d94a93aeac4" title="MithrilEngine::UnLoadContent" alt="" coords="1321,560,1516,587"/>
+<area shape="rect" id="node46" href="$d6/d4b/class_mithril_engine.html#a9f222a2729e64a91f226e8063ec5fbf6" title="Calls Run() on the engine class. " alt="" coords="1355,459,1483,485"/>
+<area shape="rect" id="node47" href="$d6/d4b/class_mithril_engine.html#a3aca612ace4670ea15127a27d23e2a38" title="Returns the width of the current window. " alt="" coords="1339,509,1499,536"/>
+<area shape="rect" id="node48" href="$d6/d4b/class_mithril_engine.html#a8dbd0268139dd53ded75463dc3cb33c8" title="Returns the height of the current window. " alt="" coords="1337,971,1500,997"/>
+<area shape="rect" id="node14" href="$d5/dd9/class_sound_manager.html#aeb9c122ffedf1c39b44f209148cf2ad2" title="Creates the sound engine. " alt="" coords="1579,765,1771,806"/>
+<area shape="rect" id="node15" href="$d5/dd9/class_sound_manager.html#a5fdfb9741539dfa9ee2cacf8ff51197e" title="Public static function. Sets the volume of the sound engine. " alt="" coords="1585,831,1766,857"/>
+<area shape="rect" id="node18" href="$d3/d4f/class_visualizer.html#a3fd0f918788ec72dcdba602cd4c31e75" title="Create initial visualizer shapes. " alt="" coords="1592,1147,1759,1173"/>
+<area shape="rect" id="node19" href="$d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="2142,1096,2278,1123"/>
+<area shape="rect" id="node20" href="$d3/d4f/class_visualizer.html#ae3355213720d4cbb3bc930b81108e6f9" title="Visualizer::privCreateBSphere" alt="" coords="1850,1096,2045,1123"/>
+<area shape="rect" id="node22" href="$d5/dd9/class_sound_manager.html#a52a77b9454705a57e003f8cde39aa5ff" title="Public static function. Updates the sound engine. " alt="" coords="1596,983,1755,1009"/>
+<area shape="rect" id="node23" href="$d0/dc3/class_scene_manager.html#a85354ba18a17aa2b2716c6404cc28d50" title="Calls Scene::Update() on the current scene. " alt="" coords="1564,881,1787,908"/>
+<area shape="rect" id="node25" href="$d9/d7f/class_time_manager.html#a14e5786948c412a8b5c84cb092424a5d" title="TimeManager::ProcessTime" alt="" coords="1583,932,1767,959"/>
+<area shape="rect" id="node24" href="$d0/dc3/class_scene_manager.html#a160955c83b4e5e58fdeef7142a767f83" title="SceneManager::privUpdate\lUpdatables" alt="" coords="1859,866,2036,907"/>
+<area shape="rect" id="node26" href="$d9/d7f/class_time_manager.html#a9bb9e5390526b32783b94adb728604fa" title="TimeManager::Instance" alt="" coords="1869,932,2026,959"/>
+<area shape="rect" id="node27" href="$d9/d7f/class_time_manager.html#abb2dec3e58a74f84c4c5c016b9dfdeaf" title="Processes the amount of time spent frozen. " alt="" coords="1846,983,2049,1009"/>
+<area shape="rect" id="node30" href="$d0/dc3/class_scene_manager.html#a01652b7aacfa1a8df974e9152cee7913" title="Calls Scene::Draw() on the current scene. " alt="" coords="1572,5,1779,32"/>
+<area shape="rect" id="node31" href="$d0/dc3/class_scene_manager.html#a74ac0f30e64b10476729ce54b2189bf5" title="SceneManager::privDrawDrawables" alt="" coords="1835,5,2060,32"/>
+<area shape="rect" id="node33" href="$d0/dc3/class_scene_manager.html#ab05844a5cadb0305e5d5a7abd8c091bd" title="Calls Scene::Terminate() on the current scene. " alt="" coords="1588,175,1763,201"/>
+<area shape="rect" id="node35" href="$d2/d24/class_shader_manager.html#a5ef1975239b18efa12c0b4df25c91d26" title="Unloads the shaders from the map and deletes their associated pointers. " alt="" coords="1571,276,1780,303"/>
+<area shape="rect" id="node38" href="$d3/d3a/class_model_manager.html#a80074e0df7bf05faf4eb762940da8cd5" title="Unloaded models, deletes them from the map. " alt="" coords="1577,495,1774,521"/>
+<area shape="rect" id="node40" href="$db/ddf/class_texture_manager.html#ad09e991a4111060447d43e7fd959f945" title="Unloads the textures from the map and deletes their associated pointers. " alt="" coords="1569,327,1782,353"/>
+<area shape="rect" id="node41" href="$d2/d39/class_image_manager.html#a22acef4ad91b5191cb8044d976035635" title="Unload images, deletes them from the map. " alt="" coords="1577,377,1774,404"/>
+<area shape="rect" id="node42" href="$d6/d14/class_terrain_object_manager.html#a42e91453bc870c802bc3860521a23d37" title="Unloads the textures from the map and deletes their associated pointers. " alt="" coords="1598,429,1753,470"/>
+<area shape="rect" id="node43" href="$d8/dba/class_sprite_font_manager.html#a7fdc04f5be4dcd1a9bb99c720d05936d" title="Unload SpriteFonts, deletes them from the map. " alt="" coords="1605,546,1745,587"/>
+<area shape="rect" id="node44" href="$d5/dd9/class_sound_manager.html#af57ebaab4833dc534140b58534c5e2b3" title="Public static function. Terminates the sound engine. " alt="" coords="1588,663,1763,689"/>
+<area shape="rect" id="node45" href="$d3/d4f/class_visualizer.html#a61597f4a1cdb82452a2e761cb52b9024" title="Terminates the Visualizer. " alt="" coords="1875,713,2019,740"/>
+<area shape="rect" id="node34" href="$d0/dc3/class_scene_manager.html#ad4a7bf6aeefe87e72e65c0dd483bca2d" title="SceneManager::privTerminate" alt="" coords="1851,187,2044,213"/>
+<area shape="rect" id="node36" href="$d2/d24/class_shader_manager.html#aeaa687b375b78eefcd836b5430ccfb99" title="ShaderManager::Instance" alt="" coords="2125,292,2295,319"/>
+<area shape="rect" id="node37" href="$d2/d24/class_shader_manager.html#a10bb2c5fb9f095249e2367c6d486fa34" title="ShaderManager::privUnload\lShaders" alt="" coords="1857,314,2037,355"/>
+<area shape="rect" id="node39" href="$d3/d3a/class_model_manager.html#afb1fbe7bcd21494e661676b997008173" title="ModelManager::Instance" alt="" coords="1865,495,2029,521"/>
 </map>

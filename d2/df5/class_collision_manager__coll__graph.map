@@ -1,4 +1,4 @@
 <map id="CollisionManager" name="CollisionManager">
 <area shape="rect" id="node3" href="$db/db6/class_command_base.html" title="{CommandBase\n||+ CommandBase()\l+ ~CommandBase()\l+ CommandBase()\l+ operator=()\l+ Execute()\l}" alt="" coords="27,5,166,141"/>
-<area shape="rect" id="node5" href="$d7/d3f/class_collidable_group_base.html" title="{CollidableGroupBase\n||+ CollidableGroupBase()\l+ ~CollidableGroupBase()\l}" alt="" coords="211,27,382,119"/>
+<area shape="rect" id="node5" href="$d7/d3f/class_collidable_group_base.html" title="{CollidableGroupBase\n||+ CollidableGroupBase()\l+ ~CollidableGroupBase()\l+ ClearList()\l+ UpdateAABB()\l+ Terminate()\l}" alt="" coords="211,5,382,141"/>
 </map>

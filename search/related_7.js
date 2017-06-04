@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['updatable',['Updatable',['../d6/db5/class_scene.html#add5a1035d8ccc83bda0b5a665c6d643a',1,'Scene']]],
-  ['updatablemanager',['UpdatableManager',['../d7/d69/class_updatable.html#ad8125d60138ea72a87c0a071567e9d04',1,'Updatable']]],
-  ['updatederegistrationcommand',['UpdateDeregistrationCommand',['../d7/d69/class_updatable.html#a1b2f2d546d1bbebbde0a936d7f82e4a2',1,'Updatable']]],
-  ['updateregistrationcommand',['UpdateRegistrationCommand',['../d7/d69/class_updatable.html#a8ab1b4b4231b069e310390e5b25e6cef',1,'Updatable']]]
+  ['particleeffect',['ParticleEffect',['../d7/d63/class_particle_emitter.html#af203df39e1cca172649874718059024b',1,'ParticleEmitter']]],
+  ['particleemitter',['ParticleEmitter',['../dd/ded/class_burst.html#a82b374d797a09668286ac5cf26f539f3',1,'Burst::ParticleEmitter()'],['../dd/d2a/class_burst_type.html#a82b374d797a09668286ac5cf26f539f3',1,'BurstType::ParticleEmitter()'],['../d5/dc0/class_burst_type_pulse.html#a82b374d797a09668286ac5cf26f539f3',1,'BurstTypePulse::ParticleEmitter()'],['../da/d19/class_burst_type_spherical.html#a82b374d797a09668286ac5cf26f539f3',1,'BurstTypeSpherical::ParticleEmitter()'],['../d9/d6e/class_burst_type_stream.html#a82b374d797a09668286ac5cf26f539f3',1,'BurstTypeStream::ParticleEmitter()']]]
 ];

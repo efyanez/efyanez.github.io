@@ -20,9 +20,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../mithrillogo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mithril Engine
-   &#160;<span id="projectnumber">1.0</span>
+   &#160;<span id="projectnumber">2.0</span>
    </div>
    <div id="projectbrief">Documentation for Mithril Engine</div>
   </td>
@@ -74,8 +75,6 @@ $(function() {
 Collaboration diagram for MathTools:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../de/d5c/class_math_tools__coll__graph.png" border="0" usemap="#_math_tools_coll__map" alt="Collaboration graph"/></div>
-<map name="_math_tools_coll__map" id="_math_tools_coll__map">
-</map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -88,6 +87,44 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6403ce2e1b0a24e5f7d5ca60b0578903"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8f/class_math_tools.html#a6403ce2e1b0a24e5f7d5ca60b0578903">Intersect</a> (<a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> &amp;sphere1, <a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> &amp;sphere2)</td></tr>
 <tr class="memdesc:a6403ce2e1b0a24e5f7d5ca60b0578903"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the intersection of two BSphere volumes.  <a href="#a6403ce2e1b0a24e5f7d5ca60b0578903">More...</a><br /></td></tr>
 <tr class="separator:a6403ce2e1b0a24e5f7d5ca60b0578903"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58f758bbd51976fb7c4a4844a7eb7b29"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8f/class_math_tools.html#a58f758bbd51976fb7c4a4844a7eb7b29">Intersect</a> (<a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html">CollisionVolumeAABB</a> &amp;box1, <a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html">CollisionVolumeAABB</a> &amp;box2)</td></tr>
+<tr class="separator:a58f758bbd51976fb7c4a4844a7eb7b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbdba92508289e725017f96bbeaba863"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8f/class_math_tools.html#afbdba92508289e725017f96bbeaba863">Clamp</a> (float toClamp, float min, float max)</td></tr>
+<tr class="separator:afbdba92508289e725017f96bbeaba863"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72465d29449ecff7b2a5501ef5c437c6"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8f/class_math_tools.html#a72465d29449ecff7b2a5501ef5c437c6">Intersect</a> (<a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html">CollisionVolumeAABB</a> &amp;box1, <a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> &amp;sphere1)</td></tr>
+<tr class="separator:a72465d29449ecff7b2a5501ef5c437c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a057de8f1081301c86096c3cc1b82346c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8f/class_math_tools.html#a057de8f1081301c86096c3cc1b82346c">Intersect</a> (<a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html">CollisionVolumeOBB</a> &amp;box1, <a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> &amp;sphere1)</td></tr>
+<tr class="separator:a057de8f1081301c86096c3cc1b82346c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75c9a8821837e641ee0a1d2b829a22fd"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8f/class_math_tools.html#a75c9a8821837e641ee0a1d2b829a22fd">Intersect</a> (<a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html">CollisionVolumeOBB</a> &amp;box1, <a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html">CollisionVolumeAABB</a> &amp;box2)</td></tr>
+<tr class="separator:a75c9a8821837e641ee0a1d2b829a22fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a542591c11bc6c5bad6c637bc9f38a90c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8f/class_math_tools.html#a542591c11bc6c5bad6c637bc9f38a90c">Intersect</a> (<a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html">CollisionVolumeOBB</a> &amp;box1, <a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html">CollisionVolumeOBB</a> &amp;box2)</td></tr>
+<tr class="separator:a542591c11bc6c5bad6c637bc9f38a90c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a538c167035bf6e737d468826a7ae1ad0"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8f/class_math_tools.html#a538c167035bf6e737d468826a7ae1ad0">Intersect</a> (<a class="el" href="../../d8/deb/class_collidable.html">Collidable</a> *col1, <a class="el" href="../../d8/deb/class_collidable.html">Collidable</a> *col2)</td></tr>
+<tr class="separator:a538c167035bf6e737d468826a7ae1ad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ab2ef83a8384cf5fb925e4046fe5340"><td class="memItemLeft" align="right" valign="top">static Vect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8f/class_math_tools.html#a4ab2ef83a8384cf5fb925e4046fe5340">FindCornerMin</a> (Model *mod, Matrix &amp;world)</td></tr>
+<tr class="separator:a4ab2ef83a8384cf5fb925e4046fe5340"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1ee6442d2788122f1611dd6b585c9e9"><td class="memItemLeft" align="right" valign="top">static Vect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8f/class_math_tools.html#ab1ee6442d2788122f1611dd6b585c9e9">FindCornerMax</a> (Model *mod, Matrix &amp;world)</td></tr>
+<tr class="separator:ab1ee6442d2788122f1611dd6b585c9e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50ffdf83a938a286962fd00b37801283"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8f/class_math_tools.html#a50ffdf83a938a286962fd00b37801283">GetRandomInt</a> (int minVal, int maxVal)</td></tr>
+<tr class="separator:a50ffdf83a938a286962fd00b37801283"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade7bfde2ed0b609f9a8f09601de27a6a"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8f/class_math_tools.html#ade7bfde2ed0b609f9a8f09601de27a6a">GetRandomFloat</a> (float minVal, float maxVal)</td></tr>
+<tr class="separator:ade7bfde2ed0b609f9a8f09601de27a6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44acc19be80c654f1e8029ecdb08843f"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8f/class_math_tools.html#a44acc19be80c654f1e8029ecdb08843f">GetProjectionMax</a> (<a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html">CollisionVolumeOBB</a> &amp;vol, Vect &amp;V)</td></tr>
+<tr class="separator:a44acc19be80c654f1e8029ecdb08843f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af443661684050e95bde071b2761cc27d"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8f/class_math_tools.html#af443661684050e95bde071b2761cc27d">GetProjectionMax</a> (<a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html">CollisionVolumeAABB</a> &amp;vol, Vect &amp;V)</td></tr>
+<tr class="separator:af443661684050e95bde071b2761cc27d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c5bed976eacf18df10c2e376ce7cacd"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8f/class_math_tools.html#a7c5bed976eacf18df10c2e376ce7cacd">IntersectionTest</a> (<a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html">CollisionVolumeOBB</a> &amp;box1, <a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html">CollisionVolumeOBB</a> &amp;box2, Vect &amp;V, float d)</td></tr>
+<tr class="separator:a7c5bed976eacf18df10c2e376ce7cacd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa12093e5fd1969d17b075001cea1f0ac"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8f/class_math_tools.html#aa12093e5fd1969d17b075001cea1f0ac">IntersectionTest</a> (<a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html">CollisionVolumeOBB</a> &amp;box1, <a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html">CollisionVolumeAABB</a> &amp;box2, Vect &amp;V, float d)</td></tr>
+<tr class="separator:aa12093e5fd1969d17b075001cea1f0ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1a5604528d85b4553eafc13a54af48a"><td class="memItemLeft" align="right" valign="top">static Vect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8f/class_math_tools.html#ae1a5604528d85b4553eafc13a54af48a">GetMinVect</a> (Vect &amp;A, Vect &amp;B)</td></tr>
+<tr class="separator:ae1a5604528d85b4553eafc13a54af48a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6571fe7d5ca19bf306f4689f4428955"><td class="memItemLeft" align="right" valign="top">static Vect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8f/class_math_tools.html#af6571fe7d5ca19bf306f4689f4428955">GetMaxVect</a> (Vect &amp;A, Vect &amp;B)</td></tr>
+<tr class="separator:af6571fe7d5ca19bf306f4689f4428955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9877feb5d07b4d0e878b0f95362001bb"><td class="memItemLeft" align="right" valign="top">static Vect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8f/class_math_tools.html#a9877feb5d07b4d0e878b0f95362001bb">FindCenter</a> (Vect &amp;min, Vect &amp;max)</td></tr>
+<tr class="separator:a9877feb5d07b4d0e878b0f95362001bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63204ef7908c567f26344aaac70b760f"><td class="memItemLeft" align="right" valign="top">static Vect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8f/class_math_tools.html#a63204ef7908c567f26344aaac70b760f">Lerp</a> (Vect &amp;A, Vect &amp;B, float t)</td></tr>
+<tr class="separator:a63204ef7908c567f26344aaac70b760f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5db2c2a64e3abbf409df73aa95952f57"></a>
@@ -116,8 +153,396 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="afbdba92508289e725017f96bbeaba863"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbdba92508289e725017f96bbeaba863">&#9670;&nbsp;</a></span>Clamp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float MathTools::Clamp </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>toClamp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9877feb5d07b4d0e878b0f95362001bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9877feb5d07b4d0e878b0f95362001bb">&#9670;&nbsp;</a></span>FindCenter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vect MathTools::FindCenter </td>
+          <td>(</td>
+          <td class="paramtype">Vect &amp;&#160;</td>
+          <td class="paramname"><em>min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vect &amp;&#160;</td>
+          <td class="paramname"><em>max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab1ee6442d2788122f1611dd6b585c9e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1ee6442d2788122f1611dd6b585c9e9">&#9670;&nbsp;</a></span>FindCornerMax()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vect MathTools::FindCornerMax </td>
+          <td>(</td>
+          <td class="paramtype">Model *&#160;</td>
+          <td class="paramname"><em>mod</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Matrix &amp;&#160;</td>
+          <td class="paramname"><em>world</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ab2ef83a8384cf5fb925e4046fe5340"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ab2ef83a8384cf5fb925e4046fe5340">&#9670;&nbsp;</a></span>FindCornerMin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vect MathTools::FindCornerMin </td>
+          <td>(</td>
+          <td class="paramtype">Model *&#160;</td>
+          <td class="paramname"><em>mod</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Matrix &amp;&#160;</td>
+          <td class="paramname"><em>world</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af6571fe7d5ca19bf306f4689f4428955"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6571fe7d5ca19bf306f4689f4428955">&#9670;&nbsp;</a></span>GetMaxVect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vect MathTools::GetMaxVect </td>
+          <td>(</td>
+          <td class="paramtype">Vect &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vect &amp;&#160;</td>
+          <td class="paramname"><em>B</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae1a5604528d85b4553eafc13a54af48a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1a5604528d85b4553eafc13a54af48a">&#9670;&nbsp;</a></span>GetMinVect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vect MathTools::GetMinVect </td>
+          <td>(</td>
+          <td class="paramtype">Vect &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vect &amp;&#160;</td>
+          <td class="paramname"><em>B</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44acc19be80c654f1e8029ecdb08843f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44acc19be80c654f1e8029ecdb08843f">&#9670;&nbsp;</a></span>GetProjectionMax() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MathTools::GetProjectionMax </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html">CollisionVolumeOBB</a> &amp;&#160;</td>
+          <td class="paramname"><em>vol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vect &amp;&#160;</td>
+          <td class="paramname"><em>V</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d8f/class_math_tools_a44acc19be80c654f1e8029ecdb08843f_cgraph.png" border="0" usemap="#d8/d8f/class_math_tools_a44acc19be80c654f1e8029ecdb08843f_cgraph" alt=""/></div>
+<map name="d8/d8f/class_math_tools_a44acc19be80c654f1e8029ecdb08843f_cgraph" id="d8/d8f/class_math_tools_a44acc19be80c654f1e8029ecdb08843f_cgraph">
+<area shape="rect" id="node2" href="../../d6/ded/class_collision_volume_o_b_b.html#ab7f32a97e19c1f3ce7f8a39d252cf2af" title="Returns the world space matrix. " alt="" coords="273,5,415,47"/>
+<area shape="rect" id="node3" href="../../dc/df9/class_collision_volume_bounding_box_base.html#a4fb3762cb35cc40efb1c479d418a74d9" title="Returns the radius of the BSphere. " alt="" coords="248,71,440,112"/>
+<area shape="rect" id="node4" href="../../dc/df9/class_collision_volume_bounding_box_base.html#a78478f3058e976d152d65d699c14f9e7" title="CollisionVolumeBoundingBox\lBase::GetCenter" alt="" coords="248,136,440,177"/>
+<area shape="rect" id="node5" href="../../d6/ded/class_collision_volume_o_b_b.html#a9fae88354ba42c234d8caacf454f0738" title="Returns the scale square of the OBB. " alt="" coords="273,201,415,243"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af443661684050e95bde071b2761cc27d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af443661684050e95bde071b2761cc27d">&#9670;&nbsp;</a></span>GetProjectionMax() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MathTools::GetProjectionMax </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html">CollisionVolumeAABB</a> &amp;&#160;</td>
+          <td class="paramname"><em>vol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vect &amp;&#160;</td>
+          <td class="paramname"><em>V</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d8f/class_math_tools_af443661684050e95bde071b2761cc27d_cgraph.png" border="0" usemap="#d8/d8f/class_math_tools_af443661684050e95bde071b2761cc27d_cgraph" alt=""/></div>
+<map name="d8/d8f/class_math_tools_af443661684050e95bde071b2761cc27d_cgraph" id="d8/d8f/class_math_tools_af443661684050e95bde071b2761cc27d_cgraph">
+<area shape="rect" id="node2" href="../../d0/d0a/class_collision_volume_a_a_b_b.html#a5bef4aadfc9bfb4ce8894709a239ee36" title="CollisionVolumeAABB\l::GetOriginalWorld" alt="" coords="248,5,399,47"/>
+<area shape="rect" id="node3" href="../../d0/d0a/class_collision_volume_a_a_b_b.html#a68053e10a404e1a70419fe1d4903fc25" title="CollisionVolumeAABB\l::GetLocalMax" alt="" coords="248,71,399,112"/>
+<area shape="rect" id="node4" href="../../d0/d0a/class_collision_volume_a_a_b_b.html#a2e7111b4dafe929095ba9980d9cb9cd6" title="CollisionVolumeAABB\l::GetLocalCenter" alt="" coords="248,136,399,177"/>
+<area shape="rect" id="node5" href="../../d0/d0a/class_collision_volume_a_a_b_b.html#a73d5bd0c7308044a27fed87bbc530441" title="CollisionVolumeAABB\l::GetScaleSquared" alt="" coords="248,201,399,243"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ade7bfde2ed0b609f9a8f09601de27a6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade7bfde2ed0b609f9a8f09601de27a6a">&#9670;&nbsp;</a></span>GetRandomFloat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MathTools::GetRandomFloat </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>minVal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxVal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a50ffdf83a938a286962fd00b37801283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50ffdf83a938a286962fd00b37801283">&#9670;&nbsp;</a></span>GetRandomInt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MathTools::GetRandomInt </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>minVal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxVal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6403ce2e1b0a24e5f7d5ca60b0578903"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6403ce2e1b0a24e5f7d5ca60b0578903">&#9670;&nbsp;</a></span>Intersect()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6403ce2e1b0a24e5f7d5ca60b0578903">&#9670;&nbsp;</a></span>Intersect() <span class="overload">[1/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -171,8 +596,470 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<a id="a58f758bbd51976fb7c4a4844a7eb7b29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58f758bbd51976fb7c4a4844a7eb7b29">&#9670;&nbsp;</a></span>Intersect() <span class="overload">[2/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool MathTools::Intersect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html">CollisionVolumeAABB</a> &amp;&#160;</td>
+          <td class="paramname"><em>box1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html">CollisionVolumeAABB</a> &amp;&#160;</td>
+          <td class="paramname"><em>box2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d8f/class_math_tools_a58f758bbd51976fb7c4a4844a7eb7b29_cgraph.png" border="0" usemap="#d8/d8f/class_math_tools_a58f758bbd51976fb7c4a4844a7eb7b29_cgraph" alt=""/></div>
+<map name="d8/d8f/class_math_tools_a58f758bbd51976fb7c4a4844a7eb7b29_cgraph" id="d8/d8f/class_math_tools_a58f758bbd51976fb7c4a4844a7eb7b29_cgraph">
+<area shape="rect" id="node2" href="../../dc/df9/class_collision_volume_bounding_box_base.html#aec13a3bc5f00a217b5845fd67f7f2aa3" title="Returns the center of the BSphere. " alt="" coords="193,5,385,47"/>
+<area shape="rect" id="node3" href="../../dc/df9/class_collision_volume_bounding_box_base.html#a4fb3762cb35cc40efb1c479d418a74d9" title="Returns the radius of the BSphere. " alt="" coords="193,71,385,112"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a72465d29449ecff7b2a5501ef5c437c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72465d29449ecff7b2a5501ef5c437c6">&#9670;&nbsp;</a></span>Intersect() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool MathTools::Intersect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html">CollisionVolumeAABB</a> &amp;&#160;</td>
+          <td class="paramname"><em>box1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> &amp;&#160;</td>
+          <td class="paramname"><em>sphere1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d8f/class_math_tools_a72465d29449ecff7b2a5501ef5c437c6_cgraph.png" border="0" usemap="#d8/d8f/class_math_tools_a72465d29449ecff7b2a5501ef5c437c6_cgraph" alt=""/></div>
+<map name="d8/d8f/class_math_tools_a72465d29449ecff7b2a5501ef5c437c6_cgraph" id="d8/d8f/class_math_tools_a72465d29449ecff7b2a5501ef5c437c6_cgraph">
+<area shape="rect" id="node2" href="../../d8/d21/class_collision_volume_b_sphere.html#a16eb0b62bf7efa63e7fe9b09d43fe947" title="Returns the center of the BSphere. " alt="" coords="207,5,372,47"/>
+<area shape="rect" id="node3" href="../../dc/df9/class_collision_volume_bounding_box_base.html#aec13a3bc5f00a217b5845fd67f7f2aa3" title="Returns the center of the BSphere. " alt="" coords="193,71,385,112"/>
+<area shape="rect" id="node4" href="../../dc/df9/class_collision_volume_bounding_box_base.html#a4fb3762cb35cc40efb1c479d418a74d9" title="Returns the radius of the BSphere. " alt="" coords="193,136,385,177"/>
+<area shape="rect" id="node5" href="../../d8/d8f/class_math_tools.html#afbdba92508289e725017f96bbeaba863" title="MathTools::Clamp" alt="" coords="226,202,353,229"/>
+<area shape="rect" id="node6" href="../../d8/d21/class_collision_volume_b_sphere.html#a0206a8d8db1bc17f3d3f9d5e8ed54949" title="Returns the radius of the BSphere. " alt="" coords="207,253,372,295"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a057de8f1081301c86096c3cc1b82346c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a057de8f1081301c86096c3cc1b82346c">&#9670;&nbsp;</a></span>Intersect() <span class="overload">[4/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool MathTools::Intersect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html">CollisionVolumeOBB</a> &amp;&#160;</td>
+          <td class="paramname"><em>box1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d8/d21/class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> &amp;&#160;</td>
+          <td class="paramname"><em>sphere1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d8f/class_math_tools_a057de8f1081301c86096c3cc1b82346c_cgraph.png" border="0" usemap="#d8/d8f/class_math_tools_a057de8f1081301c86096c3cc1b82346c_cgraph" alt=""/></div>
+<map name="d8/d8f/class_math_tools_a057de8f1081301c86096c3cc1b82346c_cgraph" id="d8/d8f/class_math_tools_a057de8f1081301c86096c3cc1b82346c_cgraph">
+<area shape="rect" id="node2" href="../../d6/ded/class_collision_volume_o_b_b.html#ab7f32a97e19c1f3ce7f8a39d252cf2af" title="Returns the world space matrix. " alt="" coords="218,5,361,47"/>
+<area shape="rect" id="node3" href="../../d8/d21/class_collision_volume_b_sphere.html#a16eb0b62bf7efa63e7fe9b09d43fe947" title="Returns the center of the BSphere. " alt="" coords="207,71,372,112"/>
+<area shape="rect" id="node4" href="../../dc/df9/class_collision_volume_bounding_box_base.html#aec13a3bc5f00a217b5845fd67f7f2aa3" title="Returns the center of the BSphere. " alt="" coords="193,136,385,177"/>
+<area shape="rect" id="node5" href="../../dc/df9/class_collision_volume_bounding_box_base.html#a4fb3762cb35cc40efb1c479d418a74d9" title="Returns the radius of the BSphere. " alt="" coords="193,201,385,243"/>
+<area shape="rect" id="node6" href="../../d8/d8f/class_math_tools.html#afbdba92508289e725017f96bbeaba863" title="MathTools::Clamp" alt="" coords="226,267,353,294"/>
+<area shape="rect" id="node7" href="../../d8/d21/class_collision_volume_b_sphere.html#a0206a8d8db1bc17f3d3f9d5e8ed54949" title="Returns the radius of the BSphere. " alt="" coords="207,319,372,360"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a75c9a8821837e641ee0a1d2b829a22fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75c9a8821837e641ee0a1d2b829a22fd">&#9670;&nbsp;</a></span>Intersect() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool MathTools::Intersect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html">CollisionVolumeOBB</a> &amp;&#160;</td>
+          <td class="paramname"><em>box1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html">CollisionVolumeAABB</a> &amp;&#160;</td>
+          <td class="paramname"><em>box2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d8f/class_math_tools_a75c9a8821837e641ee0a1d2b829a22fd_cgraph.png" border="0" usemap="#d8/d8f/class_math_tools_a75c9a8821837e641ee0a1d2b829a22fd_cgraph" alt=""/></div>
+<map name="d8/d8f/class_math_tools_a75c9a8821837e641ee0a1d2b829a22fd_cgraph" id="d8/d8f/class_math_tools_a75c9a8821837e641ee0a1d2b829a22fd_cgraph">
+<area shape="rect" id="node2" href="../../d6/ded/class_collision_volume_o_b_b.html#ab7f32a97e19c1f3ce7f8a39d252cf2af" title="Returns the world space matrix. " alt="" coords="691,5,834,47"/>
+<area shape="rect" id="node3" href="../../d0/d0a/class_collision_volume_a_a_b_b.html#a5bef4aadfc9bfb4ce8894709a239ee36" title="CollisionVolumeAABB\l::GetOriginalWorld" alt="" coords="209,213,360,255"/>
+<area shape="rect" id="node4" href="../../d6/ded/class_collision_volume_o_b_b.html#ac9ede3a40630d553374d8a75a7202aac" title="Returns the center of the world matrix in world space. " alt="" coords="213,279,356,320"/>
+<area shape="rect" id="node5" href="../../dc/df9/class_collision_volume_bounding_box_base.html#a78478f3058e976d152d65d699c14f9e7" title="CollisionVolumeBoundingBox\lBase::GetCenter" alt="" coords="667,201,859,243"/>
+<area shape="rect" id="node6" href="../../d8/d8f/class_math_tools.html#a7c5bed976eacf18df10c2e376ce7cacd" title="MathTools::IntersectionTest" alt="" coords="193,111,376,138"/>
+<area shape="rect" id="node7" href="../../d8/d8f/class_math_tools.html#a44acc19be80c654f1e8029ecdb08843f" title="MathTools::GetProjectionMax" alt="" coords="424,111,619,138"/>
+<area shape="rect" id="node8" href="../../dc/df9/class_collision_volume_bounding_box_base.html#a4fb3762cb35cc40efb1c479d418a74d9" title="Returns the radius of the BSphere. " alt="" coords="667,71,859,112"/>
+<area shape="rect" id="node9" href="../../d6/ded/class_collision_volume_o_b_b.html#a9fae88354ba42c234d8caacf454f0738" title="Returns the scale square of the OBB. " alt="" coords="691,136,834,177"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a542591c11bc6c5bad6c637bc9f38a90c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a542591c11bc6c5bad6c637bc9f38a90c">&#9670;&nbsp;</a></span>Intersect() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool MathTools::Intersect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html">CollisionVolumeOBB</a> &amp;&#160;</td>
+          <td class="paramname"><em>box1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html">CollisionVolumeOBB</a> &amp;&#160;</td>
+          <td class="paramname"><em>box2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d8f/class_math_tools_a542591c11bc6c5bad6c637bc9f38a90c_cgraph.png" border="0" usemap="#d8/d8f/class_math_tools_a542591c11bc6c5bad6c637bc9f38a90c_cgraph" alt=""/></div>
+<map name="d8/d8f/class_math_tools_a542591c11bc6c5bad6c637bc9f38a90c_cgraph" id="d8/d8f/class_math_tools_a542591c11bc6c5bad6c637bc9f38a90c_cgraph">
+<area shape="rect" id="node2" href="../../dc/df9/class_collision_volume_bounding_box_base.html#ae0961549c42a5fc421905fbfcca89292" title="Returns the world matrix of the BSphere. " alt="" coords="193,5,385,47"/>
+<area shape="rect" id="node3" href="../../d6/ded/class_collision_volume_o_b_b.html#ac9ede3a40630d553374d8a75a7202aac" title="Returns the center of the world matrix in world space. " alt="" coords="218,71,361,112"/>
+<area shape="rect" id="node4" href="../../d8/d8f/class_math_tools.html#a7c5bed976eacf18df10c2e376ce7cacd" title="MathTools::IntersectionTest" alt="" coords="198,137,381,163"/>
+<area shape="rect" id="node5" href="../../d8/d8f/class_math_tools.html#a44acc19be80c654f1e8029ecdb08843f" title="MathTools::GetProjectionMax" alt="" coords="433,147,628,174"/>
+<area shape="rect" id="node10" href="../../d8/d8f/class_math_tools.html#a6403ce2e1b0a24e5f7d5ca60b0578903" title="Calculates the intersection of two BSphere volumes. " alt="" coords="219,238,359,265"/>
+<area shape="rect" id="node13" href="../../d8/d8f/class_math_tools.html#a4ab2ef83a8384cf5fb925e4046fe5340" title="MathTools::FindCornerMin" alt="" coords="202,289,377,315"/>
+<area shape="rect" id="node14" href="../../d8/d8f/class_math_tools.html#ab1ee6442d2788122f1611dd6b585c9e9" title="MathTools::FindCornerMax" alt="" coords="200,339,379,366"/>
+<area shape="rect" id="node15" href="../../d8/d8f/class_math_tools.html#a50ffdf83a938a286962fd00b37801283" title="MathTools::GetRandomInt" alt="" coords="203,390,376,417"/>
+<area shape="rect" id="node16" href="../../d8/d8f/class_math_tools.html#ade7bfde2ed0b609f9a8f09601de27a6a" title="MathTools::GetRandomFloat" alt="" coords="195,441,383,467"/>
+<area shape="rect" id="node17" href="../../d8/d8f/class_math_tools.html#ae1a5604528d85b4553eafc13a54af48a" title="MathTools::GetMinVect" alt="" coords="210,491,369,518"/>
+<area shape="rect" id="node18" href="../../d8/d8f/class_math_tools.html#af6571fe7d5ca19bf306f4689f4428955" title="MathTools::GetMaxVect" alt="" coords="208,542,371,569"/>
+<area shape="rect" id="node19" href="../../d8/d8f/class_math_tools.html#a9877feb5d07b4d0e878b0f95362001bb" title="MathTools::FindCenter" alt="" coords="213,593,366,619"/>
+<area shape="rect" id="node6" href="../../d6/ded/class_collision_volume_o_b_b.html#ab7f32a97e19c1f3ce7f8a39d252cf2af" title="Returns the world space matrix. " alt="" coords="701,41,843,83"/>
+<area shape="rect" id="node7" href="../../dc/df9/class_collision_volume_bounding_box_base.html#a4fb3762cb35cc40efb1c479d418a74d9" title="Returns the radius of the BSphere. " alt="" coords="676,107,868,148"/>
+<area shape="rect" id="node8" href="../../dc/df9/class_collision_volume_bounding_box_base.html#a78478f3058e976d152d65d699c14f9e7" title="CollisionVolumeBoundingBox\lBase::GetCenter" alt="" coords="676,172,868,213"/>
+<area shape="rect" id="node9" href="../../d6/ded/class_collision_volume_o_b_b.html#a9fae88354ba42c234d8caacf454f0738" title="Returns the scale square of the OBB. " alt="" coords="701,237,843,279"/>
+<area shape="rect" id="node11" href="../../d8/d21/class_collision_volume_b_sphere.html#a16eb0b62bf7efa63e7fe9b09d43fe947" title="Returns the center of the BSphere. " alt="" coords="448,220,613,261"/>
+<area shape="rect" id="node12" href="../../d8/d21/class_collision_volume_b_sphere.html#a0206a8d8db1bc17f3d3f9d5e8ed54949" title="Returns the radius of the BSphere. " alt="" coords="448,285,613,327"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a538c167035bf6e737d468826a7ae1ad0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a538c167035bf6e737d468826a7ae1ad0">&#9670;&nbsp;</a></span>Intersect() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MathTools::Intersect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/deb/class_collidable.html">Collidable</a> *&#160;</td>
+          <td class="paramname"><em>col1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d8/deb/class_collidable.html">Collidable</a> *&#160;</td>
+          <td class="paramname"><em>col2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d8f/class_math_tools_a538c167035bf6e737d468826a7ae1ad0_cgraph.png" border="0" usemap="#d8/d8f/class_math_tools_a538c167035bf6e737d468826a7ae1ad0_cgraph" alt=""/></div>
+<map name="d8/d8f/class_math_tools_a538c167035bf6e737d468826a7ae1ad0_cgraph" id="d8/d8f/class_math_tools_a538c167035bf6e737d468826a7ae1ad0_cgraph">
+<area shape="rect" id="node2" href="../../d8/deb/class_collidable.html#a04af066d38f7c8a2270da7e8e433b212" title="Collidable::GetCollision\lVolume" alt="" coords="202,5,358,47"/>
+<area shape="rect" id="node3" href="../../d5/d7c/class_collision_volume.html#af11a060c0d0408fcfff45f8d48ddaa01" title="A pure virtual member. " alt="" coords="193,71,367,98"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7c5bed976eacf18df10c2e376ce7cacd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c5bed976eacf18df10c2e376ce7cacd">&#9670;&nbsp;</a></span>IntersectionTest() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MathTools::IntersectionTest </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html">CollisionVolumeOBB</a> &amp;&#160;</td>
+          <td class="paramname"><em>box1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html">CollisionVolumeOBB</a> &amp;&#160;</td>
+          <td class="paramname"><em>box2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vect &amp;&#160;</td>
+          <td class="paramname"><em>V</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>d</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d8f/class_math_tools_a7c5bed976eacf18df10c2e376ce7cacd_cgraph.png" border="0" usemap="#d8/d8f/class_math_tools_a7c5bed976eacf18df10c2e376ce7cacd_cgraph" alt=""/></div>
+<map name="d8/d8f/class_math_tools_a7c5bed976eacf18df10c2e376ce7cacd_cgraph" id="d8/d8f/class_math_tools_a7c5bed976eacf18df10c2e376ce7cacd_cgraph">
+<area shape="rect" id="node2" href="../../d8/d8f/class_math_tools.html#a44acc19be80c654f1e8029ecdb08843f" title="MathTools::GetProjectionMax" alt="" coords="236,111,431,138"/>
+<area shape="rect" id="node3" href="../../d6/ded/class_collision_volume_o_b_b.html#ab7f32a97e19c1f3ce7f8a39d252cf2af" title="Returns the world space matrix. " alt="" coords="503,5,646,47"/>
+<area shape="rect" id="node4" href="../../dc/df9/class_collision_volume_bounding_box_base.html#a4fb3762cb35cc40efb1c479d418a74d9" title="Returns the radius of the BSphere. " alt="" coords="479,71,671,112"/>
+<area shape="rect" id="node5" href="../../dc/df9/class_collision_volume_bounding_box_base.html#a78478f3058e976d152d65d699c14f9e7" title="CollisionVolumeBoundingBox\lBase::GetCenter" alt="" coords="479,136,671,177"/>
+<area shape="rect" id="node6" href="../../d6/ded/class_collision_volume_o_b_b.html#a9fae88354ba42c234d8caacf454f0738" title="Returns the scale square of the OBB. " alt="" coords="503,201,646,243"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa12093e5fd1969d17b075001cea1f0ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa12093e5fd1969d17b075001cea1f0ac">&#9670;&nbsp;</a></span>IntersectionTest() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MathTools::IntersectionTest </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/ded/class_collision_volume_o_b_b.html">CollisionVolumeOBB</a> &amp;&#160;</td>
+          <td class="paramname"><em>box1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d0a/class_collision_volume_a_a_b_b.html">CollisionVolumeAABB</a> &amp;&#160;</td>
+          <td class="paramname"><em>box2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vect &amp;&#160;</td>
+          <td class="paramname"><em>V</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>d</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d8f/class_math_tools_aa12093e5fd1969d17b075001cea1f0ac_cgraph.png" border="0" usemap="#d8/d8f/class_math_tools_aa12093e5fd1969d17b075001cea1f0ac_cgraph" alt=""/></div>
+<map name="d8/d8f/class_math_tools_aa12093e5fd1969d17b075001cea1f0ac_cgraph" id="d8/d8f/class_math_tools_aa12093e5fd1969d17b075001cea1f0ac_cgraph">
+<area shape="rect" id="node2" href="../../d8/d8f/class_math_tools.html#a44acc19be80c654f1e8029ecdb08843f" title="MathTools::GetProjectionMax" alt="" coords="236,111,431,138"/>
+<area shape="rect" id="node3" href="../../d6/ded/class_collision_volume_o_b_b.html#ab7f32a97e19c1f3ce7f8a39d252cf2af" title="Returns the world space matrix. " alt="" coords="503,5,646,47"/>
+<area shape="rect" id="node4" href="../../dc/df9/class_collision_volume_bounding_box_base.html#a4fb3762cb35cc40efb1c479d418a74d9" title="Returns the radius of the BSphere. " alt="" coords="479,71,671,112"/>
+<area shape="rect" id="node5" href="../../dc/df9/class_collision_volume_bounding_box_base.html#a78478f3058e976d152d65d699c14f9e7" title="CollisionVolumeBoundingBox\lBase::GetCenter" alt="" coords="479,136,671,177"/>
+<area shape="rect" id="node6" href="../../d6/ded/class_collision_volume_o_b_b.html#a9fae88354ba42c234d8caacf454f0738" title="Returns the scale square of the OBB. " alt="" coords="503,201,646,243"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a63204ef7908c567f26344aaac70b760f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63204ef7908c567f26344aaac70b760f">&#9670;&nbsp;</a></span>Lerp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Vect MathTools::Lerp </td>
+          <td>(</td>
+          <td class="paramtype">Vect &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vect &amp;&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="../../db/d15/_math_tools_8h_source.html">MathTools.h</a></li>
+<li><a class="el" href="../../da/dfb/_math_tools_8cpp.html">MathTools.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

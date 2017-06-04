@@ -1,6 +1,6 @@
 <map id="SpriteString" name="SpriteString">
 <area shape="rect" id="node5" href="$d7/dbf/class_sprite.html" title="{Sprite\n|&#45; pSpriteModel\l&#45; pSpriteShader\l&#45; pSpriteImage\l&#45; pSpriteObject\l&#45; centerX\l&#45; centerY\l&#45; scaleX\l&#45; scaleY\l&#45; posX\l&#45; posY\land 6 more...\l|+ Sprite()\l+ Sprite()\l+ Sprite()\l+ operator=()\l+ ~Sprite()\l+ SetCenter()\l+ SetPos()\l+ SetAngle()\l+ GetAngle()\l+ GetPos()\land 6 more...\l}" alt="" coords="45,132,157,503"/>
-<area shape="rect" id="node3" href="$d4/d74/class_sprite_font.html" title="{SpriteFont\n|+ FontTexture\l|+ SpriteFont()\l+ GetGlyph()\l+ CreateGlyph()\l+ XMLtoCollection()\l+ ~SpriteFont()\l}" alt="" coords="165,783,300,919"/>
+<area shape="rect" id="node3" href="$d4/d74/class_sprite_font.html" title="{SpriteFont\n|+ FontTexture\l|+ SpriteFont()\l+ GetGlyph()\l+ ~SpriteFont()\l&#45; CreateGlyph()\l&#45; XMLtoCollection()\l}" alt="" coords="165,783,295,919"/>
 <area shape="rect" id="node6" title="STL class. " alt="" coords="326,565,406,643"/>
 <area shape="rect" id="node7" title="STL class. " alt="" coords="303,271,429,363"/>
 </map>

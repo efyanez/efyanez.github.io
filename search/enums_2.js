@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['event_5ftype',['EVENT_TYPE',['../d6/d0f/class_inputable.html#ab4aea8b7165229e46d9ba33f8f2f23fc',1,'Inputable']]]
+  ['collisiontype',['CollisionType',['../d8/deb/class_collidable.html#a6000fb9d7689334f0abaee2f1ef14913',1,'Collidable']]]
 ];

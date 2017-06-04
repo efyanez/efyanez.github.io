@@ -1,4 +1,7 @@
 <map id="Collidable.h" name="Collidable.h">
 <area shape="rect" id="node2" href="$dc/d3c/_collidable_8cpp.html" title="Collidable.cpp" alt="" coords="5,80,108,107"/>
-<area shape="rect" id="node3" href="$d9/d44/_scene_8cpp.html" title="Scene.cpp" alt="" coords="132,80,216,107"/>
+<area shape="rect" id="node3" href="$da/dfb/_math_tools_8cpp.html" title="MathTools.cpp" alt="" coords="133,80,239,107"/>
+<area shape="rect" id="node4" href="$d9/d44/_scene_8cpp.html" title="Scene.cpp" alt="" coords="264,80,348,107"/>
+<area shape="rect" id="node5" href="$df/d82/_terrain_object_8cpp.html" title="TerrainObject.cpp" alt="" coords="372,80,496,107"/>
+<area shape="rect" id="node6" href="$d0/d26/_visualizer_8cpp.html" title="Visualizer.cpp" alt="" coords="521,80,625,107"/>
 </map>

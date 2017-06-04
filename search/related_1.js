@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['collidable',['Collidable',['../d6/db5/class_scene.html#a85775f038318816c79c5c3134af1f3af',1,'Scene']]],
-  ['collidablemanager',['CollidableManager',['../d8/deb/class_collidable.html#a373d259d6754b64df1ebf86c8c11ed81',1,'Collidable']]]
+  ['burst',['Burst',['../dd/d2a/class_burst_type.html#a2fcf67bf8791872af6cbd68ab4c027d7',1,'BurstType::Burst()'],['../d5/dc0/class_burst_type_pulse.html#a2fcf67bf8791872af6cbd68ab4c027d7',1,'BurstTypePulse::Burst()'],['../da/d19/class_burst_type_spherical.html#a2fcf67bf8791872af6cbd68ab4c027d7',1,'BurstTypeSpherical::Burst()'],['../d9/d6e/class_burst_type_stream.html#a2fcf67bf8791872af6cbd68ab4c027d7',1,'BurstTypeStream::Burst()']]]
 ];

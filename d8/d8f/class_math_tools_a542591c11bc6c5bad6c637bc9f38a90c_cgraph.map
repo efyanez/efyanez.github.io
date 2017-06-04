@@ -1,6 +1,6 @@
 <map id="MathTools::Intersect" name="MathTools::Intersect">
 <area shape="rect" id="node2" href="$dc/df9/class_collision_volume_bounding_box_base.html#ae0961549c42a5fc421905fbfcca89292" title="Returns the world matrix of the BSphere. " alt="" coords="193,5,385,47"/>
-<area shape="rect" id="node3" href="$d6/ded/class_collision_volume_o_b_b.html#ac9ede3a40630d553374d8a75a7202aac" title="CollisionVolumeOBB\l::GetCenterWorld" alt="" coords="218,71,361,112"/>
+<area shape="rect" id="node3" href="$d6/ded/class_collision_volume_o_b_b.html#ac9ede3a40630d553374d8a75a7202aac" title="Returns the center of the world matrix in world space. " alt="" coords="218,71,361,112"/>
 <area shape="rect" id="node4" href="$d8/d8f/class_math_tools.html#a7c5bed976eacf18df10c2e376ce7cacd" title="MathTools::IntersectionTest" alt="" coords="198,137,381,163"/>
 <area shape="rect" id="node5" href="$d8/d8f/class_math_tools.html#a44acc19be80c654f1e8029ecdb08843f" title="MathTools::GetProjectionMax" alt="" coords="433,147,628,174"/>
 <area shape="rect" id="node10" href="$d8/d8f/class_math_tools.html#a6403ce2e1b0a24e5f7d5ca60b0578903" title="Calculates the intersection of two BSphere volumes. " alt="" coords="219,238,359,265"/>
@@ -11,10 +11,10 @@
 <area shape="rect" id="node17" href="$d8/d8f/class_math_tools.html#ae1a5604528d85b4553eafc13a54af48a" title="MathTools::GetMinVect" alt="" coords="210,491,369,518"/>
 <area shape="rect" id="node18" href="$d8/d8f/class_math_tools.html#af6571fe7d5ca19bf306f4689f4428955" title="MathTools::GetMaxVect" alt="" coords="208,542,371,569"/>
 <area shape="rect" id="node19" href="$d8/d8f/class_math_tools.html#a9877feb5d07b4d0e878b0f95362001bb" title="MathTools::FindCenter" alt="" coords="213,593,366,619"/>
-<area shape="rect" id="node6" href="$d6/ded/class_collision_volume_o_b_b.html#ab7f32a97e19c1f3ce7f8a39d252cf2af" title="CollisionVolumeOBB\l::GetOriginalWorld" alt="" coords="701,41,843,83"/>
+<area shape="rect" id="node6" href="$d6/ded/class_collision_volume_o_b_b.html#ab7f32a97e19c1f3ce7f8a39d252cf2af" title="Returns the world space matrix. " alt="" coords="701,41,843,83"/>
 <area shape="rect" id="node7" href="$dc/df9/class_collision_volume_bounding_box_base.html#a4fb3762cb35cc40efb1c479d418a74d9" title="Returns the radius of the BSphere. " alt="" coords="676,107,868,148"/>
 <area shape="rect" id="node8" href="$dc/df9/class_collision_volume_bounding_box_base.html#a78478f3058e976d152d65d699c14f9e7" title="CollisionVolumeBoundingBox\lBase::GetCenter" alt="" coords="676,172,868,213"/>
-<area shape="rect" id="node9" href="$d6/ded/class_collision_volume_o_b_b.html#a9fae88354ba42c234d8caacf454f0738" title="CollisionVolumeOBB\l::GetScaleSquared" alt="" coords="701,237,843,279"/>
+<area shape="rect" id="node9" href="$d6/ded/class_collision_volume_o_b_b.html#a9fae88354ba42c234d8caacf454f0738" title="Returns the scale square of the OBB. " alt="" coords="701,237,843,279"/>
 <area shape="rect" id="node11" href="$d8/d21/class_collision_volume_b_sphere.html#a16eb0b62bf7efa63e7fe9b09d43fe947" title="Returns the center of the BSphere. " alt="" coords="448,220,613,261"/>
 <area shape="rect" id="node12" href="$d8/d21/class_collision_volume_b_sphere.html#a0206a8d8db1bc17f3d3f9d5e8ed54949" title="Returns the radius of the BSphere. " alt="" coords="448,285,613,327"/>
 </map>

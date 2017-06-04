@@ -63,9 +63,9 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="../../d6/d8d/class_burst-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Burst Class Reference</div>  </div>
@@ -95,22 +95,27 @@ Collaboration diagram for Burst:</div>
 <area shape="rect" id="node6" href="../../d2/df5/class_game_object_exit_command.html" title="{GameObjectExitCommand\n||+ GameObjectExitCommand()\l+ ~GameObjectExitCommand()\l+ GameObjectExitCommand()\l+ operator=()\l+ Execute()\l}" alt="" coords="343,764,549,900"/>
 <area shape="rect" id="node5" href="../../db/db6/class_command_base.html" title="{CommandBase\n||+ CommandBase()\l+ ~CommandBase()\l+ CommandBase()\l+ operator=()\l+ Execute()\l}" alt="" coords="693,5,831,141"/>
 <area shape="rect" id="node7" href="../../dc/df7/struct_alarmable_1_1_registration_data.html" title="{Alarmable::RegistrationData\n|+ currState\l+ myID\l+ time\l+ remainingTime\l|}" alt="" coords="707,1455,891,1576"/>
-<area shape="rect" id="node12" href="../../df/d45/struct_burst_1_1_particle.html" title="{Burst::Particle\n|+ pos\l+ direction\l+ speed\l|}" alt="" coords="47,779,152,885"/>
-<area shape="rect" id="node13" href="../../dd/d2a/class_burst_type.html" title="{BurstType\n||+ BurstType()\l+ ~BurstType()\l+ operator=()\l+ BurstType()\l+ CalculatePosition()\l}" alt="" coords="176,764,319,900"/>
+<area shape="rect" id="node12" href="../../df/d45/struct_burst_1_1_particle.html" title="Particle represented as a struct. " alt="" coords="47,779,152,885"/>
+<area shape="rect" id="node13" href="../../dd/d2a/class_burst_type.html" title="{BurstType\n||# BurstType()\l# ~BurstType()\l# operator=()\l# BurstType()\l# CalculatePosition()\l}" alt="" coords="176,764,319,900"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d45/struct_burst_1_1_particle.html">Particle</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../df/d45/struct_burst_1_1_particle.html" title="Particle represented as a struct. ">Particle</a> represented as a struct.  <a href="../../df/d45/struct_burst_1_1_particle.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a10d0bc13e6ece097b824e7d4b23390b9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#a10d0bc13e6ece097b824e7d4b23390b9">Alarm0</a> ()</td></tr>
+<tr class="memdesc:a10d0bc13e6ece097b824e7d4b23390b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines what happens when Alarm 0 is triggered.  <a href="#a10d0bc13e6ece097b824e7d4b23390b9">More...</a><br /></td></tr>
+<tr class="separator:a10d0bc13e6ece097b824e7d4b23390b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a64f7315909e7280ff03f2cbe5eb2a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#a1a64f7315909e7280ff03f2cbe5eb2a5">Burst</a> ()=default</td></tr>
 <tr class="separator:a1a64f7315909e7280ff03f2cbe5eb2a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adad3368fbe07e614da3a896251766519"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#adad3368fbe07e614da3a896251766519">Burst</a> (<a class="el" href="../../d5/d1f/_burst_pattern_8h.html#ab95dea1ebb93b855b2e73184a28e050b">BurstPattern</a> pattern, int particleCount, Vect &amp;position, float particleSpeed, float tightness, float scale, float lifetime, GraphicsObject_TextureFlat *obj)</td></tr>
-<tr class="separator:adad3368fbe07e614da3a896251766519"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadad3368fbe07e614da3a896251766519"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddd/group___particles.html#gadad3368fbe07e614da3a896251766519">Burst</a> (<a class="el" href="../../d5/d1f/_burst_pattern_8h.html#ab95dea1ebb93b855b2e73184a28e050b">BurstPattern</a> pattern, int particleCount, Vect &amp;position, float particleSpeed, float tightness, float scale, float lifetime, GraphicsObject_TextureFlat *obj)</td></tr>
+<tr class="memdesc:gadad3368fbe07e614da3a896251766519"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for a <a class="el" href="../../dd/ded/class_burst.html">Burst</a>. Should never be called outside of emitter.  <a href="../../d3/ddd/group___particles.html#gadad3368fbe07e614da3a896251766519">More...</a><br /></td></tr>
+<tr class="separator:gadad3368fbe07e614da3a896251766519"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4220bd2861afee000458e4005eee3e7b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#a4220bd2861afee000458e4005eee3e7b">Burst</a> (const <a class="el" href="../../dd/ded/class_burst.html">Burst</a> &amp;other)=delete</td></tr>
 <tr class="separator:a4220bd2861afee000458e4005eee3e7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee64b77190e1e969439bf696a14af63e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/ded/class_burst.html">Burst</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#aee64b77190e1e969439bf696a14af63e">operator=</a> (const <a class="el" href="../../dd/ded/class_burst.html">Burst</a> &amp;other)=delete</td></tr>
@@ -118,6 +123,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a71e8471a4071593a1cf5e99f804f0812"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#a71e8471a4071593a1cf5e99f804f0812">~Burst</a> ()</td></tr>
 <tr class="separator:a71e8471a4071593a1cf5e99f804f0812"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa04efa86275cbb5cfa2785afcc68eb07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#aa04efa86275cbb5cfa2785afcc68eb07">ComputeNewBurst</a> (Vect &amp;position)</td></tr>
+<tr class="memdesc:aa04efa86275cbb5cfa2785afcc68eb07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recomputes new burst with position reset.  <a href="#aa04efa86275cbb5cfa2785afcc68eb07">More...</a><br /></td></tr>
 <tr class="separator:aa04efa86275cbb5cfa2785afcc68eb07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a726e61d964723c98e044102920bb30e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#a726e61d964723c98e044102920bb30e3">DrawParticles</a> ()</td></tr>
 <tr class="separator:a726e61d964723c98e044102920bb30e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,6 +131,39 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af2252954741e756f4950172231c0682b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ec894e71382771155448dc2c07e0d65"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#a3ec894e71382771155448dc2c07e0d65">GetStatus</a> ()</td></tr>
 <tr class="separator:a3ec894e71382771155448dc2c07e0d65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a82892fee38f2cdc1accbc82c6c7ea46c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d45/struct_burst_1_1_particle.html">Particle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#a82892fee38f2cdc1accbc82c6c7ea46c">particleArray</a></td></tr>
+<tr class="separator:a82892fee38f2cdc1accbc82c6c7ea46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ce83e72d183aa9b86b10b50e915c67d"><td class="memItemLeft" align="right" valign="top">Vect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#a5ce83e72d183aa9b86b10b50e915c67d">currentColor</a></td></tr>
+<tr class="separator:a5ce83e72d183aa9b86b10b50e915c67d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43151bd4a217f48c595920331ace63d4"><td class="memItemLeft" align="right" valign="top">Vect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#a43151bd4a217f48c595920331ace63d4">currentScale</a></td></tr>
+<tr class="separator:a43151bd4a217f48c595920331ace63d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefeb2dd6a5021eced40e62fe2b524e40"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#aefeb2dd6a5021eced40e62fe2b524e40">myParticleCount</a></td></tr>
+<tr class="separator:aefeb2dd6a5021eced40e62fe2b524e40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab19e997a0baa271b4a97ccc68c2e3f6b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#ab19e997a0baa271b4a97ccc68c2e3f6b">mySpeed</a></td></tr>
+<tr class="separator:ab19e997a0baa271b4a97ccc68c2e3f6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aece859872570bc9cfb408694ffa891cf"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#aece859872570bc9cfb408694ffa891cf">timeLeft</a></td></tr>
+<tr class="separator:aece859872570bc9cfb408694ffa891cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bee594070a624d5f1c5104b0fceb944"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#a2bee594070a624d5f1c5104b0fceb944">myScale</a></td></tr>
+<tr class="separator:a2bee594070a624d5f1c5104b0fceb944"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77ac61d1a89fd066a536a33570f535e5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#a77ac61d1a89fd066a536a33570f535e5">myTightness</a></td></tr>
+<tr class="separator:a77ac61d1a89fd066a536a33570f535e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1099d7eb2ce854cf9a3661235a37ebdc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#a1099d7eb2ce854cf9a3661235a37ebdc">isDone</a></td></tr>
+<tr class="separator:a1099d7eb2ce854cf9a3661235a37ebdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a651e406b61b8f891cddee8a66dc657d9"><td class="memItemLeft" align="right" valign="top">GraphicsObject_TextureFlat *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#a651e406b61b8f891cddee8a66dc657d9">grObj</a></td></tr>
+<tr class="separator:a651e406b61b8f891cddee8a66dc657d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affe673469a60db529e773d3a8ed32587"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2a/class_burst_type.html">BurstType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#affe673469a60db529e773d3a8ed32587">currentBurstType</a></td></tr>
+<tr class="separator:affe673469a60db529e773d3a8ed32587"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a82b374d797a09668286ac5cf26f539f3"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#a82b374d797a09668286ac5cf26f539f3">ParticleEmitter</a></td></tr>
+<tr class="separator:a82b374d797a09668286ac5cf26f539f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_methods_class_alarmable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_alarmable')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d7/db6/class_alarmable.html">Alarmable</a></td></tr>
 <tr class="memitem:a6290ab21a53be8e8918cd2e3a00be1d9 inherit pub_methods_class_alarmable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/class_alarmable.html#a6290ab21a53be8e8918cd2e3a00be1d9">Alarmable</a> ()</td></tr>
 <tr class="separator:a6290ab21a53be8e8918cd2e3a00be1d9 inherit pub_methods_class_alarmable"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,41 +202,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab13c929c99c3074d4a0467ce02cd7998 inherit pub_methods_class_game_object"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd1/class_game_object.html#ab13c929c99c3074d4a0467ce02cd7998">SubmitExit</a> ()</td></tr>
 <tr class="memdesc:ab13c929c99c3074d4a0467ce02cd7998 inherit pub_methods_class_game_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Submits the <a class="el" href="../../d0/dd1/class_game_object.html">GameObject</a> for <a class="el" href="../../d6/db5/class_scene.html">Scene</a> Exit.  <a href="../../d0/dd1/class_game_object.html#ab13c929c99c3074d4a0467ce02cd7998">More...</a><br /></td></tr>
 <tr class="separator:ab13c929c99c3074d4a0467ce02cd7998 inherit pub_methods_class_game_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a10d0bc13e6ece097b824e7d4b23390b9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#a10d0bc13e6ece097b824e7d4b23390b9">Alarm0</a> ()</td></tr>
-<tr class="memdesc:a10d0bc13e6ece097b824e7d4b23390b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines what happens when Alarm 0 is triggered.  <a href="#a10d0bc13e6ece097b824e7d4b23390b9">More...</a><br /></td></tr>
-<tr class="separator:a10d0bc13e6ece097b824e7d4b23390b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a82892fee38f2cdc1accbc82c6c7ea46c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d45/struct_burst_1_1_particle.html">Particle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#a82892fee38f2cdc1accbc82c6c7ea46c">particleArray</a></td></tr>
-<tr class="separator:a82892fee38f2cdc1accbc82c6c7ea46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ce83e72d183aa9b86b10b50e915c67d"><td class="memItemLeft" align="right" valign="top">Vect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#a5ce83e72d183aa9b86b10b50e915c67d">currentColor</a></td></tr>
-<tr class="separator:a5ce83e72d183aa9b86b10b50e915c67d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43151bd4a217f48c595920331ace63d4"><td class="memItemLeft" align="right" valign="top">Vect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#a43151bd4a217f48c595920331ace63d4">currentScale</a></td></tr>
-<tr class="separator:a43151bd4a217f48c595920331ace63d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefeb2dd6a5021eced40e62fe2b524e40"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#aefeb2dd6a5021eced40e62fe2b524e40">myParticleCount</a></td></tr>
-<tr class="separator:aefeb2dd6a5021eced40e62fe2b524e40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab19e997a0baa271b4a97ccc68c2e3f6b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#ab19e997a0baa271b4a97ccc68c2e3f6b">mySpeed</a></td></tr>
-<tr class="separator:ab19e997a0baa271b4a97ccc68c2e3f6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aece859872570bc9cfb408694ffa891cf"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#aece859872570bc9cfb408694ffa891cf">timeLeft</a></td></tr>
-<tr class="separator:aece859872570bc9cfb408694ffa891cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bee594070a624d5f1c5104b0fceb944"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#a2bee594070a624d5f1c5104b0fceb944">myScale</a></td></tr>
-<tr class="separator:a2bee594070a624d5f1c5104b0fceb944"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77ac61d1a89fd066a536a33570f535e5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#a77ac61d1a89fd066a536a33570f535e5">myTightness</a></td></tr>
-<tr class="separator:a77ac61d1a89fd066a536a33570f535e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1099d7eb2ce854cf9a3661235a37ebdc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#a1099d7eb2ce854cf9a3661235a37ebdc">isDone</a></td></tr>
-<tr class="separator:a1099d7eb2ce854cf9a3661235a37ebdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a651e406b61b8f891cddee8a66dc657d9"><td class="memItemLeft" align="right" valign="top">GraphicsObject_TextureFlat *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#a651e406b61b8f891cddee8a66dc657d9">grObj</a></td></tr>
-<tr class="separator:a651e406b61b8f891cddee8a66dc657d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affe673469a60db529e773d3a8ed32587"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2a/class_burst_type.html">BurstType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/class_burst.html#affe673469a60db529e773d3a8ed32587">currentBurstType</a></td></tr>
-<tr class="separator:affe673469a60db529e773d3a8ed32587"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1a64f7315909e7280ff03f2cbe5eb2a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a64f7315909e7280ff03f2cbe5eb2a5">&#9670;&nbsp;</a></span>Burst() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a64f7315909e7280ff03f2cbe5eb2a5">&#9670;&nbsp;</a></span>Burst() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -214,94 +222,15 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="adad3368fbe07e614da3a896251766519"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adad3368fbe07e614da3a896251766519">&#9670;&nbsp;</a></span>Burst() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Burst::Burst </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/d1f/_burst_pattern_8h.html#ab95dea1ebb93b855b2e73184a28e050b">BurstPattern</a>&#160;</td>
-          <td class="paramname"><em>pattern</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>particleCount</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Vect &amp;&#160;</td>
-          <td class="paramname"><em>position</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>particleSpeed</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>tightness</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>scale</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>lifetime</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">GraphicsObject_TextureFlat *&#160;</td>
-          <td class="paramname"><em>obj</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dd/ded/class_burst_adad3368fbe07e614da3a896251766519_cgraph.png" border="0" usemap="#dd/ded/class_burst_adad3368fbe07e614da3a896251766519_cgraph" alt=""/></div>
-<map name="dd/ded/class_burst_adad3368fbe07e614da3a896251766519_cgraph" id="dd/ded/class_burst_adad3368fbe07e614da3a896251766519_cgraph">
-<area shape="rect" id="node2" href="../../d8/d8f/class_math_tools.html#ade7bfde2ed0b609f9a8f09601de27a6a" title="MathTools::GetRandomFloat" alt="" coords="167,44,355,71"/>
-<area shape="rect" id="node3" href="../../d5/dcb/group___alarms.html#ga2cc6edba905d2d3e101284cb782c7be6" title="Submit the object for Alarm registration. " alt="" coords="145,95,377,121"/>
-<area shape="rect" id="node4" href="../../d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="425,57,605,98"/>
-<area shape="rect" id="node8" href="../../d6/db5/class_scene.html#a0731629e09bcbc95b0dd1f8553793914" title="Scene::SubmitCommand" alt="" coords="432,125,599,152"/>
-<area shape="rect" id="node5" href="../../d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="669,5,836,32"/>
-<area shape="rect" id="node7" href="../../d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7" title="SceneManager::privGetCurrent\lScene" alt="" coords="653,57,852,98"/>
-<area shape="rect" id="node6" href="../../d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="900,5,1104,32"/>
-<area shape="rect" id="node9" href="../../d8/d4e/class_scene_registration_broker.html#a64a63b2d841f223142218156e6f62caa" title="Adds a command of type CommandBase to a list. " alt="" coords="669,122,836,163"/>
-</map>
-</div>
-
-</div>
-</div>
 <a id="a4220bd2861afee000458e4005eee3e7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4220bd2861afee000458e4005eee3e7b">&#9670;&nbsp;</a></span>Burst() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4220bd2861afee000458e4005eee3e7b">&#9670;&nbsp;</a></span>Burst() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -319,7 +248,7 @@ Here is the call graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">delete</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -331,6 +260,9 @@ Here is the call graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">Burst::~Burst </td>
@@ -339,6 +271,11 @@ Here is the call graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -379,6 +316,9 @@ Here is the call graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Burst::ComputeNewBurst </td>
@@ -388,7 +328,20 @@ Here is the call graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Recomputes new burst with position reset. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">position</td><td>A Vect reference </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -412,6 +365,9 @@ Here is the call graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Burst::DrawParticles </td>
@@ -420,20 +376,66 @@ Here is the call graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/ded/class_burst_a726e61d964723c98e044102920bb30e3_cgraph.png" border="0" usemap="#dd/ded/class_burst_a726e61d964723c98e044102920bb30e3_cgraph" alt=""/></div>
 <map name="dd/ded/class_burst_a726e61d964723c98e044102920bb30e3_cgraph" id="dd/ded/class_burst_a726e61d964723c98e044102920bb30e3_cgraph">
-<area shape="rect" id="node2" href="../../d0/dc3/class_scene_manager.html#ac1324ce9ce69ed9777c3a54be0349ecc" title="Returns the current scene 3D camera. " alt="" coords="195,27,381,69"/>
-<area shape="rect" id="node3" href="../../d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="449,5,616,32"/>
-<area shape="rect" id="node5" href="../../d0/dc3/class_scene_manager.html#a41e934dac7a132cca581ada25983b278" title="SceneManager::privGetCurrent3\lDCamera" alt="" coords="429,57,636,98"/>
-<area shape="rect" id="node4" href="../../d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="684,5,888,32"/>
-<area shape="rect" id="node6" href="../../d6/db5/class_scene.html#a6fca889fab7f92f45dd87042d109e6cf" title="Returns the scene&#39;s camera manager as a CameraManager pointer. " alt="" coords="703,60,869,87"/>
-<area shape="rect" id="node9" href="../../d2/d23/class_camera_manager.html#a73be4132ae9a5523cd4e778a53013a16" title="Returns the current camera as a Camera* type. " alt="" coords="692,111,880,153"/>
-<area shape="rect" id="node7" href="../../d6/db5/class_scene.html#afce99c578d2ea8375ea147705bef1e2f" title="Virtual function, called when a scene is terminated. " alt="" coords="936,60,1060,87"/>
-<area shape="rect" id="node8" href="../../d2/d23/class_camera_manager.html#ab94598716ca1ac6278051410852925bf" title="Terminate the Camera Manager and delete the current camera pointer. " alt="" coords="1108,60,1291,87"/>
+<area shape="rect" id="node2" href="../../d0/dc3/class_scene_manager.html#ac1324ce9ce69ed9777c3a54be0349ecc" title="Returns the current scene 3D camera. " alt="" coords="195,263,381,305"/>
+<area shape="rect" id="node3" href="../../d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="2088,187,2255,213"/>
+<area shape="rect" id="node5" href="../../d0/dc3/class_scene_manager.html#a41e934dac7a132cca581ada25983b278" title="SceneManager::privGetCurrent3\lDCamera" alt="" coords="429,375,636,417"/>
+<area shape="rect" id="node4" href="../../d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="2332,187,2536,213"/>
+<area shape="rect" id="node6" href="../../d6/db5/class_scene.html#a6fca889fab7f92f45dd87042d109e6cf" title="Returns the scene&#39;s camera manager as a CameraManager pointer. " alt="" coords="695,773,861,800"/>
+<area shape="rect" id="node50" href="../../d2/d23/class_camera_manager.html#a73be4132ae9a5523cd4e778a53013a16" title="Returns the current camera as a Camera* type. " alt="" coords="684,375,872,417"/>
+<area shape="rect" id="node7" href="../../d6/db5/class_scene.html#afce99c578d2ea8375ea147705bef1e2f" title="Virtual function, called when a scene is terminated. " alt="" coords="920,915,1044,941"/>
+<area shape="rect" id="node8" href="../../d5/dd9/class_sound_manager.html#a03dd0a39156a258716e6fff0243872d3" title="Public static function. Stops all sounds. " alt="" coords="1092,788,1295,815"/>
+<area shape="rect" id="node49" href="../../d2/d23/class_camera_manager.html#ab94598716ca1ac6278051410852925bf" title="Terminate the Camera Manager and delete the current camera pointer. " alt="" coords="1102,1117,1285,1144"/>
+<area shape="rect" id="node9" href="../../d6/d4b/class_mithril_engine.html#a727ba0587d07d9e644b6741a6d82492d" title="MithrilEngine::Instance" alt="" coords="1343,585,1497,612"/>
+<area shape="rect" id="node10" href="../../d8/dee/group___mithril_engine.html#ga63ee007e6957aac92cde5c252a278eef" title="MithrilEngine constructor. " alt="" coords="1553,661,1733,688"/>
+<area shape="rect" id="node11" href="../../d6/d4b/class_mithril_engine.html#acd03e00161d7a4bd4da9ef2514b7e6a5" title="MithrilEngine::Initialize" alt="" coords="1567,915,1719,941"/>
+<area shape="rect" id="node12" href="../../d6/d4b/class_mithril_engine.html#aef708cdc73caeb8a2dbe0c2a4ef73723" title="MithrilEngine::GameInitialize" alt="" coords="1806,1016,1993,1043"/>
+<area shape="rect" id="node15" href="../../d6/d4b/class_mithril_engine.html#a7c6f9cada15f3697711b79ee82a95424" title="MithrilEngine::LoadContent" alt="" coords="1553,763,1732,789"/>
+<area shape="rect" id="node16" href="../../d6/d4b/class_mithril_engine.html#a58deb29be139002bd071f4bce1bbc5ea" title="MithrilEngine::LoadResources" alt="" coords="1802,848,1997,875"/>
+<area shape="rect" id="node20" href="../../d6/d4b/class_mithril_engine.html#a6674a1e85950edb9ec1ff6bc59c389b0" title="MithrilEngine::Update" alt="" coords="1569,107,1716,133"/>
+<area shape="rect" id="node27" href="../../d6/d4b/class_mithril_engine.html#a2a32c9096f22918ff8778cb867490ab2" title="Returns the time elapsed in seconds. " alt="" coords="1797,208,2002,235"/>
+<area shape="rect" id="node28" href="../../d6/d4b/class_mithril_engine.html#a986bedb0afc6dca1ef05a8e34ff45583" title="MithrilEngine::Draw" alt="" coords="1575,459,1710,485"/>
+<area shape="rect" id="node31" href="../../d6/d4b/class_mithril_engine.html#a6f70d8757a3599e5a2235d94a93aeac4" title="MithrilEngine::UnLoadContent" alt="" coords="1545,611,1740,637"/>
+<area shape="rect" id="node46" href="../../d6/d4b/class_mithril_engine.html#a9f222a2729e64a91f226e8063ec5fbf6" title="Calls Run() on the engine class. " alt="" coords="1579,333,1707,360"/>
+<area shape="rect" id="node47" href="../../d6/d4b/class_mithril_engine.html#a3aca612ace4670ea15127a27d23e2a38" title="Returns the width of the current window. " alt="" coords="1563,509,1723,536"/>
+<area shape="rect" id="node48" href="../../d6/d4b/class_mithril_engine.html#a8dbd0268139dd53ded75463dc3cb33c8" title="Returns the height of the current window. " alt="" coords="1561,560,1724,587"/>
+<area shape="rect" id="node13" href="../../d5/dd9/class_sound_manager.html#aeb9c122ffedf1c39b44f209148cf2ad2" title="Creates the sound engine. " alt="" coords="1803,950,1995,991"/>
+<area shape="rect" id="node14" href="../../d5/dd9/class_sound_manager.html#a5fdfb9741539dfa9ee2cacf8ff51197e" title="Public static function. Sets the volume of the sound engine. " alt="" coords="1809,899,1990,925"/>
+<area shape="rect" id="node17" href="../../d3/d4f/class_visualizer.html#a3fd0f918788ec72dcdba602cd4c31e75" title="Create initial visualizer shapes. " alt="" coords="1816,797,1983,824"/>
+<area shape="rect" id="node18" href="../../d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="2366,797,2502,824"/>
+<area shape="rect" id="node19" href="../../d3/d4f/class_visualizer.html#ae3355213720d4cbb3bc930b81108e6f9" title="Visualizer::privCreateBSphere" alt="" coords="2074,848,2269,875"/>
+<area shape="rect" id="node21" href="../../d5/dd9/class_sound_manager.html#a52a77b9454705a57e003f8cde39aa5ff" title="Public static function. Updates the sound engine. " alt="" coords="1820,5,1979,32"/>
+<area shape="rect" id="node22" href="../../d0/dc3/class_scene_manager.html#a85354ba18a17aa2b2716c6404cc28d50" title="Calls Scene::Update() on the current scene. " alt="" coords="1788,107,2011,133"/>
+<area shape="rect" id="node24" href="../../d9/d7f/class_time_manager.html#a14e5786948c412a8b5c84cb092424a5d" title="TimeManager::ProcessTime" alt="" coords="1807,56,1991,83"/>
+<area shape="rect" id="node23" href="../../d0/dc3/class_scene_manager.html#a160955c83b4e5e58fdeef7142a767f83" title="SceneManager::privUpdate\lUpdatables" alt="" coords="2083,107,2260,149"/>
+<area shape="rect" id="node25" href="../../d9/d7f/class_time_manager.html#a9bb9e5390526b32783b94adb728604fa" title="TimeManager::Instance" alt="" coords="2093,56,2250,83"/>
+<area shape="rect" id="node26" href="../../d9/d7f/class_time_manager.html#abb2dec3e58a74f84c4c5c016b9dfdeaf" title="Processes the amount of time spent frozen. " alt="" coords="2070,5,2273,32"/>
+<area shape="rect" id="node29" href="../../d0/dc3/class_scene_manager.html#a01652b7aacfa1a8df974e9152cee7913" title="Calls Scene::Draw() on the current scene. " alt="" coords="1796,259,2003,285"/>
+<area shape="rect" id="node30" href="../../d0/dc3/class_scene_manager.html#a74ac0f30e64b10476729ce54b2189bf5" title="SceneManager::privDrawDrawables" alt="" coords="2059,251,2284,277"/>
+<area shape="rect" id="node32" href="../../d0/dc3/class_scene_manager.html#ab05844a5cadb0305e5d5a7abd8c091bd" title="Calls Scene::Terminate() on the current scene. " alt="" coords="1812,309,1987,336"/>
+<area shape="rect" id="node34" href="../../d2/d24/class_shader_manager.html#a5ef1975239b18efa12c0b4df25c91d26" title="Unloads the shaders from the map and deletes their associated pointers. " alt="" coords="1795,360,2004,387"/>
+<area shape="rect" id="node37" href="../../d3/d3a/class_model_manager.html#a80074e0df7bf05faf4eb762940da8cd5" title="Unloaded models, deletes them from the map. " alt="" coords="1801,411,1998,437"/>
+<area shape="rect" id="node40" href="../../db/ddf/class_texture_manager.html#ad09e991a4111060447d43e7fd959f945" title="Unloads the textures from the map and deletes their associated pointers. " alt="" coords="1793,528,2006,555"/>
+<area shape="rect" id="node41" href="../../d2/d39/class_image_manager.html#a22acef4ad91b5191cb8044d976035635" title="Unload images, deletes them from the map. " alt="" coords="1801,579,1998,605"/>
+<area shape="rect" id="node42" href="../../d6/d14/class_terrain_object_manager.html#a42e91453bc870c802bc3860521a23d37" title="Unloads the textures from the map and deletes their associated pointers. " alt="" coords="1822,630,1977,671"/>
+<area shape="rect" id="node43" href="../../d8/dba/class_sprite_font_manager.html#a7fdc04f5be4dcd1a9bb99c720d05936d" title="Unload SpriteFonts, deletes them from the map. " alt="" coords="1829,462,1969,503"/>
+<area shape="rect" id="node44" href="../../d5/dd9/class_sound_manager.html#af57ebaab4833dc534140b58534c5e2b3" title="Public static function. Terminates the sound engine. " alt="" coords="1812,747,1987,773"/>
+<area shape="rect" id="node45" href="../../d3/d4f/class_visualizer.html#a61597f4a1cdb82452a2e761cb52b9024" title="Terminates the Visualizer. " alt="" coords="2099,696,2243,723"/>
+<area shape="rect" id="node33" href="../../d0/dc3/class_scene_manager.html#ad4a7bf6aeefe87e72e65c0dd483bca2d" title="SceneManager::privTerminate" alt="" coords="2075,747,2268,773"/>
+<area shape="rect" id="node35" href="../../d2/d24/class_shader_manager.html#aeaa687b375b78eefcd836b5430ccfb99" title="ShaderManager::Instance" alt="" coords="2349,331,2519,357"/>
+<area shape="rect" id="node36" href="../../d2/d24/class_shader_manager.html#a10bb2c5fb9f095249e2367c6d486fa34" title="ShaderManager::privUnload\lShaders" alt="" coords="2081,353,2261,394"/>
+<area shape="rect" id="node38" href="../../d3/d3a/class_model_manager.html#afb1fbe7bcd21494e661676b997008173" title="ModelManager::Instance" alt="" coords="2352,455,2516,481"/>
+<area shape="rect" id="node39" href="../../d3/d3a/class_model_manager.html#a5264d3833b402cbfba6dc19cabb83103" title="ModelManager::privUnload\lModels" alt="" coords="2084,418,2259,459"/>
 </map>
 </div>
 
@@ -444,6 +446,9 @@ Here is the call graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool Burst::GetStatus </td>
@@ -452,6 +457,11 @@ Here is the call graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -475,7 +485,7 @@ Here is the call graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">delete</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -487,6 +497,9 @@ Here is the call graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Burst::UpdateParticles </td>
@@ -495,6 +508,11 @@ Here is the call graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <div class="dynheader">
 Here is the call graph for this function:</div>
@@ -504,6 +522,29 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node2" href="../../dd/d2a/class_burst_type.html#a50a1f1c7c33106cc22d74e07a585b67d" title="BurstType::CalculatePosition" alt="" coords="207,5,397,32"/>
 </map>
 </div>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a82b374d797a09668286ac5cf26f539f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82b374d797a09668286ac5cf26f539f3">&#9670;&nbsp;</a></span>ParticleEmitter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="../../d7/d63/class_particle_emitter.html">ParticleEmitter</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

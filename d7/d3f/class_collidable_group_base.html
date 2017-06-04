@@ -20,9 +20,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../mithrillogo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mithril Engine
-   &#160;<span id="projectnumber">1.0</span>
+   &#160;<span id="projectnumber">2.0</span>
    </div>
    <div id="projectbrief">Documentation for Mithril Engine</div>
   </td>
@@ -74,17 +75,15 @@ Inheritance diagram for CollidableGroupBase:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d5/d64/class_collidable_group_base__inherit__graph.png" border="0" usemap="#_collidable_group_base_inherit__map" alt="Inheritance graph"/></div>
 <map name="_collidable_group_base_inherit__map" id="_collidable_group_base_inherit__map">
-<area shape="rect" id="node2" href="../../dc/d5d/class_collidable_group.html" title="{CollidableGroup\&lt; C \&gt;\n|+ CollideCol\l+ self\l|+ CollidableGroup()\l+ CollidableGroup()\l+ operator=()\l+ ~CollidableGroup()\l+ Instance()\l+ Register()\l+ Deregister()\l+ GetColliderCollection()\l&#45; privRegister()\l&#45; privDeregister()\l}" alt="" coords="5,145,168,369"/>
-<area shape="rect" id="node3" href="../../dc/d5d/class_collidable_group.html" title="{CollidableGroup\&lt; C1 \&gt;\n|+ CollideCol\l+ self\l|+ CollidableGroup()\l+ CollidableGroup()\l+ operator=()\l+ ~CollidableGroup()\l+ Instance()\l+ Register()\l+ Deregister()\l+ GetColliderCollection()\l&#45; privRegister()\l&#45; privDeregister()\l}" alt="" coords="192,145,355,369"/>
-<area shape="rect" id="node4" href="../../dc/d5d/class_collidable_group.html" title="{CollidableGroup\&lt; C2 \&gt;\n|+ CollideCol\l+ self\l|+ CollidableGroup()\l+ CollidableGroup()\l+ operator=()\l+ ~CollidableGroup()\l+ Instance()\l+ Register()\l+ Deregister()\l+ GetColliderCollection()\l&#45; privRegister()\l&#45; privDeregister()\l}" alt="" coords="379,145,541,369"/>
+<area shape="rect" id="node2" href="../../dc/d5d/class_collidable_group.html" title="{CollidableGroup\&lt; C \&gt;\n|+ CollideCol\l+ groupAABB\l+ currentMin\l+ currentMax\l+ self\l|+ CollidableGroup()\l+ operator=()\l+ ~CollidableGroup()\l+ CollidableGroup()\l+ ClearList()\l+ UpdateAABB()\l+ Terminate()\l+ Instance()\l+ Register()\l+ Deregister()\l+ GetColliderCollection()\l+ GetAABB()\l&#45; privRegister()\l&#45; privDeregister()\l&#45; privUpdateAABB()\l&#45; privTerminate()\l&#45; privClearList()\l}" alt="" coords="5,189,168,560"/>
+<area shape="rect" id="node3" href="../../dc/d5d/class_collidable_group.html" title="{CollidableGroup\&lt; C1 \&gt;\n|+ CollideCol\l+ groupAABB\l+ currentMin\l+ currentMax\l+ self\l|+ CollidableGroup()\l+ CollidableGroup()\l+ operator=()\l+ ~CollidableGroup()\l+ ClearList()\l+ UpdateAABB()\l+ Terminate()\l+ Instance()\l+ Register()\l+ Deregister()\l+ GetColliderCollection()\l+ GetAABB()\l&#45; privRegister()\l&#45; privDeregister()\l&#45; privUpdateAABB()\l&#45; privTerminate()\l&#45; privClearList()\l}" alt="" coords="192,189,355,560"/>
+<area shape="rect" id="node4" href="../../dc/d5d/class_collidable_group.html" title="{CollidableGroup\&lt; C2 \&gt;\n|+ CollideCol\l+ groupAABB\l+ currentMin\l+ currentMax\l+ self\l|+ CollidableGroup()\l+ CollidableGroup()\l+ operator=()\l+ ~CollidableGroup()\l+ ClearList()\l+ UpdateAABB()\l+ Terminate()\l+ Instance()\l+ Register()\l+ Deregister()\l+ GetColliderCollection()\l+ GetAABB()\l&#45; privRegister()\l&#45; privDeregister()\l&#45; privUpdateAABB()\l&#45; privTerminate()\l&#45; privClearList()\l}" alt="" coords="379,189,541,560"/>
 </map>
 </div>
 <div class="dynheader">
 Collaboration diagram for CollidableGroupBase:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/d4d/class_collidable_group_base__coll__graph.png" border="0" usemap="#_collidable_group_base_coll__map" alt="Collaboration graph"/></div>
-<map name="_collidable_group_base_coll__map" id="_collidable_group_base_coll__map">
-</map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -93,6 +92,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af90f49f57f1e093a07457e74743b8188"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5650b876310c4cadbff68568a488ce1e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d3f/class_collidable_group_base.html#a5650b876310c4cadbff68568a488ce1e">~CollidableGroupBase</a> ()</td></tr>
 <tr class="separator:a5650b876310c4cadbff68568a488ce1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3623e7e06e9e6880965fd6fd128e42a3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d3f/class_collidable_group_base.html#a3623e7e06e9e6880965fd6fd128e42a3">ClearList</a> ()</td></tr>
+<tr class="separator:a3623e7e06e9e6880965fd6fd128e42a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80078731c9b799f0cc34348fd7932ca0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d3f/class_collidable_group_base.html#a80078731c9b799f0cc34348fd7932ca0">UpdateAABB</a> ()</td></tr>
+<tr class="separator:a80078731c9b799f0cc34348fd7932ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05c0896c2959f5dd8cab8d2164484e42"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d3f/class_collidable_group_base.html#a05c0896c2959f5dd8cab8d2164484e42">Terminate</a> ()</td></tr>
+<tr class="separator:a05c0896c2959f5dd8cab8d2164484e42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af90f49f57f1e093a07457e74743b8188"></a>
@@ -142,6 +147,88 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3623e7e06e9e6880965fd6fd128e42a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3623e7e06e9e6880965fd6fd128e42a3">&#9670;&nbsp;</a></span>ClearList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void CollidableGroupBase::ClearList </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../dc/d5d/class_collidable_group.html#a3ce128a3c558ea1a8dd3fd2ba26ee937">CollidableGroup&lt; C &gt;</a>, <a class="el" href="../../dc/d5d/class_collidable_group.html#a3ce128a3c558ea1a8dd3fd2ba26ee937">CollidableGroup&lt; C1 &gt;</a>, and <a class="el" href="../../dc/d5d/class_collidable_group.html#a3ce128a3c558ea1a8dd3fd2ba26ee937">CollidableGroup&lt; C2 &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a05c0896c2959f5dd8cab8d2164484e42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05c0896c2959f5dd8cab8d2164484e42">&#9670;&nbsp;</a></span>Terminate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void CollidableGroupBase::Terminate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../dc/d5d/class_collidable_group.html#ac14057ce7aff1e9c1288936a3ca63e41">CollidableGroup&lt; C &gt;</a>, <a class="el" href="../../dc/d5d/class_collidable_group.html#ac14057ce7aff1e9c1288936a3ca63e41">CollidableGroup&lt; C1 &gt;</a>, and <a class="el" href="../../dc/d5d/class_collidable_group.html#ac14057ce7aff1e9c1288936a3ca63e41">CollidableGroup&lt; C2 &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a80078731c9b799f0cc34348fd7932ca0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80078731c9b799f0cc34348fd7932ca0">&#9670;&nbsp;</a></span>UpdateAABB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void CollidableGroupBase::UpdateAABB </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../dc/d5d/class_collidable_group.html#a26f1a53376b0ed795118532de08fcd8c">CollidableGroup&lt; C &gt;</a>, <a class="el" href="../../dc/d5d/class_collidable_group.html#a26f1a53376b0ed795118532de08fcd8c">CollidableGroup&lt; C1 &gt;</a>, and <a class="el" href="../../dc/d5d/class_collidable_group.html#a26f1a53376b0ed795118532de08fcd8c">CollidableGroup&lt; C2 &gt;</a>.</p>
 
 </div>
 </div>

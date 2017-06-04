@@ -20,9 +20,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../mithrillogo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mithril Engine
-   &#160;<span id="projectnumber">1.0</span>
+   &#160;<span id="projectnumber">2.0</span>
    </div>
    <div id="projectbrief">Documentation for Mithril Engine</div>
   </td>
@@ -68,12 +69,15 @@ $(function() {
 <p>This is the complete list of members for <a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="../../d8/d51/group___collisions.html#gaa7727339e04efff3f200438d2082239c">CollisionVolume</a>()</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#af6934269437b8bd7b94429525b05c356">CollisionVolume</a>(const CollisionVolume &amp;)=delete</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#a534b57d30f7711d4278b1e5b94df7432">CollisionVolume</a>(const CollisionVolume &amp;)=default</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#ad9174aa61b924ebc9f54af78a4f0df63">ComputeData</a>(Model *mod, Matrix &amp;mat)</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#af11a060c0d0408fcfff45f8d48ddaa01">Intersect</a>(CollisionVolume &amp;other)</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#a894c1f769dbbb7bef891f923b727f553">Intersect</a>(CollisionVolumeBSphere &amp;other)</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#a4677bc85defdaa6b4ba032314a91bade">operator=</a>(const CollisionVolume &amp;)=delete</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#a9fc7adf37bd0eeac9fc358f0075d42d9">~CollisionVolume</a>()</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#a11ecb6a38c383e5aa76a478514f88eb0">DebugView</a>(const Vect &amp;color)</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#af11a060c0d0408fcfff45f8d48ddaa01">Intersect</a>(CollisionVolume &amp;other)</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#a894c1f769dbbb7bef891f923b727f553">Intersect</a>(CollisionVolumeBSphere &amp;other)</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#ad124c6eb20ebfb997dd41fa219b65c25">Intersect</a>(CollisionVolumeAABB &amp;other)</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#a316882ed347066670dac40124676b690">Intersect</a>(CollisionVolumeOBB &amp;other)</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#ad74ed0e679c440b84271ab8c2f1796bc">operator=</a>(const CollisionVolume &amp;)=default</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html#a9fc7adf37bd0eeac9fc358f0075d42d9">~CollisionVolume</a>()</td><td class="entry"><a class="el" href="../../d5/d7c/class_collision_volume.html">CollisionVolume</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

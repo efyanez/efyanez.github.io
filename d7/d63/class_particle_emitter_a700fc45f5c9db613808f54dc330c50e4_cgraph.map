@@ -1,13 +1,13 @@
 <map id="ParticleEmitter::Alarm0" name="ParticleEmitter::Alarm0">
 <area shape="rect" id="node2" href="$d7/d63/class_particle_emitter.html#a4e80b12742a6b6fe7c694c56b7a968bc" title="ParticleEmitter::NewBurst" alt="" coords="211,260,383,287"/>
 <area shape="rect" id="node5" href="$d5/dcb/group___alarms.html#ga2cc6edba905d2d3e101284cb782c7be6" title="Submit the object for Alarm registration. " alt="" coords="659,271,891,297"/>
-<area shape="rect" id="node3" href="$dd/ded/class_burst.html#aa04efa86275cbb5cfa2785afcc68eb07" title="Burst::ComputeNewBurst" alt="" coords="436,5,605,32"/>
+<area shape="rect" id="node3" href="$dd/ded/class_burst.html#aa04efa86275cbb5cfa2785afcc68eb07" title="Recomputes new burst with position reset. " alt="" coords="436,5,605,32"/>
 <area shape="rect" id="node12" href="$d9/de5/class_particle_effect.html#a62536cdf3d8d04f0ad29fd2cd39e032e" title="ParticleEffect::GetBurst\lPattern" alt="" coords="441,57,600,98"/>
-<area shape="rect" id="node13" href="$d9/de5/class_particle_effect.html#aba22e7f23bfcb563658c8a40f2536464" title="ParticleEffect::GetBurst\lCount" alt="" coords="441,122,600,163"/>
-<area shape="rect" id="node14" href="$d9/de5/class_particle_effect.html#a2ceadbc932f897fdedea587baa54efe9" title="ParticleEffect::GetBurst\lSpeed" alt="" coords="441,187,600,229"/>
-<area shape="rect" id="node15" href="$d9/de5/class_particle_effect.html#a21c7c67dc81369f78c85df129eb8bc2a" title="ParticleEffect::GetBurst\lTightness" alt="" coords="441,253,600,294"/>
-<area shape="rect" id="node16" href="$d9/de5/class_particle_effect.html#a77a2cbb7815466839619d551f3501e02" title="ParticleEffect::GetScale" alt="" coords="440,319,601,345"/>
-<area shape="rect" id="node17" href="$d9/de5/class_particle_effect.html#a142e880b4ecbb3b8e53a6e7adb942a0b" title="ParticleEffect::GetBurstLife" alt="" coords="431,369,610,396"/>
+<area shape="rect" id="node13" href="$d3/ddd/group___particles.html#gaba22e7f23bfcb563658c8a40f2536464" title="Gets the burst count of the effect. " alt="" coords="441,122,600,163"/>
+<area shape="rect" id="node14" href="$d3/ddd/group___particles.html#ga2ceadbc932f897fdedea587baa54efe9" title="Gets the burst speed of the effect. " alt="" coords="441,187,600,229"/>
+<area shape="rect" id="node15" href="$d3/ddd/group___particles.html#ga21c7c67dc81369f78c85df129eb8bc2a" title="Gets the burst tightness of the effect. " alt="" coords="441,253,600,294"/>
+<area shape="rect" id="node16" href="$d3/ddd/group___particles.html#ga77a2cbb7815466839619d551f3501e02" title="Gets the burst scale of the effect. " alt="" coords="440,319,601,345"/>
+<area shape="rect" id="node17" href="$d3/ddd/group___particles.html#ga142e880b4ecbb3b8e53a6e7adb942a0b" title="Gets the burst life of the effect. " alt="" coords="431,369,610,396"/>
 <area shape="rect" id="node18" href="$d9/de5/class_particle_effect.html#a9a8dc2cfd593b8f3987c4266c66224c2" title="ParticleEffect::GetGraphics\lObject" alt="" coords="431,421,611,462"/>
 <area shape="rect" id="node4" href="$d8/d8f/class_math_tools.html#ade7bfde2ed0b609f9a8f09601de27a6a" title="MathTools::GetRandomFloat" alt="" coords="681,5,869,32"/>
 <area shape="rect" id="node6" href="$d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="939,233,1119,274"/>

@@ -84,7 +84,7 @@ Collaboration diagram for ParticleEffectSphericalBurst:</div>
 <div class="center"><img src="../../d3/d2f/class_particle_effect_spherical_burst__coll__graph.png" border="0" usemap="#_particle_effect_spherical_burst_coll__map" alt="Collaboration graph"/></div>
 <map name="_particle_effect_spherical_burst_coll__map" id="_particle_effect_spherical_burst_coll__map">
 <area shape="rect" id="node2" href="../../d9/de5/class_particle_effect.html" title="{ParticleEffect\n|# burstInterval\l# burstLife\l# burstCount\l# burstSpeed\l# burstScale\l# burstTightness\l# pModel\l# pShader\l# pTexture\l# grObj\l# currentPattern\l|+ ParticleEffect()\l+ ~ParticleEffect()\l+ SetGraphicObject()\l+ GetBurstInterval()\l+ GetBurstLife()\l+ GetBurstCount()\l+ GetBurstSpeed()\l+ GetScale()\l+ GetBurstTightness()\l+ GetGraphicsObject()\l+ SpawnParticleEmitter()\l+ GetBurstPattern()\l}" alt="" coords="68,1455,235,1840"/>
-<area shape="rect" id="node3" href="../../d7/d63/class_particle_emitter.html" title="{ParticleEmitter\n|&#45; Position\l&#45; Rotation\l&#45; WorldMat\l&#45; BurstInterval\l&#45; loopEffect\l|+ ParticleEmitter()\l+ ParticleEmitter()\l+ ParticleEmitter()\l+ operator=()\l+ ~ParticleEmitter()\l+ SceneEntry()\l+ SceneExit()\l+ Draw()\l+ Alarm0()\l+ NewBurst()\l}" alt="" coords="790,1903,926,2171"/>
+<area shape="rect" id="node3" href="../../d7/d63/class_particle_emitter.html" title="{ParticleEmitter\n|&#45; Position\l&#45; Rotation\l&#45; WorldMat\l&#45; BurstInterval\l&#45; loopEffect\l|+ ParticleEmitter()\l+ ParticleEmitter()\l+ operator=()\l+ ~ParticleEmitter()\l+ SceneEntry()\l+ SceneExit()\l+ Draw()\l+ Alarm0()\l+ NewBurst()\l&#45; ParticleEmitter()\l}" alt="" coords="790,1903,926,2171"/>
 <area shape="rect" id="node4" href="../../d2/de4/class_drawable.html" title="{Drawable\n|&#45; currState\l|+ Drawable()\l+ ~Drawable()\l+ Drawable()\l+ operator=()\l+ SubmitDrawRegistration()\l+ SubmitDrawDeregistration()\l&#45; SetIterator()\l&#45; GetIterator()\l&#45; Draw()\l&#45; Draw2D()\l&#45; SceneRegistration()\l&#45; SceneDeregistration()\l}" alt="" coords="337,713,529,951"/>
 <area shape="rect" id="node10" href="../../da/dbf/class_draw_registration_command.html" title="{DrawRegistrationCommand\n||+ DrawRegistrationCommand()\l+ ~DrawRegistrationCommand()\l+ DrawRegistrationCommand()\l+ operator=()\l+ Execute()\l}" alt="" coords="144,1161,351,1297"/>
 <area shape="rect" id="node11" href="../../d2/dd0/class_draw_deregistration_command.html" title="{DrawDeregistrationCommand\n||+ DrawDeregistrationCommand()\l+ ~DrawDeregistrationCommand()\l+ DrawDeregistrationCommand()\l+ operator=()\l+ Execute()\l}" alt="" coords="602,1161,821,1297"/>
@@ -95,10 +95,10 @@ Collaboration diagram for ParticleEffectSphericalBurst:</div>
 <area shape="rect" id="node7" href="../../db/db6/class_command_base.html" title="{CommandBase\n||+ CommandBase()\l+ ~CommandBase()\l+ CommandBase()\l+ operator=()\l+ Execute()\l}" alt="" coords="710,5,849,141"/>
 <area shape="rect" id="node14" href="../../dc/df2/class_alarm_registration_command.html" title="{AlarmRegistrationCommand\n|&#45; currentID\l|+ AlarmRegistrationCommand()\l+ ~AlarmRegistrationCommand()\l+ AlarmRegistrationCommand()\l+ operator=()\l+ Execute()\l}" alt="" coords="1415,1161,1627,1297"/>
 <area shape="rect" id="node16" href="../../d9/dcd/class_alarm_deregistration_command.html" title="{AlarmDeregistrationCommand\n|&#45; currentID\l|+ AlarmDeregistrationCommand()\l+ ~AlarmDeregistrationCommand()\l+ AlarmDeregistrationCommand()\l+ operator=()\l+ Execute()\l}" alt="" coords="1168,1161,1391,1297"/>
-<area shape="rect" id="node19" href="../../dd/ded/class_burst.html" title="{Burst\n|# currentColor\l# currentScale\l# myParticleCount\l# mySpeed\l# timeLeft\l# myScale\l# myTightness\l# isDone\l# grObj\l|+ Burst()\l+ Burst()\l+ Burst()\l+ operator=()\l+ ~Burst()\l+ ComputeNewBurst()\l+ DrawParticles()\l+ UpdateParticles()\l+ GetStatus()\l# Alarm0()\l}" alt="" coords="1736,1065,1887,1392"/>
+<area shape="rect" id="node19" href="../../dd/ded/class_burst.html" title="{Burst\n|# currentColor\l# currentScale\l# myParticleCount\l# mySpeed\l# timeLeft\l# myScale\l# myTightness\l# isDone\l# grObj\l|# Alarm0()\l# Burst()\l# Burst()\l# Burst()\l# operator=()\l# ~Burst()\l# ComputeNewBurst()\l# DrawParticles()\l# UpdateParticles()\l# GetStatus()\l}" alt="" coords="1737,1065,1886,1392"/>
 <area shape="rect" id="node13" href="../../dc/df7/struct_alarmable_1_1_registration_data.html" title="{Alarmable::RegistrationData\n|+ currState\l+ myID\l+ time\l+ remainingTime\l|}" alt="" coords="1053,1587,1237,1708"/>
-<area shape="rect" id="node20" href="../../df/d45/struct_burst_1_1_particle.html" title="{Burst::Particle\n|+ pos\l+ direction\l+ speed\l|}" alt="" coords="1920,779,2025,885"/>
-<area shape="rect" id="node21" href="../../dd/d2a/class_burst_type.html" title="{BurstType\n||+ BurstType()\l+ ~BurstType()\l+ operator=()\l+ BurstType()\l+ CalculatePosition()\l}" alt="" coords="1753,764,1896,900"/>
+<area shape="rect" id="node20" href="../../df/d45/struct_burst_1_1_particle.html" title="Particle represented as a struct. " alt="" coords="1920,779,2025,885"/>
+<area shape="rect" id="node21" href="../../dd/d2a/class_burst_type.html" title="{BurstType\n||# BurstType()\l# ~BurstType()\l# operator=()\l# BurstType()\l# CalculatePosition()\l}" alt="" coords="1753,764,1896,900"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -106,39 +106,52 @@ Collaboration diagram for ParticleEffectSphericalBurst:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af0cc8bae582d76d63db457772e3820d1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dff/class_particle_effect_spherical_burst.html#af0cc8bae582d76d63db457772e3820d1">ParticleEffectSphericalBurst</a> ()</td></tr>
 <tr class="separator:af0cc8bae582d76d63db457772e3820d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10d203025599256e0521d430fad7d79a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dff/class_particle_effect_spherical_burst.html#a10d203025599256e0521d430fad7d79a">SetBurstIntervalAndLife</a> (float interval=0.1f, float life=3.0f)</td></tr>
-<tr class="separator:a10d203025599256e0521d430fad7d79a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f5c34f30028cf564dad504f9c85d295"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dff/class_particle_effect_spherical_burst.html#a0f5c34f30028cf564dad504f9c85d295">SetBurstCount</a> (int count=100.0f)</td></tr>
-<tr class="separator:a0f5c34f30028cf564dad504f9c85d295"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2d0d8c7c393ccfe5322a6ca1d83e6d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dff/class_particle_effect_spherical_burst.html#ae2d0d8c7c393ccfe5322a6ca1d83e6d4">SetSpeed</a> (float s=1.0f)</td></tr>
-<tr class="separator:ae2d0d8c7c393ccfe5322a6ca1d83e6d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abed0f44c22d98923498048085772dc20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dff/class_particle_effect_spherical_burst.html#abed0f44c22d98923498048085772dc20">SetScale</a> (float s=6.0f)</td></tr>
-<tr class="separator:abed0f44c22d98923498048085772dc20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a577d3d82019e42fcbce0c52c23fb50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dff/class_particle_effect_spherical_burst.html#a5a577d3d82019e42fcbce0c52c23fb50">SetTightness</a> (float t=0.89f)</td></tr>
-<tr class="separator:a5a577d3d82019e42fcbce0c52c23fb50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga10d203025599256e0521d430fad7d79a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddd/group___particles.html#ga10d203025599256e0521d430fad7d79a">SetBurstIntervalAndLife</a> (float interval=0.1f, float life=3.0f)</td></tr>
+<tr class="memdesc:ga10d203025599256e0521d430fad7d79a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the burst interval and life of the effect.  <a href="../../d3/ddd/group___particles.html#ga10d203025599256e0521d430fad7d79a">More...</a><br /></td></tr>
+<tr class="separator:ga10d203025599256e0521d430fad7d79a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0f5c34f30028cf564dad504f9c85d295"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddd/group___particles.html#ga0f5c34f30028cf564dad504f9c85d295">SetBurstCount</a> (int count=100.0f)</td></tr>
+<tr class="memdesc:ga0f5c34f30028cf564dad504f9c85d295"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the burst count of the effect.  <a href="../../d3/ddd/group___particles.html#ga0f5c34f30028cf564dad504f9c85d295">More...</a><br /></td></tr>
+<tr class="separator:ga0f5c34f30028cf564dad504f9c85d295"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae2d0d8c7c393ccfe5322a6ca1d83e6d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddd/group___particles.html#gae2d0d8c7c393ccfe5322a6ca1d83e6d4">SetSpeed</a> (float s=1.0f)</td></tr>
+<tr class="memdesc:gae2d0d8c7c393ccfe5322a6ca1d83e6d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the burst speed of the effect.  <a href="../../d3/ddd/group___particles.html#gae2d0d8c7c393ccfe5322a6ca1d83e6d4">More...</a><br /></td></tr>
+<tr class="separator:gae2d0d8c7c393ccfe5322a6ca1d83e6d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabed0f44c22d98923498048085772dc20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddd/group___particles.html#gabed0f44c22d98923498048085772dc20">SetScale</a> (float s=6.0f)</td></tr>
+<tr class="memdesc:gabed0f44c22d98923498048085772dc20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the burst scale of the effect.  <a href="../../d3/ddd/group___particles.html#gabed0f44c22d98923498048085772dc20">More...</a><br /></td></tr>
+<tr class="separator:gabed0f44c22d98923498048085772dc20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5a577d3d82019e42fcbce0c52c23fb50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddd/group___particles.html#ga5a577d3d82019e42fcbce0c52c23fb50">SetTightness</a> (float t=0.89f)</td></tr>
+<tr class="memdesc:ga5a577d3d82019e42fcbce0c52c23fb50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the burst tightness of the effect.  <a href="../../d3/ddd/group___particles.html#ga5a577d3d82019e42fcbce0c52c23fb50">More...</a><br /></td></tr>
+<tr class="separator:ga5a577d3d82019e42fcbce0c52c23fb50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_particle_effect"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_particle_effect')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d9/de5/class_particle_effect.html">ParticleEffect</a></td></tr>
 <tr class="memitem:adcfcd6ebe940cf54cb91af3543ed815d inherit pub_methods_class_particle_effect"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de5/class_particle_effect.html#adcfcd6ebe940cf54cb91af3543ed815d">ParticleEffect</a> ()</td></tr>
 <tr class="separator:adcfcd6ebe940cf54cb91af3543ed815d inherit pub_methods_class_particle_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab65f29a87c70cd92e8108867349714d3 inherit pub_methods_class_particle_effect"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de5/class_particle_effect.html#ab65f29a87c70cd92e8108867349714d3">~ParticleEffect</a> ()</td></tr>
 <tr class="separator:ab65f29a87c70cd92e8108867349714d3 inherit pub_methods_class_particle_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06ed5597982f512e024622549c4f193d inherit pub_methods_class_particle_effect"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de5/class_particle_effect.html#a06ed5597982f512e024622549c4f193d">SetGraphicObject</a> (std::string modelKey, std::string texKey)</td></tr>
-<tr class="separator:a06ed5597982f512e024622549c4f193d inherit pub_methods_class_particle_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab339914cf43208d5e4824f41f42332d8 inherit pub_methods_class_particle_effect"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de5/class_particle_effect.html#ab339914cf43208d5e4824f41f42332d8">GetBurstInterval</a> ()</td></tr>
-<tr class="separator:ab339914cf43208d5e4824f41f42332d8 inherit pub_methods_class_particle_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a142e880b4ecbb3b8e53a6e7adb942a0b inherit pub_methods_class_particle_effect"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de5/class_particle_effect.html#a142e880b4ecbb3b8e53a6e7adb942a0b">GetBurstLife</a> ()</td></tr>
-<tr class="separator:a142e880b4ecbb3b8e53a6e7adb942a0b inherit pub_methods_class_particle_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba22e7f23bfcb563658c8a40f2536464 inherit pub_methods_class_particle_effect"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de5/class_particle_effect.html#aba22e7f23bfcb563658c8a40f2536464">GetBurstCount</a> ()</td></tr>
-<tr class="separator:aba22e7f23bfcb563658c8a40f2536464 inherit pub_methods_class_particle_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ceadbc932f897fdedea587baa54efe9 inherit pub_methods_class_particle_effect"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de5/class_particle_effect.html#a2ceadbc932f897fdedea587baa54efe9">GetBurstSpeed</a> ()</td></tr>
-<tr class="separator:a2ceadbc932f897fdedea587baa54efe9 inherit pub_methods_class_particle_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77a2cbb7815466839619d551f3501e02 inherit pub_methods_class_particle_effect"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de5/class_particle_effect.html#a77a2cbb7815466839619d551f3501e02">GetScale</a> ()</td></tr>
-<tr class="separator:a77a2cbb7815466839619d551f3501e02 inherit pub_methods_class_particle_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21c7c67dc81369f78c85df129eb8bc2a inherit pub_methods_class_particle_effect"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de5/class_particle_effect.html#a21c7c67dc81369f78c85df129eb8bc2a">GetBurstTightness</a> ()</td></tr>
-<tr class="separator:a21c7c67dc81369f78c85df129eb8bc2a inherit pub_methods_class_particle_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga06ed5597982f512e024622549c4f193d inherit pub_methods_class_particle_effect"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddd/group___particles.html#ga06ed5597982f512e024622549c4f193d">SetGraphicObject</a> (std::string modelKey, std::string texKey)</td></tr>
+<tr class="memdesc:ga06ed5597982f512e024622549c4f193d inherit pub_methods_class_particle_effect"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the graphics object of the particle by taking string keys for the model and the texture.  <a href="../../d3/ddd/group___particles.html#ga06ed5597982f512e024622549c4f193d">More...</a><br /></td></tr>
+<tr class="separator:ga06ed5597982f512e024622549c4f193d inherit pub_methods_class_particle_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab339914cf43208d5e4824f41f42332d8 inherit pub_methods_class_particle_effect"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddd/group___particles.html#gab339914cf43208d5e4824f41f42332d8">GetBurstInterval</a> ()</td></tr>
+<tr class="memdesc:gab339914cf43208d5e4824f41f42332d8 inherit pub_methods_class_particle_effect"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the burst interval of the effect.  <a href="../../d3/ddd/group___particles.html#gab339914cf43208d5e4824f41f42332d8">More...</a><br /></td></tr>
+<tr class="separator:gab339914cf43208d5e4824f41f42332d8 inherit pub_methods_class_particle_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga142e880b4ecbb3b8e53a6e7adb942a0b inherit pub_methods_class_particle_effect"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddd/group___particles.html#ga142e880b4ecbb3b8e53a6e7adb942a0b">GetBurstLife</a> ()</td></tr>
+<tr class="memdesc:ga142e880b4ecbb3b8e53a6e7adb942a0b inherit pub_methods_class_particle_effect"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the burst life of the effect.  <a href="../../d3/ddd/group___particles.html#ga142e880b4ecbb3b8e53a6e7adb942a0b">More...</a><br /></td></tr>
+<tr class="separator:ga142e880b4ecbb3b8e53a6e7adb942a0b inherit pub_methods_class_particle_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaba22e7f23bfcb563658c8a40f2536464 inherit pub_methods_class_particle_effect"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddd/group___particles.html#gaba22e7f23bfcb563658c8a40f2536464">GetBurstCount</a> ()</td></tr>
+<tr class="memdesc:gaba22e7f23bfcb563658c8a40f2536464 inherit pub_methods_class_particle_effect"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the burst count of the effect.  <a href="../../d3/ddd/group___particles.html#gaba22e7f23bfcb563658c8a40f2536464">More...</a><br /></td></tr>
+<tr class="separator:gaba22e7f23bfcb563658c8a40f2536464 inherit pub_methods_class_particle_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2ceadbc932f897fdedea587baa54efe9 inherit pub_methods_class_particle_effect"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddd/group___particles.html#ga2ceadbc932f897fdedea587baa54efe9">GetBurstSpeed</a> ()</td></tr>
+<tr class="memdesc:ga2ceadbc932f897fdedea587baa54efe9 inherit pub_methods_class_particle_effect"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the burst speed of the effect.  <a href="../../d3/ddd/group___particles.html#ga2ceadbc932f897fdedea587baa54efe9">More...</a><br /></td></tr>
+<tr class="separator:ga2ceadbc932f897fdedea587baa54efe9 inherit pub_methods_class_particle_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga77a2cbb7815466839619d551f3501e02 inherit pub_methods_class_particle_effect"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddd/group___particles.html#ga77a2cbb7815466839619d551f3501e02">GetScale</a> ()</td></tr>
+<tr class="memdesc:ga77a2cbb7815466839619d551f3501e02 inherit pub_methods_class_particle_effect"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the burst scale of the effect.  <a href="../../d3/ddd/group___particles.html#ga77a2cbb7815466839619d551f3501e02">More...</a><br /></td></tr>
+<tr class="separator:ga77a2cbb7815466839619d551f3501e02 inherit pub_methods_class_particle_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga21c7c67dc81369f78c85df129eb8bc2a inherit pub_methods_class_particle_effect"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddd/group___particles.html#ga21c7c67dc81369f78c85df129eb8bc2a">GetBurstTightness</a> ()</td></tr>
+<tr class="memdesc:ga21c7c67dc81369f78c85df129eb8bc2a inherit pub_methods_class_particle_effect"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the burst tightness of the effect.  <a href="../../d3/ddd/group___particles.html#ga21c7c67dc81369f78c85df129eb8bc2a">More...</a><br /></td></tr>
+<tr class="separator:ga21c7c67dc81369f78c85df129eb8bc2a inherit pub_methods_class_particle_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a8dc2cfd593b8f3987c4266c66224c2 inherit pub_methods_class_particle_effect"><td class="memItemLeft" align="right" valign="top">GraphicsObject_TextureFlat *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de5/class_particle_effect.html#a9a8dc2cfd593b8f3987c4266c66224c2">GetGraphicsObject</a> ()</td></tr>
 <tr class="separator:a9a8dc2cfd593b8f3987c4266c66224c2 inherit pub_methods_class_particle_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3267b7e79e31b9f26428f33bf8c946ab inherit pub_methods_class_particle_effect"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de5/class_particle_effect.html#a3267b7e79e31b9f26428f33bf8c946ab">SpawnParticleEmitter</a> (Vect &amp;pos, Matrix &amp;rot, bool loop)</td></tr>
-<tr class="separator:a3267b7e79e31b9f26428f33bf8c946ab inherit pub_methods_class_particle_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3267b7e79e31b9f26428f33bf8c946ab inherit pub_methods_class_particle_effect"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddd/group___particles.html#ga3267b7e79e31b9f26428f33bf8c946ab">SpawnParticleEmitter</a> (Vect &amp;pos, Matrix &amp;rot, bool loop)</td></tr>
+<tr class="memdesc:ga3267b7e79e31b9f26428f33bf8c946ab inherit pub_methods_class_particle_effect"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spawns a particle emitter for the given effect.  <a href="../../d3/ddd/group___particles.html#ga3267b7e79e31b9f26428f33bf8c946ab">More...</a><br /></td></tr>
+<tr class="separator:ga3267b7e79e31b9f26428f33bf8c946ab inherit pub_methods_class_particle_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62536cdf3d8d04f0ad29fd2cd39e032e inherit pub_methods_class_particle_effect"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d1f/_burst_pattern_8h.html#ab95dea1ebb93b855b2e73184a28e050b">BurstPattern</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de5/class_particle_effect.html#a62536cdf3d8d04f0ad29fd2cd39e032e">GetBurstPattern</a> ()</td></tr>
 <tr class="separator:a62536cdf3d8d04f0ad29fd2cd39e032e inherit pub_methods_class_particle_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -181,107 +194,6 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">ParticleEffectSphericalBurst::ParticleEffectSphericalBurst </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0f5c34f30028cf564dad504f9c85d295"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f5c34f30028cf564dad504f9c85d295">&#9670;&nbsp;</a></span>SetBurstCount()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ParticleEffectSphericalBurst::SetBurstCount </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>count</em> = <code>100.0f</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a10d203025599256e0521d430fad7d79a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10d203025599256e0521d430fad7d79a">&#9670;&nbsp;</a></span>SetBurstIntervalAndLife()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ParticleEffectSphericalBurst::SetBurstIntervalAndLife </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>interval</em> = <code>0.1f</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>life</em> = <code>3.0f</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abed0f44c22d98923498048085772dc20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abed0f44c22d98923498048085772dc20">&#9670;&nbsp;</a></span>SetScale()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ParticleEffectSphericalBurst::SetScale </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>s</em> = <code>6.0f</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae2d0d8c7c393ccfe5322a6ca1d83e6d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2d0d8c7c393ccfe5322a6ca1d83e6d4">&#9670;&nbsp;</a></span>SetSpeed()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ParticleEffectSphericalBurst::SetSpeed </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>s</em> = <code>1.0f</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5a577d3d82019e42fcbce0c52c23fb50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a577d3d82019e42fcbce0c52c23fb50">&#9670;&nbsp;</a></span>SetTightness()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ParticleEffectSphericalBurst::SetTightness </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>t</em> = <code>0.89f</code></td><td>)</td>
           <td></td>
         </tr>
       </table>

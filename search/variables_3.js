@@ -20,8 +20,10 @@ var searchData=
   ['deeppink',['DeepPink',['../db/dad/namespace_colors.html#a9e67cedb96b6f06e7ee4627c42d53656',1,'Colors']]],
   ['deepskyblue',['DeepSkyBlue',['../db/dad/namespace_colors.html#a897cce8b8987219c6d1cbc3fda937d56',1,'Colors']]],
   ['default_5fcolor',['DEFAULT_COLOR',['../d3/d4f/class_visualizer.html#a9fe571d7d003bad427bb15648685b679',1,'Visualizer']]],
+  ['defaultbsphere',['defaultBSphere',['../d8/deb/class_collidable.html#a82d17d4365622ef1ea0b06cfecb21806',1,'Collidable']]],
   ['deregcmd',['deregCmd',['../d6/d0f/class_inputable.html#a6b80bec8d24bcd298f33372d847169c8',1,'Inputable']]],
   ['dimgray',['DimGray',['../db/dad/namespace_colors.html#a93acdb6cf5848f03e84f0c62bfb982bc',1,'Colors']]],
+  ['direction',['direction',['../df/d45/struct_burst_1_1_particle.html#a1cf5a838b9df0033483c1221f8eab757',1,'Burst::Particle']]],
   ['dodgerblue',['DodgerBlue',['../db/dad/namespace_colors.html#a043c11d846859db17a85707e7ede9d99',1,'Colors']]],
   ['drawmgr',['DrawMgr',['../d6/db5/class_scene.html#a020282ecebbba44eefb6e7e419c9266e',1,'Scene']]],
   ['dregcmd',['dregCmd',['../dc/df7/struct_alarmable_1_1_registration_data.html#a093997d4e65791586fdc31b132c292c8',1,'Alarmable::RegistrationData::dregCmd()'],['../d2/de4/class_drawable.html#a692044c67173185d4d12038b0818334b',1,'Drawable::dregCmd()'],['../d7/d69/class_updatable.html#a2d0409bd3b0d6d7bbcd309432cfde4a2',1,'Updatable::dregCmd()']]]

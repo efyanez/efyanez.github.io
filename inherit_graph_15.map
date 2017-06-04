@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$d6/d4b/class_mithril_engine.html" title="MithrilEngine" alt="" coords="116,5,213,32"/>
+<area shape="rect" id="node1" href="$d9/de5/class_particle_effect.html" title="ParticleEffect" alt="" coords="5,56,104,83"/>
+<area shape="rect" id="node2" href="$d9/d29/class_particle_effect_pulse.html" title="ParticleEffectPulse" alt="" coords="178,5,310,32"/>
+<area shape="rect" id="node3" href="$d9/dff/class_particle_effect_spherical_burst.html" title="ParticleEffectSphericalBurst" alt="" coords="152,56,336,83"/>
+<area shape="rect" id="node4" href="$d8/d9f/class_particle_effect_stream.html" title="ParticleEffectStream" alt="" coords="173,107,315,133"/>
 </map>

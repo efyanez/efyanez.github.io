@@ -63,7 +63,9 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="../../d5/daf/class_particle_emitter-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ParticleEmitter Class Reference</div>  </div>
@@ -97,10 +99,10 @@ Collaboration diagram for ParticleEmitter:</div>
 <area shape="rect" id="node5" href="../../db/db6/class_command_base.html" title="{CommandBase\n||+ CommandBase()\l+ ~CommandBase()\l+ CommandBase()\l+ operator=()\l+ Execute()\l}" alt="" coords="571,5,710,141"/>
 <area shape="rect" id="node12" href="../../dc/df2/class_alarm_registration_command.html" title="{AlarmRegistrationCommand\n|&#45; currentID\l|+ AlarmRegistrationCommand()\l+ ~AlarmRegistrationCommand()\l+ AlarmRegistrationCommand()\l+ operator=()\l+ Execute()\l}" alt="" coords="1276,1161,1488,1297"/>
 <area shape="rect" id="node14" href="../../d9/dcd/class_alarm_deregistration_command.html" title="{AlarmDeregistrationCommand\n|&#45; currentID\l|+ AlarmDeregistrationCommand()\l+ ~AlarmDeregistrationCommand()\l+ AlarmDeregistrationCommand()\l+ operator=()\l+ Execute()\l}" alt="" coords="1029,1161,1252,1297"/>
-<area shape="rect" id="node17" href="../../dd/ded/class_burst.html" title="{Burst\n|# currentColor\l# currentScale\l# myParticleCount\l# mySpeed\l# timeLeft\l# myScale\l# myTightness\l# isDone\l# grObj\l|+ Burst()\l+ Burst()\l+ Burst()\l+ operator=()\l+ ~Burst()\l+ ComputeNewBurst()\l+ DrawParticles()\l+ UpdateParticles()\l+ GetStatus()\l# Alarm0()\l}" alt="" coords="1597,1065,1748,1392"/>
+<area shape="rect" id="node17" href="../../dd/ded/class_burst.html" title="{Burst\n|# currentColor\l# currentScale\l# myParticleCount\l# mySpeed\l# timeLeft\l# myScale\l# myTightness\l# isDone\l# grObj\l|# Alarm0()\l# Burst()\l# Burst()\l# Burst()\l# operator=()\l# ~Burst()\l# ComputeNewBurst()\l# DrawParticles()\l# UpdateParticles()\l# GetStatus()\l}" alt="" coords="1598,1065,1747,1392"/>
 <area shape="rect" id="node11" href="../../dc/df7/struct_alarmable_1_1_registration_data.html" title="{Alarmable::RegistrationData\n|+ currState\l+ myID\l+ time\l+ remainingTime\l|}" alt="" coords="951,1455,1135,1576"/>
-<area shape="rect" id="node18" href="../../df/d45/struct_burst_1_1_particle.html" title="{Burst::Particle\n|+ pos\l+ direction\l+ speed\l|}" alt="" coords="1781,779,1887,885"/>
-<area shape="rect" id="node19" href="../../dd/d2a/class_burst_type.html" title="{BurstType\n||+ BurstType()\l+ ~BurstType()\l+ operator=()\l+ BurstType()\l+ CalculatePosition()\l}" alt="" coords="1615,764,1757,900"/>
+<area shape="rect" id="node18" href="../../df/d45/struct_burst_1_1_particle.html" title="Particle represented as a struct. " alt="" coords="1781,779,1887,885"/>
+<area shape="rect" id="node19" href="../../dd/d2a/class_burst_type.html" title="{BurstType\n||# BurstType()\l# ~BurstType()\l# operator=()\l# BurstType()\l# CalculatePosition()\l}" alt="" coords="1615,764,1757,900"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -108,8 +110,6 @@ Collaboration diagram for ParticleEmitter:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a31313702250800a4e074286b8e5d5116"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d63/class_particle_emitter.html#a31313702250800a4e074286b8e5d5116">ParticleEmitter</a> ()</td></tr>
 <tr class="separator:a31313702250800a4e074286b8e5d5116"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c95189698dbcb4c688cd1f1cd63642e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d63/class_particle_emitter.html#a9c95189698dbcb4c688cd1f1cd63642e">ParticleEmitter</a> (<a class="el" href="../../d9/de5/class_particle_effect.html">ParticleEffect</a> *pe, const Vect &amp;pos, const Matrix &amp;rot, bool loop=true)</td></tr>
-<tr class="separator:a9c95189698dbcb4c688cd1f1cd63642e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad06831a245c9f450359a3ebb1187e3f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d63/class_particle_emitter.html#ad06831a245c9f450359a3ebb1187e3f8">ParticleEmitter</a> (const <a class="el" href="../../d7/d63/class_particle_emitter.html">ParticleEmitter</a> &amp;other)=delete</td></tr>
 <tr class="separator:ad06831a245c9f450359a3ebb1187e3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58739484b3dca2f1f55bc2b6546756c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d63/class_particle_emitter.html">ParticleEmitter</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d63/class_particle_emitter.html#a58739484b3dca2f1f55bc2b6546756c7">operator=</a> (const <a class="el" href="../../d7/d63/class_particle_emitter.html">ParticleEmitter</a> &amp;other)=delete</td></tr>
@@ -182,6 +182,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a67aa7590dfd979988cd87a6b215c9178 inherit pub_methods_class_alarmable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/class_alarmable.html#a67aa7590dfd979988cd87a6b215c9178">SetTime</a> (<a class="el" href="../../de/d22/class_alarm_enum.html#a41feb0750064422799dd4bafacd0a3dc">AlarmEnum::AlarmID</a> alID, float newTime)</td></tr>
 <tr class="separator:a67aa7590dfd979988cd87a6b215c9178 inherit pub_methods_class_alarmable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ga9c95189698dbcb4c688cd1f1cd63642e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddd/group___particles.html#ga9c95189698dbcb4c688cd1f1cd63642e">ParticleEmitter</a> (<a class="el" href="../../d9/de5/class_particle_effect.html">ParticleEffect</a> *pe, const Vect &amp;pos, const Matrix &amp;rot, bool loop=true)</td></tr>
+<tr class="memdesc:ga9c95189698dbcb4c688cd1f1cd63642e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialized constructor for Particle Emitter, must not be called externally outside of Particle Effect.  <a href="../../d3/ddd/group___particles.html#ga9c95189698dbcb4c688cd1f1cd63642e">More...</a><br /></td></tr>
+<tr class="separator:ga9c95189698dbcb4c688cd1f1cd63642e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a269029e851f78ccb36de086284f92648"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/de5/class_particle_effect.html">ParticleEffect</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d63/class_particle_emitter.html#a269029e851f78ccb36de086284f92648">pParticleEffect</a></td></tr>
@@ -201,6 +207,11 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aa32644bfe785c2d62f14a081b59fb48d"><td class="memItemLeft" align="right" valign="top">std::deque&lt; <a class="el" href="../../dd/ded/class_burst.html">Burst</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d63/class_particle_emitter.html#aa32644bfe785c2d62f14a081b59fb48d">burstCollection</a></td></tr>
 <tr class="separator:aa32644bfe785c2d62f14a081b59fb48d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:af203df39e1cca172649874718059024b"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d63/class_particle_emitter.html#af203df39e1cca172649874718059024b">ParticleEffect</a></td></tr>
+<tr class="separator:af203df39e1cca172649874718059024b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_attribs_class_drawable"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_drawable')"><img src="../../closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="../../d2/de4/class_drawable.html">Drawable</a></td></tr>
@@ -209,7 +220,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a31313702250800a4e074286b8e5d5116"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31313702250800a4e074286b8e5d5116">&#9670;&nbsp;</a></span>ParticleEmitter() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a31313702250800a4e074286b8e5d5116">&#9670;&nbsp;</a></span>ParticleEmitter() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -225,56 +236,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a9c95189698dbcb4c688cd1f1cd63642e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c95189698dbcb4c688cd1f1cd63642e">&#9670;&nbsp;</a></span>ParticleEmitter() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ParticleEmitter::ParticleEmitter </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/de5/class_particle_effect.html">ParticleEffect</a> *&#160;</td>
-          <td class="paramname"><em>pe</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Vect &amp;&#160;</td>
-          <td class="paramname"><em>pos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Matrix &amp;&#160;</td>
-          <td class="paramname"><em>rot</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>loop</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d7/d63/class_particle_emitter_a9c95189698dbcb4c688cd1f1cd63642e_cgraph.png" border="0" usemap="#d7/d63/class_particle_emitter_a9c95189698dbcb4c688cd1f1cd63642e_cgraph" alt=""/></div>
-<map name="d7/d63/class_particle_emitter_a9c95189698dbcb4c688cd1f1cd63642e_cgraph" id="d7/d63/class_particle_emitter_a9c95189698dbcb4c688cd1f1cd63642e_cgraph">
-<area shape="rect" id="node2" href="../../d9/de5/class_particle_effect.html#ab339914cf43208d5e4824f41f42332d8" title="ParticleEffect::GetBurst\lInterval" alt="" coords="213,5,372,47"/>
-</map>
-</div>
-
-</div>
-</div>
 <a id="ad06831a245c9f450359a3ebb1187e3f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad06831a245c9f450359a3ebb1187e3f8">&#9670;&nbsp;</a></span>ParticleEmitter() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad06831a245c9f450359a3ebb1187e3f8">&#9670;&nbsp;</a></span>ParticleEmitter() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -351,13 +314,13 @@ Here is the call graph for this function:</div>
 <map name="d7/d63/class_particle_emitter_a700fc45f5c9db613808f54dc330c50e4_cgraph" id="d7/d63/class_particle_emitter_a700fc45f5c9db613808f54dc330c50e4_cgraph">
 <area shape="rect" id="node2" href="../../d7/d63/class_particle_emitter.html#a4e80b12742a6b6fe7c694c56b7a968bc" title="ParticleEmitter::NewBurst" alt="" coords="211,260,383,287"/>
 <area shape="rect" id="node5" href="../../d5/dcb/group___alarms.html#ga2cc6edba905d2d3e101284cb782c7be6" title="Submit the object for Alarm registration. " alt="" coords="659,271,891,297"/>
-<area shape="rect" id="node3" href="../../dd/ded/class_burst.html#aa04efa86275cbb5cfa2785afcc68eb07" title="Burst::ComputeNewBurst" alt="" coords="436,5,605,32"/>
+<area shape="rect" id="node3" href="../../dd/ded/class_burst.html#aa04efa86275cbb5cfa2785afcc68eb07" title="Recomputes new burst with position reset. " alt="" coords="436,5,605,32"/>
 <area shape="rect" id="node12" href="../../d9/de5/class_particle_effect.html#a62536cdf3d8d04f0ad29fd2cd39e032e" title="ParticleEffect::GetBurst\lPattern" alt="" coords="441,57,600,98"/>
-<area shape="rect" id="node13" href="../../d9/de5/class_particle_effect.html#aba22e7f23bfcb563658c8a40f2536464" title="ParticleEffect::GetBurst\lCount" alt="" coords="441,122,600,163"/>
-<area shape="rect" id="node14" href="../../d9/de5/class_particle_effect.html#a2ceadbc932f897fdedea587baa54efe9" title="ParticleEffect::GetBurst\lSpeed" alt="" coords="441,187,600,229"/>
-<area shape="rect" id="node15" href="../../d9/de5/class_particle_effect.html#a21c7c67dc81369f78c85df129eb8bc2a" title="ParticleEffect::GetBurst\lTightness" alt="" coords="441,253,600,294"/>
-<area shape="rect" id="node16" href="../../d9/de5/class_particle_effect.html#a77a2cbb7815466839619d551f3501e02" title="ParticleEffect::GetScale" alt="" coords="440,319,601,345"/>
-<area shape="rect" id="node17" href="../../d9/de5/class_particle_effect.html#a142e880b4ecbb3b8e53a6e7adb942a0b" title="ParticleEffect::GetBurstLife" alt="" coords="431,369,610,396"/>
+<area shape="rect" id="node13" href="../../d3/ddd/group___particles.html#gaba22e7f23bfcb563658c8a40f2536464" title="Gets the burst count of the effect. " alt="" coords="441,122,600,163"/>
+<area shape="rect" id="node14" href="../../d3/ddd/group___particles.html#ga2ceadbc932f897fdedea587baa54efe9" title="Gets the burst speed of the effect. " alt="" coords="441,187,600,229"/>
+<area shape="rect" id="node15" href="../../d3/ddd/group___particles.html#ga21c7c67dc81369f78c85df129eb8bc2a" title="Gets the burst tightness of the effect. " alt="" coords="441,253,600,294"/>
+<area shape="rect" id="node16" href="../../d3/ddd/group___particles.html#ga77a2cbb7815466839619d551f3501e02" title="Gets the burst scale of the effect. " alt="" coords="440,319,601,345"/>
+<area shape="rect" id="node17" href="../../d3/ddd/group___particles.html#ga142e880b4ecbb3b8e53a6e7adb942a0b" title="Gets the burst life of the effect. " alt="" coords="431,369,610,396"/>
 <area shape="rect" id="node18" href="../../d9/de5/class_particle_effect.html#a9a8dc2cfd593b8f3987c4266c66224c2" title="ParticleEffect::GetGraphics\lObject" alt="" coords="431,421,611,462"/>
 <area shape="rect" id="node4" href="../../d8/d8f/class_math_tools.html#ade7bfde2ed0b609f9a8f09601de27a6a" title="MathTools::GetRandomFloat" alt="" coords="681,5,869,32"/>
 <area shape="rect" id="node6" href="../../d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="939,233,1119,274"/>
@@ -420,13 +383,13 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d7/d63/class_particle_emitter_a4e80b12742a6b6fe7c694c56b7a968bc_cgraph.png" border="0" usemap="#d7/d63/class_particle_emitter_a4e80b12742a6b6fe7c694c56b7a968bc_cgraph" alt=""/></div>
 <map name="d7/d63/class_particle_emitter_a4e80b12742a6b6fe7c694c56b7a968bc_cgraph" id="d7/d63/class_particle_emitter_a4e80b12742a6b6fe7c694c56b7a968bc_cgraph">
-<area shape="rect" id="node2" href="../../dd/ded/class_burst.html#aa04efa86275cbb5cfa2785afcc68eb07" title="Burst::ComputeNewBurst" alt="" coords="231,69,400,96"/>
+<area shape="rect" id="node2" href="../../dd/ded/class_burst.html#aa04efa86275cbb5cfa2785afcc68eb07" title="Recomputes new burst with position reset. " alt="" coords="231,69,400,96"/>
 <area shape="rect" id="node11" href="../../d9/de5/class_particle_effect.html#a62536cdf3d8d04f0ad29fd2cd39e032e" title="ParticleEffect::GetBurst\lPattern" alt="" coords="236,121,395,162"/>
-<area shape="rect" id="node12" href="../../d9/de5/class_particle_effect.html#aba22e7f23bfcb563658c8a40f2536464" title="ParticleEffect::GetBurst\lCount" alt="" coords="236,186,395,227"/>
-<area shape="rect" id="node13" href="../../d9/de5/class_particle_effect.html#a2ceadbc932f897fdedea587baa54efe9" title="ParticleEffect::GetBurst\lSpeed" alt="" coords="236,251,395,293"/>
-<area shape="rect" id="node14" href="../../d9/de5/class_particle_effect.html#a21c7c67dc81369f78c85df129eb8bc2a" title="ParticleEffect::GetBurst\lTightness" alt="" coords="236,317,395,358"/>
-<area shape="rect" id="node15" href="../../d9/de5/class_particle_effect.html#a77a2cbb7815466839619d551f3501e02" title="ParticleEffect::GetScale" alt="" coords="235,383,396,409"/>
-<area shape="rect" id="node16" href="../../d9/de5/class_particle_effect.html#a142e880b4ecbb3b8e53a6e7adb942a0b" title="ParticleEffect::GetBurstLife" alt="" coords="226,433,405,460"/>
+<area shape="rect" id="node12" href="../../d3/ddd/group___particles.html#gaba22e7f23bfcb563658c8a40f2536464" title="Gets the burst count of the effect. " alt="" coords="236,186,395,227"/>
+<area shape="rect" id="node13" href="../../d3/ddd/group___particles.html#ga2ceadbc932f897fdedea587baa54efe9" title="Gets the burst speed of the effect. " alt="" coords="236,251,395,293"/>
+<area shape="rect" id="node14" href="../../d3/ddd/group___particles.html#ga21c7c67dc81369f78c85df129eb8bc2a" title="Gets the burst tightness of the effect. " alt="" coords="236,317,395,358"/>
+<area shape="rect" id="node15" href="../../d3/ddd/group___particles.html#ga77a2cbb7815466839619d551f3501e02" title="Gets the burst scale of the effect. " alt="" coords="235,383,396,409"/>
+<area shape="rect" id="node16" href="../../d3/ddd/group___particles.html#ga142e880b4ecbb3b8e53a6e7adb942a0b" title="Gets the burst life of the effect. " alt="" coords="226,433,405,460"/>
 <area shape="rect" id="node17" href="../../d9/de5/class_particle_effect.html#a9a8dc2cfd593b8f3987c4266c66224c2" title="ParticleEffect::GetGraphics\lObject" alt="" coords="225,485,405,526"/>
 <area shape="rect" id="node3" href="../../d8/d8f/class_math_tools.html#ade7bfde2ed0b609f9a8f09601de27a6a" title="MathTools::GetRandomFloat" alt="" coords="475,44,663,71"/>
 <area shape="rect" id="node4" href="../../d5/dcb/group___alarms.html#ga2cc6edba905d2d3e101284cb782c7be6" title="Submit the object for Alarm registration. " alt="" coords="453,95,685,121"/>
@@ -499,13 +462,13 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node2" href="../../d7/d63/class_particle_emitter.html#a4e80b12742a6b6fe7c694c56b7a968bc" title="ParticleEmitter::NewBurst" alt="" coords="237,366,409,393"/>
 <area shape="rect" id="node5" href="../../d5/dcb/group___alarms.html#ga2cc6edba905d2d3e101284cb782c7be6" title="Submit the object for Alarm registration. " alt="" coords="685,126,917,153"/>
 <area shape="rect" id="node19" href="../../d2/de4/class_drawable.html#a4f89e20fc4a5efe3ed173743498d93eb" title="Submit the object for Draw registration. " alt="" coords="690,75,913,102"/>
-<area shape="rect" id="node3" href="../../dd/ded/class_burst.html#aa04efa86275cbb5cfa2785afcc68eb07" title="Burst::ComputeNewBurst" alt="" coords="463,177,632,203"/>
+<area shape="rect" id="node3" href="../../dd/ded/class_burst.html#aa04efa86275cbb5cfa2785afcc68eb07" title="Recomputes new burst with position reset. " alt="" coords="463,177,632,203"/>
 <area shape="rect" id="node12" href="../../d9/de5/class_particle_effect.html#a62536cdf3d8d04f0ad29fd2cd39e032e" title="ParticleEffect::GetBurst\lPattern" alt="" coords="468,592,627,633"/>
-<area shape="rect" id="node13" href="../../d9/de5/class_particle_effect.html#aba22e7f23bfcb563658c8a40f2536464" title="ParticleEffect::GetBurst\lCount" alt="" coords="468,228,627,269"/>
-<area shape="rect" id="node14" href="../../d9/de5/class_particle_effect.html#a2ceadbc932f897fdedea587baa54efe9" title="ParticleEffect::GetBurst\lSpeed" alt="" coords="468,293,627,335"/>
-<area shape="rect" id="node15" href="../../d9/de5/class_particle_effect.html#a21c7c67dc81369f78c85df129eb8bc2a" title="ParticleEffect::GetBurst\lTightness" alt="" coords="468,359,627,400"/>
-<area shape="rect" id="node16" href="../../d9/de5/class_particle_effect.html#a77a2cbb7815466839619d551f3501e02" title="ParticleEffect::GetScale" alt="" coords="467,425,628,451"/>
-<area shape="rect" id="node17" href="../../d9/de5/class_particle_effect.html#a142e880b4ecbb3b8e53a6e7adb942a0b" title="ParticleEffect::GetBurstLife" alt="" coords="458,475,637,502"/>
+<area shape="rect" id="node13" href="../../d3/ddd/group___particles.html#gaba22e7f23bfcb563658c8a40f2536464" title="Gets the burst count of the effect. " alt="" coords="468,228,627,269"/>
+<area shape="rect" id="node14" href="../../d3/ddd/group___particles.html#ga2ceadbc932f897fdedea587baa54efe9" title="Gets the burst speed of the effect. " alt="" coords="468,293,627,335"/>
+<area shape="rect" id="node15" href="../../d3/ddd/group___particles.html#ga21c7c67dc81369f78c85df129eb8bc2a" title="Gets the burst tightness of the effect. " alt="" coords="468,359,627,400"/>
+<area shape="rect" id="node16" href="../../d3/ddd/group___particles.html#ga77a2cbb7815466839619d551f3501e02" title="Gets the burst scale of the effect. " alt="" coords="467,425,628,451"/>
+<area shape="rect" id="node17" href="../../d3/ddd/group___particles.html#ga142e880b4ecbb3b8e53a6e7adb942a0b" title="Gets the burst life of the effect. " alt="" coords="458,475,637,502"/>
 <area shape="rect" id="node18" href="../../d9/de5/class_particle_effect.html#a9a8dc2cfd593b8f3987c4266c66224c2" title="ParticleEffect::GetGraphics\lObject" alt="" coords="457,527,637,568"/>
 <area shape="rect" id="node4" href="../../d8/d8f/class_math_tools.html#ade7bfde2ed0b609f9a8f09601de27a6a" title="MathTools::GetRandomFloat" alt="" coords="707,177,895,203"/>
 <area shape="rect" id="node6" href="../../d0/dc3/class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe" title="Public static function. Returns the current scene. " alt="" coords="965,64,1145,105"/>
@@ -558,6 +521,29 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node8" href="../../d8/d4e/class_scene_registration_broker.html#a64a63b2d841f223142218156e6f62caa" title="Adds a command of type CommandBase to a list. " alt="" coords="764,123,931,164"/>
 </map>
 </div>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="af203df39e1cca172649874718059024b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af203df39e1cca172649874718059024b">&#9670;&nbsp;</a></span>ParticleEffect</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="../../d9/de5/class_particle_effect.html">ParticleEffect</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

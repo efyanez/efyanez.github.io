@@ -20,9 +20,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../mithrillogo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Mithril Engine
-   &#160;<span id="projectnumber">1.0</span>
+   &#160;<span id="projectnumber">2.0</span>
    </div>
    <div id="projectbrief">Documentation for Mithril Engine</div>
   </td>
@@ -92,14 +93,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a64a63b2d841f223142218156e6f62caa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4e/class_scene_registration_broker.html#a64a63b2d841f223142218156e6f62caa">AddCommand</a> (<a class="el" href="../../db/db6/class_command_base.html">CommandBase</a> *cmd)</td></tr>
 <tr class="memdesc:a64a63b2d841f223142218156e6f62caa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a command of type <a class="el" href="../../db/db6/class_command_base.html">CommandBase</a> to a list.  <a href="#a64a63b2d841f223142218156e6f62caa">More...</a><br /></td></tr>
 <tr class="separator:a64a63b2d841f223142218156e6f62caa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49ead632bdcf650a38440bbb6f49053d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4e/class_scene_registration_broker.html#a49ead632bdcf650a38440bbb6f49053d">AddSceneCommand</a> (<a class="el" href="../../db/db6/class_command_base.html">CommandBase</a> *cmd)</td></tr>
+<tr class="separator:a49ead632bdcf650a38440bbb6f49053d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa696d2be6640639785d5ff5d8ffcfe95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4e/class_scene_registration_broker.html#aa696d2be6640639785d5ff5d8ffcfe95">ExecuteCommands</a> ()</td></tr>
 <tr class="memdesc:aa696d2be6640639785d5ff5d8ffcfe95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Goes through all the <a class="el" href="../../db/db6/class_command_base.html">CommandBase</a> pointers in command list and calls Execute() on them.  <a href="#aa696d2be6640639785d5ff5d8ffcfe95">More...</a><br /></td></tr>
 <tr class="separator:aa696d2be6640639785d5ff5d8ffcfe95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95acc489383daff30fee0485f1cd6a3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4e/class_scene_registration_broker.html#a95acc489383daff30fee0485f1cd6a3a">ExecuteSceneCommands</a> ()</td></tr>
+<tr class="separator:a95acc489383daff30fee0485f1cd6a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ad409779ade9c86bf683be89d38de1b3b"><td class="memItemLeft" align="right" valign="top">std::list&lt; <a class="el" href="../../db/db6/class_command_base.html">CommandBase</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4e/class_scene_registration_broker.html#ad409779ade9c86bf683be89d38de1b3b">commandList</a></td></tr>
 <tr class="separator:ad409779ade9c86bf683be89d38de1b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5abcad47f25269b563630626f890b3d1"><td class="memItemLeft" align="right" valign="top">std::list&lt; <a class="el" href="../../db/db6/class_command_base.html">CommandBase</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4e/class_scene_registration_broker.html#a5abcad47f25269b563630626f890b3d1">sceneCommandList</a></td></tr>
+<tr class="separator:a5abcad47f25269b563630626f890b3d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3e9aaaf830e0071780b9c8032f8a298e"></a>
@@ -183,6 +190,24 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a49ead632bdcf650a38440bbb6f49053d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49ead632bdcf650a38440bbb6f49053d">&#9670;&nbsp;</a></span>AddSceneCommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SceneRegistrationBroker::AddSceneCommand </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/db6/class_command_base.html">CommandBase</a> *&#160;</td>
+          <td class="paramname"><em>cmd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa696d2be6640639785d5ff5d8ffcfe95"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa696d2be6640639785d5ff5d8ffcfe95">&#9670;&nbsp;</a></span>ExecuteCommands()</h2>
 
@@ -199,6 +224,23 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Goes through all the <a class="el" href="../../db/db6/class_command_base.html">CommandBase</a> pointers in command list and calls Execute() on them. </p>
+
+</div>
+</div>
+<a id="a95acc489383daff30fee0485f1cd6a3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95acc489383daff30fee0485f1cd6a3a">&#9670;&nbsp;</a></span>ExecuteSceneCommands()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SceneRegistrationBroker::ExecuteSceneCommands </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -240,6 +282,28 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">std::list&lt;<a class="el" href="../../db/db6/class_command_base.html">CommandBase</a>*&gt; SceneRegistrationBroker::commandList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5abcad47f25269b563630626f890b3d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5abcad47f25269b563630626f890b3d1">&#9670;&nbsp;</a></span>sceneCommandList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt;<a class="el" href="../../db/db6/class_command_base.html">CommandBase</a>*&gt; SceneRegistrationBroker::sceneCommandList</td>
         </tr>
       </table>
   </td>

@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d2/d23/class_camera_manager.html" title="CameraManager" alt="" coords="5,5,123,32"/>
+<area shape="rect" id="node1" href="$dd/d2a/class_burst_type.html" title="BurstType" alt="" coords="5,56,87,83"/>
+<area shape="rect" id="node2" href="$d5/dc0/class_burst_type_pulse.html" title="BurstTypePulse" alt="" coords="145,5,259,32"/>
+<area shape="rect" id="node3" href="$da/d19/class_burst_type_spherical.html" title="BurstTypeSpherical" alt="" coords="135,56,269,83"/>
+<area shape="rect" id="node4" href="$d9/d6e/class_burst_type_stream.html" title="BurstTypeStream" alt="" coords="141,107,263,133"/>
 </map>

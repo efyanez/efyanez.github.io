@@ -1,7 +1,7 @@
 <map id="CollisionTestPairCommand::Execute" name="CollisionTestPairCommand::Execute">
 <area shape="rect" id="node2" href="$dc/d5d/class_collidable_group.html#a3d29363f2f54a0ac47ad0af4645d9495" title="CollidableGroup::GetAABB" alt="" coords="232,27,411,54"/>
 <area shape="rect" id="node3" href="$d8/d8f/class_math_tools.html#a6403ce2e1b0a24e5f7d5ca60b0578903" title="Calculates the intersection of two BSphere volumes. " alt="" coords="251,78,391,105"/>
-<area shape="rect" id="node6" href="$d3/d4f/class_visualizer.html#ab15907b760556d5f35aa26bc6b54ce36" title="Visualizer::VisualizeMe" alt="" coords="242,137,401,163"/>
+<area shape="rect" id="node6" href="$d3/d4f/class_visualizer.html#ab15907b760556d5f35aa26bc6b54ce36" title="Public static function to render a collision volume from a Collidable pointer. " alt="" coords="242,137,401,163"/>
 <area shape="rect" id="node4" href="$d8/d21/class_collision_volume_b_sphere.html#a16eb0b62bf7efa63e7fe9b09d43fe947" title="Returns the center of the BSphere. " alt="" coords="476,5,641,47"/>
 <area shape="rect" id="node5" href="$d8/d21/class_collision_volume_b_sphere.html#a0206a8d8db1bc17f3d3f9d5e8ed54949" title="Returns the radius of the BSphere. " alt="" coords="476,71,641,112"/>
 <area shape="rect" id="node7" href="$d3/d4f/class_visualizer.html#ad4c7951128b7a02c6253e4a1e715fd59" title="Visualizer::Instance" alt="" coords="491,137,627,163"/>

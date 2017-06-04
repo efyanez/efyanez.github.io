@@ -3,7 +3,7 @@
 <area shape="rect" id="node3" href="$d8/d21/class_collision_volume_b_sphere.html#a16eb0b62bf7efa63e7fe9b09d43fe947" title="Returns the center of the BSphere. " alt="" coords="261,57,426,98"/>
 <area shape="rect" id="node4" href="$d7/d10/class_terrain_object.html#a4bf999d09c466cdeb579d1d2bba21450" title="TerrainObject::IndexToCellMin" alt="" coords="246,123,441,149"/>
 <area shape="rect" id="node7" href="$d7/d10/class_terrain_object.html#a4d4ce028c3d14bf9a05f29ee3f1ad5c6" title="TerrainObject::IndexToCellMax" alt="" coords="244,173,443,200"/>
-<area shape="rect" id="node9" href="$d3/d4f/class_visualizer.html#ab15907b760556d5f35aa26bc6b54ce36" title="Visualizer::VisualizeMe" alt="" coords="264,224,423,251"/>
+<area shape="rect" id="node9" href="$d3/d4f/class_visualizer.html#ab15907b760556d5f35aa26bc6b54ce36" title="Public static function to render a collision volume from a Collidable pointer. " alt="" coords="264,224,423,251"/>
 <area shape="rect" id="node5" href="$d7/d10/class_terrain_object.html#a315092b8e96f3f77c15e988c2c3678d5" title="TerrainObject::GridToVert" alt="" coords="506,123,675,149"/>
 <area shape="rect" id="node6" href="$d8/d8f/class_math_tools.html#ae1a5604528d85b4553eafc13a54af48a" title="MathTools::GetMinVect" alt="" coords="511,72,670,99"/>
 <area shape="rect" id="node8" href="$d8/d8f/class_math_tools.html#af6571fe7d5ca19bf306f4689f4428955" title="MathTools::GetMaxVect" alt="" coords="509,173,672,200"/>

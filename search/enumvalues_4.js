@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['lightrender',['LightRender',['../d2/d24/class_shader_manager.html#a47506978e3904efe41c514f790c5963ba946533ded3b39f34041850a57b6f02c3',1,'ShaderManager']]]
+  ['key_5fpress',['KEY_PRESS',['../d6/d0f/class_inputable.html#ab4aea8b7165229e46d9ba33f8f2f23fca38d3b3bd402296ba635522676d383b50',1,'Inputable']]],
+  ['key_5frelease',['KEY_RELEASE',['../d6/d0f/class_inputable.html#ab4aea8b7165229e46d9ba33f8f2f23fca2494d2581496ed9938488a5d6d77de4a',1,'Inputable']]]
 ];

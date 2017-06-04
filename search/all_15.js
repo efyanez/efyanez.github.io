@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['yellow',['Yellow',['../db/dad/namespace_colors.html#a636024e2636ff1306aace8cfb9df6b63',1,'Colors']]],
-  ['yellowgreen',['YellowGreen',['../db/dad/namespace_colors.html#a79d41ce78a9f059cffa75c0cfa3b8ec6',1,'Colors']]]
+  ['xmltocollection',['XMLtoCollection',['../d4/d74/class_sprite_font.html#a4c7aebb2dfd8464ad1ce884f4d0237d7',1,'SpriteFont']]],
+  ['xoffset',['xOffset',['../d7/d10/class_terrain_object.html#afca62e1835f553891bdd281468a5ff5b',1,'TerrainObject']]]
 ];

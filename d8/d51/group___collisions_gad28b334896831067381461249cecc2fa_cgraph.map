@@ -1,3 +1,4 @@
 <map id="Collidable::UpdateCollisionData" name="Collidable::UpdateCollisionData">
-<area shape="rect" id="node2" href="$d8/d21/class_collision_volume_b_sphere.html#af31253fd2080b95e7f90a4ff0754342a" title="Computes the transformation data of a BSphere. Re&#45;calculates radius and center. " alt="" coords="256,5,421,47"/>
+<area shape="rect" id="node2" href="$d5/d7c/class_collision_volume.html#ad9174aa61b924ebc9f54af78a4f0df63" title="A pure virtual member. " alt="" coords="256,5,459,32"/>
+<area shape="rect" id="node3" href="$d8/d21/class_collision_volume_b_sphere.html#af31253fd2080b95e7f90a4ff0754342a" title="Computes the transformation data of a BSphere. Re&#45;calculates radius and center. " alt="" coords="275,57,440,98"/>
 </map>

@@ -4,7 +4,7 @@
 <area shape="rect" id="node8" href="$d7/d10/class_terrain_object.html#a716d5cf2602533ebb10d3e48210c1bf8" title="TerrainObject::GetCellCandidates" alt="" coords="223,327,437,353"/>
 <area shape="rect" id="node17" href="$d0/d0a/class_collision_volume_a_a_b_b.html#af4ef62e2a68d86a241a635ab242ebfbb" title="Computes the transformation data of an AABB. Re&#45;calculates corners and center. " alt="" coords="255,475,405,517"/>
 <area shape="rect" id="node21" href="$d8/d8f/class_math_tools.html#a6403ce2e1b0a24e5f7d5ca60b0578903" title="Calculates the intersection of two BSphere volumes. " alt="" coords="260,617,400,644"/>
-<area shape="rect" id="node24" href="$d3/d4f/class_visualizer.html#ab15907b760556d5f35aa26bc6b54ce36" title="Visualizer::VisualizeMe" alt="" coords="251,741,409,768"/>
+<area shape="rect" id="node24" href="$d3/d4f/class_visualizer.html#ab15907b760556d5f35aa26bc6b54ce36" title="Public static function to render a collision volume from a Collidable pointer. " alt="" coords="251,741,409,768"/>
 <area shape="rect" id="node3" href="$d0/dc3/class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7" title="SceneManager::Instance" alt="" coords="502,5,669,32"/>
 <area shape="rect" id="node5" href="$d0/dc3/class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7" title="SceneManager::privGetCurrent\lScene" alt="" coords="486,57,685,98"/>
 <area shape="rect" id="node4" href="$d0/dc3/class_scene_manager.html#a52085e6737c23b491c228e86781af808" title="SceneManager::SceneManager" alt="" coords="733,5,937,32"/>

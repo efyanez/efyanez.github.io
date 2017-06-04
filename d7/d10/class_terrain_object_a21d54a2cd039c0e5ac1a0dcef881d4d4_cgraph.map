@@ -1,7 +1,7 @@
 <map id="TerrainObject::VisualizeTerrain" name="TerrainObject::VisualizeTerrain">
 <area shape="rect" id="node2" href="$d7/d10/class_terrain_object.html#a4bf999d09c466cdeb579d1d2bba21450" title="TerrainObject::IndexToCellMin" alt="" coords="215,56,410,83"/>
 <area shape="rect" id="node5" href="$d7/d10/class_terrain_object.html#a4d4ce028c3d14bf9a05f29ee3f1ad5c6" title="TerrainObject::IndexToCellMax" alt="" coords="213,107,412,133"/>
-<area shape="rect" id="node7" href="$d3/d4f/class_visualizer.html#ab15907b760556d5f35aa26bc6b54ce36" title="Visualizer::VisualizeMe" alt="" coords="233,157,392,184"/>
+<area shape="rect" id="node7" href="$d3/d4f/class_visualizer.html#ab15907b760556d5f35aa26bc6b54ce36" title="Public static function to render a collision volume from a Collidable pointer. " alt="" coords="233,157,392,184"/>
 <area shape="rect" id="node3" href="$d7/d10/class_terrain_object.html#a315092b8e96f3f77c15e988c2c3678d5" title="TerrainObject::GridToVert" alt="" coords="475,56,645,83"/>
 <area shape="rect" id="node4" href="$d8/d8f/class_math_tools.html#ae1a5604528d85b4553eafc13a54af48a" title="MathTools::GetMinVect" alt="" coords="481,5,639,32"/>
 <area shape="rect" id="node6" href="$d8/d8f/class_math_tools.html#af6571fe7d5ca19bf306f4689f4428955" title="MathTools::GetMaxVect" alt="" coords="479,107,641,133"/>

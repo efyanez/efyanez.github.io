@@ -1,5 +1,5 @@
 <map id="MathTools::Intersect" name="MathTools::Intersect">
-<area shape="rect" id="node2" href="$d6/ded/class_collision_volume_o_b_b.html#ab7f32a97e19c1f3ce7f8a39d252cf2af" title="CollisionVolumeOBB\l::GetOriginalWorld" alt="" coords="218,5,361,47"/>
+<area shape="rect" id="node2" href="$d6/ded/class_collision_volume_o_b_b.html#ab7f32a97e19c1f3ce7f8a39d252cf2af" title="Returns the world space matrix. " alt="" coords="218,5,361,47"/>
 <area shape="rect" id="node3" href="$d8/d21/class_collision_volume_b_sphere.html#a16eb0b62bf7efa63e7fe9b09d43fe947" title="Returns the center of the BSphere. " alt="" coords="207,71,372,112"/>
 <area shape="rect" id="node4" href="$dc/df9/class_collision_volume_bounding_box_base.html#aec13a3bc5f00a217b5845fd67f7f2aa3" title="Returns the center of the BSphere. " alt="" coords="193,136,385,177"/>
 <area shape="rect" id="node5" href="$dc/df9/class_collision_volume_bounding_box_base.html#a4fb3762cb35cc40efb1c479d418a74d9" title="Returns the radius of the BSphere. " alt="" coords="193,201,385,243"/>
